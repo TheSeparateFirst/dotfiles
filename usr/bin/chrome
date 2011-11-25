@@ -1,7 +1,0 @@
-#!/bin/bash
-$HOME/.usr/src/edit-server/edit-server &
-pid_edit=$!
-
-/usr/bin/google-chrome $@
-
-kill $pid_edit
