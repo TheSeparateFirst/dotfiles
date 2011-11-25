@@ -1,0 +1,6 @@
+[ui]
+editor = ec
+username = Jeffrey Murray <a.separate.first@gmail.com>
+[extensions]
+hgext.convert = 
+hgext.bookmarks =

@@ -1,0 +1,17 @@
+#Original README.rdoc and Rakefile by Ryan Bates
+
+= Jeffrey Murray Dot Files
+
+These are config files to set up a system the way I like it.
+
+
+== Installation
+
+  git clone git://github.com/TheSeparateFirst/dotfiles ~/.dotfiles
+  cd ~/.dotfiles
+  rake install
+
+
+== Environment
+
+Proven working on Arch Linux on Thursday, March 10, 2011

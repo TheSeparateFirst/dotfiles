@@ -1,0 +1,181 @@
+2011-10-26 14:14:36	-->	TheSeparateFirst (~jeffrey@ip72-207-124-2.sd.sd.cox.net) has joined #erlang
+2011-10-26 14:14:36	--	Topic for #erlang is "Erlang, the programming language | Current Version: R14B04 | learnyousomeerlang.com | www.erlang.org | www.planeterlang.org | www.trapexit.org | erldocs.com | erlagner.org | github.com/erlang/otp | #erlounge for banter | ideone.com for pastes"
+2011-10-26 14:14:36	--	Topic set by MononcQc (~ferd@129.192.185.163) on Wed, 05 Oct 2011 07:49:50
+2011-10-26 14:14:36	--	Nicks #erlang: [+orbitz __class__ __main__ _billiob_ _chops _jpb `10` abbe acts_as Adeon alexsuraci alisdair AllenJB allhailskippy andrewtj andrzejsliwa aod Arach archaelus arnaudsj Arsen7 askatasuna asksol aszlig avi avtobiff awidegreen azariah4 azk baggio bca beawesomeinstead belucid benoitc bfrog BigBlackDog bnicholson Brend BRMatt brtsz Brynjar Bwild ByronJohnson Candle cath cbeck ccorn ChaozZBubi chops__ chris2 chrisg CitizenKane CMoH CMoH-office codysoyland Cy6erBr4in daemon daleharvey damjan davechallis davidsansome davidw davisp DeadZen deryni devinus devmodem dietrichf DingosKidneys Diopter dju djui doug87 drev1 Dusten dylukes ElMonkey emias emilh eno ericdc Erlang essen etnt etrepum evax EvilJStoker fairwinds fauxsoup Ferdirand ferrouswheel finnrobi fmeyer footyfish francois2 freakazoid fujin gahan garrys_game gebi greymalkin guyal___ hagna halenger helgikrs hiptobecubic hq2 hrubi hyperboreean Ikarus impl ineiros inklesspen ion istaheev ivan` ivank j-f j4m3s jan247 jan____ janne jdiprinzio jdroid- jeekl jimmyrcom jimt_ jlouis jmb joewilliams_away jsoft junsuijin karbak_ karld kelye kenny kerouac kiddesr klaar knyppeldynan kocolosk koivula kpal kraft kshannon kuuranne l1x lafa_ licenser lifty luizxx LukoTibak lupine_85 lusory MagBo majek manizzle martynasp MasseR matt_c matx mc_ MetaCosm metasyntax|work micro- mietek milanj mindCrime minimoes MjrTom mlb- mmullis mnemonic mog MononcQc mpereira mrb_bk mrtazz msantos mst muxspace Naresh ncb000gt ndim neena nemik nighty- nighty__ nmmn nottwo_ nox Obfuscate okeuday omarkj orangejuice otakup0pe OverNord pantsman patronus peerst perezd petekaz phyrex1an plundra plush plyply pothos Proxyles puzza007 pyhoster quentusrex randysecrist1 rawtaz rboyd rby regalia replore replore_ rferranti RJ2 robbe- roder roidrage RORgasm ruda Russell^^ ryuone Sargun_Screen SecretAgent shaatar shachaf shawn_ si14 sigmonsay simon SJr skarab skeeziks skeeziks1 ski_ SlashLife sofuture solarus Soopaman spacebug_ spanx Spyplane srcerer Stattrav stoile strax Striki stroan TecnoBrat tempire tg thanosQR TheSeparateFirst tilgovi tmi tomh tomlion_ tvaalen unreal Vagabond varg vds vereteran vikstrom vinoski viq voronaam Vorpal wang wespee Will| wpl xea Xjs|moonshine y3llow ypaq yrashk zeiris zhware_ ziomatto zmoazeni Zor |Blaze|]
+2011-10-26 14:14:36	--	Channel #erlang: 288 nicks (0 ops, 0 halfops, 1 voice, 287 normals)
+2011-10-26 14:14:38	--	Channel created on Sat, 25 Nov 2006 22:42:48
+2011-10-26 14:23:13	<--	OverNord (~OverNord@dyndsl-095-033-216-145.ewe-ip-backbone.de) has quit (Quit: OverNord)
+2011-10-26 14:25:25	<--	ziomatto (~ziomatto@93-34-126-30.ip49.fastwebnet.it) has quit (Remote host closed the connection)
+2011-10-26 14:27:49	-->	nevyn^ (~nevyn@2002:d559:1522:0:3c4b:b7f1:ab17:98b8) has joined #erlang
+2011-10-26 14:30:09	<--	sofuture (~jz@216.220.102.162) has quit (Quit: Leaving.)
+2011-10-26 14:30:30	<--	pyhoster (~pyhoster@188.32.113.154) has quit (Quit: Ухожу я от вас (xchat 2.4.5 или старше))
+2011-10-26 14:30:42	<--	nox (~nox@vol75-16-88-182-187-128.fbx.proxad.net) has quit (Quit: nox)
+2011-10-26 14:33:48	<--	j4m3s (~j4m3s@adsl-98-77-220-195.mia.bellsouth.net) has quit (Ping timeout: 258 seconds)
+2011-10-26 14:34:44	-->	j4m3s (~j4m3s@adsl-98-77-220-195.mia.bellsouth.net) has joined #erlang
+2011-10-26 14:35:34	<--	kelye (~chatzilla@178.156.133.35) has quit (Quit: sleep)
+2011-10-26 14:35:46	<--	nevyn^ (~nevyn@2002:d559:1522:0:3c4b:b7f1:ab17:98b8) has quit (Remote host closed the connection)
+2011-10-26 14:35:55	-->	nevyn^ (~nevyn@c213-89-21-34.bredband.comhem.se) has joined #erlang
+2011-10-26 14:36:27	<--	ccorn (~ccorn@g132123.upc-g.chello.nl) has quit (Quit: ccorn)
+2011-10-26 14:43:06	-->	rvirding (~chatzilla@c213-89-147-188.bredband.comhem.se) has joined #erlang
+2011-10-26 14:43:21	simon	have I understood gen_server correctly when I say that a gen_server:call/2 hangs until either handle_call gives a {reply, ...} or someone sends a gen_server:reply/2 to the process that made the call?
+2011-10-26 14:43:33	simon	this is damn neat.
+2011-10-26 14:43:55	rvirding	yup
+2011-10-26 14:44:12	--	kocolosk is now known as kocolosk|away
+2011-10-26 14:44:15	<--	milanj (~milanj_@109-93-193-219.dynamic.isp.telekom.rs) has quit (Quit: Leaving)
+2011-10-26 14:44:44	essen	or it timeouts
+2011-10-26 14:45:55	-->	doritos (~joshua@c-76-118-155-244.hsd1.ct.comcast.net) has joined #erlang
+2011-10-26 14:46:42	<--	davidw (~davidw@apache/committer/davidw) has quit (Ping timeout: 276 seconds)
+2011-10-26 14:47:13	<--	ruda (~ruda@200.176.1.253) has quit (Quit: ruda)
+2011-10-26 14:48:44	simon	I like that you can post-pone and redelegate the responsibility of replying without affecting the general structure of the gen_server.
+2011-10-26 14:49:39	-->	p_l (plasek@gateway/shell/rootnode.net/x-nrkkkgwixgratxgk) has joined #erlang
+2011-10-26 14:49:43	<--	Soopaman (~soopaman@dsl-69-172-88-218.acanac.net) has quit (Ping timeout: 240 seconds)
+2011-10-26 14:50:03	<--	askatasuna (~askatasun@190.176.238.68) has quit (Quit: och aye, the noo)
+2011-10-26 14:50:19	<--	doritos (~joshua@c-76-118-155-244.hsd1.ct.comcast.net) has quit (Ping timeout: 240 seconds)
+2011-10-26 14:53:17	-->	trotter (~trotter@c-98-248-34-72.hsd1.ca.comcast.net) has joined #erlang
+2011-10-26 14:54:19	<--	BigBlackDog (~BigBlackD@HSI-KBW-109-192-007-188.hsi6.kabel-badenwuerttemberg.de) has quit (Ping timeout: 240 seconds)
+2011-10-26 14:54:56	-->	BigBlackDog (~BigBlackD@HSI-KBW-109-192-007-188.hsi6.kabel-badenwuerttemberg.de) has joined #erlang
+2011-10-26 14:55:06	<--	jdiprinzio (~jdiprinzi@146.145.80.38) has quit (Quit: Leaving.)
+2011-10-26 14:56:48	<--	devinus (~devinus@65.107.181.222.ptr.us.xo.net) has quit (Quit: devinus)
+2011-10-26 14:58:18	<--	nevyn^ (~nevyn@c213-89-21-34.bredband.comhem.se) has quit (Quit: nevyn^)
+2011-10-26 14:58:21	rvirding	just as long as you don't forget to reply, or reply twice :-)
+2011-10-26 14:58:47	simon	;-P
+2011-10-26 14:59:20	simon	if I reply and the process I'm replying to has died before, I don't get an exception, right?
+2011-10-26 14:59:30	-->	radioxid (~radioxid@nlr28-1-78-237-60-197.fbx.proxad.net) has joined #erlang
+2011-10-26 15:00:05	<--	tilgovi (~randall@couchdb/developer/tilgovi) has quit (Ping timeout: 252 seconds)
+2011-10-26 15:01:37	<--	radioxid (~radioxid@nlr28-1-78-237-60-197.fbx.proxad.net) has quit (Client Quit)
+2011-10-26 15:01:41	-->	radioxid (~radioxid@nlr28-1-78-237-60-197.fbx.proxad.net) has joined #erlang
+2011-10-26 15:02:12	klaar	simon: no, it will work just fine
+2011-10-26 15:02:51	-->	tilgovi (~randall@69.111.59.167) has joined #erlang
+2011-10-26 15:02:51	<--	tilgovi (~randall@69.111.59.167) has quit (Changing host)
+2011-10-26 15:02:51	-->	tilgovi (~randall@couchdb/developer/tilgovi) has joined #erlang
+2011-10-26 15:04:16	<--	awidegreen (~quassel@h-170-226.a212.priv.bahnhof.se) has quit (Read error: Operation timed out)
+2011-10-26 15:05:07	fauxsoup	Hey folks. I've been dealing with this issue all day, trying to get a server up and running. The server in question needs to be able to accept requests, perform some complex operations, and send back a response. What server doesn't? I've effectively separated this into two applications: inets with mod_esi and my own app, for performing those complex operations.
+2011-10-26 15:09:03	fauxsoup	My app is structured as a supervised gen_server which spawns handlers (gen_fsm) for each incoming request. I receive the requests from mod_esi via a gen_server call into my server (obfuscated behind an exported function). I spawn_link a new worker process with the from parameter in its state (used as a unique identifier for the request). The mod_esi piece then starts a receive to wait for its response.
+2011-10-26 15:09:07	<--	DingosKidneys (~DingosKid@static-67-226-150-5.ptr.terago.net) has quit (Remote host closed the connection)
+2011-10-26 15:10:14	fauxsoup	gen_fsm finishes what it's doing and calls back to the server, which sends the response back to mod_esi via a generic message (which my mod_esi script is expecting).
+2011-10-26 15:11:10	fauxsoup	This all works fine under normal conditions. However, when I start handling a large number of simultaneous requests, the server gradually slows down its response and ultimately crashes (and is rescued by the supervisor).
+2011-10-26 15:11:39	fauxsoup	The error report I get about the crash indicates this: exception exit timeout gen_server:call
+2011-10-26 15:12:04	fauxsoup	I don't use timeouts in the gen_server at all, so this is entirely unexpected.
+2011-10-26 15:12:27	klaar	the default timeout for calls is 5 seconds
+2011-10-26 15:12:39	fauxsoup	Not infinity?
+2011-10-26 15:12:46	klaar	no, 5 seconds
+2011-10-26 15:13:19	p_l	infinity would be a bad choice
+2011-10-26 15:13:24	fauxsoup	Undoubtedly
+2011-10-26 15:13:53	fauxsoup	That being said, how can I structure my application to avoid this issue? I have one gen_server handling all the incoming requests to my application: is this a bad choice?
+2011-10-26 15:14:28	rvirding	how many requests and how much work has to be done for each
+2011-10-26 15:14:44	rvirding	does everything pass through the server?
+2011-10-26 15:15:04	fauxsoup	Well over 1000 requests per second, and it's not a significant amount of work (all the ACTUAL work is done in a spawned worker process).
+2011-10-26 15:15:32	fauxsoup	All incoming requests pass through the server. When the workers are done, they notify the server, which sends the response back to the Process that generated the request
+2011-10-26 15:15:54	<--	Vorpal (~AnMaster@unaffiliated/anmaster) has quit (Ping timeout: 240 seconds)
+2011-10-26 15:15:57	p_l	hmmm... wasn't it possible to associate the new process with accepted socket?
+2011-10-26 15:16:04	rvirding	that would mean that a request could take a long time
+2011-10-26 15:16:33	fauxsoup	I could associate it directly with the mod_esi pid, and avoid the hit to the server on the response
+2011-10-26 15:17:21	fauxsoup	Requests when under normal load take less than 50ms
+2011-10-26 15:17:28	rvirding	is the server just starting a worker and then waiting for the reply to send to the client?
+2011-10-26 15:17:36	fauxsoup	Yes
+2011-10-26 15:17:38	-->	MayDaniel (~MayDaniel@unaffiliated/maydaniel) has joined #erlang
+2011-10-26 15:18:08	rvirding	that should give you 200 requests/sec
+2011-10-26 15:18:12	fauxsoup	I don't issue a blocking call if that's what you mean; I just spawn the worker and continue accepting new requests
+2011-10-26 15:18:59	<--	rboyd (~rboyd@216.106.40.113) has quit (Quit: rboyd)
+2011-10-26 15:19:08	<--	BigBlackDog (~BigBlackD@HSI-KBW-109-192-007-188.hsi6.kabel-badenwuerttemberg.de) has quit (Quit: WeeChat 0.3.6-rc1)
+2011-10-26 15:19:22	rvirding	then the worker replies and you return it
+2011-10-26 15:19:28	-->	nevyn^ (~nevyn@c213-89-21-34.bredband.comhem.se) has joined #erlang
+2011-10-26 15:19:42	-->	doritos (~joshua@c-76-118-155-244.hsd1.ct.comcast.net) has joined #erlang
+2011-10-26 15:20:24	rvirding	why does the server crash?
+2011-10-26 15:20:34	<--	nevyn^ (~nevyn@c213-89-21-34.bredband.comhem.se) has quit (Read error: Connection reset by peer)
+2011-10-26 15:20:40	fauxsoup	Exception error, timeout on gen_server call
+2011-10-26 15:21:04	l1x	wow bigwig looks nice
+2011-10-26 15:21:30	rvirding	is it the timeout on the call it does to the worker?
+2011-10-26 15:21:51	rvirding	there is a default 5sec timeout on gen_server:call
+2011-10-26 15:22:09	fauxsoup	It times out on the worker's gen_server:call to post the response
+2011-10-26 15:22:26	fauxsoup	It may time out the other way, too, but I haven't seen that one happen
+2011-10-26 15:23:38	rvirding	ok, so the worker does a gen_server call to the server to send back the reply?
+2011-10-26 15:23:49	fauxsoup	Yes
+2011-10-26 15:24:28	fauxsoup	I guess I can try having the worker send the response directly; that should cut the load on the server in half
+2011-10-26 15:24:33	rvirding	could it be the client which times out waiting for a reply from the server?
+2011-10-26 15:24:52	rvirding	yes or have it do a gen_server:cast
+2011-10-26 15:25:18	rvirding	you have your own protocol between client and server don't you?
+2011-10-26 15:25:20	fauxsoup	As in the mod_esi waiting? Negative. I have that sitting in a receive with no timeout specified
+2011-10-26 15:25:48	rvirding	if so it would be easy for the worker to respond directly
+2011-10-26 15:26:11	fauxsoup	Okay, I'll give that a try.
+2011-10-26 15:27:22	fauxsoup	Just for sanity sake, so I can maybe throttle my sysadmin: 1000 to 2000 HTTP requests per second on an eight core machine. Does that sound feasible, with minimal actual work being done?
+2011-10-26 15:27:23	rvirding	or try doing a cast first and see if that helps or just delays the problem
+2011-10-26 15:27:33	fauxsoup	What's the distinction between cast and call?
+2011-10-26 15:27:50	rvirding	call is synchronous, cast asynchronous
+2011-10-26 15:28:02	fauxsoup	That's what I thought, but both are technically blocking calls.
+2011-10-26 15:28:11	<--	bnicholson (~nicholso@mail3.remotelink.com) has quit (Ping timeout: 256 seconds)
+2011-10-26 15:28:37	rvirding	no cast just sends the request then immediately returns 'ok'
+2011-10-26 15:28:46	fauxsoup	ic
+2011-10-26 15:28:52	rvirding	call waits for reply from server before returning
+2011-10-26 15:29:24	rvirding	it would mean one less message per request, but that shouldn't save so much
+2011-10-26 15:29:46	rvirding	how many requests/sec were you getting before it crashed?
+2011-10-26 15:30:28	fauxsoup	Maybe 500 to 600, but it started getting noticeably slower before that
+2011-10-26 15:31:10	-->	Soopaman (~soopaman@66.49.131.16) has joined #erlang
+2011-10-26 15:31:33	<--	pantsman (~pantsman@pdpc/supporter/active/pantsman) has quit (Ping timeout: 276 seconds)
+2011-10-26 15:32:09	rvirding	could it just be the total work load is getting too large? you mentioned 50ms per request earlier
+2011-10-26 15:33:11	fauxsoup	That's my thought as well. We tried ramping up the number of connections we were sending. With 50 it was responding reliably in 50 to 100ms; once we started hitting 300 to 400 is when the response time started spiking
+2011-10-26 15:33:34	--	ChaozZBubi is now known as chaozzbubi
+2011-10-26 15:34:04	fauxsoup	I've asked to try it behind a load balancer a couple of times now, but my sysadmin is convinced there's something wrong either with the code or the server configuration
+2011-10-26 15:34:17	rvirding	can you see processor load?
+2011-10-26 15:34:23	fauxsoup	Via top
+2011-10-26 15:34:31	rvirding	yes
+2011-10-26 15:34:42	<--	allhailskippy (~paul@static-67-226-150-5.ptr.terago.net) has quit (Ping timeout: 240 seconds)
+2011-10-26 15:34:46	fauxsoup	Around 1000 RPS we were at about 0.6 overall (I forget the other two readings)
+2011-10-26 15:35:04	fauxsoup	With each core of the processor running between 30% and 50% use
+2011-10-26 15:35:22	rvirding	that's not that much
+2011-10-26 15:35:53	-->	Harwin (~Harwin@unaffiliated/harwin) has joined #erlang
+2011-10-26 15:35:53	fauxsoup	Indeed. We hit file descriptor limits a couple of times, so upped that. The nf_connection_buckets or somesuch
+2011-10-26 15:36:55	rvirding	then I would try having the worker return directly to the client and see if that makes a difference
+2011-10-26 15:37:19	fauxsoup	Okay. I will try cast first and if we're still having issues try the direct response.
+2011-10-26 15:37:46	-->	MonononcQc (~ferd@modemcable090.235-131-66.mc.videotron.ca) has joined #erlang
+2011-10-26 15:37:51	rvirding	ok tell me how it goes
+2011-10-26 15:38:01	fauxsoup	Will do; thanks much for your input
+2011-10-26 15:38:10	rvirding	no worries
+2011-10-26 15:38:59	<--	replore (~replore@ntkngw304073.kngw.nt.ftth.ppp.infoweb.ne.jp) has quit (Remote host closed the connection)
+2011-10-26 15:38:59	<--	replore_ (~replore@ntkngw304073.kngw.nt.ftth.ppp.infoweb.ne.jp) has quit (Remote host closed the connection)
+2011-10-26 15:41:06	<--	RORgasm (~rorgasm@nyv-exweb.iac.com) has quit (Remote host closed the connection)
+2011-10-26 15:54:27	<--	radioxid (~radioxid@nlr28-1-78-237-60-197.fbx.proxad.net) has quit (Quit: Get MacIrssi - http://www.sysctl.co.uk/projects/macirssi/)
+2011-10-26 15:56:30	-->	dnolen (~davidnole@cpe-98-14-92-234.nyc.res.rr.com) has joined #erlang
+2011-10-26 15:59:59	-->	manizzle_ (~manizzle@dsl081-053-082.sfo1.dsl.speakeasy.net) has joined #erlang
+2011-10-26 16:01:29	<--	dylukes (~dylukes@pool-71-182-229-20.pitbpa.fios.verizon.net) has quit (Quit: dylukes)
+2011-10-26 16:07:54	-->	Guedes (~guedes@unaffiliated/guedes) has joined #erlang
+2011-10-26 16:09:08	<--	jdroid- (~user@rrcs-184-74-224-170.nyc.biz.rr.com) has quit (Quit: ERC Version 5.3 (IRC client for Emacs))
+2011-10-26 16:09:52	-->	dylukes (~dylukes@pool-71-182-229-20.pitbpa.fios.verizon.net) has joined #erlang
+2011-10-26 16:16:14	-->	askatasuna (~askatasun@190.97.54.87) has joined #erlang
+2011-10-26 16:17:57	-->	radioxid (~radioxid@nlr28-1-78-237-60-197.fbx.proxad.net) has joined #erlang
+2011-10-26 16:18:06	<--	radioxid (~radioxid@nlr28-1-78-237-60-197.fbx.proxad.net) has quit (Client Quit)
+2011-10-26 16:23:38	<--	j4m3s (~j4m3s@adsl-98-77-220-195.mia.bellsouth.net) has quit (Ping timeout: 258 seconds)
+2011-10-26 16:24:00	-->	j4m3s (~j4m3s@adsl-98-77-220-195.mia.bellsouth.net) has joined #erlang
+2011-10-26 16:26:31	<--	viq (~viq@unaffiliated/viq) has quit (Ping timeout: 240 seconds)
+2011-10-26 16:27:05	-->	ttmrichter (~ttmrichte@58.55.124.243) has joined #erlang
+2011-10-26 16:28:53	<--	MayDaniel (~MayDaniel@unaffiliated/maydaniel) has quit (Read error: Connection reset by peer)
+2011-10-26 16:29:04	-->	DDR (~chatzilla@142.179.78.88) has joined #erlang
+2011-10-26 16:29:43	<--	mst (~matthewt@freenode/staff/shadowcat.chainsaw-wielder.perl-gc) has quit (Ping timeout: 240 seconds)
+2011-10-26 16:30:57	-->	mst (~matthewt@freenode/staff/shadowcat.chainsaw-wielder.perl-gc) has joined #erlang
+2011-10-26 16:39:19	<--	tilgovi (~randall@couchdb/developer/tilgovi) has quit (Ping timeout: 240 seconds)
+2011-10-26 16:41:29	--	kocolosk|away is now known as kocolosk
+2011-10-26 16:42:06	<--	tomlion_ (~tomlion@58.38.49.58) has quit (Remote host closed the connection)
+2011-10-26 16:42:12	-->	tomlion (~tomlion@58.38.49.58) has joined #erlang
+2011-10-26 16:48:30	<--	dnolen (~davidnole@cpe-98-14-92-234.nyc.res.rr.com) has quit (Quit: dnolen)
+2011-10-26 16:51:43	<--	ElMonkey (~dog@ip-178-202-140-190.unitymediagroup.de) has quit (Quit: This computer has gone to sleep)
+2011-10-26 16:52:16	<--	dylukes (~dylukes@pool-71-182-229-20.pitbpa.fios.verizon.net) has quit (Quit: dylukes)
+2011-10-26 16:56:18	-->	tilgovi (~randall@c-98-210-155-124.hsd1.ca.comcast.net) has joined #erlang
+2011-10-26 16:56:18	<--	tilgovi (~randall@c-98-210-155-124.hsd1.ca.comcast.net) has quit (Changing host)
+2011-10-26 16:56:18	-->	tilgovi (~randall@couchdb/developer/tilgovi) has joined #erlang
+2011-10-26 17:04:55	<--	archaelus (~nem@173.227.61.3) has quit (Ping timeout: 260 seconds)
+2011-10-26 17:06:34	<--	unreal (~unreal@unaffiliated/unreal) has quit (Ping timeout: 258 seconds)
+2011-10-26 17:13:16	-->	dylukes (~dylukes@pool-71-182-229-20.pitbpa.fios.verizon.net) has joined #erlang
+2011-10-26 17:13:31	<--	dylukes (~dylukes@pool-71-182-229-20.pitbpa.fios.verizon.net) has quit (Client Quit)
+2011-10-26 17:13:38	-->	dylukes (~dylukes@pool-71-182-229-20.pitbpa.fios.verizon.net) has joined #erlang
+2011-10-26 17:14:11	<--	nighty- (~nighty@TOROON12-1279662182.sdsl.bell.ca) has quit (Ping timeout: 244 seconds)
+2011-10-26 17:18:26	-->	unreal (~unreal@unaffiliated/unreal) has joined #erlang
+2011-10-26 17:20:27	<--	phyrex1an (~phyrex1an@2a02:9a0:7:1140:224:1dff:fed1:dd48) has quit (Quit: Leaving.)
+2011-10-26 17:21:15	<--	zeiris (~amtal@142.179.35.33) has quit (Ping timeout: 252 seconds)
+2011-10-26 17:21:42	-->	replore (~replore@203.152.213.161.static.zoot.jp) has joined #erlang
+2011-10-26 17:21:43	-->	replore_ (~replore@203.152.213.161.static.zoot.jp) has joined #erlang
+2011-10-26 17:25:45	<--	CMoH (~cipi@unaffiliated/c-moh) has quit (Ping timeout: 260 seconds)
+2011-10-26 17:28:31	<--	tilgovi (~randall@couchdb/developer/tilgovi) has quit (Remote host closed the connection)
+2011-10-26 17:29:25	<--	voronaam (~avorona@159.153.138.99) has quit (Quit: Leaving.)
+2011-10-26 17:32:03	-->	viq (~viq@unaffiliated/viq) has joined #erlang
+2011-10-26 17:32:27	<--	trotter (~trotter@c-98-248-34-72.hsd1.ca.comcast.net) has quit (Quit: trotter)
+2011-10-26 17:37:41		irc: disconnected from server

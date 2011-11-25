@@ -1,0 +1,138 @@
+2011-11-10 15:26:20	-->	TheSeparateFirst (~nullptr@ip72-207-124-2.sd.sd.cox.net) has joined #emacs
+2011-11-10 15:26:20	--	Topic for #emacs is ""The reasonable man adapts himself to Emacs; the unreasonable one persists in trying to adapt Emacs to himself. Therefore all progress depends on the unreasonable man." -- G.B. Shaw | Emacs pretest 24.0.91: http://goo.gl/7SlUz (-> gnu.org) | http://emacswiki.org/EmacsChannelFaq | pastebot is http://paste.lisp.org/new/emacs | No public logging! | What happens in #emacs stays in #emacs"
+2011-11-10 15:26:20	--	Topic set by atrus (~atrus@vps.nickurak.ca) on Sun, 06 Nov 2011 07:41:22
+2011-11-10 15:26:20	--	Nicks #emacs: [_1amzave __class__ __main__ __yhvh__away `moebius` a00001 a7p aartist abbe abeaumont aburgess ae Aestas Aeth aidaho aidalgol aidy AimHere aindilis` Aisling AlexanderS AlexMax alikins_ alip am0c amgarching amoe amsl anaschema andres angerman anildigital anildigital_work antoszka anxt aperturefever Arafangion arescorpio Armageddon armenb arvind_khadri ArZa assem Astyan atrus avar babilen barika baron- bartiosz beatak beneth` benny bersace_ bhaskara bigjust birkenfeld birny blackwolf BlastHardcheese bmaland bob2 Bodil Boney Borbus Boscop boyscared bpalmer Brace bremner bremner` brett_h brx bzzbzz C-Keen c0rn c3l cafesofie caine607 caligula_ callen cataska catphive caveat- cbmuser cenhinen ch077179 chewbranca chpln chrisb clop2 cluck` CodeBlock cods cola_zero Cope corecode cortexman CosmicRay CrazyEddy crowbar CrrustY_ cschneid cthuluh cyflea cyygni daemian daimrod damd dankles dberg dbristow deca delcoyote Derander derrida devhost devn dfox dhruvasagar dim dixie_ djanatyn dkh docgnome dooglus dotemacs doublep Dr_Jazz DraX drewr dropdrive dsp_ dto duanedesign dueno Dybber e1f e20100633 eal``` ecraven edenc edlinde edrx elik emit eN_Joy Entroacceptor EyesIsServer ezra fahadsadah fasta fbs fds fhd file-exists-p fimblo fisted fmaker fmu fperrin framling free` freiksenet frozencemetery Frozenlo` fsbot fualo galdor ganbold gaqzi gardintrapp gds genehack ggole gkeith_lt gllvr gnomon grummund Han Hapsbanan HeTaL hewbrocca hgb hinogi hiredman hiroaki hober hroptatyr hubutm20 hyperair hyperboreean Iceland_jack iderrick ieure ihodes illovae ingenious inigo_ insomniaSalt Intensity iori ircdearia isak isomer ivan ivan`` ivenkys jaalto jabot jae_ jayne jdhore1 jedediah jeekl jehan jeremy_c jeward jfkw jhelwig jigrap jimmyrcom jlf jlf_ jlindsay Joelbyte johnsu01 johnw Jonii JordiGH Joreji JorgeB jrm222 jrockway jroes jtg junkpiano justinlilly justinweiss jweiss k-man kanru kaol karbak_ kelvie_` kennyd kennyluck kenyon kevingranade kini kiv Kivi kloeri kodein konr Korbo Koshian_ Kovensky kruhft Kryztof kurtzhong kuzary lanthan Laynef lduros leathekd legumbre leochencipher leoncamel les linguini literal lkj llee lloydhuang lokydor lpowers lukhas lxnch lykeus maartenv macrobat madsy magcius mahmoudimus marchdown marcusk marienz markdaws markskilbeck marw math0ne mathslin` mattcen mbohun mcdonc mechairoi mee mfisher mhatta____ michaelj MikeSeth milkpost minsa mitchty mjrosenb mlue mmc mnemonikk mns mogs monkeyiq monotux Mosu MouldyOldBones mqt mrkuchbhi mrSpec mstr mtd__ muep muhoo murr4y myrkraverk NaCl Nafai Natch| ndk` necronian nelson- netrom^off neuro_damage newcup nimred nodestool noptys notKlaatu nuba ob Ober Obfuscate oddmunds Odin- offby1 offbyone otakutomo ozzloy palo paradigm paroneayea pcavs peder penryu peterhil peterhil` pgega Pio pizzledizzle pjammer plotr pmade poindontcare pokes PPaul prbz prip Proteumus psyllo puff qDot_ quackv4 quasisane quicksilver quotemstr Qworkescence rakete ranulf raph_ael Rapp raso Raynes rbancroft renard_ rfgpfeiffer rgr rizumu rods rorx rotty rotty_ Rovanion rpg rryoumaa rubic rudybot ruediger RushPL ryanc s15y saedion_ saimazoon SamB saorge sapht sav sbryant schmir Schnouki seanw Seb sellout- sergiodj setheus shabble shader sheepbat Sigma Silex siloxid skangas Sketch ski_ snufu solarus sorabji5252 spacebat spike srid ssacc sshirokov stepnem stisti stuple superflit syberdave synx` syrinx_ tali713 talyz` Tasser tauntaun tazle tdubellz teiresias tensorpudding tessier tg thanosQR theBlackDragon TheSeparateFirst thomases thone thursley tilgovi tiwula tlockney tomku topi` tromey troydm tsbtmn Ttech TTilus turbofail tvaalen twem2 twem2_ txxt tychoish Ulrar unknown_lamer valnour vanRijn vcgomes vds vk0 Vorpal vpit3833 Vulpes wagle wanders wdouglas wgreenhouse wilfredh Will| wires wishbone4 wito XceptN xinming_ xmux xoom4 xristos xxtjaxx y4m4 yaotti_aw ybit Ydaviaorn^ yenz yibe yonkeltron z0d zakwilson ZAZEN_compute zenlunatic Zenton zenwryly zjason zobbo Zolrath ztfw zygen]
+2011-11-10 15:26:20	--	Channel #emacs: 512 nicks (0 ops, 0 halfops, 0 voices, 512 normals)
+2011-11-10 15:26:20	--	URL for #emacs: http://emacswiki.org/
+2011-11-10 15:26:22	--	Channel created on Sat, 25 Nov 2006 22:42:33
+2011-11-10 15:26:31	aidalgol	why is the gcc trunk 1.5 flippiin' GB??
+2011-11-10 15:26:31	fsbot	I'm telling you, you don't want to know.
+2011-11-10 15:26:37	callen	lol
+2011-11-10 15:26:42	johnw	because ti can
+2011-11-10 15:26:45	callen	yep, helpful.
+2011-11-10 15:26:54	-->	lanthan_ (~ze@pD9E3A935.dip.t-dialin.net) has joined #emacs
+2011-11-10 15:26:55	 *	jlf blames overly verbose error messages
+2011-11-10 15:27:15	tensorpudding	gcc is old isn't it
+2011-11-10 15:27:19	tensorpudding	how many commits?
+2011-11-10 15:27:21	tensorpudding	too many commits
+2011-11-10 15:27:32	ggole	pcc is right over ther
+2011-11-10 15:27:36	ggole	It's small!
+2011-11-10 15:27:43	aidalgol	pcc?
+2011-11-10 15:27:44	callen	tcc is better
+2011-11-10 15:27:44	tensorpudding	ah, that's why
+2011-11-10 15:27:46	johnw	gcc is still actively developed
+2011-11-10 15:27:47	tensorpudding	they use SVN
+2011-11-10 15:27:50	<--	saimazoon (~jtk@84.77.83.207) has quit (Remote host closed the connection)
+2011-11-10 15:27:50	aidalgol	tcc?
+2011-11-10 15:27:54	<--	aartist (~ukadaax@165.254.62.10) has quit (Ping timeout: 260 seconds)
+2011-11-10 15:28:05	<--	pgega (~pgega@5adcda23.bb.sky.com) has quit (Ping timeout: 258 seconds)
+2011-11-10 15:28:15	ggole	A tiny, obfuscated C compiler (iirc)
+2011-11-10 15:28:28	ggole	That crazy French guy wrote it
+2011-11-10 15:28:35	<--	cyygni (~cyygni@cm145-159.resnet.csumb.edu) has quit (Ping timeout: 240 seconds)
+2011-11-10 15:28:42	-->	johnstorey (~johnstore@12.208.167.194) has joined #emacs
+2011-11-10 15:28:45	bob2	fabrice isn't crazy
+2011-11-10 15:28:50	bob2	he's one of those super geniuses
+2011-11-10 15:29:00	ggole	That's more or less what I meant by crazy
+2011-11-10 15:29:07	bob2	qemu, tcc, ffmpeg, for a while the fastest algorithm to find digits of pi
+2011-11-10 15:29:09	tensorpudding	svn uses more space than git doesn't it?
+2011-11-10 15:29:25	bob2	tensorpudding, almost always yes
+2011-11-10 15:29:36	johnw	depends on when your git was last packed
+2011-11-10 15:29:42	johnw	aka, gc'd
+2011-11-10 15:29:56	<--	lanthan (~ze@pD9FEB3E7.dip.t-dialin.net) has quit (Ping timeout: 245 seconds)
+2011-11-10 15:30:02	quotemstr	*sigh*
+2011-11-10 15:30:06	bob2	also on the churn and binaryness of the files
+2011-11-10 15:30:07	<--	am0c (~am0c@222.235.56.83) has quit (Read error: Connection reset by peer)
+2011-11-10 15:30:12	quotemstr	I wish emacs would avoid creating #autosave# files for new, empty files.
+2011-11-10 15:30:14	<--	pcavs (~Adium@63.139.127.6) has quit (Quit: Leaving.)
+2011-11-10 15:30:23	bob2	if it's text files, the entire history + checkout is likely smaller than svn's working copy
+2011-11-10 15:30:34	Jonii	How to use ^ in emacs?
+2011-11-10 15:30:45	bob2	what do you mean?
+2011-11-10 15:30:59	aidalgol	Did he just how to type a caret in Emacs?
+2011-11-10 15:31:06	aidalgol	*just ask
+2011-11-10 15:31:32	Jonii	I'm unsure if the problem is with org-mode or emacs, but I get S-<dead-circumflex> when I try to get ^
+2011-11-10 15:31:44	jlf	if the caret doesn't work, the stick is a good workaround
+2011-11-10 15:31:51	<--	rryoumaa (~unknown@ip68-226-111-195.ph.ph.cox.net) has left #emacs ("Killed buffer")
+2011-11-10 15:32:10	tali713	Jonii: what keyboard layout do you use?
+2011-11-10 15:32:10	johnw	badumdoom
+2011-11-10 15:32:15	Jonii	finnish
+2011-11-10 15:33:27	<--	hinogi (~Stefan@facade/contributor/hinogi) has quit (Ping timeout: 258 seconds)
+2011-11-10 15:33:51	tali713	that's your problem.
+2011-11-10 15:34:27	tali713	you could bind S-<dead-circumflex> to ^.
+2011-11-10 15:35:01	jlf	i think keyboard-translate would be better
+2011-11-10 15:35:09	<--	edrx (~Eduardo@router.puro.uff.br) has quit (Ping timeout: 255 seconds)
+2011-11-10 15:35:19	tali713	or using the us layout ;)
+2011-11-10 15:35:43	<--	doublep (~doublep@91.187.8.167) has quit (Quit: Leaving.)
+2011-11-10 15:36:08	tali713	Jonii: code or prose?
+2011-11-10 15:36:14	jlf	yeah, i was trying not to be an imperialist dog
+2011-11-10 15:37:12	tali713	the US-QWERTY layout is the one true programming layout.  all others are inferior.  also input-method s are awesome.
+2011-11-10 15:37:39	<--	beatak (~beatak@160.79.2.194) has quit (Remote host closed the connection)
+2011-11-10 15:38:16	<--	johnstorey (~johnstore@12.208.167.194) has quit (Quit: Nodding off now.)
+2011-11-10 15:38:59	tali713	is it possible to set keyboard layout per program?
+2011-11-10 15:39:34	<--	sellout- (~Adium@c-98-245-162-253.hsd1.co.comcast.net) has quit (Quit: Leaving.)
+2011-11-10 15:39:54	puff	jlf: Why the hell not?  Given the economy, what other fun is left to us americans-not-counting-canada-or-mexico? :-)
+2011-11-10 15:40:04	<--	lanthan_ (~ze@pD9E3A935.dip.t-dialin.net) has quit (Ping timeout: 240 seconds)
+2011-11-10 15:40:13	-->	hanDerPeder (~hanDerPed@100.80-203-61.nextgentel.com) has joined #emacs
+2011-11-10 15:40:27	bremner	you call you self an imperialist? you don't even have a monarchy.
+2011-11-10 15:40:29	tali713	you know, your write, we should really be out pillaging.
+2011-11-10 15:40:50	puff	bremner: It's a gentle imperialism.
+2011-11-10 15:41:05	jlf	guys the finns gave us saunas
+2011-11-10 15:41:10	jlf	we owe them bigtime
+2011-11-10 15:41:14	puff	nice guys.
+2011-11-10 15:41:29	puff	I like steam baths better... planning to someday build one in my house.
+2011-11-10 15:41:29	tali713	i thought empire implied military leadership.  at least metaphorically.
+2011-11-10 15:41:34	johnw	do you have a dish draining closet in your kitchen?
+2011-11-10 15:41:44	puff	Closet?
+2011-11-10 15:41:53	johnw	it's a finnish or norwegian thing
+2011-11-10 15:42:03	puff	Ah... well, we use dishwashers for that :-).
+2011-11-10 15:42:07	tali713	in which case having the commander-in-chief as the head of the nation would make the U.S. an empire almost by definition.  just sayin'.
+2011-11-10 15:42:27	puff	Americans typically have a "drying rack" that sits out in the open, usually on the counter adjacent to the sink.
+2011-11-10 15:43:30	-->	Bosox20051 (~DMichaels@unaffiliated/bosox20051) has joined #emacs
+2011-11-10 15:43:47	-->	pgega (~pgega@5adcda23.bb.sky.com) has joined #emacs
+2011-11-10 15:44:14	<--	vds (~vds@dynamic-adsl-84-222-178-207.clienti.tiscali.it) has quit (Ping timeout: 248 seconds)
+2011-11-10 15:44:33	<--	rods (~rods@dynamic-adsl-78-13-149-219.clienti.tiscali.it) has quit (Ping timeout: 260 seconds)
+2011-11-10 15:44:39	-->	tarwatirno (~user@66-191-218-206.dhcp.spbg.sc.charter.com) has joined #emacs
+2011-11-10 15:44:43	ozzloy	how do i see what's currently in load-path?
+2011-11-10 15:45:10	tali713	C-x C-e
+2011-11-10 15:45:18	ggole	C-h v is usually the easiest way to inspect a variable
+2011-11-10 15:45:54	jlf	so C-h v is the load-path-of-least-resistance?
+2011-11-10 15:46:07	ozzloy	thanks
+2011-11-10 15:46:16	aidalgol	I think I'll just go with the gcc pre-release, rather than bleeding-edge trunk.
+2011-11-10 15:46:22	<--	ztfw (~ztfw@19.140.10.93.rev.sfr.net) has quit (Remote host closed the connection)
+2011-11-10 15:46:31	aidalgol	johnw: Is there a tarball for 4.7pre?
+2011-11-10 15:46:35	jlf	ozzloy: M-: load-path RET is pretty quick too
+2011-11-10 15:46:36	-->	sdeobald (~steven@c-98-213-86-174.hsd1.il.comcast.net) has joined #emacs
+2011-11-10 15:46:47	<--	synx` (~dhorn@unaffiliated/synx/x-4957395) has quit (Ping timeout: 258 seconds)
+2011-11-10 15:47:57	ggole	M-: will truncate long things though, which is occasionally very annoying
+2011-11-10 15:48:08	-->	robolobster54 (~robolobst@77.241.58.140) has joined #emacs
+2011-11-10 15:48:24	 *	jlf nods
+2011-11-10 15:48:50	daimrod	switch to a scratch buffer; C-u M-: load-path RET
+2011-11-10 15:49:13	ggole	That will truncate exactly the same things?
+2011-11-10 15:49:20	ozzloy	i ended up using C-h v and copying the output so i could format it better
+2011-11-10 15:49:23	ozzloy	and read it
+2011-11-10 15:49:25	ggole	I mean truncate as in give you a ... if a list gets very long
+2011-11-10 15:49:31	ozzloy	there are a LOT of paths!
+2011-11-10 15:49:40	<--	schmir (~schmir@p54A92D9B.dip.t-dialin.net) has quit (Ping timeout: 240 seconds)
+2011-11-10 15:49:54	ozzloy	mainly i was just wanting to know if ~/.emacs.d/site-lisp was already in there
+2011-11-10 15:49:57	<--	ssacc (~ssacc@188-195-3-239-dynip.superkabel.de) has left #emacs
+2011-11-10 15:50:28	tali713	no and that is a misleading name for that path.
+2011-11-10 15:50:57	ozzloy	oh?  i'm just going by what's in http://www.emacswiki.org/emacs/LoadPath
+2011-11-10 15:51:08	tali713	lisp, elisp, or user-lisp would all be better.
+2011-11-10 15:51:17	ozzloy	i'm not an emacs guru.  please enlighten me
+2011-11-10 15:51:25	jlf	ozzloy: M-: (member "~/.emacs.d/site-lisp" load-path) RET
+2011-11-10 15:51:51	<--	nelson- (~user@a89-152-184-27.cpe.netcabo.pt) has quit (Ping timeout: 258 seconds)
+2011-11-10 15:52:24	<--	cluck` (~nil@188.140.36.109) has quit (Ping timeout: 260 seconds)
+2011-11-10 15:52:32	tali713	ozzloy: site-lisp implies that everyone at the site uses it, it implies that it goes away only when you use -Q, your personal elisp directory is the opposite of that.
+2011-11-10 15:52:48	tali713	it's not /wrong/ it will /work/ but it is a misleading name.
+2011-11-10 15:52:54	-->	zeroG (4c1fc8d4@gateway/web/freenode/ip.76.31.200.212) has joined #emacs
+2011-11-10 15:52:54	ozzloy	ic
+2011-11-10 15:53:15	tali713	and the wiki should not be encouraging that.
+2011-11-10 15:53:47	-->	lanthan_ (~ze@pD9E3A9F8.dip.t-dialin.net) has joined #emacs
+2011-11-10 15:54:02	-->	nunag (~user@202-74-208-83.ue.woosh.co.nz) has joined #emacs
+2011-11-10 15:54:02	-->	deego (~user@unaffiliated/deego) has joined #emacs
+2011-11-10 15:54:05	<--	c0rn (~c0rn@50-0-164-40.dsl.dynamic.sonic.net) has quit
+2011-11-10 15:54:15	-->	medgno (~medgno@c-75-72-238-81.hsd1.mn.comcast.net) has joined #emacs
+2011-11-10 15:54:43	zeroG	evening. hopefully an easy question for the channel. just compiled 23.3a on SL 5 and mode-line's default colors make it basically invisible
+2011-11-10 15:55:09	zeroG	never seen this before and not sure why it's happening. any pointers?
+2011-11-10 15:55:14	ozzloy	tali713, well, it's a wiki.  so it no longer does
+2011-11-10 15:55:17	jlf	zeroG: M-x customize-face RET mode-line TAB
+2011-11-10 15:55:28		irc: disconnected from server

@@ -1,0 +1,673 @@
+2011-11-01 13:03:17	-->	jeffrey (jeffrey@localhost.localdomain) has joined &bitlbee
+2011-11-01 13:03:17	--	Mode &bitlbee [+Ct] by localhost.localdomain
+2011-11-01 13:03:17	--	Nicks &bitlbee: [@jeffrey @root]
+2011-11-01 13:03:17	--	Channel &bitlbee: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2011-11-01 13:03:17	--	Topic for &bitlbee is "Welcome to the control channel. Type help for help information."
+2011-11-01 13:03:17	--	Topic set by root (root@localhost.localdomain) on Tue, 01 Nov 2011 13:03:17
+2011-11-01 13:03:17	@root	Welcome to the BitlBee gateway!
+2011-11-01 13:03:17	@root	If you've never used BitlBee before, please do read the help information using the help command. Lots of FAQs are answered there.
+2011-11-01 13:03:17	@root	If you already have an account on this server, just use the identify command to identify yourself.
+2011-11-01 13:04:01	@jeffrey	register Zn23#X42
+2011-11-01 13:04:01	@root	Account successfully created
+2011-11-01 13:05:06	@jeffrey	accout add oscar TheSeparateFirst pass login.oscar.aol.com
+2011-11-01 13:05:06	@root	Unknown command: accout. Please use help commands to get a list of available commands.
+2011-11-01 13:05:11	@jeffrey	account add oscar TheSeparateFirst pass login.oscar.aol.com
+2011-11-01 13:05:11	@root	Warning: Passing a servername/other flags to `account add' is now deprecated. Use `account set' instead.
+2011-11-01 13:05:11	@root	Account successfully added
+2011-11-01 13:05:34	@jeffrey	?
+2011-11-01 13:05:34	@root	Unknown command: ?. Please use help commands to get a list of available commands.
+2011-11-01 13:05:40	@jeffrey	help commands
+2011-11-01 13:05:40	@root	 * account - IM-account list maintenance
+2011-11-01 13:05:40	@root	 * channel - Channel list maintenance
+2011-11-01 13:05:40	@root	 * chat - Chatroom list maintenance
+2011-11-01 13:05:40	@root	 * add - Add a buddy to your contact list
+2011-11-01 13:05:40	@root	 * info - Request user information
+2011-11-01 13:05:40	@root	 * remove - Remove a buddy from your contact list
+2011-11-01 13:05:40	@root	 * block - Block someone
+2011-11-01 13:05:40	@root	 * allow - Unblock someone
+2011-11-01 13:05:40	@root	 * otr - Off-the-Record encryption control
+2011-11-01 13:05:40	@root	 * set - Miscellaneous settings
+2011-11-01 13:05:40	@root	 * help - BitlBee help system
+2011-11-01 13:05:40	@root	 * save - Save your account data
+2011-11-01 13:05:40	@root	 * rename - Rename (renick) a buddy
+2011-11-01 13:05:40	@root	 * yes - Accept a request
+2011-11-01 13:05:40	@root	 * no - Deny a request
+2011-11-01 13:05:40	@root	 * qlist - List all the unanswered questions root asked
+2011-11-01 13:05:40	@root	 * register - Register yourself
+2011-11-01 13:05:40	@root	 * identify - Identify yourself with your password
+2011-11-01 13:05:40	@root	 * drop - Drop your account
+2011-11-01 13:05:40	@root	 * blist - List all the buddies in the current channel
+2011-11-01 13:05:40	@root	 * group - Contact group management
+2011-11-01 13:05:40	@root	 * transfer - Monitor, cancel, or reject file transfers
+2011-11-01 13:05:45	@jeffrey	help account
+2011-11-01 13:05:45	@root	Syntax: account [<account id>] <action> [<arguments>]
+2011-11-01 13:05:45	@root	Available actions: add, del, list, on, off and set. See help account <action> for more information.
+2011-11-01 13:05:51	@jeffrey	account set
+2011-11-01 13:05:51	@root	Not enough parameters given (need 2).
+2011-11-01 13:05:58	@jeffrey	help account set
+2011-11-01 13:05:58	@root	Syntax: account <account id> set
+2011-11-01 13:05:58	@root	Syntax: account <account id> set <setting>
+2011-11-01 13:05:58	@root	Syntax: account <account id> set <setting> <value>
+2011-11-01 13:05:58	@root	Syntax: account <account id> set -del <setting>
+2011-11-01 13:05:58	@root	This command can be used to change various settings for IM accounts. For all protocols, this command can be used to change the handle or the password BitlBee uses to log in and if it should be logged in automatically. Some protocols have additional settings. You can see the settings available for a connection by typing account <account id> set.
+2011-11-01 13:05:58	@root	For more infomation about a setting, see help set <setting>.
+2011-11-01 13:05:58	@root	The account ID can be a number/tag (see account list), the protocol name or (part of) the screenname, as long as it matches only one connection.
+2011-11-01 13:06:09	@jeffrey	help set
+2011-11-01 13:06:09	@root	Syntax: set
+2011-11-01 13:06:09	@root	Syntax: set <variable>
+2011-11-01 13:06:09	@root	Syntax: set <variable> <value>
+2011-11-01 13:06:09	@root	Syntax: set -del <variable>
+2011-11-01 13:06:09	@root	Without any arguments, this command lists all the set variables. You can also specify a single argument, a variable name, to get that variable's value. To change this value, specify the new value as the second argument. With -del you can reset a setting to its default value.
+2011-11-01 13:06:09	@root	To get more help information about a setting, try:
+2011-11-01 13:06:09	@root	Example:
+2011-11-01 13:06:09	@root	<ctrlsoft> help set private
+2011-11-01 13:06:25	@jeffrey	help account add
+2011-11-01 13:06:25	@root	Syntax: account add <protocol> <username> [<password>]
+2011-11-01 13:06:25	@root	Adds an account on the given server with the specified protocol, username and password to the account list. Supported protocols right now are: Jabber, MSN, OSCAR (AIM/ICQ), Yahoo and Twitter. For more information about adding an account, see help account add <protocol>.
+2011-11-01 13:06:25	@root	You can omit the password and enter it separately using the IRC /OPER command. This lets you enter your password without your IRC client echoing it on screen or recording it in logs.
+2011-11-01 13:06:59	@jeffrey	help account add oscar
+2011-11-01 13:06:59	@root	Syntax: account add oscar <handle> [<password>]
+2011-11-01 13:06:59	@root	OSCAR is the protocol used to connect to AIM and/or ICQ. The servers will automatically detect if you're using a numeric or non-numeric username so there's no need to tell which network you want to connect to.
+2011-11-01 13:06:59	@root	Example:
+2011-11-01 13:06:59	@root	<wilmer> account add oscar 72696705 hobbelmeeuw
+2011-11-01 13:06:59	@root	<root> Account successfully added
+2011-11-01 13:07:21	@jeffrey	accound add oscar TheSeparateFirst Karan_Sjet
+2011-11-01 13:07:21	@root	Unknown command: accound. Please use help commands to get a list of available commands.
+2011-11-01 13:07:27	@jeffrey	account add oscar TheSeparateFirst Karan_Sjet
+2011-11-01 13:07:27	@root	Warning: You already have an account with protocol `oscar' and username `TheSeparateFirst'. Are you accidentally trying to add it twice?
+2011-11-01 13:07:27	@root	Account successfully added
+2011-11-01 13:07:36	@jeffrey	help
+2011-11-01 13:07:36	@root	These are the available help subjects:
+2011-11-01 13:07:36	@root	 quickstart - A short introduction into BitlBee
+2011-11-01 13:07:36	@root	 commands - All available commands and settings
+2011-11-01 13:07:36	@root	 channels - About creating and customizing channels
+2011-11-01 13:07:36	@root	 away - About setting away states
+2011-11-01 13:07:36	@root	 groupchats - How to work with groupchats on BitlBee
+2011-11-01 13:07:36	@root	 nick_changes - Changing your nickname without losing any settings
+2011-11-01 13:07:36	@root	 smileys - A summary of some non-standard smileys you might find and fail to understand
+2011-11-01 13:07:36	@root	You can read more about them with help <subject>
+2011-11-01 13:07:36	@root	BitlBee is written by Wilmer van der Gaast together with Jelmer Vernooij, Maurits Dijkstra and others. Bugs can be reported at http://bugs.bitlbee.org/.
+2011-11-01 13:07:36	@root	For other things than bug reports, you can join #BitlBee on OFTC (irc.oftc.net) (OFTC, *not* FreeNode!) and flame us right in the face. :-)
+2011-11-01 13:07:40	@jeffrey	help commands
+2011-11-01 13:07:40	@root	 * account - IM-account list maintenance
+2011-11-01 13:07:40	@root	 * channel - Channel list maintenance
+2011-11-01 13:07:40	@root	 * chat - Chatroom list maintenance
+2011-11-01 13:07:40	@root	 * add - Add a buddy to your contact list
+2011-11-01 13:07:40	@root	 * info - Request user information
+2011-11-01 13:07:40	@root	 * remove - Remove a buddy from your contact list
+2011-11-01 13:07:40	@root	 * block - Block someone
+2011-11-01 13:07:40	@root	 * allow - Unblock someone
+2011-11-01 13:07:40	@root	 * otr - Off-the-Record encryption control
+2011-11-01 13:07:40	@root	 * set - Miscellaneous settings
+2011-11-01 13:07:40	@root	 * help - BitlBee help system
+2011-11-01 13:07:40	@root	 * save - Save your account data
+2011-11-01 13:07:40	@root	 * rename - Rename (renick) a buddy
+2011-11-01 13:07:40	@root	 * yes - Accept a request
+2011-11-01 13:07:40	@root	 * no - Deny a request
+2011-11-01 13:07:40	@root	 * qlist - List all the unanswered questions root asked
+2011-11-01 13:07:40	@root	 * register - Register yourself
+2011-11-01 13:07:40	@root	 * identify - Identify yourself with your password
+2011-11-01 13:07:40	@root	 * drop - Drop your account
+2011-11-01 13:07:40	@root	 * blist - List all the buddies in the current channel
+2011-11-01 13:07:40	@root	 * group - Contact group management
+2011-11-01 13:07:40	@root	 * transfer - Monitor, cancel, or reject file transfers
+2011-11-01 13:07:43	@jeffrey	help account
+2011-11-01 13:07:43	@root	Syntax: account [<account id>] <action> [<arguments>]
+2011-11-01 13:07:43	@root	Available actions: add, del, list, on, off and set. See help account <action> for more information.
+2011-11-01 13:07:48	@jeffrey	help account on
+2011-11-01 13:07:48	@root	Syntax: account [<account id>] on
+2011-11-01 13:07:48	@root	This command will try to log into the specified account. If no account is specified, BitlBee will log into all the accounts that have the auto_connect flag set.
+2011-11-01 13:07:48	@root	The account ID can be a number/tag (see account list), the protocol name or (part of) the screenname, as long as it matches only one connection.
+2011-11-01 13:07:51	@jeffrey	help account on 1
+2011-11-01 13:07:51	@root	These are the available help subjects:
+2011-11-01 13:07:51	@root	 quickstart - A short introduction into BitlBee
+2011-11-01 13:07:51	@root	 commands - All available commands and settings
+2011-11-01 13:07:51	@root	 channels - About creating and customizing channels
+2011-11-01 13:07:51	@root	 away - About setting away states
+2011-11-01 13:07:51	@root	 groupchats - How to work with groupchats on BitlBee
+2011-11-01 13:07:51	@root	 nick_changes - Changing your nickname without losing any settings
+2011-11-01 13:07:51	@root	 smileys - A summary of some non-standard smileys you might find and fail to understand
+2011-11-01 13:07:51	@root	You can read more about them with help <subject>
+2011-11-01 13:07:51	@root	BitlBee is written by Wilmer van der Gaast together with Jelmer Vernooij, Maurits Dijkstra and others. Bugs can be reported at http://bugs.bitlbee.org/.
+2011-11-01 13:07:51	@root	For other things than bug reports, you can join #BitlBee on OFTC (irc.oftc.net) (OFTC, *not* FreeNode!) and flame us right in the face. :-)
+2011-11-01 13:07:56	@jeffrey	help account on TheSeparateFirst
+2011-11-01 13:07:56	@root	These are the available help subjects:
+2011-11-01 13:07:56	@root	 quickstart - A short introduction into BitlBee
+2011-11-01 13:07:56	@root	 commands - All available commands and settings
+2011-11-01 13:07:56	@root	 channels - About creating and customizing channels
+2011-11-01 13:07:56	@root	 away - About setting away states
+2011-11-01 13:07:56	@root	 groupchats - How to work with groupchats on BitlBee
+2011-11-01 13:07:56	@root	 nick_changes - Changing your nickname without losing any settings
+2011-11-01 13:07:56	@root	 smileys - A summary of some non-standard smileys you might find and fail to understand
+2011-11-01 13:07:56	@root	You can read more about them with help <subject>
+2011-11-01 13:07:56	@root	BitlBee is written by Wilmer van der Gaast together with Jelmer Vernooij, Maurits Dijkstra and others. Bugs can be reported at http://bugs.bitlbee.org/.
+2011-11-01 13:07:56	@root	For other things than bug reports, you can join #BitlBee on OFTC (irc.oftc.net) (OFTC, *not* FreeNode!) and flame us right in the face. :-)
+2011-11-01 13:07:59	@jeffrey	quickstart
+2011-11-01 13:07:59	@root	Unknown command: quickstart. Please use help commands to get a list of available commands.
+2011-11-01 13:08:03	@jeffrey	help quickstart
+2011-11-01 13:08:03	@root	Welcome to BitlBee, your IRC gateway to ICQ, MSN, AOL, Jabber, Yahoo! and Twitter.
+2011-11-01 13:08:03	@root	The center of BitlBee is the control channel, &bitlbee. Two users will always be there, you (where "you" is the nickname you are using) and the system user, root.
+2011-11-01 13:08:03	@root	You need register so that all your IM settings (passwords, contacts, etc) can be saved on the BitlBee server. It's important that you pick a good password so no one else can access your account. Register with this password using the register command: register <password> (without the brackets!).
+2011-11-01 13:08:03	@root	Be sure to remember your password. The next time you connect to the BitlBee server you will need to identify <password> so that you will be recognised and logged in to all the IM services automatically.
+2011-11-01 13:08:03	@root	When finished, type help quickstart2 to continue.
+2011-11-01 13:08:26	@jeffrey	help quickstart2
+2011-11-01 13:08:26	@root	Step Two: Add and Connect To your IM Account(s).
+2011-11-01 13:08:26	@root	To add an account to the account list you will need to use the account add command: account add <protocol> <username> <password> [<server>].
+2011-11-01 13:08:26	@root	For instance, suppose you have a Jabber account at jabber.org with handle bitlbee@jabber.org with password QuickStart, you would:
+2011-11-01 13:08:26	@root	<you> account add jabber bitlbee@jabber.org QuickStart
+2011-11-01 13:08:26	@root	<root> Account successfully added
+2011-11-01 13:08:26	@root	Other available IM protocols are msn, oscar, yahoo and twitter. OSCAR is the protocol used by ICQ and AOL. For more information about the account add command, see help account add.
+2011-11-01 13:08:26	@root	When you are finished adding your account(s) use the account on command to enable all your accounts, type help quickstart3 to continue.
+2011-11-01 13:08:43	@jeffrey	account add oscar TheSeparateFirst Karan_Sjet login.oscar.aol.com
+2011-11-01 13:08:43	@root	Warning: You already have an account with protocol `oscar' and username `TheSeparateFirst'. Are you accidentally trying to add it twice?
+2011-11-01 13:08:43	@root	Warning: You already have an account with protocol `oscar' and username `TheSeparateFirst'. Are you accidentally trying to add it twice?
+2011-11-01 13:08:43	@root	Warning: Passing a servername/other flags to `account add' is now deprecated. Use `account set' instead.
+2011-11-01 13:08:43	@root	Account successfully added
+2011-11-01 13:08:45	@jeffrey	help quickstart2
+2011-11-01 13:08:45	@root	Step Two: Add and Connect To your IM Account(s).
+2011-11-01 13:08:45	@root	To add an account to the account list you will need to use the account add command: account add <protocol> <username> <password> [<server>].
+2011-11-01 13:08:45	@root	For instance, suppose you have a Jabber account at jabber.org with handle bitlbee@jabber.org with password QuickStart, you would:
+2011-11-01 13:08:45	@root	<you> account add jabber bitlbee@jabber.org QuickStart
+2011-11-01 13:08:45	@root	<root> Account successfully added
+2011-11-01 13:08:45	@root	Other available IM protocols are msn, oscar, yahoo and twitter. OSCAR is the protocol used by ICQ and AOL. For more information about the account add command, see help account add.
+2011-11-01 13:08:45	@root	When you are finished adding your account(s) use the account on command to enable all your accounts, type help quickstart3 to continue.
+2011-11-01 13:08:52	@jeffrey	help quickstart3
+2011-11-01 13:08:52	@root	Step Three: Managing Contact Lists: Rename
+2011-11-01 13:08:52	@root	Now BitlBee logs in and downloads the contact list from the IM server. In a few seconds, all your on-line buddies should show up in the control channel.
+2011-11-01 13:08:52	@root	BitlBee will convert names into IRC-friendly form (for instance: tux@example.com will be given the nickname tux). If you have more than one person who would have the same name by this logic (for instance: tux@example.com and tux@bitlbee.org) the second one to log on will be tux_. The same is true if you have a tux log on to AOL and a tux log on from Yahoo.
+2011-11-01 13:08:52	@root	It would be easy to get these two mixed up, so BitlBee has a rename command to change the nickname into something more suitable: rename <oldnick> <newnick>
+2011-11-01 13:08:52	@root	<you> rename tux_ bitlbeetux
+2011-11-01 13:08:52	@root	* tux_ is now known as bitlbeetux
+2011-11-01 13:08:52	@root	<root> Nick successfully changed
+2011-11-01 13:08:52	@root	When finished, type help quickstart4 to continue.
+2011-11-01 13:09:03	@jeffrey	account on
+2011-11-01 13:09:03	@root	Trying to get all accounts connected...
+2011-11-01 13:09:03	@root	oscar(TheSeparateFirst) - Logging in: Signon: TheSeparateFirst
+2011-11-01 13:09:03	@root	oscar(TheSeparateFirst) - Logging in: Signon: TheSeparateFirst
+2011-11-01 13:09:03	@root	oscar(TheSeparateFirst) - Logging in: Signon: TheSeparateFirst
+2011-11-01 13:09:03	@root	oscar(TheSeparateFirst) - Login error: Incorrect nickname or password.
+2011-11-01 13:09:03	@root	oscar(TheSeparateFirst) - Logging in: Signing off..
+2011-11-01 13:09:03	@root	oscar(TheSeparateFirst) - Logging in: Reconnecting in 5 seconds..
+2011-11-01 13:09:03	@root	oscar(TheSeparateFirst) - Logging in: Connection established, cookie sent
+2011-11-01 13:09:03	@root	oscar(TheSeparateFirst) - Logging in: Connection established, cookie sent
+2011-11-01 13:09:04	@root	oscar(TheSeparateFirst) - Logging in: Logged in
+2011-11-01 13:09:04	@root	oscar(TheSeparateFirst) - Logging in: Logged in
+2011-11-01 13:09:04	-->	anasithera_ (anasithera@login.oscar.aol.com) has joined &bitlbee
+2011-11-01 13:09:04	--	Mode &bitlbee [+v anasithera_] by localhost.localdomain
+2011-11-01 13:09:04	-->	anasithera (anasithera@oscar) has joined &bitlbee
+2011-11-01 13:09:04	--	Mode &bitlbee [+v anasithera] by localhost.localdomain
+2011-11-01 13:09:04	-->	MaryLou (ohcrimsonregret@oscar) has joined &bitlbee
+2011-11-01 13:09:04	--	Mode &bitlbee [+v MaryLou] by localhost.localdomain
+2011-11-01 13:09:04	-->	MaryLou_ (ohcrimsonregret@login.oscar.aol.com) has joined &bitlbee
+2011-11-01 13:09:04	--	Mode &bitlbee [+v MaryLou_] by localhost.localdomain
+2011-11-01 13:09:04	-->	MarionetteCoconut_ (coconutmarionett@login.oscar.aol.com) has joined &bitlbee
+2011-11-01 13:09:04	-->	MarionetteCoconut (coconutmarionett@oscar) has joined &bitlbee
+2011-11-01 13:09:08	@root	oscar(TheSeparateFirst) - Logging in: Signon: TheSeparateFirst
+2011-11-01 13:09:08	@root	oscar(TheSeparateFirst) - Login error: Incorrect nickname or password.
+2011-11-01 13:09:08	@root	oscar(TheSeparateFirst) - Logging in: Signing off..
+2011-11-01 13:09:08	@root	oscar(TheSeparateFirst) - Logging in: Reconnecting in 15 seconds..
+2011-11-01 13:09:17	@jeffrey	account off
+2011-11-01 13:09:17	@root	Deactivating all active (re)connections...
+2011-11-01 13:09:17	@root	oscar(TheSeparateFirst) - Signing off..
+2011-11-01 13:09:17	<--	anasithera (anasithera@oscar) has quit (localhost.localdomain oscar.localhost.localdomain)
+2011-11-01 13:09:17	<--	MarionetteCoconut (coconutmarionett@oscar) has quit (localhost.localdomain oscar.localhost.localdomain)
+2011-11-01 13:09:17	<--	MaryLou (ohcrimsonregret@oscar) has quit (localhost.localdomain oscar.localhost.localdomain)
+2011-11-01 13:09:17	@root	oscar(TheSeparateFirst) - Signing off..
+2011-11-01 13:09:17	<--	anasithera_ (anasithera@login.oscar.aol.com) has quit (localhost.localdomain oscar.localhost.localdomain)
+2011-11-01 13:09:17	<--	MarionetteCoconut_ (coconutmarionett@login.oscar.aol.com) has quit (localhost.localdomain oscar.localhost.localdomain)
+2011-11-01 13:09:17	<--	MaryLou_ (ohcrimsonregret@login.oscar.aol.com) has quit (localhost.localdomain oscar.localhost.localdomain)
+2011-11-01 13:09:19	@jeffrey	account list
+2011-11-01 13:09:19	@root	 0 (aim): oscar, TheSeparateFirst
+2011-11-01 13:09:19	@root	 1 (aim2): oscar, TheSeparateFirst
+2011-11-01 13:09:19	@root	 2 (aim3): oscar, TheSeparateFirst
+2011-11-01 13:09:19	@root	End of account list
+2011-11-01 13:09:25	@jeffrey	account del 0
+2011-11-01 13:09:25	@root	Could not find account `del'. Note that the syntax of the account command changed, see help account.
+2011-11-01 13:09:29	@jeffrey	account delete
+2011-11-01 13:09:29	@root	Not enough parameters given (need 2).
+2011-11-01 13:09:32	@jeffrey	account delete 0
+2011-11-01 13:09:32	@root	Could not find account `delete'. Note that the syntax of the account command changed, see help account.
+2011-11-01 13:09:39	@jeffrey	help account
+2011-11-01 13:09:39	@root	Syntax: account [<account id>] <action> [<arguments>]
+2011-11-01 13:09:39	@root	Available actions: add, del, list, on, off and set. See help account <action> for more information.
+2011-11-01 13:09:45	@jeffrey	account del 1
+2011-11-01 13:09:45	@root	Could not find account `del'. Note that the syntax of the account command changed, see help account.
+2011-11-01 13:09:51	@jeffrey	account 1 del
+2011-11-01 13:09:51	@root	Account deleted
+2011-11-01 13:09:54	@jeffrey	account 0 del
+2011-11-01 13:09:54	@root	Account deleted
+2011-11-01 13:09:56	@jeffrey	account list
+2011-11-01 13:09:56	@root	 0 (aim3): oscar, TheSeparateFirst
+2011-11-01 13:09:56	@root	End of account list
+2011-11-01 13:09:59	@jeffrey	account 0 del
+2011-11-01 13:09:59	@root	Account deleted
+2011-11-01 13:10:05	@jeffrey	account add oscar TheSeparateFirst Karan_Sjet login.oscar.aol.com
+2011-11-01 13:10:05	@root	Warning: Passing a servername/other flags to `account add' is now deprecated. Use `account set' instead.
+2011-11-01 13:10:05	@root	Account successfully added
+2011-11-01 13:10:18	@jeffrey	account list
+2011-11-01 13:10:18	@root	 0 (aim): oscar, TheSeparateFirst
+2011-11-01 13:10:18	@root	End of account list
+2011-11-01 13:10:20	@jeffrey	account on
+2011-11-01 13:10:25	@root	Trying to get all accounts connected...
+2011-11-01 13:10:25	@root	oscar - Logging in: Signon: TheSeparateFirst
+2011-11-01 13:10:26	@root	oscar - Logging in: Connection established, cookie sent
+2011-11-01 13:10:26	@root	oscar - Logging in: Logged in
+2011-11-01 13:10:26	-->	anasithera (anasithera@login.oscar.aol.com) has joined &bitlbee
+2011-11-01 13:10:26	--	Mode &bitlbee [+v anasithera] by localhost.localdomain
+2011-11-01 13:10:26	-->	MaryLou (ohcrimsonregret@login.oscar.aol.com) has joined &bitlbee
+2011-11-01 13:10:26	--	Mode &bitlbee [+v MaryLou] by localhost.localdomain
+2011-11-01 13:10:26	-->	MarionetteCoconut (coconutmarionett@login.oscar.aol.com) has joined &bitlbee
+2011-11-01 13:11:06	@jeffrey	help
+2011-11-01 13:11:06	@root	These are the available help subjects:
+2011-11-01 13:11:06	@root	 quickstart - A short introduction into BitlBee
+2011-11-01 13:11:06	@root	 commands - All available commands and settings
+2011-11-01 13:11:06	@root	 channels - About creating and customizing channels
+2011-11-01 13:11:06	@root	 away - About setting away states
+2011-11-01 13:11:06	@root	 groupchats - How to work with groupchats on BitlBee
+2011-11-01 13:11:06	@root	 nick_changes - Changing your nickname without losing any settings
+2011-11-01 13:11:06	@root	 smileys - A summary of some non-standard smileys you might find and fail to understand
+2011-11-01 13:11:06	@root	You can read more about them with help <subject>
+2011-11-01 13:11:06	@root	BitlBee is written by Wilmer van der Gaast together with Jelmer Vernooij, Maurits Dijkstra and others. Bugs can be reported at http://bugs.bitlbee.org/.
+2011-11-01 13:11:06	@root	For other things than bug reports, you can join #BitlBee on OFTC (irc.oftc.net) (OFTC, *not* FreeNode!) and flame us right in the face. :-)
+2011-11-01 13:11:12	@jeffrey	help commands
+2011-11-01 13:11:12	@root	 * account - IM-account list maintenance
+2011-11-01 13:11:12	@root	 * channel - Channel list maintenance
+2011-11-01 13:11:12	@root	 * chat - Chatroom list maintenance
+2011-11-01 13:11:12	@root	 * add - Add a buddy to your contact list
+2011-11-01 13:11:12	@root	 * info - Request user information
+2011-11-01 13:11:12	@root	 * remove - Remove a buddy from your contact list
+2011-11-01 13:11:12	@root	 * block - Block someone
+2011-11-01 13:11:12	@root	 * allow - Unblock someone
+2011-11-01 13:11:12	@root	 * otr - Off-the-Record encryption control
+2011-11-01 13:11:12	@root	 * set - Miscellaneous settings
+2011-11-01 13:11:12	@root	 * help - BitlBee help system
+2011-11-01 13:11:12	@root	 * save - Save your account data
+2011-11-01 13:11:12	@root	 * rename - Rename (renick) a buddy
+2011-11-01 13:11:12	@root	 * yes - Accept a request
+2011-11-01 13:11:12	@root	 * no - Deny a request
+2011-11-01 13:11:12	@root	 * qlist - List all the unanswered questions root asked
+2011-11-01 13:11:12	@root	 * register - Register yourself
+2011-11-01 13:11:12	@root	 * identify - Identify yourself with your password
+2011-11-01 13:11:12	@root	 * drop - Drop your account
+2011-11-01 13:11:12	@root	 * blist - List all the buddies in the current channel
+2011-11-01 13:11:12	@root	 * group - Contact group management
+2011-11-01 13:11:12	@root	 * transfer - Monitor, cancel, or reject file transfers
+2011-11-01 13:11:17	@jeffrey	help quickstart4
+2011-11-01 13:11:17	@root	Step Four: Managing Contact Lists: Add and Remove.
+2011-11-01 13:11:17	@root	Now you might want to add some contacts, to do this we will use the add command. It needs two arguments: a connection ID (which can be a number (try account list), protocol name or (part of) the screenname) and the user's handle. It is used in the following way: add <connection> <handle>
+2011-11-01 13:11:17	@root	<you> add 0 r2d2@example.com
+2011-11-01 13:11:17	@root	* r2d2  has joined &bitlbee
+2011-11-01 13:11:17	@root	In this case r2d2 is online, since he/she joins the channel immediately. If the user is not online you will not see them join until they log on.
+2011-11-01 13:11:17	@root	Lets say you accidentally added r2d3@example.com rather than r2d2@example.com, or maybe you just want to remove a user from your list because you never talk to them. To remove a name you will want to use the remove command: remove <nick>
+2011-11-01 13:11:17	@root	When finished, type help quickstart5 to continue.
+2011-11-01 13:11:50	@jeffrey	help quickstart5
+2011-11-01 13:11:50	@root	Step Five: Chatting.
+2011-11-01 13:11:50	@root	First of all, a person must be on your contact list for you to chat with them (unless it's a group chat, help groupchats for more). If someone not on your contact list sends you a message, simply add them to the proper account with the add command. Once they are on your list and online, you can chat with them in &bitlbee:
+2011-11-01 13:11:50	@root	<you> tux: hey, how's the weather down there?
+2011-11-01 13:11:50	@root	<tux> you: a bit chilly!
+2011-11-01 13:11:50	@root	Note that, although all contacts are in the &bitlbee channel, only tux will actually receive this message. The &bitlbee channel shouldn't be confused with a real IRC channel.
+2011-11-01 13:11:50	@root	If you prefer chatting in a separate window, use the /msg or /query command, just like on real IRC. BitlBee will remember how you talk to someone and show his/her responses the same way. If you want to change the default behaviour (for people you haven't talked to yet), see help set private.
+2011-11-01 13:11:50	@root	You know the basics. If you want to get to know more about BitlBee, please type help quickstart6.
+2011-11-01 13:12:15	@jeffrey	help quickstart6
+2011-11-01 13:12:15	@root	So you want more than just chatting? Or maybe you're just looking for a feature?
+2011-11-01 13:12:15	@root	You can type help set to learn more about the possible BitlBee user settings. Among these user settings you will find options for common issues, such as changing the charset, HTML stripping and automatic connecting (simply type set to see current user settings).
+2011-11-01 13:12:15	@root	For more subjects (like groupchats and away states), please type help index.
+2011-11-01 13:12:15	@root	If you're still looking for something, please visit us in #bitlbee on the OFTC network (you can connect via irc.bitlbee.org), or mail us your problem/suggestion. Good luck and enjoy the Bee!
+2011-11-01 13:12:22	@jeffrey	help set
+2011-11-01 13:12:22	@root	Syntax: set
+2011-11-01 13:12:22	@root	Syntax: set <variable>
+2011-11-01 13:12:22	@root	Syntax: set <variable> <value>
+2011-11-01 13:12:22	@root	Syntax: set -del <variable>
+2011-11-01 13:12:22	@root	Without any arguments, this command lists all the set variables. You can also specify a single argument, a variable name, to get that variable's value. To change this value, specify the new value as the second argument. With -del you can reset a setting to its default value.
+2011-11-01 13:12:22	@root	To get more help information about a setting, try:
+2011-11-01 13:12:22	@root	Example:
+2011-11-01 13:12:22	@root	<ctrlsoft> help set private
+2011-11-01 13:12:29	@jeffrey	set
+2011-11-01 13:12:29	@root	auto_connect = `true'
+2011-11-01 13:12:29	@root	auto_reconnect = `true'
+2011-11-01 13:12:29	@root	auto_reconnect_delay = `5*3<900'
+2011-11-01 13:12:29	@root	debug = `false'
+2011-11-01 13:12:29	@root	mobile_is_away = `false'
+2011-11-01 13:12:29	@root	save_on_quit = `true'
+2011-11-01 13:12:29	@root	status is empty
+2011-11-01 13:12:29	@root	strip_html = `true'
+2011-11-01 13:12:29	@root	allow_takeover = `true'
+2011-11-01 13:12:29	@root	away_reply_timeout = `3600'
+2011-11-01 13:12:29	@root	charset = `utf-8'
+2011-11-01 13:12:29	@root	default_target = `root'
+2011-11-01 13:12:29	@root	display_namechanges = `false'
+2011-11-01 13:12:29	@root	display_timestamps = `true'
+2011-11-01 13:12:29	@root	handle_unknown = `add_channel'
+2011-11-01 13:12:29	@root	lcnicks = `true'
+2011-11-01 13:12:29	@root	nick_format = `%-@nick'
+2011-11-01 13:12:29	@root	offline_user_quits = `true'
+2011-11-01 13:12:29	@root	ops = `both'
+2011-11-01 13:12:29	@root	paste_buffer = `false'
+2011-11-01 13:12:29	@root	paste_buffer_delay = `200'
+2011-11-01 13:12:29	@root	password = `********' (hidden)
+2011-11-01 13:12:29	@root	private = `true'
+2011-11-01 13:12:29	@root	query_order = `lifo'
+2011-11-01 13:12:29	@root	simulate_netsplit = `true'
+2011-11-01 13:12:29	@root	timezone = `local'
+2011-11-01 13:12:29	@root	to_char = `: '
+2011-11-01 13:12:29	@root	typing_notice = `false'
+2011-11-01 13:12:47	@jeffrey	help set mobile_is_away
+2011-11-01 13:12:47	@root	Type: boolean
+2011-11-01 13:12:47	@root	Scope: global
+2011-11-01 13:12:47	@root	Default: false
+2011-11-01 13:12:47	@root	Most IM networks have a mobile version of their client. People who use these may not be paying that much attention to messages coming in. By enabling this setting, people using mobile clients will always be shown as away.
+2011-11-01 13:13:24	@jeffrey	help
+2011-11-01 13:13:24	@root	These are the available help subjects:
+2011-11-01 13:13:24	@root	 quickstart - A short introduction into BitlBee
+2011-11-01 13:13:24	@root	 commands - All available commands and settings
+2011-11-01 13:13:24	@root	 channels - About creating and customizing channels
+2011-11-01 13:13:24	@root	 away - About setting away states
+2011-11-01 13:13:24	@root	 groupchats - How to work with groupchats on BitlBee
+2011-11-01 13:13:24	@root	 nick_changes - Changing your nickname without losing any settings
+2011-11-01 13:13:24	@root	 smileys - A summary of some non-standard smileys you might find and fail to understand
+2011-11-01 13:13:24	@root	You can read more about them with help <subject>
+2011-11-01 13:13:24	@root	BitlBee is written by Wilmer van der Gaast together with Jelmer Vernooij, Maurits Dijkstra and others. Bugs can be reported at http://bugs.bitlbee.org/.
+2011-11-01 13:13:24	@root	For other things than bug reports, you can join #BitlBee on OFTC (irc.oftc.net) (OFTC, *not* FreeNode!) and flame us right in the face. :-)
+2011-11-01 13:13:30	@jeffrey	help commands
+2011-11-01 13:13:30	@root	 * account - IM-account list maintenance
+2011-11-01 13:13:30	@root	 * channel - Channel list maintenance
+2011-11-01 13:13:30	@root	 * chat - Chatroom list maintenance
+2011-11-01 13:13:30	@root	 * add - Add a buddy to your contact list
+2011-11-01 13:13:30	@root	 * info - Request user information
+2011-11-01 13:13:30	@root	 * remove - Remove a buddy from your contact list
+2011-11-01 13:13:30	@root	 * block - Block someone
+2011-11-01 13:13:30	@root	 * allow - Unblock someone
+2011-11-01 13:13:30	@root	 * otr - Off-the-Record encryption control
+2011-11-01 13:13:30	@root	 * set - Miscellaneous settings
+2011-11-01 13:13:30	@root	 * help - BitlBee help system
+2011-11-01 13:13:30	@root	 * save - Save your account data
+2011-11-01 13:13:30	@root	 * rename - Rename (renick) a buddy
+2011-11-01 13:13:30	@root	 * yes - Accept a request
+2011-11-01 13:13:30	@root	 * no - Deny a request
+2011-11-01 13:13:30	@root	 * qlist - List all the unanswered questions root asked
+2011-11-01 13:13:30	@root	 * register - Register yourself
+2011-11-01 13:13:30	@root	 * identify - Identify yourself with your password
+2011-11-01 13:13:30	@root	 * drop - Drop your account
+2011-11-01 13:13:30	@root	 * blist - List all the buddies in the current channel
+2011-11-01 13:13:30	@root	 * group - Contact group management
+2011-11-01 13:13:30	@root	 * transfer - Monitor, cancel, or reject file transfers
+2011-11-01 13:13:43	@jeffrey	save
+2011-11-01 13:13:43	@root	Configuration saved
+2011-11-01 13:13:52	@jeffrey	rename MarionetteCoconut Silvi
+2011-11-01 13:13:52	--	MarionetteCoconut is now known as Silvi
+2011-11-01 13:13:52	@root	Nick successfully changed
+2011-11-01 13:14:01	@jeffrey	blist
+2011-11-01 13:14:01	@root	Nick              Handle/Account                            Status
+2011-11-01 13:14:01	@root	anasithera        anasithera oscar(TheSeparateFirst)        Online
+2011-11-01 13:14:01	@root	MaryLou           ohcrimsonregret oscar(TheSeparateFirst)   Online
+2011-11-01 13:14:01	@root	Silvi             coconutmarionett oscar(TheSeparateFirst)  Away
+2011-11-01 13:14:01	@root	13 buddies (2 available, 1 away, 10 offline)
+2011-11-01 13:14:37		irc: disconnected from server
+2011-11-01 13:14:49	-->	jeffrey (jeffrey@localhost.localdomain) has joined &bitlbee
+2011-11-01 13:14:49	--	Mode &bitlbee [+Ct] by localhost.localdomain
+2011-11-01 13:14:49	--	Nicks &bitlbee: [@jeffrey @root]
+2011-11-01 13:14:49	--	Channel &bitlbee: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2011-11-01 13:14:49	--	Topic for &bitlbee is "Welcome to the control channel. Type help for help information."
+2011-11-01 13:14:49	--	Topic set by root (root@localhost.localdomain) on Tue, 01 Nov 2011 13:14:49
+2011-11-01 13:14:49	@root	Welcome to the BitlBee gateway!
+2011-11-01 13:14:49	@root	If you've never used BitlBee before, please do read the help information using the help command. Lots of FAQs are answered there.
+2011-11-01 13:14:49	@root	If you already have an account on this server, just use the identify command to identify yourself.
+2011-11-01 13:14:58	@jeffrey	identify Zn23#X42
+2011-11-01 13:14:58	--	Mode &bitlbee [-C] by root
+2011-11-01 13:14:58	--	Mode &bitlbee [+C] by root
+2011-11-01 13:14:58	@root	Password accepted, settings and accounts loaded
+2011-11-01 13:14:58	@root	Trying to get all accounts connected...
+2011-11-01 13:14:58	@root	oscar - Logging in: Signon: TheSeparateFirst
+2011-11-01 13:14:58	@root	oscar - Logging in: Connection established, cookie sent
+2011-11-01 13:14:59	@root	oscar - Logging in: Logged in
+2011-11-01 13:14:59	-->	anasithera (anasithera@login.oscar.aol.com) has joined &bitlbee
+2011-11-01 13:14:59	--	Mode &bitlbee [+v anasithera] by localhost.localdomain
+2011-11-01 13:14:59	-->	MaryLou (ohcrimsonregret@login.oscar.aol.com) has joined &bitlbee
+2011-11-01 13:14:59	--	Mode &bitlbee [+v MaryLou] by localhost.localdomain
+2011-11-01 13:14:59	-->	Silvi (coconutmarionett@login.oscar.aol.com) has joined &bitlbee
+2011-11-01 13:19:15	@jeffrey	blist
+2011-11-01 13:19:15	@root	Nick              Handle/Account                            Status
+2011-11-01 13:19:15	@root	anasithera        anasithera oscar(TheSeparateFirst)        Online
+2011-11-01 13:19:15	@root	MaryLou           ohcrimsonregret oscar(TheSeparateFirst)   Online
+2011-11-01 13:19:15	@root	Silvi             coconutmarionett oscar(TheSeparateFirst)  Away
+2011-11-01 13:19:15	@root	13 buddies (2 available, 1 away, 10 offline)
+2011-11-01 13:20:02		irc: disconnected from server
+2011-11-01 13:20:12	-->	jeffrey (jeffrey@localhost.localdomain) has joined &bitlbee
+2011-11-01 13:20:12	--	Mode &bitlbee [+Ct] by localhost.localdomain
+2011-11-01 13:20:12	--	Nicks &bitlbee: [@jeffrey @root]
+2011-11-01 13:20:12	--	Channel &bitlbee: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2011-11-01 13:20:12	--	Topic for &bitlbee is "Welcome to the control channel. Type help for help information."
+2011-11-01 13:20:12	--	Topic set by root (root@localhost.localdomain) on Tue, 01 Nov 2011 13:20:12
+2011-11-01 13:20:12	@root	Welcome to the BitlBee gateway!
+2011-11-01 13:20:12	@root	If you've never used BitlBee before, please do read the help information using the help command. Lots of FAQs are answered there.
+2011-11-01 13:20:12	@root	If you already have an account on this server, just use the identify command to identify yourself.
+2011-11-01 13:20:18	@jeffrey	blist
+2011-11-01 13:20:18	@root	Nick              Handle/Account                            Status
+2011-11-01 13:20:18	@root	0 buddies (0 available, 0 away, 0 offline)
+2011-11-01 13:20:20	@jeffrey	identify Zn23#X42
+2011-11-01 13:20:20	--	Mode &bitlbee [-C] by root
+2011-11-01 13:20:20	--	Mode &bitlbee [+C] by root
+2011-11-01 13:20:20	@root	Password accepted, settings and accounts loaded
+2011-11-01 13:20:20	@root	Trying to get all accounts connected...
+2011-11-01 13:20:20	@root	oscar - Logging in: Signon: TheSeparateFirst
+2011-11-01 13:20:21	@root	oscar - Logging in: Connection established, cookie sent
+2011-11-01 13:20:21	@root	oscar - Logging in: Logged in
+2011-11-01 13:20:21	-->	Silvi (coconutmarionett@login.oscar.aol.com) has joined &bitlbee
+2011-11-01 13:20:21	-->	anasithera (anasithera@login.oscar.aol.com) has joined &bitlbee
+2011-11-01 13:20:21	--	Mode &bitlbee [+v anasithera] by localhost.localdomain
+2011-11-01 13:20:21	-->	MaryLou (ohcrimsonregret@login.oscar.aol.com) has joined &bitlbee
+2011-11-01 13:20:21	--	Mode &bitlbee [+v MaryLou] by localhost.localdomain
+2011-11-01 13:20:32	@jeffrey	blist
+2011-11-01 13:20:32	@root	Nick              Handle/Account                            Status
+2011-11-01 13:20:32	@root	anasithera        anasithera oscar(TheSeparateFirst)        Online
+2011-11-01 13:20:32	@root	MaryLou           ohcrimsonregret oscar(TheSeparateFirst)   Online
+2011-11-01 13:20:32	@root	Silvi             coconutmarionett oscar(TheSeparateFirst)  Away
+2011-11-01 13:20:32	@root	13 buddies (2 available, 1 away, 10 offline)
+2011-11-01 13:29:13		irc: disconnected from server
+2011-11-01 13:29:23	-->	jeffrey (jeffrey@localhost.localdomain) has joined &bitlbee
+2011-11-01 13:29:23	--	Mode &bitlbee [+Ct] by localhost.localdomain
+2011-11-01 13:29:23	--	Nicks &bitlbee: [@jeffrey @root]
+2011-11-01 13:29:23	--	Channel &bitlbee: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2011-11-01 13:29:23	--	Topic for &bitlbee is "Welcome to the control channel. Type help for help information."
+2011-11-01 13:29:23	--	Topic set by root (root@localhost.localdomain) on Tue, 01 Nov 2011 13:29:23
+2011-11-01 13:29:23	@root	Welcome to the BitlBee gateway!
+2011-11-01 13:29:23	@root	If you've never used BitlBee before, please do read the help information using the help command. Lots of FAQs are answered there.
+2011-11-01 13:29:23	@root	If you already have an account on this server, just use the identify command to identify yourself.
+2011-11-01 13:30:33	@jeffrey	identify Zn23#X42
+2011-11-01 13:30:33	--	Mode &bitlbee [-C] by root
+2011-11-01 13:30:33	--	Mode &bitlbee [+C] by root
+2011-11-01 13:30:33	@root	Password accepted, settings and accounts loaded
+2011-11-01 13:30:33	@root	Trying to get all accounts connected...
+2011-11-01 13:30:33	@root	oscar - Logging in: Signon: TheSeparateFirst
+2011-11-01 13:30:34	@root	oscar - Logging in: Connection established, cookie sent
+2011-11-01 13:30:35	@root	oscar - Logging in: Logged in
+2011-11-01 13:30:35	-->	anasithera (anasithera@login.oscar.aol.com) has joined &bitlbee
+2011-11-01 13:30:35	--	Mode &bitlbee [+v anasithera] by localhost.localdomain
+2011-11-01 13:30:35	-->	MaryLou (ohcrimsonregret@login.oscar.aol.com) has joined &bitlbee
+2011-11-01 13:30:35	--	Mode &bitlbee [+v MaryLou] by localhost.localdomain
+2011-11-01 13:30:35	-->	Silvi (coconutmarionett@login.oscar.aol.com) has joined &bitlbee
+2011-11-01 13:30:48	@jeffrey	account 0 del
+2011-11-01 13:30:48	@root	Account is still logged in, can't delete
+2011-11-01 13:30:51	@jeffrey	account off
+2011-11-01 13:30:51	@root	Deactivating all active (re)connections...
+2011-11-01 13:30:51	@root	oscar - Signing off..
+2011-11-01 13:30:51	<--	anasithera (anasithera@login.oscar.aol.com) has quit (localhost.localdomain oscar.localhost.localdomain)
+2011-11-01 13:30:51	<--	Silvi (coconutmarionett@login.oscar.aol.com) has quit (localhost.localdomain oscar.localhost.localdomain)
+2011-11-01 13:30:51	<--	MaryLou (ohcrimsonregret@login.oscar.aol.com) has quit (localhost.localdomain oscar.localhost.localdomain)
+2011-11-01 13:30:53	@jeffrey	account 0 del
+2011-11-01 13:30:53	@root	Account deleted
+2011-11-01 13:33:48		irc: disconnected from server
+2011-11-01 13:34:33	-->	jeffrey (jeffrey@localhost.localdomain) has joined &bitlbee
+2011-11-01 13:34:33	--	Mode &bitlbee [+Ct] by localhost.localdomain
+2011-11-01 13:34:33	--	Nicks &bitlbee: [@jeffrey @root]
+2011-11-01 13:34:33	--	Channel &bitlbee: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2011-11-01 13:34:33	--	Topic for &bitlbee is "Welcome to the control channel. Type help for help information."
+2011-11-01 13:34:33	--	Topic set by root (root@localhost.localdomain) on Tue, 01 Nov 2011 13:34:33
+2011-11-01 13:34:33	@root	Welcome to the BitlBee gateway!
+2011-11-01 13:34:33	@root	If you've never used BitlBee before, please do read the help information using the help command. Lots of FAQs are answered there.
+2011-11-01 13:34:33	@root	If you already have an account on this server, just use the identify command to identify yourself.
+2011-11-01 13:35:19		irc: disconnected from server
+2011-11-01 13:35:50	-->	TheSeparateFirst (jeffrey@localhost.localdomain) has joined &bitlbee
+2011-11-01 13:35:50	--	Mode &bitlbee [+Ct] by localhost.localdomain
+2011-11-01 13:35:50	--	Nicks &bitlbee: [@root @TheSeparateFirst]
+2011-11-01 13:35:50	--	Channel &bitlbee: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2011-11-01 13:35:50	--	Topic for &bitlbee is "Welcome to the control channel. Type help for help information."
+2011-11-01 13:35:50	--	Topic set by root (root@localhost.localdomain) on Tue, 01 Nov 2011 13:35:50
+2011-11-01 13:35:50	@root	Welcome to the BitlBee gateway!
+2011-11-01 13:35:50	@root	If you've never used BitlBee before, please do read the help information using the help command. Lots of FAQs are answered there.
+2011-11-01 13:35:50	@root	If you already have an account on this server, just use the identify command to identify yourself.
+2011-11-01 13:36:19	@TheSeparateFirst	help
+2011-11-01 13:36:19	@root	These are the available help subjects:
+2011-11-01 13:36:19	@root	 quickstart - A short introduction into BitlBee
+2011-11-01 13:36:19	@root	 commands - All available commands and settings
+2011-11-01 13:36:19	@root	 channels - About creating and customizing channels
+2011-11-01 13:36:19	@root	 away - About setting away states
+2011-11-01 13:36:19	@root	 groupchats - How to work with groupchats on BitlBee
+2011-11-01 13:36:19	@root	 nick_changes - Changing your nickname without losing any settings
+2011-11-01 13:36:19	@root	 smileys - A summary of some non-standard smileys you might find and fail to understand
+2011-11-01 13:36:19	@root	You can read more about them with help <subject>
+2011-11-01 13:36:19	@root	BitlBee is written by Wilmer van der Gaast together with Jelmer Vernooij, Maurits Dijkstra and others. Bugs can be reported at http://bugs.bitlbee.org/.
+2011-11-01 13:36:19	@root	For other things than bug reports, you can join #BitlBee on OFTC (irc.oftc.net) (OFTC, *not* FreeNode!) and flame us right in the face. :-)
+2011-11-01 13:36:24	@TheSeparateFirst	quickstart
+2011-11-01 13:36:24	@root	Unknown command: quickstart. Please use help commands to get a list of available commands.
+2011-11-01 13:36:28	@TheSeparateFirst	help quickstart
+2011-11-01 13:36:28	@root	Welcome to BitlBee, your IRC gateway to ICQ, MSN, AOL, Jabber, Yahoo! and Twitter.
+2011-11-01 13:36:28	@root	The center of BitlBee is the control channel, &bitlbee. Two users will always be there, you (where "you" is the nickname you are using) and the system user, root.
+2011-11-01 13:36:28	@root	You need register so that all your IM settings (passwords, contacts, etc) can be saved on the BitlBee server. It's important that you pick a good password so no one else can access your account. Register with this password using the register command: register <password> (without the brackets!).
+2011-11-01 13:36:28	@root	Be sure to remember your password. The next time you connect to the BitlBee server you will need to identify <password> so that you will be recognised and logged in to all the IM services automatically.
+2011-11-01 13:36:28	@root	When finished, type help quickstart2 to continue.
+2011-11-01 13:36:36	@TheSeparateFirst	register Zn23#X42
+2011-11-01 13:36:36	@root	Account successfully created
+2011-11-01 13:36:45	@TheSeparateFirst	account add oscar TheSeparateFirst
+2011-11-01 13:36:45	@root	Account successfully added, now use /OPER to enter the password
+2011-11-01 13:37:11	@TheSeparateFirst	help account set
+2011-11-01 13:37:11	@root	Syntax: account <account id> set
+2011-11-01 13:37:11	@root	Syntax: account <account id> set <setting>
+2011-11-01 13:37:11	@root	Syntax: account <account id> set <setting> <value>
+2011-11-01 13:37:11	@root	Syntax: account <account id> set -del <setting>
+2011-11-01 13:37:11	@root	This command can be used to change various settings for IM accounts. For all protocols, this command can be used to change the handle or the password BitlBee uses to log in and if it should be logged in automatically. Some protocols have additional settings. You can see the settings available for a connection by typing account <account id> set.
+2011-11-01 13:37:11	@root	For more infomation about a setting, see help set <setting>.
+2011-11-01 13:37:11	@root	The account ID can be a number/tag (see account list), the protocol name or (part of) the screenname, as long as it matches only one connection.
+2011-11-01 13:37:16	@TheSeparateFirst	account list
+2011-11-01 13:37:16	@root	 0 (aim): oscar, TheSeparateFirst
+2011-11-01 13:37:16	@root	End of account list
+2011-11-01 13:37:22	@TheSeparateFirst	account set list
+2011-11-01 13:37:22	@root	Could not find account `set'. Note that the syntax of the account command changed, see help account.
+2011-11-01 13:37:24	@TheSeparateFirst	account set
+2011-11-01 13:37:24	@root	Not enough parameters given (need 2).
+2011-11-01 13:37:30	@TheSeparateFirst	account
+2011-11-01 13:37:30	@root	Not enough parameters given (need 1).
+2011-11-01 13:37:36	@TheSeparateFirst	help account
+2011-11-01 13:37:36	@root	Syntax: account [<account id>] <action> [<arguments>]
+2011-11-01 13:37:36	@root	Available actions: add, del, list, on, off and set. See help account <action> for more information.
+2011-11-01 13:37:38	@TheSeparateFirst	set
+2011-11-01 13:37:38	@root	auto_connect = `true'
+2011-11-01 13:37:38	@root	auto_reconnect = `true'
+2011-11-01 13:37:38	@root	auto_reconnect_delay = `5*3<900'
+2011-11-01 13:37:38	@root	debug = `false'
+2011-11-01 13:37:38	@root	mobile_is_away = `false'
+2011-11-01 13:37:38	@root	save_on_quit = `true'
+2011-11-01 13:37:38	@root	status is empty
+2011-11-01 13:37:38	@root	strip_html = `true'
+2011-11-01 13:37:38	@root	allow_takeover = `true'
+2011-11-01 13:37:38	@root	away_reply_timeout = `3600'
+2011-11-01 13:37:38	@root	charset = `utf-8'
+2011-11-01 13:37:38	@root	default_target = `root'
+2011-11-01 13:37:38	@root	display_namechanges = `false'
+2011-11-01 13:37:38	@root	display_timestamps = `true'
+2011-11-01 13:37:38	@root	handle_unknown = `add_channel'
+2011-11-01 13:37:38	@root	lcnicks = `true'
+2011-11-01 13:37:38	@root	nick_format = `%-@nick'
+2011-11-01 13:37:38	@root	offline_user_quits = `true'
+2011-11-01 13:37:38	@root	ops = `both'
+2011-11-01 13:37:38	@root	paste_buffer = `false'
+2011-11-01 13:37:38	@root	paste_buffer_delay = `200'
+2011-11-01 13:37:38	@root	password = `********' (hidden)
+2011-11-01 13:37:38	@root	private = `true'
+2011-11-01 13:37:38	@root	query_order = `lifo'
+2011-11-01 13:37:38	@root	simulate_netsplit = `true'
+2011-11-01 13:37:38	@root	timezone = `local'
+2011-11-01 13:37:38	@root	to_char = `: '
+2011-11-01 13:37:38	@root	typing_notice = `false'
+2011-11-01 13:37:47	@TheSeparateFirst	set password Karan_Sjet
+2011-11-01 13:37:47	@root	Setting changed successfully
+2011-11-01 13:37:59	@TheSeparateFirst	set password Zn23#X42
+2011-11-01 13:37:59	@root	Setting changed successfully
+2011-11-01 13:38:03	@TheSeparateFirst	account on
+2011-11-01 13:38:03	@root	Trying to get all accounts connected...
+2011-11-01 13:38:03	@root	Enter password for account oscar(TheSeparateFirst) first (use /OPER)
+2011-11-01 13:38:38	@TheSeparateFirst	help quickstart
+2011-11-01 13:38:38	@root	Welcome to BitlBee, your IRC gateway to ICQ, MSN, AOL, Jabber, Yahoo! and Twitter.
+2011-11-01 13:38:38	@root	The center of BitlBee is the control channel, &bitlbee. Two users will always be there, you (where "you" is the nickname you are using) and the system user, root.
+2011-11-01 13:38:38	@root	You need register so that all your IM settings (passwords, contacts, etc) can be saved on the BitlBee server. It's important that you pick a good password so no one else can access your account. Register with this password using the register command: register <password> (without the brackets!).
+2011-11-01 13:38:38	@root	Be sure to remember your password. The next time you connect to the BitlBee server you will need to identify <password> so that you will be recognised and logged in to all the IM services automatically.
+2011-11-01 13:38:38	@root	When finished, type help quickstart2 to continue.
+2011-11-01 13:38:41	@TheSeparateFirst	help quickstart2
+2011-11-01 13:38:41	@root	Step Two: Add and Connect To your IM Account(s).
+2011-11-01 13:38:41	@root	To add an account to the account list you will need to use the account add command: account add <protocol> <username> <password> [<server>].
+2011-11-01 13:38:41	@root	For instance, suppose you have a Jabber account at jabber.org with handle bitlbee@jabber.org with password QuickStart, you would:
+2011-11-01 13:38:41	@root	<you> account add jabber bitlbee@jabber.org QuickStart
+2011-11-01 13:38:41	@root	<root> Account successfully added
+2011-11-01 13:38:41	@root	Other available IM protocols are msn, oscar, yahoo and twitter. OSCAR is the protocol used by ICQ and AOL. For more information about the account add command, see help account add.
+2011-11-01 13:38:41	@root	When you are finished adding your account(s) use the account on command to enable all your accounts, type help quickstart3 to continue.
+2011-11-01 13:38:59	@TheSeparateFirst	help account
+2011-11-01 13:38:59	@root	Syntax: account [<account id>] <action> [<arguments>]
+2011-11-01 13:38:59	@root	Available actions: add, del, list, on, off and set. See help account <action> for more information.
+2011-11-01 13:39:13	@TheSeparateFirst	account 0 set password Karan_Sjet
+2011-11-01 13:39:13	@root	Setting changed successfully
+2011-11-01 13:39:17	@TheSeparateFirst	account on
+2011-11-01 13:39:17	@root	Trying to get all accounts connected...
+2011-11-01 13:39:17	@root	oscar - Logging in: Signon: TheSeparateFirst
+2011-11-01 13:39:18	@root	oscar - Logging in: Connection established, cookie sent
+2011-11-01 13:39:19	@root	oscar - Logging in: Logged in
+2011-11-01 13:39:19	-->	MaryLou (ohcrimsonregret@oscar) has joined &bitlbee
+2011-11-01 13:39:19	--	Mode &bitlbee [+v MaryLou] by localhost.localdomain
+2011-11-01 13:39:19	-->	anasithera (anasithera@oscar) has joined &bitlbee
+2011-11-01 13:39:19	--	Mode &bitlbee [+v anasithera] by localhost.localdomain
+2011-11-01 13:39:19	-->	MarionetteCoconut (coconutmarionett@oscar) has joined &bitlbee
+2011-11-01 13:39:24	@TheSeparateFirst	blist
+2011-11-01 13:39:24	@root	Nick              Handle/Account                            Status
+2011-11-01 13:39:24	@root	anasithera        anasithera oscar(TheSeparateFirst)        Online
+2011-11-01 13:39:24	@root	MaryLou           ohcrimsonregret oscar(TheSeparateFirst)   Online
+2011-11-01 13:39:24	@root	MarionetteCoconu  coconutmarionett oscar(TheSeparateFirst)  Away
+2011-11-01 13:39:24	@root	13 buddies (2 available, 1 away, 10 offline)
+2011-11-01 14:12:09	<--	MaryLou (ohcrimsonregret@oscar) has quit (Leaving...)
+2011-11-01 14:29:02	@TheSeparateFirst	blist
+2011-11-01 14:29:02	@root	Nick              Handle/Account                            Status
+2011-11-01 14:29:02	@root	anasithera        anasithera oscar(TheSeparateFirst)        Online
+2011-11-01 14:29:02	@root	MarionetteCoconu  coconutmarionett oscar(TheSeparateFirst)  Away
+2011-11-01 14:29:02	@root	13 buddies (1 available, 1 away, 11 offline)
+2011-11-01 14:57:12	--	Mode &bitlbee [+v MarionetteCoconut] by localhost.localdomain
+2011-11-01 15:23:17	@TheSeparateFirst	blist
+2011-11-01 15:23:17	@root	Nick              Handle/Account                            Status
+2011-11-01 15:23:17	@root	anasithera        anasithera oscar(TheSeparateFirst)        Online
+2011-11-01 15:23:17	@root	MarionetteCoconu  coconutmarionett oscar(TheSeparateFirst)  Online
+2011-11-01 15:23:17	@root	13 buddies (2 available, 0 away, 11 offline)
+2011-11-01 15:23:51	@TheSeparateFirst	rename MarionetteCoconut Silvi
+2011-11-01 15:23:51	--	MarionetteCoconut is now known as Silvi
+2011-11-01 15:23:51	@root	Nick successfully changed
+2011-11-01 15:26:31	@TheSeparateFirst	blist
+2011-11-01 15:26:31	@root	Nick              Handle/Account                            Status
+2011-11-01 15:26:31	@root	anasithera        anasithera oscar(TheSeparateFirst)        Online
+2011-11-01 15:26:31	@root	Silvi             coconutmarionett oscar(TheSeparateFirst)  Online
+2011-11-01 15:26:31	@root	13 buddies (2 available, 0 away, 11 offline)
+2011-11-01 16:10:42	-->	ElijahSchmidt (thedeadneko@oscar) has joined &bitlbee
+2011-11-01 16:10:42	--	Mode &bitlbee [+v ElijahSchmidt] by localhost.localdomain
+2011-11-01 17:13:01	-->	MaryLou (ohcrimsonregret@oscar) has joined &bitlbee
+2011-11-01 17:13:01	--	Mode &bitlbee [+v MaryLou] by localhost.localdomain
+2011-11-01 17:39:10	<--	MaryLou (ohcrimsonregret@oscar) has quit (Leaving...)
+2011-11-01 17:42:45	--	Mode &bitlbee [-v anasithera] by localhost.localdomain
+2011-11-01 17:47:56	--	Mode &bitlbee [+v anasithera] by localhost.localdomain
+2011-11-01 17:55:23	-->	MaryLou (ohcrimsonregret@oscar) has joined &bitlbee
+2011-11-01 17:55:23	--	Mode &bitlbee [+v MaryLou] by localhost.localdomain
+2011-11-01 18:06:40	--	Mode &bitlbee [-v MaryLou] by localhost.localdomain
+2011-11-01 18:06:45	<--	MaryLou (ohcrimsonregret@oscar) has quit (Leaving...)
+2011-11-01 18:10:17	-->	MaryLou (ohcrimsonregret@oscar) has joined &bitlbee
+2011-11-01 18:10:17	--	Mode &bitlbee [+v MaryLou] by localhost.localdomain
+2011-11-01 18:26:04	<--	MaryLou (ohcrimsonregret@oscar) has quit (Leaving...)
+2011-11-01 18:57:30	--	Mode &bitlbee [-v Silvi] by localhost.localdomain
+2011-11-01 19:01:29	--	Mode &bitlbee [+v Silvi] by localhost.localdomain
+2011-11-01 20:00:43	-->	Jon (slagathor15@oscar) has joined &bitlbee
+2011-11-01 20:00:43	--	Mode &bitlbee [+v Jon] by localhost.localdomain
+2011-11-01 20:14:09	--	Mode &bitlbee [-v ElijahSchmidt] by localhost.localdomain
+2011-11-01 21:05:11		irc: disconnected from server

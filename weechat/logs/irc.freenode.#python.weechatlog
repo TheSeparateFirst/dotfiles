@@ -1,0 +1,956 @@
+2011-10-26 14:15:27	-->	TheSeparateFirst (~jeffrey@ip72-207-124-2.sd.sd.cox.net) has joined #python
+2011-10-26 14:15:27	--	Topic for #python is "NO LOL | NO PROJECT EULER | Don't paste, use http://paste.pound-python.org/ | http://pound-python.org/ | 2.x or 3.x? http://bit.ly/py2vs3k | Tutorial: http://docs.python.org/tut/ | New programmer? http://goo.gl/c170V | #python-fr #python.de #python-es #python.tw #python.pl #python-br #python-nl #python-ir #python-fi"
+2011-10-26 14:15:27	--	Topic set by dash (~washort@173-228-106-51.dsl.dynamic.sonic.net) on Fri, 05 Aug 2011 10:46:25
+2011-10-26 14:15:27	--	Nicks #python: [[[zz]] [E]sc \u03b5 __class__ __import__ __khris__ __main__ __name__ _aj _arch _fmm _ikke_ _jesse_ _phoe6 _reniur _ti_ a1g aanderson AaronMT abatoo aberrant Acidictadpole aclonedsheep adepti37 adreams Adys Affix AFK afxx ahammond ainmosni ajf|offline akiress akosikeno Alan albel727 alexandernst alexbobp AlexMax alienatu alikins_ alisonken1home amacleod Amanas amgarchIn9 amitz amogorkon An_Ony_Moose anaconda andar andornaut andrewfree anev anth0ny antihero aperson appamatto AppelonD Arach araujo Arch_ Archdude ArcticVanguard arkanes arkx armbar armence asdf` askhl asksol AstralStorm ASUChander athe autoplectic Avaris avelldiroll avu AwesomezGuy Axsuul babilen balrok bandroidx barduck barik barika bashusr bellicose Berg bernice bgeddy bgola biberao Biganon binarydigit binjured birix biz bjb bl4ckcomb Bl_nK blahsphemer blast_hardcheese BlastHardcheese Blice blindbox bloony Blu3 blub BlueLaguna bmn bob2 bokbokbok BombStrike bonsaikitten boshhead brdma Brend briancray brodo bsod2 Buglouse buhman_ Bullrush Burgundy c1de0x cafaro caiges callmebaby Cam Candle CannedCorn CardinalFang Carneus caseymcg CatKiller caution cce ccxCZ chainsawbike chaoflow chaos95 ChaozZBubi Chowzzf Chris_0076 chrisa ChrizC cjoke clajo04_ Cleo closedbracket clustermagnet codebrainz codercoded codesinverse CoinOpeBoy com4 comand confluency Corey cowlicks cowmix crakdmirror crashmag crass CrazyGir crazymykl crimscx crs cryptic0 csgeek csnew cwillu_at_work cyborg-one cyphase d_low daaku Daejeo daemon daemonkeeper daleharvey Dan39 dancek Daniel0108 danols_work dansan darkpixel_ Darrow DarthGandalf dasdajs dash DasIch DataBeaver davebs davidrinnan Daviey Dawg67 DaZ dbdii407 dcarter DeadSix27 deam deavid ded deed02392 deepy derdon derek_v derferman dermoth|work deSilva devin_s dh digitallogic diminoten dj_tjerk djangolackey djbrown dju dkog dlam dman_d dmb dmnIT dnilsen Dns[a] dob dpn` dpritchett dr_bobuk drags Drakx drinkycrow dropdrive dross drwho dubenstein DuckAssassin due dukey Dulak DuncanT dv310p3r dv_ Dwaan dwebb Dweesil Dynetrekk dyresen e0 eanxgeek eaxpirate ebarch echobinary edlinde edong23 eevee egor83 ehazlett ejnahc elif elyob em emmanuelux emper0r empity eniac Epcylon epopt37 errr erry eshlox Espen-_o etank eugo Evanlec evil_gordita Evixion explodes EyesIsServer ezzieyguywuf f00li5h f10w fahadsadah Falun fariseo fcoury fdv felipe ferrouswheel Ferus Filefly filleokus FIQ Fireblasto FireFly fission6 fisted flamingspinach Fleck fliebel flupke flupps folivora forrestv Foxandxss Frantic frem frontendloader fserb FunnyLookinHat FusionX fxhp fzzbt gabrtv gebe gentz gerard0 githogori gjvc glennr gmcabrita Gorroth Gracenotes GrahamDumpleton grant2 greedo grenoya gtfx666 gtrak` guibou h0st1le H2S04 Habbie Haffe Hamled hanstech Harpyon HarryD HarryS heidar hekman helgikrs Henoxek herbmonk hex`` hilbert hilquias hjst hook_ hopthrisC houki hoverbear htoothrot hynek hyperboreean i0nsane iactaAlea iaj ianl` Iceland_jack iderik3 igor47 iivvoo ikanobori ikonia illoomn8 Indian indigo_ infobob Innominate Internet13 iocor ircdearia iresprite ironfroggy_ ironfroggy__ is_null ish ivan` ivanf ivenkys ixokai jabber jae jaegr jagguli jaggz jamesn JamesOff jamezelle jamezpolley jamov JanC janus jarlen Jason2gs Jay8 jayd3e jayne jcspray jdparker jenx0r jepler jerQ jerryluc Jerub jeverling jgelens jhford Jikan jkbbwr jledbetter jmcantrell jml jmoiron joe joepie91 john_f JohnnyDavidson jonez josePhoenix joshbaptiste_ joshfinnie jpk jrib jroo jsppnn JStoker jtannenbaum jtharris jtrucks Juhaz julesw julmuri jush Justasic JustinStewart jvv k-man Kaedenn kai kaiyou kakashi_ kaktus kandinski kanzure kaste Kauhsa kayfox kblin kbrosnan KeepSafe keltus kemono Kenada kennethreitz kenperkins kerick kermit kevan_ kevlarman kevwilde kh31d4r Kharec khayes kiddesr killown kinesis KirkMcDonald kloeri Knio kode54 kosh kpal Kraftman KRF krosis kszatan kunwon1 kurol kuzary kwame Kwpolska kycka kyrix l0st1 l0wtech laduke_ lahwran larsemil ldlework leonh LiamM lidel linduxed LitBit lizzin LK- lkj llee locojay lofidellity LoganLK loganRun lokai lokomis looopy LoRez lrvick lsjostro lubyou lusory Luyt_ lvh m0no m8 macabre MadVector magcius magicblaze007 magn3ts magopian majoh malifae mandel Mandus Maratich marchdown marcinkuzminski marienz Marius mariuscc Markaci markatto mart_n masquerade matsebc matt5 matthiasgorgens MatToufoutu mattp_ maum maxamillion maZtah mcbluebeard mcpierce|afk mcsontos mDemocritus mearnshaw megaTherion mengu MercurialAlchemi methyl michaelpjohnson mike1703 mikemac mindkeep mino Mion MissionCritical misua mitsuhiko mmercer mnelson MNichie Mogget moldy MoMo moreisee Mortchek moruk MostAwesomeDude mr_gant mr_schlauch mrmist MrPPS mrtrosen MrTylerGreen mtx_init mu574n9 Mummson muraii mutex mwcjr mweltin mwilson Myra mythmon nanonyme Naoy natlus neal nemo-yiannis nemrod nickasloan nicksergeant niekie nigelb nightfrog nighty- nimred Niphyr Nisstyre no-name- noam NoNaMeNo noob13 nopper nosklo Nosnam nuckchorris nukedclx nuxil nybbles nyuszika7h oal obiwahn Odd_Bloke oli oliland OOPMan orangejuice organdonor ormaaj Orphis otep Out`Of`Control oxseyn P-l pa pakrat palehorse pantsman PapaSmurf007 papna Paradox paraglade parus pasqoo passionke pdtpatrick1 pen Peng Peng_ peper peterhil Phantomas phantomcircuit Phazorx PhilK phrame phschwartz picasso Pici Pilate pizdun plipp plundra plustwo polygon-pusher porusfrigyes pr100 pr3d4t0r pragma_ Praise preaction ProfDrum pronoy Proxypoke prudhvi przemoc PuffTheMagic pulls purch purefusion pwk0 pyhoster pyn pythonsnake Qauzzix R0b0t1 Ragzouken ralphje ramky raydeo ready redrocket redtricycle revdiablo RevDrSpectre7 rezn8 rfajardo RichardBronosky RichGuk rickest ricky rideh Riviera rizumu rjgonza rns RobbieCrash RobinJ robink Roey ronghail ronny RoosterJuice roppert Rotham roxfan royceremer rtharper rtnpro Runeg russfrank Ryan_Macy rz rzyz s1n4 saaki Sabbie SAHChandler saispo samos123 samrat SanityIO sarkis sash_ satul sbecht_ sbs` scharan Schoentoon Scott-Mc 0
+2011-10-26 14:15:27	--	Channel #python: 961 nicks (0 ops, 0 halfops, 0 voices, 961 normals)
+2011-10-26 14:15:29	--	Channel created on Sat, 25 Nov 2006 22:42:41
+2011-10-26 14:15:33	pr3d4t0r	crimscx: You already have Vim then.
+2011-10-26 14:15:39	<--	macabre (~macabre@63.133.215.18) has quit (Remote host closed the connection)
+2011-10-26 14:15:45	-->	ph0x09 (~f0x@b1.brandcompany.ru) has joined #python
+2011-10-26 14:15:48	-->	samba_ (~samba@93.56.112.172) has joined #python
+2011-10-26 14:15:51	smw	crimscx, sudo apt-get install vim-gnome
+2011-10-26 14:15:53	-->	NelleV` (~Nelle@unaffiliated/nellev) has joined #python
+2011-10-26 14:15:53	crimscx	when i type it into unity its not there
+2011-10-26 14:15:58	crimscx	so i want gvim then?
+2011-10-26 14:16:06	Paradox	apt-get install gvim
+2011-10-26 14:16:07	smw	crimscx, vim-gnome
+2011-10-26 14:16:09	pr3d4t0r	crimscx: apt-get update; apt-get install gvim
+2011-10-26 14:16:24	bokbokbok	ubuntu has a whole store now
+2011-10-26 14:16:28	bokbokbok	practically
+2011-10-26 14:16:45	 *	smw points out gvim is not a real package...
+2011-10-26 14:16:47	bokbokbok	i don't believe in their app delivery platform
+2011-10-26 14:17:47	jtharris	vim-gtk or vim-nox if you want to use the terminal
+2011-10-26 14:17:52	crimscx	thanks guys
+2011-10-26 14:17:54	<--	crimscx (~crimscx@h49.9.190.173.dynamic.ip.windstream.net) has quit (Quit: Leaving)
+2011-10-26 14:18:15	frem	jtharris: vim-gnome doesn't let you use the terminal?
+2011-10-26 14:18:47	bokbokbok	it does
+2011-10-26 14:18:48	<--	cyphase (~cyphase@unaffiliated/cyphase) has quit (Read error: Connection reset by peer)
+2011-10-26 14:18:48	<--	Kraftman (~Kraftman@cpc1-heme3-0-0-cust245.9-1.cable.virginmedia.com) has quit (Quit: Miranda IM! Smaller, Faster, Easier. http://miranda-im.org)
+2011-10-26 14:18:53	Daejeo	happy diwali :)
+2011-10-26 14:18:59	jtharris	frem: they have a lot of common libs - just if you don't want to pull in all the gnome stuff
+2011-10-26 14:19:02	<--	mweltin (~mweltin@host-135-16.dhcp.pdx.edu) has left #python ("Leaving")
+2011-10-26 14:20:09	frem	jtharris: i thought the gnome dependencies were only invoked if you started it graphically?
+2011-10-26 14:20:31	<--	ssbr_ (~ssbr@gw-wifi10.cdf.toronto.edu) has quit (Ping timeout: 240 seconds)
+2011-10-26 14:20:43	<--	Daniel0108 (~Daniel010@TouchLay/Founder/Daniel0108) has quit (Quit: Did I really quit? :o)
+2011-10-26 14:20:48	bokbokbok	nah
+2011-10-26 14:20:49	jtharris	well i just meant if you didn't want to install all those packages
+2011-10-26 14:21:08	bokbokbok	vim is one of those oldschool binaries that checks its own name to determine what it acts like
+2011-10-26 14:21:09	jtharris	personally i just like to open a terminal and use vim without all the gtk stuff
+2011-10-26 14:21:10	frem	ah, ok
+2011-10-26 14:21:14	bokbokbok	busybox does that
+2011-10-26 14:21:38	Blice	bash does it too, I think
+2011-10-26 14:21:44	Blice	to check if its being called as sh
+2011-10-26 14:21:45	bokbokbok	yeah, it does
+2011-10-26 14:21:58	-->	Workaholic (insomanic@96.57.159.58) has joined #python
+2011-10-26 14:21:58	<--	NelleV` (~Nelle@unaffiliated/nellev) has quit (Read error: Connection reset by peer)
+2011-10-26 14:22:00	bokbokbok	so it'll turn off certain things like [[ and $()
+2011-10-26 14:22:14	-->	NelleV` (~Nelle@unaffiliated/nellev) has joined #python
+2011-10-26 14:22:17	<--	NelleV` (~Nelle@unaffiliated/nellev) has quit (Read error: Connection reset by peer)
+2011-10-26 14:23:17	-->	Earwig (~Earwig@wikipedia/The-Earwig) has joined #python
+2011-10-26 14:23:30	<--	Daejeo (~chatzilla@117.199.99.222) has quit (Quit: ChatZilla 0.9.87 [Firefox 4.0/20110318052756])
+2011-10-26 14:23:31	<--	FunnyLookinHat (~funnylook@ubuntu/member/funnylookinhat) has quit (Quit: Leaving)
+2011-10-26 14:23:34	saaki	cool thanks
+2011-10-26 14:25:08	<--	LoganLK (~logan@46.246.112.44) has quit (Quit: LoganLK)
+2011-10-26 14:25:34	<--	jrib (~jrib@upstream/dev/jrib) has quit (Quit: WeeChat 0.3.5)
+2011-10-26 14:26:41	<--	vav (~xivadi@c-67-174-121-147.hsd1.co.comcast.net) has left #python
+2011-10-26 14:27:05	-->	crimscx (~crimscx@h49.9.190.173.dynamic.ip.windstream.net) has joined #python
+2011-10-26 14:27:16	-->	NelleV` (~Nelle@unaffiliated/nellev) has joined #python
+2011-10-26 14:27:30	crimscx	i installed vim and i tryed looking it up  via unity but it couldent be found
+2011-10-26 14:28:03	TheSeparateFirst	crimscx: If you install vim-gnome, try searching for gvim.
+2011-10-26 14:28:10	crimscx	i did
+2011-10-26 14:28:17	crimscx	couldent find it
+2011-10-26 14:28:26	-->	cyphase (~cyphase@unaffiliated/cyphase) has joined #python
+2011-10-26 14:28:37	TheSeparateFirst	Then I'll leave it to someone with unity experience.
+2011-10-26 14:28:42	-->	maqr (~maqr@httpcraft/hax) has joined #python
+2011-10-26 14:29:09	-->	gxdssoft (~gxdssoft@200.121.6.224) has joined #python
+2011-10-26 14:29:51	-->	LoganLK (~logan@46.246.112.27) has joined #python
+2011-10-26 14:30:05	<--	crimscx (~crimscx@h49.9.190.173.dynamic.ip.windstream.net) has quit (Client Quit)
+2011-10-26 14:30:30	<--	pyhoster (~pyhoster@188.32.113.154) has quit (Quit: Ухожу я от вас (xchat 2.4.5 или старше))
+2011-10-26 14:32:37	<--	Dns[a] (~Silent@41.235.232.74) has left #python
+2011-10-26 14:33:16	frem	it might also just be called "vim" in the unity launcher
+2011-10-26 14:33:51	frem	failing everything else, it'll launch with the "gvim" command from a terminal
+2011-10-26 14:33:58	frem	if it's in your path, anyway
+2011-10-26 14:34:12	<--	csnew (~csnew@99-11-252-110.lightspeed.austtx.sbcglobal.net) has quit (Read error: Connection reset by peer)
+2011-10-26 14:34:22	-->	csnew (~csnew@99-11-252-110.lightspeed.austtx.sbcglobal.net) has joined #python
+2011-10-26 14:35:53	<--	egor83 (~egor83@95-55-98-187.dynamic.avangarddsl.ru) has quit (Ping timeout: 252 seconds)
+2011-10-26 14:35:55	<--	pr100 (~user@cpc15-cmbg15-2-0-cust236.5-4.cable.virginmedia.com) has quit (Ping timeout: 240 seconds)
+2011-10-26 14:36:22	-->	egor83 (~egor83@95-55-109-117.dynamic.avangarddsl.ru) has joined #python
+2011-10-26 14:36:46	-->	jargon- (~dayo@unaffiliated/jargon-) has joined #python
+2011-10-26 14:36:53	-->	AnEcho (~Brian@198.151.130.79) has joined #python
+2011-10-26 14:37:11	<--	hex`` (~hex@unaffiliated/hex/x-261681) has quit (Ping timeout: 256 seconds)
+2011-10-26 14:37:36	jargon-	how do i get ffmpeg inside os.system() to expand the variable into the filename? http://dpaste.org/AEsbx/
+2011-10-26 14:37:44	-->	hex`` (~hex@unaffiliated/hex/x-261681) has joined #python
+2011-10-26 14:37:47	<--	hex`` (~hex@unaffiliated/hex/x-261681) has quit (Client Quit)
+2011-10-26 14:37:53	<--	m8 (~mor@unaffiliated/m8) has quit (Quit: Sto andando via)
+2011-10-26 14:37:56	-->	grug (~grug@voidma.in) has joined #python
+2011-10-26 14:37:56	<--	looopy (~looopy@99-38-189-125.lightspeed.clmasc.sbcglobal.net) has quit (Remote host closed the connection)
+2011-10-26 14:38:24	<--	Phantomas (~Phantomas@unaffiliated/phantomas) has quit (Ping timeout: 258 seconds)
+2011-10-26 14:38:50	<--	daemonkeeper (~Arno@unaffiliated/metalfoo) has quit (Remote host closed the connection)
+2011-10-26 14:39:04	-->	BlehTM (~chatzilla@res55557129.rh.rit.edu) has joined #python
+2011-10-26 14:39:15	tos9	jargon-: Don't use os.system
+2011-10-26 14:39:37	BlehTM	Aaaargh this is so infuriating
+2011-10-26 14:39:39	jargon-	tos9: what do i use instead?
+2011-10-26 14:39:40	tos9	jargon-: Subprocess module
+2011-10-26 14:39:46	Evanlec	jargon-: use subprocess
+2011-10-26 14:39:47	<--	skylarhawk (~skylarhaw@90.b160.bendtel.net) has quit (Quit: leaving)
+2011-10-26 14:39:50	AnEcho	is there a way to get a music visualizer of the current sounds0( the type with bars for frequencies ) in python? ( i actually just want the data so i can send it to my led cube.
+2011-10-26 14:39:55	tos9	*s
+2011-10-26 14:40:30	KirkMcDonald	jargon-: This is what subprocess is for: subprocess.call(["ffmpeg", "-i", ogvtrack, "-acodec", "copy", "-vn", oggtrack])
+2011-10-26 14:40:31	jargon-	tos9: Evanlec: ok subprocess it is
+2011-10-26 14:40:32	<--	Cam (~x@trivialand/staff/Cam) has quit (Read error: Connection reset by peer)
+2011-10-26 14:40:46	<--	Spockz (~Spockz@21pc198.sshunet.nl) has quit (Quit: Computer has gone to sleep.)
+2011-10-26 14:40:57	jargon-	KirkMcDonald: aah i see
+2011-10-26 14:41:14	-->	superdmp (~world@cpc7-ely05-2-0-cust207.5-1.cable.virginmedia.com) has joined #python
+2011-10-26 14:41:14	<--	killown (~geek@unaffiliated/killown) has quit (Ping timeout: 244 seconds)
+2011-10-26 14:41:15	<--	fisted (~fisted@unaffiliated/fisted) has quit (Ping timeout: 244 seconds)
+2011-10-26 14:41:29	KirkMcDonald	jargon-: This has the added bonus of not having issues with needing to quote or escape the filenames for the shell.
+2011-10-26 14:41:35	<--	eshlox (~eshlox@unaffiliated/eshlox) has quit (Quit: www.eshlox.net)
+2011-10-26 14:41:46	KirkMcDonald	jargon-: (Since it does not use a shell.)
+2011-10-26 14:41:50	jargon-	KirkMcDonald: that's handy
+2011-10-26 14:41:52	-->	preyalone (81ae6164@gateway/web/freenode/ip.129.174.97.100) has joined #python
+2011-10-26 14:41:52	Evanlec	jargon-: just a hint, variables wont be expanded inside quotes "", you would use "my string %s" % variable  to substitute variable in for the %s placeholder
+2011-10-26 14:41:54	preyalone	What's Python's [e for e in lst] syntax called?
+2011-10-26 14:41:55	BlehTM	the longer i am in this python course the more i grow to hate every sample code provided to me
+2011-10-26 14:41:55	<--	NelleV` (~Nelle@unaffiliated/nellev) has quit (Read error: Connection reset by peer)
+2011-10-26 14:42:05	KirkMcDonald	preyalone: A list comprehension.
+2011-10-26 14:42:21	tos9	BlehTM: 'Tis the way of the world.
+2011-10-26 14:42:22	superdmp	what is the smallest what is the smallest python possible?
+2011-10-26 14:42:24	jargon-	Evanlec: doh! i should have remembered that
+2011-10-26 14:42:29	Evanlec	KirkMcDonald: really, subprocess doesn't invoke the environments default shell?
+2011-10-26 14:42:30	tos9	superdmp: what what
+2011-10-26 14:42:32	jargon-	is subprocess part of os?
+2011-10-26 14:42:35	<--	Zoohouse (~Zoohouse@adsl-65-3-234-13.mia.bellsouth.net) has quit (Read error: Operation timed out)
+2011-10-26 14:42:38	superdmp	is 8-bit python possible?
+2011-10-26 14:42:49	htoothrot	eh?
+2011-10-26 14:42:50	-->	jarray52 (~purplehaz@unaffiliated/jarray52) has joined #python
+2011-10-26 14:42:56	superdmp	if not ZX 81 Python, perhaps Commodore 64 Python?
+2011-10-26 14:43:05	BlehTM	tos9: We're using classes but not class constructors, rather mkSomeClass() functions
+2011-10-26 14:43:13	Evanlec	jargon-: no
+2011-10-26 14:43:15	KirkMcDonald	Evanlec: It doesn't invoke any shell.
+2011-10-26 14:43:19	<--	Blice (~blice@alrig.ht) has left #python
+2011-10-26 14:43:22	-->	FunnyLookinHat (~funnylook@ubuntu/member/funnylookinhat) has joined #python
+2011-10-26 14:43:23	Evanlec	jargon-: its a seperate module
+2011-10-26 14:43:23	<--	smw (~smw@unaffiliated/smw) has quit (Quit: Leaving)
+2011-10-26 14:43:24	KirkMcDonald	Evanlec: Unless the process you're invoking is a shell, of course.
+2011-10-26 14:43:27	-->	daemonkeeper (~Arno@unaffiliated/metalfoo) has joined #python
+2011-10-26 14:43:29	-->	sunnydayzrback (~sunnydayz@dyn-72-33-130-188.uwnet.wisc.edu) has joined #python
+2011-10-26 14:43:33	Evanlec	KirkMcDonald: oh, interesting
+2011-10-26 14:43:36	superdmp	I mean, what is the puniest computer you could install Python on?
+2011-10-26 14:43:39	KirkMcDonald	Evanlec: subprocess is basically a wrapper around fork/exec.
+2011-10-26 14:43:44	Dulak	Evanlec: you can easily call the shell you want, and feed it the command(s) to run
+2011-10-26 14:43:45	<--	fliebel (~fliebel@ip4da451b5.direct-adsl.nl) has quit (Remote host closed the connection)
+2011-10-26 14:43:55	Evanlec	KirkMcDonald: but you can pass arguments etc as if you were using a shell
+2011-10-26 14:44:07	KirkMcDonald	Evanlec: Only when using shell=True.
+2011-10-26 14:44:20	Evanlec	Dulak: right but there's no need to
+2011-10-26 14:44:31	KirkMcDonald	Evanlec: Otherwise, you specify a list of arguments, as the execvp() syscall uses.
+2011-10-26 14:44:40	BlehTM	i want to break the world
+2011-10-26 14:44:53	AnEcho	is there a way for python to look at another window and get the pixel color at a certain point? ( bonus if it works for non focus'ed windows)
+2011-10-26 14:45:05	Dulak	Evanlec: I call a shell in a program where I need the shell's full environment, but you are right that would hardly ever be necessary.
+2011-10-26 14:45:09	<--	nicksergeant (~nickserge@cpe-72-230-184-180.rochester.res.rr.com) has quit (Quit: Leaving...)
+2011-10-26 14:45:14	<--	askhl (~askhl@82.211.196.43) has quit (Read error: Operation timed out)
+2011-10-26 14:45:15	hopthrisC	superdmp: superdmp der was an arm port in the news, a view weeks back
+2011-10-26 14:45:34	-->	sorin (~sorin@66-168-187-62.dhcp.gwnt.ga.charter.com) has joined #python
+2011-10-26 14:45:42	superdmp	hopthrisC: I guess that would still be at least 16-bit of course
+2011-10-26 14:45:57	-->	fisted (~fisted@unaffiliated/fisted) has joined #python
+2011-10-26 14:46:00	hopthrisC	AnEcho: without the context of an operating or windowing system that doesn't even begin to make sense
+2011-10-26 14:46:08	Evanlec	Dulak: yea, using shell=True you mean?
+2011-10-26 14:46:15	superdmp	and modern small processors are pretty powerful of course
+2011-10-26 14:46:25	<--	preyalone (81ae6164@gateway/web/freenode/ip.129.174.97.100) has quit (Ping timeout: 265 seconds)
+2011-10-26 14:46:47	Dulak	Evanlec: I didn't even realize I could do shell=True so I just ran it as: bash -c 'commands to run here'
+2011-10-26 14:46:49	hopthrisC	superdmp: so? all i meant was: if you are interested in that kind of stuff, go look there
+2011-10-26 14:46:55	AnEcho	sorry, win 7 with python 3.2 ( im trying to get visualizer data from foobar2000 and thats the only way i know how  but the sample rate of screenshots is too slow)
+2011-10-26 14:46:56	Evanlec	Dulak: ahh
+2011-10-26 14:47:30	tos9	Wow. That was a pretty good XY.
+2011-10-26 14:47:35	<--	watchedman (~watchedma@69.2.98.205) has left #python
+2011-10-26 14:47:36	-->	NelleV` (~Nelle@unaffiliated/nellev) has joined #python
+2011-10-26 14:47:44	superdmp	i was am just interested in the basic idea of Python itself, and what sort of computing power it entails
+2011-10-26 14:47:54	-->	Imek (~joe@94-194-91-242.zone8.bethere.co.uk) has joined #python
+2011-10-26 14:48:44	dash	superdmp: all of it
+2011-10-26 14:49:04	KirkMcDonald	superdmp: It probably requires a 32-bit machine. I mean, in theory it could work on a 16-bit one, but I would not be surprised if there were issues.
+2011-10-26 14:49:06	hopthrisC	superdmp: "i'm just interested in the answer to the broadest question there is."
+2011-10-26 14:49:31	hopthrisC	superdmp: dig into it yourself, tell us what have found
+2011-10-26 14:49:44	hopthrisC	s//you/
+2011-10-26 14:49:55	<--	ironfroggy_ (~calvin@python/site-packages/ironfroggy) has quit (Ping timeout: 240 seconds)
+2011-10-26 14:50:53	superdmp	KirkMcDonald: in theory if you had an 8-bit computer with sufficient RAM and storage that should be possible too, I imagine
+2011-10-26 14:51:15	-->	Hess (~irc@unaffiliated/hess) has joined #python
+2011-10-26 14:51:20	-->	askhl (~askhl@82.211.196.43) has joined #python
+2011-10-26 14:51:38	<--	frem (~chatzilla@65.183.105.202) has quit (Quit: ChatZilla 0.9.87 [Firefox 7.0.1/20110928134238])
+2011-10-26 14:52:10	-->	Zira (~Lavalampe@206.175.34.95.customer.cdi.no) has joined #python
+2011-10-26 14:52:29	Zira	if str(item).isdigit():  --> TypeError: 'str' object is not callable
+2011-10-26 14:52:30	-->	Phantomas (~Phantomas@unaffiliated/phantomas) has joined #python
+2011-10-26 14:52:39	<--	csnew (~csnew@99-11-252-110.lightspeed.austtx.sbcglobal.net) has quit (Read error: Connection reset by peer)
+2011-10-26 14:52:41	tos9	Zira: you shadowed str
+2011-10-26 14:52:48	Zira	Shadowed?
+2011-10-26 14:53:00	tos9	Zira: yes, you did str = "foo"
+2011-10-26 14:53:15	tos9	Somewhere in that scope. Don't do that :)
+2011-10-26 14:53:19	Zira	I did not really write anything. I am trying to fix an issue with the code.
+2011-10-26 14:53:33	<--	dross (~dross@c-67-163-174-19.hsd1.wv.comcast.net) has quit (Ping timeout: 255 seconds)
+2011-10-26 14:53:35	nanonyme	Did you already show the code?
+2011-10-26 14:53:37	superdmp	actually any Turing-complete system could implement Python I guess
+2011-10-26 14:53:38	lvh	then someone else wrote that, but that doesn't really change much :)
+2011-10-26 14:53:40	tos9	Well someone else did then.
+2011-10-26 14:53:46	dash	superdmp: there's PyMite and TinyPy
+2011-10-26 14:53:49	Zira	I can paste it. Though it is rather horrible.
+2011-10-26 14:53:56	Zira	(And GPL)
+2011-10-26 14:53:56	dash	superdmp: cut-down python-like languages for smaller computers
+2011-10-26 14:54:06	tos9	Zira: You said that already :)
+2011-10-26 14:54:06	<--	NelleV` (~Nelle@unaffiliated/nellev) has quit (Read error: Connection reset by peer)
+2011-10-26 14:54:07	nanonyme	Well, if it's GPL you can easily fix it.
+2011-10-26 14:54:19	nanonyme	And just become the sane upstream.
+2011-10-26 14:54:49	-->	NelleV` (~Nelle@unaffiliated/nellev) has joined #python
+2011-10-26 14:54:52	-->	domino14 (~Adium@173-228-114-197.static.sonic.net) has joined #python
+2011-10-26 14:54:56	-->	ICEBreakPoint (~d3mux32@89.181.147.111) has joined #python
+2011-10-26 14:54:56	<--	NelleV` (~Nelle@unaffiliated/nellev) has quit (Read error: Connection reset by peer)
+2011-10-26 14:55:03	domino14	how do i turn ['workera'] into 'workera'
+2011-10-26 14:55:17	<--	BlehTM (~chatzilla@res55557129.rh.rit.edu) has quit (Ping timeout: 260 seconds)
+2011-10-26 14:55:37	KirkMcDonald	domino14: x = ['blah']; y = x[0]
+2011-10-26 14:55:48	Phantomas	domino14: ['workera'][0]
+2011-10-26 14:55:55	<--	dv310p3r (~dv310p3r@host-208-68-238-122.biznesshosting.net) has quit (Ping timeout: 240 seconds)
+2011-10-26 14:55:58	Zira	http://paste.pocoo.org/show/498745
+2011-10-26 14:56:00	superdmp	dash:  hah, there really are 8-bit implementations, I hadn't expected that
+2011-10-26 14:56:02	-->	looopy (~looopy@99-38-189-125.lightspeed.clmasc.sbcglobal.net) has joined #python
+2011-10-26 14:56:05	domino14	well, what if it's ['workera', 'workerb']  - - i want to like, turn it into a comma separated list ?
+2011-10-26 14:56:15	domino14	withou the brackets
+2011-10-26 14:56:17	Zira	I have added some stuff after line 46 to fix invalid string literal for base 10-errors.
+2011-10-26 14:56:19	dash	domino14: ','.join(yourlist)
+2011-10-26 14:56:20	-->	csnew (~csnew@99-11-252-110.lightspeed.austtx.sbcglobal.net) has joined #python
+2011-10-26 14:56:23	domino14	isn't there something like **
+2011-10-26 14:56:29	tos9	Zira: line 35 is what does it
+2011-10-26 14:56:35	dash	domino14: there is
+2011-10-26 14:56:38	domino14	but that just makes a string
+2011-10-26 14:56:47	dash	domino14: yes it does
+2011-10-26 14:56:50	dash	domino14: what did you want?
+2011-10-26 14:57:01	Zira	tos9: Can I just change the parameter?
+2011-10-26 14:57:09	<--	pasqoo (~abcd@unaffiliated/pasqoo) has quit (Quit: Bye)
+2011-10-26 14:57:21	tos9	Zira: can and should. To something much more descriptive
+2011-10-26 14:57:27	Zira	And line 36.
+2011-10-26 14:57:35	Phantomas	domino14: but ['workera', 'workerb'] IS a comma separated list...
+2011-10-26 14:57:46	tos9	Everywhere where it was used assuming it was an argument.
+2011-10-26 14:57:47	dash	Phantomas: no it isn't
+2011-10-26 14:57:50	Zira	tos9: I have no idea what it does exactly, though. So it is hard to be descriptive.
+2011-10-26 14:57:51	dash	Phantomas: it's a list of strings
+2011-10-26 14:58:11	Phantomas	dash: yes, and lists use a comma as a separator :D
+2011-10-26 14:58:20	<--	julmuri (~kamac@f949.ip12.netikka.fi) has quit (Ping timeout: 260 seconds)
+2011-10-26 14:58:20	tos9	Zira: Fake it.
+2011-10-26 14:58:25	dash	Phantomas: that's just syntax
+2011-10-26 14:58:27	-->	aurelien (~Libre@fsf/member/aurelien) has joined #python
+2011-10-26 14:58:30	tos9	Zira: to_parse is faking it well enough probably.
+2011-10-26 14:59:01	--	DaZ is now known as ania12lat
+2011-10-26 14:59:05	-->	whaley (~whaley@12-50-227-2.att-inc.com) has joined #python
+2011-10-26 15:00:18	<--	kenperkins (~textual@174-24-130-78.tukw.qwest.net) has quit (Ping timeout: 240 seconds)
+2011-10-26 15:01:19	<--	Harpyon (~Harpyon@ti0031a380-0852.bb.online.no) has quit (Quit: Computer has gone to sleep.)
+2011-10-26 15:01:28	Zira	Well, at least it works now. I think.
+2011-10-26 15:01:38	dash	domino14: ?
+2011-10-26 15:01:54	domino14	:(
+2011-10-26 15:01:56	<--	d_low (~d_low@unaffiliated/dlow/x-000000001) has quit (Read error: Connection reset by peer)
+2011-10-26 15:02:06	domino14	i think im wording the question wrong, but its ok
+2011-10-26 15:02:18	<--	Berg (~chatzilla@114.73.163.177) has quit (Ping timeout: 276 seconds)
+2011-10-26 15:02:30	dash	domino14: tell us why you're asking the question, then
+2011-10-26 15:02:32	<--	mart_n (~martn@184.175.16.155) has quit (Quit: Leaving.)
+2011-10-26 15:03:15	<--	ldlework (~dlacewell@168.93.96.4) has quit (Ping timeout: 256 seconds)
+2011-10-26 15:03:23	-->	_jam (~james@128.135.100.102) has joined #python
+2011-10-26 15:03:52	-->	norton- (~michael@gateway/tor-sasl/norton-) has joined #python
+2011-10-26 15:04:02	<--	mariuscc (~mariuscc@79.112.114.183) has quit (Ping timeout: 260 seconds)
+2011-10-26 15:04:54	<--	AppelonD (~AppelonD@0x5551c026.adsl.cybercity.dk) has quit (Read error: Operation timed out)
+2011-10-26 15:04:55	<--	mcsontos (~mcsontos@hotspot8.rywasoft.net) has quit (Ping timeout: 240 seconds)
+2011-10-26 15:04:58	<--	pulls (~pulls@unaffiliated/pulls) has quit (Quit: pulls)
+2011-10-26 15:05:00	<--	_jam (~james@128.135.100.102) has quit (Read error: Connection reset by peer)
+2011-10-26 15:05:09	<--	MadVector (~root@176.14.194.220) has quit (Quit: You kids today don't know how to dominate.)
+2011-10-26 15:05:58	-->	AppelonD (~AppelonD@0x5551c026.adsl.cybercity.dk) has joined #python
+2011-10-26 15:06:49	<--	Paradox (~Paradox@reddit/admins/paradox) has left #python
+2011-10-26 15:07:10	<--	Adys (~adys@unaffiliated/adys) has quit (Remote host closed the connection)
+2011-10-26 15:07:21	-->	kenperkins (~textual@174-24-164-49.tukw.qwest.net) has joined #python
+2011-10-26 15:07:41	<--	Burgundy (burgundy@188.26.169.109) has quit
+2011-10-26 15:07:50	-->	nedbat (~nedbat@python/psf/nedbat) has joined #python
+2011-10-26 15:07:51	-->	killown (~geek@unaffiliated/killown) has joined #python
+2011-10-26 15:08:01	-->	Berg (~chatzilla@114.73.176.134) has joined #python
+2011-10-26 15:08:46	<--	killown (~geek@unaffiliated/killown) has quit (Read error: Connection reset by peer)
+2011-10-26 15:08:55	<--	MercurialAlchemi (~mercurial@nsg93-1-89-83-63-115.dsl.sta.abo.bbox.fr) has quit (Ping timeout: 240 seconds)
+2011-10-26 15:09:00	-->	killown (~geek@unaffiliated/killown) has joined #python
+2011-10-26 15:09:05	-->	Versuchen (~V@77.225.40.152) has joined #python
+2011-10-26 15:09:07	<--	tensorpudding (~michael@99.148.200.52) has quit (Ping timeout: 240 seconds)
+2011-10-26 15:09:16	nedbat	dash: sorry, last thing I saw you say about quasiliterals was something about nested ones.  How can that parse properly with only backticks as delimiters?
+2011-10-26 15:09:35	dash	nedbat: ${} can contain arbitrary expressions!
+2011-10-26 15:09:51	dash	so once you're past ${ you've kicked back out into normal grammar
+2011-10-26 15:09:52	nedbat	dash: oh, I see: the braces can nest.
+2011-10-26 15:09:55	nedbat	yes
+2011-10-26 15:10:06	-->	robbyoconnor (~wakawaka@guifications/user/r0bby) has joined #python
+2011-10-26 15:11:34	<--	samba_ (~samba@93.56.112.172) has quit (Quit: exit(42);)
+2011-10-26 15:11:36	--	buhman_ is now known as buhman
+2011-10-26 15:11:40	-->	BoomerBile (~mystrixad@71-217-179-156.roch.qwest.net) has joined #python
+2011-10-26 15:11:54	-->	Wild_Cat (~wild_cat@2a01:e35:2f4c:8310:e4a3:be64:90c8:c2d1) has joined #python
+2011-10-26 15:12:47	<--	whaley (~whaley@12-50-227-2.att-inc.com) has quit (Read error: Connection reset by peer)
+2011-10-26 15:13:10	-->	GeorgeSebastian (~georgeSeb@unaffiliated/georgesebastian) has joined #python
+2011-10-26 15:13:25	-->	Adys (~adys@unaffiliated/adys) has joined #python
+2011-10-26 15:15:52	-->	mhweaver (mhweaver@184-99-116-46.boid.qwest.net) has joined #python
+2011-10-26 15:15:54	<--	Vorpal (~AnMaster@unaffiliated/anmaster) has quit (Ping timeout: 240 seconds)
+2011-10-26 15:16:13	<--	dmnIT (~dmnIT@216-110-21-14.static.twtelecom.net) has quit (Quit: Leaving.)
+2011-10-26 15:16:19	<--	rtharper (~tomh@unaffiliated/sioraiocht) has quit (Remote host closed the connection)
+2011-10-26 15:17:04	caution	is list.pop() as fast as deque.pop()?
+2011-10-26 15:17:25	tos9	They're both O(1).
+2011-10-26 15:17:47	-->	Ergo^ (~ergo@hyp-p-107.pabianice.msk.pl) has joined #python
+2011-10-26 15:17:53	-->	enmand (~enmand@sydnns0109w-142068202227.dhcp-dynamic.FibreOp.ns.bellaliant.net) has joined #python
+2011-10-26 15:17:55	<--	shuaib (~shuaib@unaffiliated/shuaib) has quit (Ping timeout: 244 seconds)
+2011-10-26 15:17:59	bob2	(with no args)
+2011-10-26 15:18:00	-->	fearlesstost (~fearlesst@199.83.223.130) has joined #python
+2011-10-26 15:18:02	<--	robbyoconnor (~wakawaka@guifications/user/r0bby) has quit (Ping timeout: 260 seconds)
+2011-10-26 15:18:22	-->	shuaib (~shuaib@unaffiliated/shuaib) has joined #python
+2011-10-26 15:19:57	-->	asparagui (~asparaguo@mo-71-50-27-65.dhcp.embarqhsd.net) has joined #python
+2011-10-26 15:20:23	<--	djangolackey (~djangolac@12.109.196.156) has quit (Quit: djangolackey)
+2011-10-26 15:20:26	-->	whaley (~whaley@12-50-227-2.att-inc.com) has joined #python
+2011-10-26 15:20:33	-->	FrEaKmAn_ (~Erol@93-103-159-32.dynamic.t-2.net) has joined #python
+2011-10-26 15:21:20	FrEaKmAn_	hi guys... is there anything in py so I could do "Hello {name}, welcome to {site}" % {'name':'John', 'site':'google.com'}?
+2011-10-26 15:21:36	-->	rays (~rays@d24-150-155-162.home.cgocable.net) has joined #python
+2011-10-26 15:21:57	bob2	FrEaKmAn_, http://docs.python.org/tutorial/inputoutput.html#fancier-output-formatting
+2011-10-26 15:22:27	bob2	ie "%(hi)s"
+2011-10-26 15:22:29	FrEaKmAn_	bob2, thanks
+2011-10-26 15:23:02	-->	sumitk (~sumitk@drupal.org/user/267786/view) has joined #python
+2011-10-26 15:23:05	nanonyme	Or with .format. :)
+2011-10-26 15:23:22	<--	jtharris (~jtharris@99-6-60-28.lightspeed.livnmi.sbcglobal.net) has quit (Remote host closed the connection)
+2011-10-26 15:23:32	<--	amgarchIn9 (~amgarchin@p4FD60643.dip0.t-ipconnect.de) has quit (Remote host closed the connection)
+2011-10-26 15:23:42	-->	alinef (~aline@189.106.86.121) has joined #python
+2011-10-26 15:24:24	<--	blahsphemer (~eknath@howdy.ecs.syr.edu) has left #python ("Leaving")
+2011-10-26 15:24:28	-->	oudeis (~oudeis@210.21.226.34) has joined #python
+2011-10-26 15:25:33	<--	closedbracket (~closedbra@smtp.goodmortgage.com) has quit (Remote host closed the connection)
+2011-10-26 15:25:35	<--	killown (~geek@unaffiliated/killown) has quit (Quit: Ex-Chat)
+2011-10-26 15:25:55	<--	csnew (~csnew@99-11-252-110.lightspeed.austtx.sbcglobal.net) has quit (Read error: Connection reset by peer)
+2011-10-26 15:26:09	-->	bojo (~bojo@93-136-60-242.adsl.net.t-com.hr) has joined #python
+2011-10-26 15:26:17	-->	tensorpudding (~michael@99.148.200.52) has joined #python
+2011-10-26 15:26:20	<--	Kaedenn (~Kaedenn@unaffiliated/kaedenn) has quit (Quit: Black holes are nothing but gigantic galactic segfaults.)
+2011-10-26 15:26:48	-->	Skateboss (~Skateboss@host-2-101-2-232.as13285.net) has joined #python
+2011-10-26 15:27:50	Skateboss	hi, can anyone give me some tips on using wx and asyncore together please? i.e. threading
+2011-10-26 15:27:52	<--	vpetro (~vpetro@CPE90840dd3ef9e-CM001692fadcd8.cpe.net.cable.rogers.com) has quit (Quit: vpetro)
+2011-10-26 15:29:20	<--	superdmp (~world@cpc7-ely05-2-0-cust207.5-1.cable.virginmedia.com) has quit (Quit: superdmp)
+2011-10-26 15:29:30	cryptic0	In a list, can I replace one character with another?  list1=[KY - blah blah blah] becomes list1 = [KY = blah blah blah]
+2011-10-26 15:29:33	<--	pdtpatrick1 (~pdtpdt@12.249.4.226) has quit (Remote host closed the connection)
+2011-10-26 15:29:40	-->	gitarr (~gitarr@unaffiliated/gitarr) has joined #python
+2011-10-26 15:29:51	-->	Gatto (~Roberto.C@host73-148-dynamic.1-79-r.retail.telecomitalia.it) has joined #python
+2011-10-26 15:29:57	<--	gitarr (~gitarr@unaffiliated/gitarr) has quit (Read error: Connection reset by peer)
+2011-10-26 15:30:01	KirkMcDonald	cryptic0: It's a list of what?
+2011-10-26 15:30:10	cryptic0	KirkMcDonald:  list of strings
+2011-10-26 15:30:15	bob2	Skateboss, oh man
+2011-10-26 15:30:33	bob2	cryptic0, so you want to replace one element with a new string?
+2011-10-26 15:30:33	cryptic0	KirkMcDonald:  I am trying to write a small script to convert .ris format to .bib.
+2011-10-26 15:30:40	cryptic0	bob2:  yes
+2011-10-26 15:30:48	bob2	foo[2] = something
+2011-10-26 15:30:59	Skateboss	cryptic: yes you can
+2011-10-26 15:31:02	-->	gitarr (~gitarr@unaffiliated/gitarr) has joined #python
+2011-10-26 15:31:04	Skateboss	cryptic0: yes you can
+2011-10-26 15:31:17	cryptic0	bob2:  yeah good idea.
+2011-10-26 15:31:19	cryptic0	Skateboss:  thanks
+2011-10-26 15:31:32	bob2	Skateboss, is it too late to not do that?
+2011-10-26 15:31:33	<--	pantsman (~pantsman@pdpc/supporter/active/pantsman) has quit (Ping timeout: 276 seconds)
+2011-10-26 15:31:43	<--	organdonor (~organdono@108.120.2.150) has quit (Ping timeout: 240 seconds)
+2011-10-26 15:31:45	bob2	asyncore is basically abandoned and only just didn't get thrown out of the stdlib
+2011-10-26 15:32:03	Skateboss	bob2: well im learning....
+2011-10-26 15:32:23	<--	alinef (~aline@189.106.86.121) has quit (Quit: Ex-Chat)
+2011-10-26 15:32:39	Skateboss	bob2: i have got a asyncore chat server running and i wanted to make a client using wx (to learn)
+2011-10-26 15:32:47	bob2	:/
+2011-10-26 15:33:05	<--	gabrtv (~gabrtv@boulder.opdemand.com) has quit (Quit: gabrtv)
+2011-10-26 15:33:27	Skateboss	bob2: ive only been doing python for a couple of months and it seems like i jumped in at the deep end
+2011-10-26 15:33:34	--	ChaozZBubi is now known as chaozzbubi
+2011-10-26 15:33:34	Skateboss	:)
+2011-10-26 15:33:38	-->	organdonor (~organdono@108.120.2.150) has joined #python
+2011-10-26 15:34:11	bob2	well
+2011-10-26 15:34:14	bob2	I'm not saying any of that
+2011-10-26 15:34:23	bob2	just that asyncore is unfortunately  terrible
+2011-10-26 15:35:00	Skateboss	bob2: i would be happy with just a telnet style client (that i made) not putty or something
+2011-10-26 15:35:03	-->	rhinobean123 (~ryanthoma@31.205.3.169) has joined #python
+2011-10-26 15:35:09	-->	Seisatsu (~seisatsu@2001:5c0:1000:a::18b) has joined #python
+2011-10-26 15:35:11	<--	Seisatsu (~seisatsu@2001:5c0:1000:a::18b) has quit (Client Quit)
+2011-10-26 15:35:20	Skateboss	bob2: are you going to tell me to do it in twisted???
+2011-10-26 15:35:30	bob2	it's probably the sensible choice
+2011-10-26 15:35:37	bob2	no idea what socket stuff wx itself has
+2011-10-26 15:35:47	Skateboss	none afaik
+2011-10-26 15:35:51	bob2	heh
+2011-10-26 15:36:06	cryptic0	list object has no attribute list.split?
+2011-10-26 15:36:12	bob2	indeed
+2011-10-26 15:36:13	-->	jophish (~jophish@oriel-student-nat.oriel.ox.ac.uk) has joined #python
+2011-10-26 15:36:15	bob2	what would it do?
+2011-10-26 15:36:29	-->	McMAGIC--Copy (~McMAGIC--@gateway/tor-sasl/mcmagic--copy) has joined #python
+2011-10-26 15:36:43	Skateboss	a list is already split (kinda)
+2011-10-26 15:36:44	cryptic0	list = ['a bunch of - strings']    list1 = list.split("-")
+2011-10-26 15:37:13	bob2	suspect you're making stuff hard for yourself
+2011-10-26 15:37:18	bob2	can we have a look at your program?
+2011-10-26 15:37:28	cryptic0	list = ['This - is one string']    list1 = list.split("-")
+2011-10-26 15:37:28	Skateboss	cryptic0: look up thenewboston programming tuts on youtube
+2011-10-26 15:37:30	<--	rhinobean123 (~ryanthoma@31.205.3.169) has left #python
+2011-10-26 15:37:50	cryptic0	bob2:  no program yet, I am fiddling with how to break each line into two parts with '-'
+2011-10-26 15:37:53	nedbat	cryptic0: split is a method on strings.
+2011-10-26 15:37:59	Skateboss	cryptic0: http://www.youtube.com/user/thenewboston#p/search/0/pUA6b86U08c
+2011-10-26 15:38:02	wilfredh	the python docs say "from __future__ import absolute_import" is mandatory in 2.7. What difference does this make? I can still do "from foo import bar" and get a relative import
+2011-10-26 15:38:03	nedbat	cryptic0: you want list1 = list[0].split("-")
+2011-10-26 15:38:23	cryptic0	oh
+2011-10-26 15:38:27	cryptic0	Skateboss:  thanks for the video
+2011-10-26 15:38:31	nedbat	cryptic0: although if there's only one string, why is it a list?
+2011-10-26 15:38:36	bob2	cryptic0, for line in f: left, sep, right = line.strip().partition('-')
+2011-10-26 15:38:58	Skateboss	cryptic0: theres lots of them... the few before that one are what you need
+2011-10-26 15:38:59	bob2	wilfredh, is foo /directly/ on sys.path?
+2011-10-26 15:39:35	<--	Ergo^ (~ergo@hyp-p-107.pabianice.msk.pl) has quit (Remote host closed the connection)
+2011-10-26 15:40:02	-->	paul_k (~paul@CPE602ad06c7e9f-CM602ad06c7e9c.cpe.net.cable.rogers.com) has joined #python
+2011-10-26 15:40:07	cryptic0	nedbat:  bob2: This is an example line. First I want to turn the first string into a variable by converting - to =, and then use if else to write title = {contents after the '-'}
+2011-10-26 15:40:11	cryptic0	TI  - Genomics and the future of conservation genetics
+2011-10-26 15:40:12	wilfredh	bob2: nope.
+2011-10-26 15:40:37	bob2	cryptic0, nah, you don't want to make dynamically named variables
+2011-10-26 15:41:02	wilfredh	bob2: really simple example: http://paste.pound-python.org/show/14269/
+2011-10-26 15:41:11	wilfredh	is '.' implicitly included in sys.path?
+2011-10-26 15:41:21	-->	finale (~kazaik@unaffiliated/kazaik) has joined #python
+2011-10-26 15:41:24	bob2	depends how you invoke python, kinda
+2011-10-26 15:41:32	nosklo	wilfredh: the path of the main script you're running is included
+2011-10-26 15:41:33	cryptic0	bob2:  hmm, but somehow I have to recognize the first string of each line so I can convert that line into bibtex format.
+2011-10-26 15:41:34	bob2	yes, there
+2011-10-26 15:41:44	<--	kyrix (~ashley@chello213047159139.33.11.univie.teleweb.at) has quit (Quit: Ex-Chat)
+2011-10-26 15:41:45	<--	Zira (~Lavalampe@206.175.34.95.customer.cdi.no) has quit
+2011-10-26 15:41:52	nosklo	wilfredh: if no script is running and you just started the interpreter, then '.' is included
+2011-10-26 15:42:07	bob2	cryptic0, i'm not really sure what that means
+2011-10-26 15:42:20	bob2	cryptic0, but you definitely don't need to be making variables named after things in a text file :)
+2011-10-26 15:43:05	wilfredh	nosklo: but "$ python2.7 -c "import sys; print '.' in sys.path" " => False
+2011-10-26 15:43:29	bob2	''
+2011-10-26 15:43:30	bob2	not '.'
+2011-10-26 15:43:50	<--	PhilK (~PhilK@2001:470:1f05:c99:21f:d0ff:fe84:e3ca) has quit (Excess Flood)
+2011-10-26 15:43:56	nosklo	wilfredh: yeah, I mean the current directory is added. It is not added explicity as ".";
+2011-10-26 15:43:57	bob2	(http://as.ynchrono.us/2007/12/filesystem-structure-of-python-project_21.html is very useful if you haven't seen it already)
+2011-10-26 15:43:58	cryptic0	I guess, I could simply do this:  if list[0] == 'TI', list2.write("title = {%s}," %list[2])
+2011-10-26 15:44:06	nedbat	cryptic0: it's possible we're misinterpreting your words.
+2011-10-26 15:44:23	cryptic0	nedbat:  it's my fault really. I should make an example before asking for help :)
+2011-10-26 15:44:24	nedbat	cryptic0: can you give us a fuller picture of what input you're getting, and what output you want?
+2011-10-26 15:44:29	cryptic0	I will do that and get back
+2011-10-26 15:44:31	nedbat	ok
+2011-10-26 15:44:43	<--	FrEaKmAn_ (~Erol@93-103-159-32.dynamic.t-2.net) has quit (Ping timeout: 240 seconds)
+2011-10-26 15:45:08	<--	mwcjr (~mwcjr@74-95-50-222-southbend-in.hfc.comcastbusiness.net) has quit (Quit: mwcjr)
+2011-10-26 15:45:13	wilfredh	so with absolute_import mandatory in 2.7, does that mean certain (badly written) 2.6 scripts won't work? Hasn't this broken backward compatibility?
+2011-10-26 15:45:16	-->	DualDetroit (6c1b751e@gateway/web/freenode/ip.108.27.117.30) has joined #python
+2011-10-26 15:45:23	bob2	cryptic0, one note, though - stuff like this is often easier to do if you have two steps: first bit reads the input and produces a dictionary or some other structure, then the next step takes that and writes it out in some particular format
+2011-10-26 15:45:37	-->	killown (~geek@unaffiliated/killown) has joined #python
+2011-10-26 15:45:45	-->	PhilK (~PhilK@2001:470:1f05:c99:21f:d0ff:fe84:e3ca) has joined #python
+2011-10-26 15:45:52	DualDetroit	What up Pythonistas. So, I was wondering if Pyjamas is an operable way to employ my Python skills in the browser. Anyone tried it?
+2011-10-26 15:45:54	cryptic0	bob2:  I see.  I will mark your words down.
+2011-10-26 15:45:56	bob2	cryptic0, (even if you don't end up replacing either half, you can test each half mroe easily)
+2011-10-26 15:45:59	SpiderFred	what method should I use when I have for example 10 names and each have int and how to than access and change those values? should I use dict?
+2011-10-26 15:46:11	nedbat	DualDetroit: there's really no good way to run Python in the browser.
+2011-10-26 15:46:17	bob2	SpiderFred, if you're just looking up stuff by name, sure
+2011-10-26 15:46:30	bob2	wilfredh, yes
+2011-10-26 15:46:58	nosklo	wilfredh: absolute_import is not mandatory
+2011-10-26 15:46:58	wilfredh	bob2: cool, I understand then. Cheers :)
+2011-10-26 15:47:26	<--	FunnyLookinHat (~funnylook@ubuntu/member/funnylookinhat) has quit (Quit: Leaving)
+2011-10-26 15:47:26	bob2	nosklo, you can turn it off in 2.7?
+2011-10-26 15:47:27	<--	autoplectic (~autoplect@128.120.246.242) has quit (Ping timeout: 256 seconds)
+2011-10-26 15:47:38	<--	tfcoding (~tfcoding@odnb-4db7237f.pool.mediaWays.net) has quit (Quit: Leaving...)
+2011-10-26 15:47:41	wilfredh	nosklo: http://docs.python.org/library/__future__.html?highlight=absolute_import
+2011-10-26 15:47:50	<--	cryptic0 (~cryptic0@165.91.14.188) has quit (Quit: Computer has gone to sleep.)
+2011-10-26 15:47:54	<--	TerryWallwork (~terrywall@host217-44-30-32.range217-44.btcentralplus.com) has quit (Ping timeout: 240 seconds)
+2011-10-26 15:48:37	bob2	wilfredh, http://docs.python.org/whatsnew/2.5.html#pep-328-absolute-and-relative-imports has some more details about if you're interested
+2011-10-26 15:48:38	nosklo	oh, mandatory as in "always on"
+2011-10-26 15:48:43	SpiderFred	bob2: one more question: when I have a dict = {foo:1, bar:2} how to add one to bar or foo?
+2011-10-26 15:48:44	nosklo	wilfredh: sorry I got confused
+2011-10-26 15:49:24	<--	amacleod (~amacleod@65.196.31.130) has quit (Quit: Leaving)
+2011-10-26 15:49:27	<--	dv_ (~quassel@chello080108009040.14.11.vie.surfer.at) has quit (Ping timeout: 245 seconds)
+2011-10-26 15:49:31	KirkMcDonald	SpiderFred: d[foo] += 1
+2011-10-26 15:49:35	nedbat	SpiderFred: dict['foo'] += 1
+2011-10-26 15:49:50	nedbat	SpiderFred: depending on whether you really meant foo or "foo"
+2011-10-26 15:49:58	SpiderFred	nedbat: thx
+2011-10-26 15:50:17	SpiderFred	nedbat: and whats the difference?
+2011-10-26 15:50:35	lvh	SpiderFred: "foo" is a string
+2011-10-26 15:50:35	-->	dv_ (~quassel@chello080108009040.14.11.vie.surfer.at) has joined #python
+2011-10-26 15:50:40	-->	love_ (~love@ool-457fb089.dyn.optonline.net) has joined #python
+2011-10-26 15:50:40	lvh	foo is whatever foo points to.
+2011-10-26 15:50:51	<--	tenth (~Adium@75-150-97-45-NewEngland.hfc.comcastbusiness.net) has left #python
+2011-10-26 15:51:07	<--	derferman (~derferman@208.90.215.178) has quit (Quit: derferman)
+2011-10-26 15:51:09	<--	Maratich (~Maratich@78.30.233.56) has quit (Ping timeout: 255 seconds)
+2011-10-26 15:52:23	-->	jrib (~jrib@upstream/dev/jrib) has joined #python
+2011-10-26 15:53:20	-->	dirkle (~dirkle@pcp070575pcs.wireless.calpoly.edu) has joined #python
+2011-10-26 15:53:24	<--	kermit (unknown@pdpc/supporter/bronze/kermit) has quit (Quit: Leaving.)
+2011-10-26 15:53:33	-->	Pixa (~pixa@79-68-105-26.dynamic.dsl.as9105.com) has joined #python
+2011-10-26 15:53:39	-->	kermit (unknown@pdpc/supporter/bronze/kermit) has joined #python
+2011-10-26 15:55:06	<--	H2S04 (~wee@gateway/tor-sasl/h2s04) has quit (Ping timeout: 248 seconds)
+2011-10-26 15:55:06	<--	rays (~rays@d24-150-155-162.home.cgocable.net) has quit (Quit: Leaving...)
+2011-10-26 15:56:08	-->	caaakeeey (~cakey@cpc12-enfi15-2-0-cust153.hari.cable.virginmedia.com) has joined #python
+2011-10-26 15:56:16	<--	sunnydayzrback (~sunnydayz@dyn-72-33-130-188.uwnet.wisc.edu) has quit (Quit: sunnydayzrback)
+2011-10-26 15:56:40	<--	RoosterJuice (~Gavan@S010600119573eb5d.cg.shawcable.net) has quit (Quit: Leaving)
+2011-10-26 15:57:04	<--	drinkycrow (~dead@c-68-58-76-30.hsd1.il.comcast.net) has quit (Quit: tuppkam gruppen var jag)
+2011-10-26 15:57:12	-->	pingveno (adevore@chandra.cs.pdx.edu) has joined #python
+2011-10-26 15:57:15	<--	Fireblasto (~Fiery@unaffiliated/fireblasto) has quit (Quit: Leaving)
+2011-10-26 15:57:19	-->	bluebit (~bluebit@c-24-1-77-250.hsd1.il.comcast.net) has joined #python
+2011-10-26 15:58:13	<--	gitarr (~gitarr@unaffiliated/gitarr) has quit (Quit: Leaving)
+2011-10-26 15:58:18	-->	gr-eg (~greg@173-167-119-69-sfba.hfc.comcastbusiness.net) has joined #python
+2011-10-26 15:59:38	<--	bluebit (~bluebit@c-24-1-77-250.hsd1.il.comcast.net) has quit (Remote host closed the connection)
+2011-10-26 16:00:10	-->	manizzle_ (~manizzle@dsl081-053-082.sfo1.dsl.speakeasy.net) has joined #python
+2011-10-26 16:00:16	manizzle_	hey guys. any idea why this wont work?
+2011-10-26 16:00:19	manizzle_	http://ideone.com/7SGDq
+2011-10-26 16:00:21	-->	raisen (~raisen@ec2-50-16-186-2.compute-1.amazonaws.com) has joined #python
+2011-10-26 16:01:04	kevlarman	manizzle_: ditch the \
+2011-10-26 16:01:35	manizzle_	nope
+2011-10-26 16:01:57	manizzle_	http://ideone.com/yHEuL
+2011-10-26 16:02:23	-->	kkb110 (~kkb110@NYUFGA-WLESSAUTHCLIENTS-02.NATPOOL.NYU.EDU) has joined #python
+2011-10-26 16:02:48	<--	devin_s (~devin_s@c-24-6-187-62.hsd1.ca.comcast.net) has quit
+2011-10-26 16:02:54	manizzle_	http://ideone.com/2aWBM
+2011-10-26 16:03:07	-->	devin_s (~devin_s@c-24-6-187-62.hsd1.ca.comcast.net) has joined #python
+2011-10-26 16:03:20	Nisstyre	manizzle_: you have semicolons AND newlines
+2011-10-26 16:03:32	<--	drwho (~drwhen@c-68-80-157-110.hsd1.nj.comcast.net) has quit (Quit: Leaving)
+2011-10-26 16:03:34	Nisstyre	the newlines are implicit with triple quoted strings
+2011-10-26 16:03:35	manizzle_	yeah i removed, and still no luck, in the second one
+2011-10-26 16:03:39	kevlarman	Nisstyre: while annoying, it's not wrong
+2011-10-26 16:03:48	Nisstyre	ok, I wasn't sure
+2011-10-26 16:04:02	-->	mito__ (~mito__@1story-vpn-gw.dce.harvard.edu) has joined #python
+2011-10-26 16:04:19	kevlarman	manizzle_: have you tried running that code without timeit?
+2011-10-26 16:04:27	<--	dirkle (~dirkle@pcp070575pcs.wireless.calpoly.edu) has quit (Ping timeout: 256 seconds)
+2011-10-26 16:04:45	caaakeeey	i think heapify must modify the parameter rather than returning  anew one
+2011-10-26 16:04:58	Nisstyre	that could be the case
+2011-10-26 16:05:01	kevlarman	yeah that's what is probably happening
+2011-10-26 16:05:11	Nisstyre	that's one thing that's annoyed me about some things in python
+2011-10-26 16:05:14	Nisstyre	like list.sort()
+2011-10-26 16:05:16	kevlarman	it would be obvious if timeit wasn't hiding the useful information
+2011-10-26 16:05:22	kevlarman	Nisstyre: sorted()
+2011-10-26 16:05:31	Nisstyre	kevlarman: doesn't work on real numbers
+2011-10-26 16:05:32	<--	enmand (~enmand@sydnns0109w-142068202227.dhcp-dynamic.FibreOp.ns.bellaliant.net) has quit (Quit: This computer has gone to sleep)
+2011-10-26 16:05:51	kevlarman	Nisstyre: sorted() and list.sort() do the same thing
+2011-10-26 16:06:06	kevlarman	except one modifies in place and the other returns a new list
+2011-10-26 16:06:08	Nisstyre	then why would .sort() work for reals and sorted() give an error about integers?
+2011-10-26 16:06:26	Nisstyre	is there some flag you can specify for sorted() ?
+2011-10-26 16:06:41	kevlarman	Nisstyre: pastebin an example and traceback
+2011-10-26 16:06:41	manizzle_	http://ideone.com/NPAJE
+2011-10-26 16:06:47	manizzle_	this what i am testing
+2011-10-26 16:06:59	caaakeeey	http://ideone.com/ULj4q
+2011-10-26 16:07:00	manizzle_	what is faster? how to merge heaps?
+2011-10-26 16:07:01	<--	l0st1 (~l0st1@ool-4a5a8a82.dyn.optonline.net) has quit (Quit: leaving)
+2011-10-26 16:08:14	caaakeeey	yeah what i posted works, but it times out because there are too many iterations
+2011-10-26 16:08:33	caaakeeey	(or at least it runs)
+2011-10-26 16:09:50	manizzle_	ah, u cant heapify an anonymouse list
+2011-10-26 16:09:52	-->	derferman (~derferman@208.90.215.178) has joined #python
+2011-10-26 16:10:17	Nisstyre	kevlarman: you're right, it does work. I don't know why I thought it wasn't working before o_O
+2011-10-26 16:11:00	-->	mrkuchbhi (~amit@dyn-209-2-217-76.dyn.columbia.edu) has joined #python
+2011-10-26 16:11:04	<--	jarray52 (~purplehaz@unaffiliated/jarray52) has quit (Remote host closed the connection)
+2011-10-26 16:11:05	-->	closedbracket (~closedbra@208-104-172-4.sta.comporium.net) has joined #python
+2011-10-26 16:11:15	Nisstyre	if you're curious: http://codepad.org/v0PB0gJr
+2011-10-26 16:11:42	<--	derferman (~derferman@208.90.215.178) has quit (Client Quit)
+2011-10-26 16:12:40	-->	drwho (~drwhen@c-68-80-157-110.hsd1.nj.comcast.net) has joined #python
+2011-10-26 16:13:00	<--	Imek (~joe@94-194-91-242.zone8.bethere.co.uk) has quit (Read error: Connection reset by peer)
+2011-10-26 16:13:06	-->	gg7 (~gg7@unaffiliated/gg7) has joined #python
+2011-10-26 16:13:24	nosklo	Nisstyre: http://codepad.org/rnpfPZcf
+2011-10-26 16:13:47	Nisstyre	nosklo: yes I know about the builtin shuffle
+2011-10-26 16:13:53	-->	derferman (~derferman@208.90.215.178) has joined #python
+2011-10-26 16:14:07	Nisstyre	I was just testing something I read about
+2011-10-26 16:14:09	-->	Raistl|n (~Raistlin@c-67-176-100-115.hsd1.co.comcast.net) has joined #python
+2011-10-26 16:14:14	Nisstyre	namely the sorting method for shuffling
+2011-10-26 16:15:29	-->	cryptic0 (~cryptic0@r74-192-212-174.bcstcmta02.clsttx.tl.dh.suddenlink.net) has joined #python
+2011-10-26 16:15:34	<--	Arch_ (~alex@bas1-aurora91-3096739299.dsl.bell.ca) has left #python ("Ex-Chat")
+2011-10-26 16:15:47	<--	hilbert (~hilbert@adsl-89-217-161-153.adslplus.ch) has quit (Quit: Computer has gone to sleep.)
+2011-10-26 16:15:58	<--	jaggz (~brandon@unaffiliated/jaggz) has left #python ("Leaving.")
+2011-10-26 16:17:01	-->	hilbert (~hilbert@adsl-89-217-161-153.adslplus.ch) has joined #python
+2011-10-26 16:17:02	-->	pztrn (~pztrn@pztrn.ru) has joined #python
+2011-10-26 16:17:04	<--	danols_work (~sokolowsk@dynamic-66-102-71-5.wtccommunications.ca) has quit (Quit: Instantbird 1.2a1pre)
+2011-10-26 16:17:32	-->	danols_work (~sokolowsk@dynamic-66-102-71-5.wtccommunications.ca) has joined #python
+2011-10-26 16:17:36	<--	sarkis (~sarkis@unaffiliated/sako) has quit (Remote host closed the connection)
+2011-10-26 16:17:41	<--	Phantomas (~Phantomas@unaffiliated/phantomas) has quit (Ping timeout: 258 seconds)
+2011-10-26 16:18:03	-->	Danl2620 (~Danl2620@sceapdsd43-15.989studios.com) has joined #python
+2011-10-26 16:18:26	-->	autoplectic (~autoplect@moobilenet-111-202.ucdavis.edu) has joined #python
+2011-10-26 16:19:22	<--	SpiderFred (~SpiderFre@135.119.broadband14.iol.cz) has quit (Quit: Lost terminal)
+2011-10-26 16:19:40	-->	odedo (~oded@unaffiliated/odedo) has joined #python
+2011-10-26 16:19:56	<--	callmebaby (~lape@88-222-71-130.meganet.lt) has quit (Quit: Lost terminal)
+2011-10-26 16:20:04	<--	birix (~qw-rx@46-47-97-27.sf.ddns.bulsat.com) has quit (Quit: http://www.radiotangra.com/?page=gallery&lng=bg&id=8)
+2011-10-26 16:20:25	-->	Seisatsu (~seisatsu@2001:5c0:1000:a::13b) has joined #python
+2011-10-26 16:20:37	-->	w0ng (~w0ng@60-240-59-78.static.tpgi.com.au) has joined #python
+2011-10-26 16:20:51	<--	hilquias (~hilquias@189.71.113.182) has quit (Ping timeout: 255 seconds)
+2011-10-26 16:20:59	-->	jlebar (u4254@gateway/web/irccloud.com/x-ohkedtlltydhzwza) has joined #python
+2011-10-26 16:21:49	-->	hilquias (~hilquias@189.71.113.182) has joined #python
+2011-10-26 16:21:50	<--	Seisatsu (~seisatsu@2001:5c0:1000:a::13b) has quit (Client Quit)
+2011-10-26 16:22:00	<--	Speedfx (~Speedfx@ip4da58b7a.direct-adsl.nl) has quit (Quit: Speedfx)
+2011-10-26 16:23:10	<--	looopy (~looopy@99-38-189-125.lightspeed.clmasc.sbcglobal.net) has quit (Remote host closed the connection)
+2011-10-26 16:24:40	-->	looopy (~looopy@99-38-189-125.lightspeed.clmasc.sbcglobal.net) has joined #python
+2011-10-26 16:24:53	<--	Justasic (~Justasic@unaffiliated/justasic) has quit (Quit: bye hah)
+2011-10-26 16:25:06	<--	kkb110 (~kkb110@NYUFGA-WLESSAUTHCLIENTS-02.NATPOOL.NYU.EDU) has quit (Ping timeout: 240 seconds)
+2011-10-26 16:26:26	<--	subbyyy (~Adium@cpe-69-135-206-28.woh.res.rr.com) has quit (Read error: Connection reset by peer)
+2011-10-26 16:26:38	<--	shenshei (~bedaride@p3E9E8B74.dip.t-dialin.net) has quit (Ping timeout: 244 seconds)
+2011-10-26 16:26:51	<--	barduck (~barduck@bzq-79-176-185-11.red.bezeqint.net) has quit (Quit: Computer has gone to sleep.)
+2011-10-26 16:28:21	manizzle_	a list is passed into a funtion, how can i change what that list points to? i basically want it to point to a completley new list
+2011-10-26 16:28:28	<--	maum (~maum@210.119.60.152) has quit (Quit: 전 이만 갑니다.)
+2011-10-26 16:28:38	dash	manizzle_: lists don't "point to" anything.
+2011-10-26 16:28:44	dash	manizzle_: lists have contents, though.
+2011-10-26 16:28:49	KirkMcDonald	manizzle_: You can't. Python is pass by value.
+2011-10-26 16:28:58	KirkMcDonald	manizzle_: (Where the values are references.)
+2011-10-26 16:29:28	manizzle_	http://ideone.com/x7vgw
+2011-10-26 16:29:50	manizzle_	so if i want to replace everything inside a list, id have to pop everything out of it
+2011-10-26 16:29:53	manizzle_	and reinsert?
+2011-10-26 16:29:59	<--	derdon (~derdon@pD9E1C10A.dip.t-dialin.net) has quit (Remote host closed the connection)
+2011-10-26 16:30:08	KirkMcDonald	manizzle_: Or L[:] = new_contents
+2011-10-26 16:30:11	dash	manizzle_: something like that. what's this for?
+2011-10-26 16:30:15	dash	what KirkMcDonald said
+2011-10-26 16:30:34	manizzle_	oh thanks
+2011-10-26 16:30:41	Danl2620	I'm triggering the "LONG_BIT definition appears wrong..." compile error compiling 32bit on a 64bit platform
+2011-10-26 16:30:49	-->	SigmaWP (~math@wikipedia/Lowercase-Sigma) has joined #python
+2011-10-26 16:30:54	manizzle_	http://ideone.com/MZy5p
+2011-10-26 16:30:55	manizzle_	thanks
+2011-10-26 16:30:56	manizzle_	heh
+2011-10-26 16:31:08	Danl2620	compiling a .cpp file including Python.h using gcc under x86_64 linux using the -m32 flag
+2011-10-26 16:31:23	-->	Phantomas (~Phantomas@unaffiliated/phantomas) has joined #python
+2011-10-26 16:31:26	<--	looopy (~looopy@99-38-189-125.lightspeed.clmasc.sbcglobal.net) has quit (Remote host closed the connection)
+2011-10-26 16:31:34	KirkMcDonald	Danl2620: You may also need to link with the -m32 flag.
+2011-10-26 16:31:46	KirkMcDonald	Danl2620: Is the error on compilation or linking?
+2011-10-26 16:31:51	Danl2620	its on compilation
+2011-10-26 16:31:58	--	ironfroggy__ is now known as ironfroggy
+2011-10-26 16:32:08	<--	DualDetroit (6c1b751e@gateway/web/freenode/ip.108.27.117.30) has quit (Quit: Page closed)
+2011-10-26 16:32:23	KirkMcDonald	Danl2620: You're embedding Python? Or making an extension?
+2011-10-26 16:32:57	-->	subbyyy (~Adium@cpe-69-135-206-28.woh.res.rr.com) has joined #python
+2011-10-26 16:33:13	<--	Versuchen (~V@77.225.40.152) has quit (Remote host closed the connection)
+2011-10-26 16:33:23	Danl2620	making an extension
+2011-10-26 16:33:28	Danl2620	using swig
+2011-10-26 16:33:42	<--	AnEcho (~Brian@198.151.130.79) has left #python
+2011-10-26 16:33:47	-->	looopy (~looopy@99-38-189-125.lightspeed.clmasc.sbcglobal.net) has joined #python
+2011-10-26 16:33:58	dash	Danl2620: don't use swig, it's 2011 =(
+2011-10-26 16:33:59	-->	maxbaldwin (~mab@unaffiliated/mab) has joined #python
+2011-10-26 16:34:12	dash	Danl2620: cython is a lot nicer for wrapping things
+2011-10-26 16:34:21	KirkMcDonald	Danl2620: How do you build it? Did you write a setup.py?
+2011-10-26 16:34:51	<--	Gatto (~Roberto.C@host73-148-dynamic.1-79-r.retail.telecomitalia.it) has quit (Read error: Connection reset by peer)
+2011-10-26 16:35:03	htoothrot	it's c++, cython is a little lacking there
+2011-10-26 16:35:10	v0lksman	what are my options with python 2.6 for FTP/S explicit?
+2011-10-26 16:35:17	htoothrot	but it is capable
+2011-10-26 16:35:34	-->	ih20i (~steve@pppoe-133-052.wcta.net) has joined #python
+2011-10-26 16:35:37	KirkMcDonald	v0lksman: People still use FTP?
+2011-10-26 16:35:43	Danl2620	KirkMcDonald: nope, just taking a .i file and running it through swig -c++ -python -classic ...
+2011-10-26 16:35:45	v0lksman	KirkMcDonald: unfortunately
+2011-10-26 16:36:01	v0lksman	KirkMcDonald: and hey look at that it's a financial services provider
+2011-10-26 16:36:04	KirkMcDonald	Danl2620: I don't know enough about SWIG to know how this ends up building it.
+2011-10-26 16:36:04	<--	Skateboss (~Skateboss@host-2-101-2-232.as13285.net) has left #python ("Leaving")
+2011-10-26 16:36:14	ih20i	In Soviet Ru....
+2011-10-26 16:36:21	v0lksman	hahaha
+2011-10-26 16:36:25	SigmaWP	hm?
+2011-10-26 16:36:27	bob2	zomg
+2011-10-26 16:36:30	KirkMcDonald	v0lksman: Well, there is ftplib in the standard library.
+2011-10-26 16:36:42	KirkMcDonald	v0lksman: It may even work.
+2011-10-26 16:36:57	v0lksman	KirkMcDonald: just took a peak and it appears TLS support was only added in 2.7
+2011-10-26 16:37:16	bob2	they get to tell you which python version to use and which terrible protocol?
+2011-10-26 16:37:47	v0lksman	no. i could upgrade. was just hoping not too...
+2011-10-26 16:37:53	-->	psyprus (~psyprus@unaffiliated/psyprus) has joined #python
+2011-10-26 16:37:56	v0lksman	must be some solution people used before 2.7 was released
+2011-10-26 16:38:00	Danl2620	KirkMcDonald: it looks like its just a .cpp file that does a #include "Python.h"
+2011-10-26 16:38:01	-->	kkb110 (~kkb110@NYUFGA-WLESSAUTHCLIENTS-EXP.NATPOOL.NYU.EDU) has joined #python
+2011-10-26 16:38:05	KirkMcDonald	I wonder if the 2.7 ftplib would work in 2..6
+2011-10-26 16:38:07	KirkMcDonald	2.6*
+2011-10-26 16:38:09	dash	v0lksman: twisted has an ftp client, and supports ssl connections
+2011-10-26 16:38:18	dash	v0lksman: i bet you could mash something together
+2011-10-26 16:38:18	Danl2620	KirkMcDonald: and eventually pyport.h complains about LONG_BIT
+2011-10-26 16:38:19	<--	asparagui (~asparaguo@mo-71-50-27-65.dhcp.embarqhsd.net) has left #python ("Leaving")
+2011-10-26 16:39:23	v0lksman	hrm...it also has a book...hahaha
+2011-10-26 16:39:40	v0lksman	looking at it now though...thanks dash...
+2011-10-26 16:39:49	v0lksman	think it might be easier to just upgrade to 2.u7
+2011-10-26 16:39:55	<--	toinso (~toinso@unaffiliated/toinso) has quit (Quit: Leaving)
+2011-10-26 16:40:03	<--	looopy (~looopy@99-38-189-125.lightspeed.clmasc.sbcglobal.net) has quit (Remote host closed the connection)
+2011-10-26 16:40:04	<--	Wild_Cat (~wild_cat@2a01:e35:2f4c:8310:e4a3:be64:90c8:c2d1) has quit (Ping timeout: 244 seconds)
+2011-10-26 16:40:11	KirkMcDonald	v0lksman: I would see if the 2.7 ftplib works in 2.6, perhaps.
+2011-10-26 16:40:17	-->	TC01 (~chatzilla@venus.arosser.com) has joined #python
+2011-10-26 16:40:27	KirkMcDonald	v0lksman: (Though upgrading to 2.7 is probably a better idea.)
+2011-10-26 16:40:36	-->	molavy (~hosein@2.146.114.111) has joined #python
+2011-10-26 16:40:42	molavy	hi
+2011-10-26 16:40:56	v0lksman	KirkMcDonald: I've never really messed with included libs so yeah..upgrade to 2.7 seems the path of least resistance... :)
+2011-10-26 16:42:02	v0lksman	molavy [~hosein@2.146.114.111] <- WOW!  you were the second one on the net?  :P  awesome IP...I've never seen a 2.x.x.x in the wild before
+2011-10-26 16:43:12	v0lksman	crickets...
+2011-10-26 16:43:23	-->	gabrtv (~gabrtv@box.techverity.com) has joined #python
+2011-10-26 16:43:38	<--	gxdssoft (~gxdssoft@200.121.6.224) has quit (Ping timeout: 248 seconds)
+2011-10-26 16:43:45	molavy	how can i connect returned data from one def into another def, i want create a def that every time in my project i use serialize function returned data escaped and filter via another function in details with: django.utils.html.escape()
+2011-10-26 16:43:46	bob2	my mobile carrier uses 1/8
+2011-10-26 16:44:10	-->	maum (~maum@210.119.60.152) has joined #python
+2011-10-26 16:44:13	v0lksman	bob2: really?  who? (just curious)
+2011-10-26 16:44:21	<--	autoplectic (~autoplect@moobilenet-111-202.ucdavis.edu) has quit (Ping timeout: 276 seconds)
+2011-10-26 16:44:26	bob2	v0lksman, Telstra
+2011-10-26 16:44:47	tos9	molavy: I can't parse your question.
+2011-10-26 16:44:51	<--	sorin (~sorin@66-168-187-62.dhcp.gwnt.ga.charter.com) has quit (Quit: leaving)
+2011-10-26 16:45:09	tos9	molavy: But the answer from just the words sounds like one of either the return statement, a decorator, or a django filter.
+2011-10-26 16:45:14	Dulak	v0lksman: iran usually doesn't show up on irc very often at all, so no wonder you have never seen a 2.x.x.x ip before.
+2011-10-26 16:45:17	tos9	I feel like cleverbot.
+2011-10-26 16:46:06	KirkMcDonald	Man, this thing is out of date: http://xkcd.com/195/
+2011-10-26 16:46:24	v0lksman	Dulak: I parse a lot of logs too...but it's rare to see something below 10/8, google changed that a little a couple years ago but it's still rare
+2011-10-26 16:46:52	tos9	KirkMcDonald: It'd look a lot less pretty now that there's no grass :/
+2011-10-26 16:47:02	-->	mithridates (~mithridat@unaffiliated/mithridates) has joined #python
+2011-10-26 16:47:18	asdf`	I want to create a webapp that gets input from the user in multiple text inputs (spreadsheet-like grid, maybe) and returns the output with ajax. (a simplified example would be user entering 2 and 2 in two inputs and getting a 4 in a third input/whatever). What frameworks should i use?
+2011-10-26 16:47:42	KirkMcDonald	asdf`: JavaScript? :-)
+2011-10-26 16:47:46	Dulak	v0lksman: I agree, but almost all of 2.x is allocated to iran which makes it even more rare
+2011-10-26 16:47:57	dash	asdf`: anything, really. flask is nice and simple
+2011-10-26 16:48:09	<--	CannedCorn (~CannedCor@207.239.107.3) has quit (Quit: Computer has gone to sleep.)
+2011-10-26 16:48:16	-->	hays (~quassel@unaffiliated/hays) has joined #python
+2011-10-26 16:48:28	<--	iocor (~textual@unaffiliated/iocor) has quit (Quit: Computer has gone to sleep.)
+2011-10-26 16:48:32	molavy	think i create a def that every time i use serialize , it get returned data and alter this data,
+2011-10-26 16:48:47	asdf`	KirkMcDonald, dash, perhaps I oversimplified. The result will need to be computed server-side (as it depends on db data and such)
+2011-10-26 16:48:50	molavy	can i do this?
+2011-10-26 16:48:56	Dulak	molavy: decorator function should do what you want, it replaces one function with another, so you can do what you described
+2011-10-26 16:48:59	<--	khayes (~khayes@wdas-1.disneyanimation.com) has quit (Quit: khayes)
+2011-10-26 16:49:20	mithridates	I get Bad Request in flask, I finished the tutorial of that blog, I think it has something to do with Routing. can someone help me?
+2011-10-26 16:49:21	<--	hilbert (~hilbert@adsl-89-217-161-153.adslplus.ch) has quit (Quit: Computer has gone to sleep.)
+2011-10-26 16:49:22	asdf`	dash, I'd probably need to use something like WTForms with flask?
+2011-10-26 16:49:25	molavy	thanks
+2011-10-26 16:49:28	<--	Marius (~hi5@unaffiliated/nkts) has quit (Ping timeout: 260 seconds)
+2011-10-26 16:49:32	<--	akiress (~akiress@ip70-172-244-213.br.br.cox.net) has quit (Quit: leaving)
+2011-10-26 16:49:49	-->	Rhamphoryncus (~rhamph@unaffiliated/rhamphoryncus) has joined #python
+2011-10-26 16:49:49	bob2	mithridates, look at the errors it printed
+2011-10-26 16:49:53	dash	asdf`: you could
+2011-10-26 16:50:04	mithridates	bob2: The browser (or proxy) sent a request that this server could not understand.
+2011-10-26 16:50:07	dash	asdf`: or just write some js for the form handling, have it feed json to your server
+2011-10-26 16:50:13	bob2	mithridates, no, on the console, where you ran the app
+2011-10-26 16:50:24	mithridates	bob2:
+2011-10-26 16:50:27	mithridates	"POST /add HTTP/1.1" 400 -
+2011-10-26 16:50:50	bob2	mithridates, flask doesn't show tracebacks on the console?
+2011-10-26 16:51:14	htoothrot	bob2, it does, that could be an intentional 400
+2011-10-26 16:51:14	v0lksman	I thought virtualenv let you install different versions of python...
+2011-10-26 16:51:25	bob2	v0lksman, not really
+2011-10-26 16:51:30	mithridates	bob2: It doesn't right now and in this situation, I mean I don't see!
+2011-10-26 16:51:35	v0lksman	son of a
+2011-10-26 16:51:46	dash	v0lksman: you don't need virtualenv to do that
+2011-10-26 16:51:48	bob2	v0lksman, it kinda depends what you mean
+2011-10-26 16:51:56	hays	what does python use as a hashing function for dicts
+2011-10-26 16:51:57	asdf`	dash, yeah, that would work. Thanks
+2011-10-26 16:52:01	Dulak	v0lksman: the newer versions do, you can specify the interpreter to use in the virtual env, but it's fairly recent, maybe in the last 18 months or so
+2011-10-26 16:52:04	bob2	v0lksman, it lets you make little mostly-separate python installs, but it doesn't make the "get python2.7" step any easier
+2011-10-26 16:52:12	mithridates	what should I do to solve this problem in flask?
+2011-10-26 16:52:14	htoothrot	mithridates, paste the code
+2011-10-26 16:52:20	mithridates	ok
+2011-10-26 16:52:21	bob2	htoothrot, ahhh
+2011-10-26 16:52:22	-->	DrDuck (~duck@user-24-236-92-111.knology.net) has joined #python
+2011-10-26 16:52:34	-->	phoe6 (~senthil@cm71.psi143.maxonline.com.sg) has joined #python
+2011-10-26 16:52:39	mithridates	htoothrot: https://github.com/mitsuhiko/flask/blob/master/examples/flaskr/flaskr.py
+2011-10-26 16:52:41	v0lksman	ahh...ok...
+2011-10-26 16:53:23	<--	mrkuchbhi (~amit@dyn-209-2-217-76.dyn.columbia.edu) has quit (Remote host closed the connection)
+2011-10-26 16:53:27	<--	Phantomas (~Phantomas@unaffiliated/phantomas) has left #python
+2011-10-26 16:53:57	<--	explodes (~explodes@173-14-235-9-Utah.hfc.comcastbusiness.net) has quit (Quit: explodes)
+2011-10-26 16:54:01	bob2	I'm pretty suspicious, I don't think mitsuhiko's examples would be broken
+2011-10-26 16:54:04	htoothrot	oh, so you're just running the included example... what input are you using?
+2011-10-26 16:55:07	<--	kevan_ (~kevan@host-134-71-248-23.allocated.csupomona.edu) has quit (Quit: leaving)
+2011-10-26 16:55:53	<--	dwebb (~dwebb@fedora/dwebb) has quit (Ping timeout: 260 seconds)
+2011-10-26 16:56:00	v0lksman	https://launchpad.net/~pythoneers/+archive/lts <- so I should be able to install python2.7 from that ppa without affecting 2.6 and then just tell virtualenv to use the 2.7 binary yeah?
+2011-10-26 16:56:12	mithridates	htoothrot: yes, with this templates; https://gist.github.com/1318380
+2011-10-26 16:56:25	v0lksman	so worried I'm going to pooch my other envs...hahahah
+2011-10-26 16:56:26	<--	Wr4i7h (~abc@a89-154-41-86.cpe.netcabo.pt) has quit
+2011-10-26 16:56:35	mithridates	htoothrot: admin default for user and pass, test for subject and test..... for the text
+2011-10-26 16:56:46	bob2	ubuntu/debian python packaging is sane compared to RH, so it'll likely work
+2011-10-26 16:56:46	dash	v0lksman: installing one version of python won't affect any others.
+2011-10-26 16:56:58	bob2	but fiddling prod servers without testing still sounds like a bad idea
+2011-10-26 16:57:09	v0lksman	dash: cool....
+2011-10-26 16:57:12	v0lksman	bob2: not prod
+2011-10-26 16:57:17	v0lksman	all dev but my main dev box
+2011-10-26 16:57:19	-->	Glycan (~wisepoiso@modemcable063.249-83-70.mc.videotron.ca) has joined #python
+2011-10-26 16:57:29	v0lksman	would just kill me not my clients..hahaha
+2011-10-26 16:57:33	Glycan	How fast is matrix multiplication?
+2011-10-26 16:57:40	mithridates	htoothrot: and unittest is OK!
+2011-10-26 16:57:43	dash	Glycan: Twelve
+2011-10-26 16:57:43	bob2	too vague
+2011-10-26 16:57:45	<--	Pixa (~pixa@79-68-105-26.dynamic.dsl.as9105.com) has quit (Read error: Connection reset by peer)
+2011-10-26 16:57:49	v0lksman	hahaha
+2011-10-26 16:57:49	bob2	since python has no matrices
+2011-10-26 16:57:54	Glycan	Oh
+2011-10-26 16:57:56	dash	ok sorry. 12.0
+2011-10-26 16:57:58	Glycan	numpy?
+2011-10-26 16:58:19	<--	Earwig (~Earwig@wikipedia/The-Earwig) has quit (Ping timeout: 240 seconds)
+2011-10-26 16:58:35	htoothrot	mithridates, is this template modified or is it the one included?
+2011-10-26 16:58:53	dash	Glycan: what do you want to do?
+2011-10-26 16:59:26	mithridates	htoothrot: I'm checking that right now, let me see
+2011-10-26 16:59:28	<--	akosikeno (~keno@112.205.19.191) has quit (Ping timeout: 258 seconds)
+2011-10-26 16:59:30	-->	Pixa (~pixa@79-68-105-26.dynamic.dsl.as9105.com) has joined #python
+2011-10-26 16:59:39	Glycan	I was just wondering
+2011-10-26 16:59:41	tos9	Arg. .pycs are the worst. I just pushed broken code, which I had no way of knowing was broken other than sheer luck just now, since my unittests passed because the file I moved had a .pyc that suck around.
+2011-10-26 16:59:55	Glycan	I was thinking in terms of O-notation
+2011-10-26 17:00:08	mithridates	htoothrot: template was the problem!
+2011-10-26 17:00:21	MrTylerGreen	i am having some trouble getting a twisted.internet reactor working for me. It when i do: reactor.callWhenRunning(list_of_chat_Objects[0].get_chat_Data(url.Request('http://cardassia.omegle.com/events', urllib.urlencode( {"id": list_of_chat_Objects[0].chatid}), standard_Headers))) even though list_of_chat_Objects[0].get_chat_Data(args) is quite a callable thing
+2011-10-26 17:00:32	nedbat	tos9: pushing code should also delete all .pyc's.
+2011-10-26 17:00:37	mithridates	htoothrot: now it worked fine! how can I have a nicer template? it's ugly as hell! is there any framework for templates?
+2011-10-26 17:00:41	bob2	MrTylerGreen, http://bpaste.net/ code + output
+2011-10-26 17:00:42	-->	toddpratt (~toddpratt@c-98-216-182-111.hsd1.ma.comcast.net) has joined #python
+2011-10-26 17:00:42	dash	MrTylerGreen: you accidentally some words out, there
+2011-10-26 17:00:43	<--	darkpixel_ (~aaron@curetheitch/staff/darkpixel) has quit (Remote host closed the connection)
+2011-10-26 17:00:58	-->	igors (~igors@201.53.24.18) has joined #python
+2011-10-26 17:01:15	htoothrot	mithridates, what do you mean? if you want it nicer, change it?
+2011-10-26 17:01:21	MrTylerGreen	how much of the code? all of it?
+2011-10-26 17:01:43	dash	MrTylerGreen: yes.
+2011-10-26 17:02:02	mithridates	htoothrot: right! I thought it might have some fancy stuff that I can just call them in template classes
+2011-10-26 17:02:05	-->	xchris2168x (~Chris@c-24-147-6-199.hsd1.nh.comcast.net) has joined #python
+2011-10-26 17:02:05	tos9	nedbat: What do you mean? I don't have .pycs in vcs obviously, what are you suggesting I should have done? I can't have github run the tests in the pushed repo
+2011-10-26 17:02:22	<--	sumitk (~sumitk@drupal.org/user/267786/view) has left #python
+2011-10-26 17:02:29	htoothrot	mithridates, i'm not really sure i follow
+2011-10-26 17:02:56	dash	tos9: blow away the working dir before running tests
+2011-10-26 17:03:00	tos9	I could delete all of them before I push
+2011-10-26 17:03:00	<--	SigmaWP (~math@wikipedia/Lowercase-Sigma) has quit (Quit:  sys.exit)
+2011-10-26 17:03:01	tos9	yeah.
+2011-10-26 17:03:21	mithridates	htoothrot: have you been using flask for a long time?
+2011-10-26 17:03:32	tos9	I just needed to be reminded to do so by something breaking I guess. Or I could have tox run the tests every time but that takes time :/
+2011-10-26 17:03:38	mithridates	htoothrot: I just wanna know whether it's good for real production or not!?
+2011-10-26 17:03:55	-->	Earwig (~Earwig@wikipedia/The-Earwig) has joined #python
+2011-10-26 17:03:56	Dulak	tos9: as part of your build or deploy you should clean all *.py[co] files, on my system when I do a build for testing the first command it runs is a find that deletes all *.py[co] files, then whatever else I need for a build
+2011-10-26 17:04:22	htoothrot	mithridates, i use werkzeug, which flask is built on, in production. flask is a good choice.
+2011-10-26 17:04:37	<--	Earwig (~Earwig@wikipedia/The-Earwig) has quit (Client Quit)
+2011-10-26 17:04:43	-->	dwebb (~dwebb@fedora/dwebb) has joined #python
+2011-10-26 17:04:46	tos9	Dulak: Cool. Guess I'll do that then.
+2011-10-26 17:04:50	htoothrot	mithridates, (flask didn't exist at the time...)
+2011-10-26 17:04:57	MrTylerGreen	http://bpaste.net/show/19694/
+2011-10-26 17:05:37	mithridates	htoothrot: what would you recommend for the production and for supporting a lot of requests?
+2011-10-26 17:05:55	-->	foul_owl (~kerry@c-98-237-141-213.hsd1.wa.comcast.net) has joined #python
+2011-10-26 17:05:56	mithridates	htoothrot: I like flask, it's simple and beautiful but I just wanna know if there is any other option
+2011-10-26 17:06:08	Dulak	tos9: it will help avoid the issue you described, where your tests passed because of a lingering pyc.  It gets you a clean test, so you don't deploy old code on accident
+2011-10-26 17:06:29	tos9	Hah. That's lovely. Doing so just revealed that I had a second broken move too :)
+2011-10-26 17:06:34	<--	unreal (~unreal@unaffiliated/unreal) has quit (Ping timeout: 258 seconds)
+2011-10-26 17:06:40	dash	mithridates: flask is good for that.
+2011-10-26 17:06:45	htoothrot	mithridates, there's lots of other options, but none are as nice. i recommend starting with flask
+2011-10-26 17:06:48	bob2	MrTylerGreen, get_chat_Data returns None (ie it has no return statement)
+2011-10-26 17:06:54	-->	smw (~smw@unaffiliated/smw) has joined #python
+2011-10-26 17:06:57	mithridates	thanks guys!
+2011-10-26 17:07:12	bob2	MrTylerGreen, I think you want another function that calls it with those args, then pass /that/ function to callWhenRunning
+2011-10-26 17:08:01	MrTylerGreen	so i have to make a function that returns a function?
+2011-10-26 17:08:04	bob2	MrTylerGreen, unrelatedly, are you sure about "in" for parsing each_Message? it'll find the strings int the middle of other strings
+2011-10-26 17:08:07	bob2	MrTylerGreen, no
+2011-10-26 17:08:12	bob2	MrTylerGreen, you make a function that calls a function
+2011-10-26 17:08:30	bob2	also underscores /and/ camelCase is a bit ugly :)
+2011-10-26 17:08:58	MrTylerGreen	lol it makes it readable for me
+2011-10-26 17:09:01	MrTylerGreen	err
+2011-10-26 17:09:02	MrTylerGreen	sorry
+2011-10-26 17:09:12	dash	that's not what "readable" means :)
+2011-10-26 17:09:50	bob2	also no need to escape " in ''
+2011-10-26 17:10:11	<--	phoe6 (~senthil@cm71.psi143.maxonline.com.sg) has quit (Ping timeout: 256 seconds)
+2011-10-26 17:10:15	MrTylerGreen	oh good to know for tha " thing
+2011-10-26 17:10:36	<--	kkb110 (~kkb110@NYUFGA-WLESSAUTHCLIENTS-EXP.NATPOOL.NYU.EDU) has quit (Ping timeout: 260 seconds)
+2011-10-26 17:11:00	MrTylerGreen	i have studied the wireshark data, and doing 'in each_Message' wont cause any conflicts
+2011-10-26 17:11:01	-->	l0p3n (~defux@203-226.anonymous.at.anonine.com) has joined #python
+2011-10-26 17:11:22	bob2	you /sure/?
+2011-10-26 17:11:40	dash	also, why would you do it even if you were sure :)
+2011-10-26 17:11:56	-->	kkb110 (~kkb110@NYUFGA-WLESSAUTHCLIENTS-02.NATPOOL.NYU.EDU) has joined #python
+2011-10-26 17:11:59	MrTylerGreen	what would you suggest instead?
+2011-10-26 17:12:14	<--	Foxandxss (~Foxandxss@180.Red-80-32-60.staticIP.rima-tde.net) has quit (Quit: Leaving)
+2011-10-26 17:12:46	dash	actually parse the data
+2011-10-26 17:13:02	<--	closedbracket (~closedbra@208-104-172-4.sta.comporium.net) has quit (Remote host closed the connection)
+2011-10-26 17:13:19	hays	How can I find the maximum value returned by ord()
+2011-10-26 17:13:19	-->	looopy (~looopy@99-38-189-125.lightspeed.clmasc.sbcglobal.net) has joined #python
+2011-10-26 17:13:22	dash	also why are you using twisted? you're calling urlopen
+2011-10-26 17:13:32	dash	hays: it's 0x10FFFF
+2011-10-26 17:13:35	dash	hays: why?
+2011-10-26 17:13:40	MrTylerGreen	it is for later features
+2011-10-26 17:13:40	-->	superdmp (~world@cpc7-ely05-2-0-cust207.5-1.cable.virginmedia.com) has joined #python
+2011-10-26 17:13:45	dash	MrTylerGreen: heh
+2011-10-26 17:13:48	hays	dash: making a hash function
+2011-10-26 17:13:56	dash	hays: Why?
+2011-10-26 17:13:59	MrTylerGreen	as the program develops, it will have 10 simultanious chats
+2011-10-26 17:14:05	hays	looopy: are you 127001, e.g. friend of C_Dreamer
+2011-10-26 17:14:09	-->	mafarka (~mafarka@64.134.150.138) has joined #python
+2011-10-26 17:14:11	<--	nighty- (~nighty@TOROON12-1279662182.sdsl.bell.ca) has quit (Ping timeout: 244 seconds)
+2011-10-26 17:14:15	hays	dash: practice
+2011-10-26 17:14:20	<--	DrDuck (~duck@user-24-236-92-111.knology.net) has quit (Quit: Leaving.)
+2011-10-26 17:14:21	dash	hays: practice of... what?
+2011-10-26 17:14:40	MrTylerGreen	and i cant have any 1 chat stuck in a loop because the other 9 chats will have to be updated at the same time
+2011-10-26 17:14:46	KirkMcDonald	dash: Carnegie Hall!
+2011-10-26 17:14:52	hays	dash: making hash functions?
+2011-10-26 17:14:55	dash	MrTylerGreen: so don't use urlopen :)
+2011-10-26 17:15:06	dash	hays: Right. Why?
+2011-10-26 17:15:11	bob2	MrTylerGreen, using urlopen makes that harder to do, not easier
+2011-10-26 17:15:13	hays	interview
+2011-10-26 17:15:16	<--	hilquias (~hilquias@189.71.113.182) has quit (Ping timeout: 260 seconds)
+2011-10-26 17:15:24	dash	hays: i wouldn't hire you ;)
+2011-10-26 17:15:26	MrTylerGreen	this is like my FIRST python program even and that is the first thing i could get working lol
+2011-10-26 17:15:31	MrTylerGreen	err
+2011-10-26 17:15:33	MrTylerGreen	k
+2011-10-26 17:15:46	dash	MrTylerGreen: alrighty
+2011-10-26 17:15:47	-->	closedbracket (~closedbra@208-104-172-4.sta.comporium.net) has joined #python
+2011-10-26 17:15:57	dash	MrTylerGreen: you'll want to use twisted.web.client, probably.
+2011-10-26 17:16:21	MrTylerGreen	i will check it out
+2011-10-26 17:16:57	-->	nicksergeant (~nickserge@cpe-72-230-184-180.rochester.res.rr.com) has joined #python
+2011-10-26 17:17:14	hays	dash: don't need YOU to hire me
+2011-10-26 17:17:52	dash	hays: I hope they don't need people who communicate in complete sentences!
+2011-10-26 17:18:26	hays	<dash> hays: practice of... what?
+2011-10-26 17:18:26	-->	unreal (~unreal@unaffiliated/unreal) has joined #python
+2011-10-26 17:18:32	<--	JustinStewart (~jstewart@nat-225.fw1.la.vclk.net) has quit (Quit: Leaving)
+2011-10-26 17:18:49	<--	closedbracket (~closedbra@208-104-172-4.sta.comporium.net) has quit (Remote host closed the connection)
+2011-10-26 17:19:01	nedbat	dash: why are you giving hays a hard time?
+2011-10-26 17:19:19	teratorn	nedbat: it's in the job description
+2011-10-26 17:19:29	nedbat	teratorn: I wouldn't hire dash :)
+2011-10-26 17:19:36	-->	H2S04 (~wee@gateway/tor-sasl/h2s04) has joined #python
+2011-10-26 17:19:54	MrTylerGreen	i dont see how using twisted webclient is really any different except it has different method names
+2011-10-26 17:20:00	dash	nedbat: because I'd like context for why he thinks the max return value of ord() matters :)
+2011-10-26 17:20:01	yak^	nedbat: he doesn't need YOU to hire him ;)
+2011-10-26 17:20:04	MrTylerGreen	i basically pass the same data in a different way
+2011-10-26 17:20:06	dash	MrTylerGreen: It doesn't stop and wait for a result.
+2011-10-26 17:20:09	dash	MrTylerGreen: urlopen does.
+2011-10-26 17:20:15	MrTylerGreen	ahh
+2011-10-26 17:20:25	MrTylerGreen	that stands to reason
+2011-10-26 17:20:30	nedbat	dash: yes, you would like that.  That doesn't mean you have to say things like "I wouldn't hire you."
+2011-10-26 17:20:41	bob2	MrTylerGreen, it returns a deferred, which you can attach your parser to
+2011-10-26 17:21:04	hays	dash: basically because I am converting a string into a number, and technically that means figuring out the range of values which can be represented by a character in a string.
+2011-10-26 17:21:06	<--	molavy (~hosein@2.146.114.111) has quit (Ping timeout: 240 seconds)
+2011-10-26 17:21:30	<--	gtrak` (~gtrak```@173.13.240.205) has quit (Ping timeout: 248 seconds)
+2011-10-26 17:21:33	hays	dash: one of the simpler hash functions is to just do a modulus.
+2011-10-26 17:21:34	dash	hays: Depends on the string.
+2011-10-26 17:21:34	looopy	hays: nope
+2011-10-26 17:21:36	KirkMcDonald	hays: What kind of string?
+2011-10-26 17:21:50	<--	kkb110 (~kkb110@NYUFGA-WLESSAUTHCLIENTS-02.NATPOOL.NYU.EDU) has quit (Ping timeout: 260 seconds)
+2011-10-26 17:21:57	-->	CannedCorn (~CannedCor@cpe-66-65-102-78.nyc.res.rr.com) has joined #python
+2011-10-26 17:22:13	KirkMcDonald	hays: If it is a byte-string then it will only be from 0 to 255.
+2011-10-26 17:22:20	hays	KirkMcDonald: hard to say..  for practical purposes probably 0-255 is reasonable
+2011-10-26 17:22:20	MrTylerGreen	well i will hack and slash my way through that, and then make a function that calls my function for the other thing
+2011-10-26 17:22:26	dash	heh
+2011-10-26 17:22:34	KirkMcDonald	hays: If it is a unicode object, then it could be any code point.
+2011-10-26 17:22:44	<--	CannedCorn (~CannedCor@cpe-66-65-102-78.nyc.res.rr.com) has quit (Client Quit)
+2011-10-26 17:22:52	hays	in Python 2.7  the default is unicode right?
+2011-10-26 17:22:57	bob2	no
+2011-10-26 17:22:59	-->	kkb110 (~kkb110@NYUFGA-WLESSAUTHCLIENTS-EXP.NATPOOL.NYU.EDU) has joined #python
+2011-10-26 17:23:03	bob2	string literals in python2.7 are bytestrings
+2011-10-26 17:23:07	hays	is that not until 3?
+2011-10-26 17:23:27	dash	correct.
+2011-10-26 17:23:58	-->	Sorella (~killdream@189.12.54.203) has joined #python
+2011-10-26 17:24:55	-->	fuho (~fuho@ool-43548e6f.dyn.optonline.net) has joined #python
+2011-10-26 17:25:17	hays	this other hash function is kinda interesting.  h(k)=floor(m*(k*A%1)) where A is (sqrt(5)-1)/2
+2011-10-26 17:25:43	<--	xchris2168x (~Chris@c-24-147-6-199.hsd1.nh.comcast.net) has quit (Read error: Connection reset by peer)
+2011-10-26 17:25:48	MoMo	In python -- is there an open source GeoIP module that goes to the city level or lat and long?  I don't have the money for a max mind geoipcity license
+2011-10-26 17:25:55	nedbat	hays: %1  ?
+2011-10-26 17:26:06	bob2	the module isn't the issue
+2011-10-26 17:26:07	nedbat	hays: oh, floats.
+2011-10-26 17:26:08	bob2	the db is
+2011-10-26 17:26:08	hays	nedbat: yep.  weird eh?
+2011-10-26 17:26:26	<--	edong23 (~edong@mptc-218-120.mptelco.com) has quit (Remote host closed the connection)
+2011-10-26 17:26:42	-->	Wr4i7h (~abc@a89-154-41-86.cpe.netcabo.pt) has joined #python
+2011-10-26 17:27:09	-->	edong23 (~edong@mptc-218-120.mptelco.com) has joined #python
+2011-10-26 17:27:18	bob2	http://www.geoio.com/faqs.php is free for < 1000/queries a day
+2011-10-26 17:28:04	bob2	maxmind is only $20/50000 queries though
+2011-10-26 17:28:16	<--	derek_v (~derek_v@cpe-76-88-36-245.san.res.rr.com) has quit (Quit: Leaving)
+2011-10-26 17:28:29	<--	elif (~marco@201-68-141-127.dsl.telesp.net.br) has quit (Quit: leaving)
+2011-10-26 17:28:41	-->	Ximm (~Xim@host86-148-218-133.range86-148.btcentralplus.com) has joined #python
+2011-10-26 17:29:05	<--	AaronMT (~AaronMT@CPE0026bb082e5d-CM602ad0738a5c.cpe.net.cable.rogers.com) has quit
+2011-10-26 17:30:01	Avaris	maxmind has a free db that is "usable" if you don't require much accuracy
+2011-10-26 17:30:20	bob2	the country one yeah
+2011-10-26 17:30:29	<--	Telling (~unknown@80-71-135-15.u.parknet.dk) has quit (Quit: ...)
+2011-10-26 17:30:42	Avaris	city one wasn't that bad either
+2011-10-26 17:30:45	MrTylerGreen	twisted web client is super confusing :)
+2011-10-26 17:30:46	-->	enmand (~enmand@sydnns0109w-142068202227.dhcp-dynamic.FibreOp.ns.bellaliant.net) has joined #python
+2011-10-26 17:30:48	<--	Vertlet (~Vertel@CPE-58-165-117-136.qld.bigpond.net.au) has quit (Read error: Connection reset by peer)
+2011-10-26 17:30:52	bob2	MrTylerGreen, getPage
+2011-10-26 17:31:06	<--	xqo (~xqo@2.37.189.109.customer.cdi.no) has quit
+2011-10-26 17:31:14	-->	Vertlet (~Vertel@CPE-58-165-117-136.qld.bigpond.net.au) has joined #python
+2011-10-26 17:31:31	<--	ahammond (~ahammond@wsip-98-173-193-68.sb.sd.cox.net) has quit (Read error: Connection reset by peer)
+2011-10-26 17:31:37	-->	ahammond (~ahammond@wsip-98-173-193-68.sb.sd.cox.net) has joined #python
+2011-10-26 17:31:38	<--	ahammond (~ahammond@wsip-98-173-193-68.sb.sd.cox.net) has quit (Client Quit)
+2011-10-26 17:31:47	Glycan	How do you loop over the columbs of a matrix (numpy)?
+2011-10-26 17:32:35	<--	odedo (~oded@unaffiliated/odedo) has left #python
+2011-10-26 17:32:48	dash	Glycan: with a for loop
+2011-10-26 17:32:59	Avaris	Glycan: why do you loop?
+2011-10-26 17:32:59	dash	Glycan: but usually you don't
+2011-10-26 17:33:09	dash	Glycan: most numpy stuff can be done without wrting a loop
+2011-10-26 17:33:11	-->	chenggong (~qi.he@124.126.19.34) has joined #python
+2011-10-26 17:33:22	Glycan	I'm implementing matrix multiplication as an exercise
+2011-10-26 17:33:26	<--	amogorkon (~quassel@piratenpartei/bw/amogorkon) has quit (Read error: Connection reset by peer)
+2011-10-26 17:33:27	Glycan	(For myself)
+2011-10-26 17:33:32	-->	Striker121 (~Thisisnot@ool-18e4f218.dyn.optonline.net) has joined #python
+2011-10-26 17:33:35	dash	Glycan: numpy already has it
+2011-10-26 17:33:39	Glycan	So?
+2011-10-26 17:33:48	Glycan	This is an exercise
+2011-10-26 17:33:58	dash	Glycan: so if you're doing it as an exercise, then it's cheating to ask us for help
+2011-10-26 17:34:09	Glycan	I'm asking how too use numpy
+2011-10-26 17:34:20	dash	Glycan: yes, I know.
+2011-10-26 17:34:24	<--	otep (~quassel@AP-203.167.31.157.sysads.com) has quit (Read error: Connection reset by peer)
+2011-10-26 17:34:32	Glycan	Not anything related too matrixes or multiplication
+2011-10-26 17:34:37	Glycan	Hence, not cheating.
+2011-10-26 17:34:37	dash	Glycan: ridiculous!
+2011-10-26 17:34:49	<--	psyprus (~psyprus@unaffiliated/psyprus) has quit (Ping timeout: 252 seconds)
+2011-10-26 17:34:50	<--	zatan (~zatan@5aceb9e8.bb.sky.com) has quit (Ping timeout: 244 seconds)
+2011-10-26 17:34:51	dash	Glycan: using numpy is related to matrices and multiplication of them
+2011-10-26 17:35:04	dash	Glycan: your distinction is arbitrary
+2011-10-26 17:35:06	Glycan	Is there not something like m.getcolumns() or something?
+2011-10-26 17:35:13	-->	SigmaWP (~math@wikipedia/Lowercase-Sigma) has joined #python
+2011-10-26 17:35:19	dash	Glycan: did you maybe look at the numpy docs? :)
+2011-10-26 17:35:26	Glycan	Good point
+2011-10-26 17:35:47	<--	mafarka (~mafarka@64.134.150.138) has quit (Read error: Operation timed out)
+2011-10-26 17:36:23	-->	happybob (~smw@67-148-123-63.dia.static.qwest.net) has joined #python
+2011-10-26 17:36:48	<--	raisen (~raisen@ec2-50-16-186-2.compute-1.amazonaws.com) has quit (Quit: WeeChat 0.3.5)
+2011-10-26 17:37:04	-->	SigmaWP_ (~math@wikipedia/Lowercase-Sigma) has joined #python
+2011-10-26 17:37:09	-->	Leeds (~richardc@pcd423205.netvigator.com) has joined #python
+2011-10-26 17:37:41		irc: disconnected from server

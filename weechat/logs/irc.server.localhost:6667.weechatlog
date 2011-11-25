@@ -1,0 +1,13 @@
+2011-11-01 13:00:30		irc: connecting to server localhost:6667/6667...
+2011-11-01 13:00:30	=!=	irc: address "localhost:6667" not found
+2011-11-01 13:00:30		irc: reconnecting to server in 10 seconds
+2011-11-01 13:00:36	=!=	irc: too few arguments for "query" command
+2011-11-01 13:00:38		irc: disconnected from server
+2011-11-01 13:02:27		irc: connecting to server localhost:6667/6667...
+2011-11-01 13:02:27	=!=	irc: address "localhost:6667" not found
+2011-11-01 13:02:27		irc: reconnecting to server in 10 seconds
+2011-11-01 13:02:37		irc: reconnecting to server...
+2011-11-01 13:02:37		irc: connecting to server localhost:6667/6667...
+2011-11-01 13:02:37	=!=	irc: address "localhost:6667" not found
+2011-11-01 13:02:37		irc: reconnecting to server in 20 seconds
+2011-11-01 13:02:49		irc: disconnected from server

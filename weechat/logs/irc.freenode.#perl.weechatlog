@@ -1,0 +1,706 @@
+2011-10-26 15:54:28	-->	TheSeparateFirst (~jeffrey@ip72-207-124-2.sd.sd.cox.net) has joined #perl
+2011-10-26 15:54:28	--	Topic for #perl is "perl-5.14.2 is out! http://goo.gl/Si13c Perls 5.8, 5.10 EOLd | No pasting into channel, use http://scsys.co.uk:8002/perl to show code | Modern Perl book at http://xrl.us/bjc4vf | http://presentingperl.org/ | FAQ at http://faq.perl.org | < mauke> in conclusion: what"
+2011-10-26 15:54:28	--	Topic set by mst (~matthewt@freenode/staff/shadowcat.chainsaw-wielder.perl-gc) on Tue, 25 Oct 2011 06:33:07
+2011-10-26 15:54:28	--	Nicks #perl: [[E]sc __class__ __main__ _sri a3r0 abbe abyxcos achromic acrussell Aerdan AFK ag1l ag4ve agi aglenday agorman aindilis aliceinwire alnewkirk Altreus am0c amiri andrefs__ andrewsw andybe ania12lat Aniar anno antgel antonh anxt Apachez apeiron apollolune archangle25 architek archon- asakura auraka avar avenj AzaToth azzid b2 bandroidx barika bayashi_ Bazerka bazqux bbkr bburhans bdhuser beasty Bejjan Belgarion0 bennymack berndj bigpresh BinGOs birix bithash_ blast_hardcheese bline BLZbubba bobweaver Bonilla boshhead Botje bps brabo brahman brian_g Bry8Star Bry8Star{GB BSDBlack build3r Caelum cannonball cardamon caveat- ccushing centosian cfedde Champi chasing_Sol chasmo77 Chillance chitragupt ChmEarl chrisdev cl0ud Clex cloaked1 cmillard coldboot compengi Corey CorpX crazed CrazyEddy creyon Cru CTS|detached culb curfont cyborg-one cythrawll D-ion daemon Damianz danieldg DarthGandalf Dave2 dcat Deathvalley122 Debolaz dec Deck` decoder deepy Delph depesz DeusEx dhoss dilfridge dive djanatyn djharsk dju dkr dngor dni dondelelcaro Dorward Drakevr Dreadnaught DrForr dropdrive drwho dur-randir dwebb e1f eam Echtor2oo3 edenc EdwardIII ej__ ejnahc el_seano elb0w_ eliasp elif elliottcable elmex else elyob em emmanuelux envi_ eoss epure EspadaV8 ethernet- Evixion Exodist EyesIsServer ezra f00li5h fahadsadah FastJack felher felipe ferret fisted fizzie fizztpok Fleck flight16 folivora foristh framling frankie fredden fuzzix g-ram ga_bash gabimuc garo Gatto geck genehack genio gertidon githogori Grauwolf grishnav grouzen_ gryzor Guest25003 Guest34966 GumbyPAN gvandeweyer haarg hackeron HannesPannes hanstech HarryS Harzilein HellKat hexellent HighBit hobbs Hor|zon huf i0n iansealy ICEBreakPoint icekold idn idoru ifvoid_ Ikarus imarcusthis imcsk8 imMute imMute_old Indian infi infrared_ ingy initself integral Internet13 Invis IRnick-VB04 ironcamel itnomad J11 jaggz jamesn jaminja Janhouse javier Jayce^ jayne jdv79 jenic jerQ jesk jetscreamer jettero jevin jeward jink jkeats jlindsay jMCg joe JohnnyDavidson jql jsz` jtrucks jvv k-man K3rmit kaitlyn kakashi_ kandinski kasler Kays keras kers kerx kh31d4r Kharec Khisanth kixx kloeri knowpaced Kovensky kryl kst kthakore kury lberk LeoNerd Lewoco LiamM LifeIsPain literal lkj loader lois lokomis LoRez Lorn lucs lusory m4rcu5 mac- Maddingue magic_people makeawish malifae mantovani marienz Marius mateu mattp_ mauke MChizhov McMAGIC--Copy mdupont Medlir MedlirWork medusa megaTherion melic melter Merlin metasyntax|work metrox mfontani mino MissionCritical mmercer modexi Modius module000 moebius_ Mogget momo- MooingLemur mordy morissette mrmist mrsolo mschiff mst mtak musca NChief netsan Nexus6 Nickeeh nightfrog nimred noganex nornagest nsh NucWin nutron nyuszika7h Okazaki-san oliwer ology opx^away orafu oskie Paks Paladin parus Patterner peder penma perlbot PerlJam pernatiy Perun peterS petn-randall ph8 PhaidrosDA Phil-Work philsf phrag pif Pilate PinkFreud pj pkrumins plaxx pmpcat pochi polemon powder praedo pragma_ Praise preaction preflex prodor protospork Provito przemoc puppen PZt qian QtPlatypus randbit raptelan raSter^ rbuels rclark rcsheets Reaganomicon RedFyre redmorning regueifa renown revcane revdiablo rewt rexbinary rgrinberg rhizmoe Rhomber ribasushi rickest rjt rmah-ipad Roa robd_ robinetd robinsmidsrod robokit Romnous rot rozie rsimoes rsimoes1 RubyPanther RushPL ryan-c ryoshu saaki sacx salparadise Sarten-X sativouf schrodinger sdgvf seekwill semeion semy SetActive sh4rm4 sha0lin shabble shachaf shadey_ shadowmaster shaldannon shardz Shells shikamaru shoerain shorten simcop2387 simple sirhc sivoais sizz Sjors SJS skangas skor slaytanic slon smokex smpb snarkyboojum snL20 Somni Sophira SoulSeller spacebat spade sparkman spb SpeedyGhost SpiceMan SpitfireWP squentin ssureshot stepnem stockholm stunix Su-Shee SubStack sulex sunnavy sunny256 Supaplex sven^ sysdef szr Tabmow tabris|away Taggnostr takeshix takis-sanjo Taranis tcunha tehgeekmeister tekzilla tessier Thalamus tharkun the_new_you The_White_Rabbit Thermoriax TheSeparateFirst Theta TheZimm tho964 thowe thrig Tianon TinoDidriksen tkr tlvb tmtowtdi tmtowtdi_work tobyo Todd toddf tomaw torbjorn Touns tove TPAKTOP Trashlord tsetumel tsnow tty234 tubgoat tugboat tybalt89 tyldis ugexe uri UukGoblin VaNNi vert2 vigith VVelox w0m walkeraj waltman wdf wizkid238 woggle woldrich Woodi Workaholic wreis xachen XayOn xenoterracide xeon-enouf xhaker xinming xontech xorspark xpot y3llow ya Yaakov yahooooo yak yath yofel yousef yves Zaba zaltekk zampano zibri zo Zoop zosky zostay_ |simo]
+2011-10-26 15:54:28	--	Channel #perl: 584 nicks (0 ops, 0 halfops, 0 voices, 584 normals)
+2011-10-26 15:54:30	--	Channel created on Sat, 25 Nov 2006 22:42:39
+2011-10-26 15:54:35	-->	t35t0r (~Live@unaffiliated/t35t0r) has joined #perl
+2011-10-26 15:54:38	robd_	sh4rm4: Awake since 3:30am? sorry
+2011-10-26 15:54:58	mordy	it's a reasonable question i think
+2011-10-26 15:55:18	robd_	mordy: Just wondering if there is a faster / more elegant way to go
+2011-10-26 15:55:25	mauke	robd_: I think the best thing you can do is make sure %hash1 is smaller
+2011-10-26 15:55:38	<--	semeion (~semeion@gateway/tor-sasl/semeion) has quit (Ping timeout: 248 seconds)
+2011-10-26 15:55:50	Botje	our @common = grep exists $hash2{$_}, keys %hash1
+2011-10-26 15:56:02	-->	delskorch (~delskorch@d192-24-132-200.try.wideopenwest.com) has joined #perl
+2011-10-26 15:56:04	mordy	robd_: i don't think there's anything necessarily more 'efficient' - that's surely the simplest way to do it.. you might also be able to do something like my %h; @h{keys %hash1} = @hash2{keys %hash1};
+2011-10-26 15:56:10	<--	asakura (~asakura@gateway/tor-sasl/asakura) has quit (Ping timeout: 248 seconds)
+2011-10-26 15:56:59	mordy	untested, but i don't see why that shouldn't work
+2011-10-26 15:57:14	<--	Roa (~roa@unixmexico/Roa) has quit (Read error: Operation timed out)
+2011-10-26 15:57:19	robd_	mordy: so @h would have all the matches?
+2011-10-26 15:57:26	mordy	%h, but yes
+2011-10-26 15:57:34	robd_	mordy: okay, cool
+2011-10-26 15:57:37	zaltekk	and every other key of %hash1 that isn't in %hash2 as undef
+2011-10-26 15:57:38	-->	gabimuc|work (~gabimuc@ppp-188-174-120-174.dynamic.mnet-online.de) has joined #perl
+2011-10-26 15:57:39	huf	wont it have undefs for the keys not found?
+2011-10-26 15:57:43	-->	impulse150 (~impulse15@port790.ds1-arc.adsl.cybercity.dk) has joined #perl
+2011-10-26 15:57:43	huf	yeah
+2011-10-26 15:57:43	mordy	yep
+2011-10-26 15:57:52	mordy	if you care about undef, then i don't know
+2011-10-26 15:58:03	huf	what Botje said
+2011-10-26 15:58:29	robd_	Botje: I like that
+2011-10-26 15:58:32	mordy	i don't know if the array way of doing things might be more efficient
+2011-10-26 15:58:49	mordy	i'd be surprised if there wasn't a module that did what is essentially a union of hashes for you
+2011-10-26 15:58:56	Botje	it's not. it just states your intent clearly.
+2011-10-26 15:59:02	mordy	err.. intersection
+2011-10-26 15:59:26	Botje	and I don't really like the perldoc -q intersect example. too much macho coding
+2011-10-26 15:59:30	Botje	<< bed!
+2011-10-26 15:59:32	mordy	but Botje's way wont have you worrying about spurious 'undef' values
+2011-10-26 16:00:24	mordy	robd_: i would actually use your first example in practice
+2011-10-26 16:00:51	<--	TheZimm (~TheZimm@c-24-15-224-211.hsd1.il.comcast.net) has quit (Quit: Computer has gone to sleep.)
+2011-10-26 16:01:01	mordy	if performance is really an issue then you could probably accomplish something using different data structures/models
+2011-10-26 16:01:10	zaltekk	probably exists %hash2{$key} than just if
+2011-10-26 16:01:14	<--	sulex (~sulex@pdpc/supporter/professional/sulex) has quit (Remote host closed the connection)
+2011-10-26 16:01:23	zaltekk	*rather than
+2011-10-26 16:01:27	huf	depends on what you want to know
+2011-10-26 16:01:31	huf	:)
+2011-10-26 16:01:40	zaltekk	hence the probably
+2011-10-26 16:02:09	zaltekk	the english description implied just finding keys that exist in both hashes and nothing of what to do with either of the values
+2011-10-26 16:02:12	mordy	i'd say 75% of the time hashes are used, the exist/undef distinction doesn't matter
+2011-10-26 16:02:39	zaltekk	i was thinking more along the lines of not ignoring 0 and ''
+2011-10-26 16:02:53	huf	that's defined $hash{$key}
+2011-10-26 16:03:22	zaltekk	assumed undef likely wasn't important
+2011-10-26 16:03:26	-->	semeion (~semeion@gateway/tor-sasl/semeion) has joined #perl
+2011-10-26 16:03:32	<--	drwho (~drwhen@c-68-80-157-110.hsd1.nj.comcast.net) has quit (Quit: Leaving)
+2011-10-26 16:03:39	huf	eval: my %h = (x => undef); [ defined $h{x}, exists $h{x} ]
+2011-10-26 16:03:40	mordy	yeah, so in hashes you can have a (1) non existent value, (2) an undefined value, (3) a false value, [ (4) and of course, a normal true value ]
+2011-10-26 16:03:40	perlbot	huf: ["",1]
+2011-10-26 16:03:49	zaltekk	it's unlikely that if alone will be what he means
+2011-10-26 16:04:02	-->	mito__ (~mito__@1story-vpn-gw.dce.harvard.edu) has joined #perl
+2011-10-26 16:04:07	mordy	that's quite a lot of variation lol
+2011-10-26 16:04:12	--	Mode #perl [+o mauke] by ChanServ
+2011-10-26 16:04:13	--	Mode #perl [-q *!*@gateway/web/freenode/ip.108.27.117.30] by mauke
+2011-10-26 16:04:40	mordy	but most of the times, it's only true/false comparisons anyway
+2011-10-26 16:05:03	--	Mode #perl [-o mauke] by mauke
+2011-10-26 16:05:49	-->	pranq (pranq@unaffiliated/contempt) has joined #perl
+2011-10-26 16:08:21	<--	sativouf (~sativouf@2001:41d0:1:7395::1) has quit (Remote host closed the connection)
+2011-10-26 16:08:37	-->	asakura (~asakura@gateway/tor-sasl/asakura) has joined #perl
+2011-10-26 16:10:38	-->	gyyrog (~gyyrog@66-227-134-70.dhcp.trcy.mi.charter.com) has joined #perl
+2011-10-26 16:10:40	<--	impulse150 (~impulse15@port790.ds1-arc.adsl.cybercity.dk) has quit (Quit: ihavenolegs)
+2011-10-26 16:11:34	-->	dj_pi (~asd@c-68-43-191-145.hsd1.mi.comcast.net) has joined #perl
+2011-10-26 16:12:25	<--	gabimuc|work (~gabimuc@ppp-188-174-120-174.dynamic.mnet-online.de) has quit (Ping timeout: 260 seconds)
+2011-10-26 16:12:25	-->	drwho (~drwhen@c-68-80-157-110.hsd1.nj.comcast.net) has joined #perl
+2011-10-26 16:14:24	-->	jlaire (~jlaire@a88-115-181-148.elisa-laajakaista.fi) has joined #perl
+2011-10-26 16:14:44	<--	jaminja (~jaminja@unaffiliated/jaminja) has quit (Remote host closed the connection)
+2011-10-26 16:15:10	<--	jlaire (~jlaire@a88-115-181-148.elisa-laajakaista.fi) has quit (Client Quit)
+2011-10-26 16:16:35	-->	jlaire (~jlaire@a88-115-181-148.elisa-laajakaista.fi) has joined #perl
+2011-10-26 16:17:42	<--	ryoshu (~kamil@unaffiliated/ryoshu) has quit (Ping timeout: 276 seconds)
+2011-10-26 16:17:51	-->	relaxed (~relaxed@unaffiliated/relaxed) has joined #perl
+2011-10-26 16:19:31	-->	jlebar|irccloud (u4254@gateway/web/irccloud.com/x-ohkedtlltydhzwza) has joined #perl
+2011-10-26 16:20:04	<--	birix (~qw-rx@46-47-97-27.sf.ddns.bulsat.com) has quit (Quit: http://www.radiotangra.com/?page=gallery&lng=bg&id=8)
+2011-10-26 16:20:07	-->	cyberspace- (20253@ninthfloor.org) has joined #perl
+2011-10-26 16:20:08	<--	jlebar|irccloud (u4254@gateway/web/irccloud.com/x-ohkedtlltydhzwza) has left #perl
+2011-10-26 16:20:53	-->	jlebar (u4254@gateway/web/irccloud.com/x-ohkedtlltydhzwza) has joined #perl
+2011-10-26 16:20:57	<--	yak (~yak@ip-213-215-121-076.static.nextra.sk) has quit (Ping timeout: 252 seconds)
+2011-10-26 16:25:21	-->	ProperNoun (~haruspex@adsl-74-243-219-91.cae.bellsouth.net) has joined #perl
+2011-10-26 16:25:25	<--	ProperNoun (~haruspex@adsl-74-243-219-91.cae.bellsouth.net) has quit (Changing host)
+2011-10-26 16:25:26	-->	ProperNoun (~haruspex@wikipedia/ProperNoun) has joined #perl
+2011-10-26 16:25:28	nornagest	Good night.
+2011-10-26 16:25:49	<--	nornagest (~Nornagest@h1880040.stratoserver.net) has quit (Quit: exit(0))
+2011-10-26 16:27:20	<--	aindilis (~aindilis@173-165-36-107-Illinois.hfc.comcastbusiness.net) has quit (Remote host closed the connection)
+2011-10-26 16:29:09	-->	aindilis (~aindilis@173-165-36-107-Illinois.hfc.comcastbusiness.net) has joined #perl
+2011-10-26 16:29:43	<--	mst (~matthewt@freenode/staff/shadowcat.chainsaw-wielder.perl-gc) has quit (Ping timeout: 240 seconds)
+2011-10-26 16:30:42	-->	TheZimm (~TheZimm@c-24-15-224-211.hsd1.il.comcast.net) has joined #perl
+2011-10-26 16:30:55	<--	Chillance (~Chillance@83.233.182.216) has quit (Remote host closed the connection)
+2011-10-26 16:30:57	-->	mst (~matthewt@freenode/staff/shadowcat.chainsaw-wielder.perl-gc) has joined #perl
+2011-10-26 16:33:59	-->	maxbaldwin (~mab@unaffiliated/mab) has joined #perl
+2011-10-26 16:34:51	<--	Gatto (~Roberto.C@host73-148-dynamic.1-79-r.retail.telecomitalia.it) has quit (Read error: Connection reset by peer)
+2011-10-26 16:37:14	<--	envi_ (kvirc@14.33.86.39) has quit (Ping timeout: 248 seconds)
+2011-10-26 16:37:48	-->	psyprus (~psyprus@unaffiliated/psyprus) has joined #perl
+2011-10-26 16:41:15	-->	dracflamloc (~Miranda@adsl-74-179-191-250.sav.bellsouth.net) has joined #perl
+2011-10-26 16:43:40	<--	redmorning (~king@112.195.51.184) has quit (Quit: Leaving.)
+2011-10-26 16:46:48	-->	jwang (~jwang@c-71-202-246-81.hsd1.ca.comcast.net) has joined #perl
+2011-10-26 16:48:27	<--	aindilis (~aindilis@173-165-36-107-Illinois.hfc.comcastbusiness.net) has quit (Read error: Connection reset by peer)
+2011-10-26 16:48:47	-->	aindilis (~aindilis@173-165-36-107-Illinois.hfc.comcastbusiness.net) has joined #perl
+2011-10-26 16:48:50	imMute	I'm getting an "Undefined subroutine in sort ..." error when trying to use 'sort SUBNAME LIST' construct.  I've never run into this before, and I'm 95% sure the subroutine is defined by the time that sort is called.
+2011-10-26 16:49:23	<--	prodor (~prodor@189.128.133.63) has quit (Quit: Leaving)
+2011-10-26 16:49:24	<--	t35t0r (~Live@unaffiliated/t35t0r) has quit (Quit: Leaving)
+2011-10-26 16:49:28	<--	Marius (~hi5@unaffiliated/nkts) has quit (Ping timeout: 260 seconds)
+2011-10-26 16:49:45	ironcamel	imMute: show your code
+2011-10-26 16:50:47	imMute	ironcamel: https://github.com/immute/LogReporter  but the stuff I'm working on isn't there yet.  basically, I've got a sub in one module that does some sorting, and the sort routine is pulled from another module, but for some reason it's not..  if I paste the routine directly in the first module it works.
+2011-10-26 16:51:30	imMute	hah, on a hunch I commented out the use namespace::autoclean; at the top of the first module, and now it works.
+2011-10-26 16:52:10	imMute	well shit, thats right at the top of n::a too
+2011-10-26 16:52:42	daemon	perlbot, sigils?
+2011-10-26 16:52:42	perlbot	daemon: cooked apricots covered in maple syrup
+2011-10-26 16:55:06	<--	thowe (~chump@90.b160.bendtel.net) has quit (Quit: Leaving)
+2011-10-26 16:55:53	<--	dwebb (~dwebb@fedora/dwebb) has quit (Ping timeout: 260 seconds)
+2011-10-26 16:59:47	mordy	$1k electricity bill courtesy of the ex
+2011-10-26 16:59:56	mordy	RAGE
+2011-10-26 17:00:15	-->	AzazelPazuzu (~Azazel@ool-6c3ae322.static.optonline.net) has joined #perl
+2011-10-26 17:04:11	thrig	really? mine is $10 since I started having my laptop chew on BOINC stuff
+2011-10-26 17:04:40	-->	mrbooko (~findmeLIO@99-120-70-84.lightspeed.miamfl.sbcglobal.net) has joined #perl
+2011-10-26 17:04:43	-->	dwebb (~dwebb@fedora/dwebb) has joined #perl
+2011-10-26 17:04:56	<--	AzazelPazuzu (~Azazel@ool-6c3ae322.static.optonline.net) has quit (Remote host closed the connection)
+2011-10-26 17:05:40	<--	mrsolo (~mrsolo@64.125.181.73) has quit (Quit: Leaving)
+2011-10-26 17:06:10	-->	AzazelPazuzu (~Azazel@ool-6c3ae322.static.optonline.net) has joined #perl
+2011-10-26 17:06:16	<--	AzazelPazuzu (~Azazel@ool-6c3ae322.static.optonline.net) has quit (Excess Flood)
+2011-10-26 17:06:30	-->	AzazelPazuzu (~Azazel@ool-6c3ae322.static.optonline.net) has joined #perl
+2011-10-26 17:06:42	<--	kryl (~kryl@2a01:e35:2e06:de80:226:c7ff:fe33:e22e) has quit (Quit: Leaving)
+2011-10-26 17:07:51	<--	takis-sanjo (~bagz@46-198-43-234.adsl.cyta.gr) has quit (Quit: My damn controlling terminal disappeared!)
+2011-10-26 17:07:54	<--	AzazelPazuzu (~Azazel@ool-6c3ae322.static.optonline.net) has quit (Remote host closed the connection)
+2011-10-26 17:08:05	-->	AzazelPazuzu (~Azazel@ool-6c3ae322.static.optonline.net) has joined #perl
+2011-10-26 17:08:12	<--	AzazelPazuzu (~Azazel@ool-6c3ae322.static.optonline.net) has quit (Excess Flood)
+2011-10-26 17:08:45	-->	AzazelPazuzu (~Azazel@ool-6c3ae322.static.optonline.net) has joined #perl
+2011-10-26 17:08:49	<--	AzazelPazuzu (~Azazel@ool-6c3ae322.static.optonline.net) has quit (Excess Flood)
+2011-10-26 17:09:05	-->	AzazelPazuzu (~Azazel@ool-6c3ae322.static.optonline.net) has joined #perl
+2011-10-26 17:09:08	-->	VVelox_ (~kitsune@sula-ki.vvelox.net) has joined #perl
+2011-10-26 17:09:12	<--	AzazelPazuzu (~Azazel@ool-6c3ae322.static.optonline.net) has quit (Excess Flood)
+2011-10-26 17:10:35	<--	VVelox (~kitsune@sula-ki.vvelox.net) has quit (Ping timeout: 260 seconds)
+2011-10-26 17:10:41	-->	mosno (~mosno@unaffiliated/mosno) has joined #perl
+2011-10-26 17:11:24	<--	takeshix (~takeshix@unaffiliated/takeshix) has quit (Remote host closed the connection)
+2011-10-26 17:11:46	--	mrbooko is now known as lemonjuice
+2011-10-26 17:11:47	 *	GumbyPAN CPAN Upload: Parse-HTTP-UserAgent-0.30 by BURAK http://metacpan.org/release/BURAK/Parse-HTTP-UserAgent-0.30
+2011-10-26 17:12:03	-->	AzazelPazuzu (~Azazel@ool-6c3ae322.static.optonline.net) has joined #perl
+2011-10-26 17:12:03	<--	anxt (~user@64.141.19.175) has quit (Read error: Connection reset by peer)
+2011-10-26 17:12:27	-->	JoelTR (~JoelTR@99-185-1-129.lightspeed.frokca.sbcglobal.net) has joined #perl
+2011-10-26 17:13:28	<--	AzazelPazuzu (~Azazel@ool-6c3ae322.static.optonline.net) has quit (Remote host closed the connection)
+2011-10-26 17:14:54	<--	cardamon (~mute@wn-0-22-43-57-13-41.wifi.gsu.edu) has quit (Ping timeout: 276 seconds)
+2011-10-26 17:20:07	<--	regueifa (~andrefs@gwlmf.di.uminho.pt) has quit (Ping timeout: 240 seconds)
+2011-10-26 17:20:23	<--	andrefs__ (~andrefs@gwlmf.di.uminho.pt) has quit (Ping timeout: 256 seconds)
+2011-10-26 17:22:12	lemonjuice	these places are just downright scary... im afraid to ask... like being in the presence of perl gods @_@ ... one wrong question, and off with me head...
+2011-10-26 17:22:35	-->	AzazelPazuzu (~Azazel@ool-6c3ae322.static.optonline.net) has joined #perl
+2011-10-26 17:22:41	-->	ej_ (~ej@67.224.69.45) has joined #perl
+2011-10-26 17:22:48	alnewkirk	:/
+2011-10-26 17:23:01	ology	lemonjuice: give it a shot.
+2011-10-26 17:23:21	<--	ej_ (~ej@67.224.69.45) has quit (Max SendQ exceeded)
+2011-10-26 17:23:22	 *	Paladin sharpens the axe
+2011-10-26 17:23:25	SpiceMan	wrong questions don't give a lenient chopped head, but long torture
+2011-10-26 17:24:08	<--	ej__ (~ej@67.224.69.45) has quit (Ping timeout: 260 seconds)
+2011-10-26 17:24:14	<--	lemonjuice (~findmeLIO@99-120-70-84.lightspeed.miamfl.sbcglobal.net) has quit
+2011-10-26 17:24:15	-->	c9s (~c9s@114-37-100-104.dynamic.hinet.net) has joined #perl
+2011-10-26 17:24:26	-->	ddi (ddi@94.159.229.199) has joined #perl
+2011-10-26 17:26:49	 *	GumbyPAN CPAN Upload: DBIx-RoboQuery-0.014 by RWSTAUNER http://metacpan.org/release/RWSTAUNER/DBIx-RoboQuery-0.014
+2011-10-26 17:27:39	-->	cardamon (~mute@wn-0-22-43-57-13-41.wifi.gsu.edu) has joined #perl
+2011-10-26 17:28:04	<--	ddi (ddi@94.159.229.199) has quit
+2011-10-26 17:28:29	<--	elif (~marco@201-68-141-127.dsl.telesp.net.br) has quit (Quit: leaving)
+2011-10-26 17:28:40	<--	c9s (~c9s@114-37-100-104.dynamic.hinet.net) has quit (Ping timeout: 260 seconds)
+2011-10-26 17:31:50	 *	GumbyPAN CPAN Upload: File-Remove-1.51 by ADAMK http://metacpan.org/release/ADAMK/File-Remove-1.51
+2011-10-26 17:34:49	<--	psyprus (~psyprus@unaffiliated/psyprus) has quit (Ping timeout: 252 seconds)
+2011-10-26 17:35:43	<--	cardamon (~mute@wn-0-22-43-57-13-41.wifi.gsu.edu) has quit (Remote host closed the connection)
+2011-10-26 17:36:51	 *	GumbyPAN CPAN Upload: Process-0.30 by ADAMK http://metacpan.org/release/ADAMK/Process-0.30
+2011-10-26 17:37:16	<--	achromic (~achromic@cpe-76-168-200-60.socal.res.rr.com) has quit (Quit: leaving)
+2011-10-26 17:37:41		irc: disconnected from server
+2011-10-27 20:26:01	-->	TheSeparateFirst (~jeffrey@ip72-207-124-2.sd.sd.cox.net) has joined #perl
+2011-10-27 20:26:01	--	Topic for #perl is "perl-5.14.2 is out! http://goo.gl/Si13c Perls 5.8, 5.10 EOLd | No pasting into channel, use http://scsys.co.uk:8002/perl to show code | Modern Perl book at http://xrl.us/bjc4vf | http://presentingperl.org/ | FAQ at http://faq.perl.org | < mauke> in conclusion: what"
+2011-10-27 20:26:01	--	Topic set by mst (~matthewt@freenode/staff/shadowcat.chainsaw-wielder.perl-gc) on Tue, 25 Oct 2011 06:32:48
+2011-10-27 20:26:01	--	Nicks #perl: [[E]sc __class__ __main__ _sri `moebius` a3r0 abbe abyxcos achromic acrussell Aerdan AFK ag4ve agi aglenday agorman alephnull aliceinwire alnewkirk Altreus am0c amiri andrewsw andybe Aniar antgel antonh Apachez apeiron apollolune archangle25 architek archon- asakura asarch auraka avar avenj azzid b2 bandroidx barika bayashi_ Bazerka bbkr bburhans bdhuser beasty Bejjan^ Belgarion0 bennymack berndj bigpresh BinGOs bithash_ blast_hardcheese blaxthos bline BLZbubba bobweaver Bonilla boshhead Botje bps brabo brahman Bry8Star{GB BSDBlack build3r Caelum camarllon caveat- ccushing centosian cfedde Champi chasing_Sol chasmo77 chitragupt ChmEarl chrisdev cl0ud Clex coldboot compengi Corey CorpX crazed CrazyEddy creyon crilly Cru CTS|detached culb curfont cyberspace- cyborg-one cythrawll D-ion daemon dale971 Damianz Damn3d daniel_ danieldg DarthGandalf Dave2 DaZ dcat Deathvalley122 Debolaz dec Deck` decoder deepy Delph delskorch depesz DeusEx devdas dhoss dilfridge din dive djanatyn djharsk dju dkr dngor dondelelcaro Dorward Drakevr Dreadnaught DrForr dropdrive dwebb e1f eam east Echtor2oo3 edenc EdwardIII ej_ ejnahc el_seano elb0w_ eliasp elliottcable elmex else em epure EspadaV8 est3 ethern0t Evixion Exodist EyesIsServer ezra f00li5h fahadsadah FastJack felher felipe ferret fisted fizzie fizztpok Fleck flight18 foristh framling frankie fredden fuzzix g-ram gabimuc garo geck genehack genio GinoMan githogori glontu Grauwolf grishnav grouzen_ gryzor Guest38762 Guest86726 GumbyPAN gvandeweyer gyyrog haarg hackeron HannesPannes HarryS Harzilein HellKat herdingcat hexellent HighBit hobbs Hor|zon huddy huf hylinux i0n iansealy icekold idn idoru ifvoid_ Ikarus imarcusthis imcsk8 imMute imMute_old Indian infi infrared_ ingy initself integral Internet13 Invis IRnick-VB04 ironcamel j3nnn1 jaggz jamesn jaminja Janhouse_ javier Jayce^ jayne jdv79 jenic jerQ jesk jetscreamer jettero jevin jeward jink jjacobs-fm jlaire jlindsay jMCg joe JohnnyDavidson jql jsz` jtrucks jvv jwang k-man K3rmit kaitlyn kakashi_ kakashi__ kandinski kasler kassien Kays keras kers kerx kfo_ kh31d4r Khisanth kixx kloeri knowpaced kornshell Kovensky kst kthakore kury laidback_01 lberk LeoNerd lesnik_ Lewoco LiamM LifeIsPain literal lkj loader lois LoRez Lorn lucs lusory m4rcu5 mac- Maddingue magic_people magoo_ makeawish malifae mantovani marcusk marienz mateu matti mattp_ mauke MChizhov Medlir MedlirWork medusa megaTherion melic melter Merlin metasyntax|work metrox mfontani mino MissionCritical mito__ mmercer modexi Modius module000 Mogget Mokona molaf_ momo- MooingLemur mordy morissette mrmist mst mtak musca myp nanana-bj-cn nanderoo natureboy NChief netsan Nexus6 Nickeeh nightfrog nimred ninedotnine noganex_ nsh NucWin nutron nyuszika7h Okazaki-san oliwer ology opx^away orafu oskie Paks Paladin parus Patterner peder penma perlbot PerlJam Perun petaflot peterrooney peterS PeterThoeny ph8 PhaidrosDA Phil-Work` phrag pif Pilate PinkFreud pj pkrumins plaxx pmpcat pochi polemon powder praedo pragma_ Praise pranq preaction preflex proller protospork Provito provoc przemoc puppen PZt qian qian_pc QtPlatypus randbit raSter^ rbuels rclark rcsheets Reaganomicon RedFyre relaxed renown revcane revdiablo rewt rexbinary rgrinberg rhizmoe Rhomber ribasushi rickest rjt rjzmml rmah-ipad robinetd robinsmidsrod robokit Romnous rot rozie rsimoes rsimoes1 RubyPanther RushPL ryan-c saaki sacx salparadise Sarten-X SatoshiHayazaki scampbell schrodinger sdgvf seekwill semeion semy SetActive sh4rm4 sha0lin shabble shachaf shadey_ shadowmaster shaldannon shardz Shells shikamaru shoerain shorten simcop2387 simple sirhc sivoais sizz Sjors SJS skangas skor slaytanic slon smokex smpb snarkyboojum snL20 Solow_ Somni Sophira SoulSeller spacebat spade sparkman spb SpeedyGhost spheniscus SpiceMan SpitfireWP sps12118 squentin ssureshot stepnem stockholm stunix Su-Shee Su-Shee_ SubStack sunnavy sunny256 Supaplex sven^ sysdef szr Tabmow tabris|away Taggnostr Taranis tcunha tdubellz tekzilla tessier Thalamus tharkun the_new_you The_White_Rabbit TheMoonMaster theorem Thermoriax TheSeparateFirst Theta TheZimm tho964 thrig Tianon TinoDidriksen tkr tlvb tm604 tmtowtdi tmtowtdi_mob todd toddf tomaw torbjorn Touns tove tsetumel tsnow tty234 tubgoat tugboat tybalt89 tyldis ugexe uri UukGoblin v0id VaNNi vert2 vigith VVelox w0m walkeraj waltman wdf wizkid238 woggle woldrich Woodi woot1337 Workaholic wreis xachen XayOn xbayrockx xenoterracide xeon-enouf xhaker xilo xinming xontech xorspark xpot y3llow ya Yaakov yahooooo yath yofel yousef yves Zaba ZadYree zaltekk zampano zibri zo Zoop zostay_ |simo]
+2011-10-27 20:26:01	--	Channel #perl: 587 nicks (0 ops, 0 halfops, 0 voices, 587 normals)
+2011-10-27 20:26:03	--	Channel created on Sat, 25 Nov 2006 22:42:39
+2011-10-27 20:26:32	<--	Su-Shee (user-20709@p5795B476.dip.t-dialin.net) has quit (Ping timeout: 248 seconds)
+2011-10-27 20:31:53	 *	GumbyPAN CPAN Upload: DBIx-RoboQuery-0.016 by RWSTAUNER http://metacpan.org/release/RWSTAUNER/DBIx-RoboQuery-0.016
+2011-10-27 20:32:15	f00li5h	mew
+2011-10-27 20:33:33	<--	natureboy (~mitchell@unaffiliated/furryfishy) has quit (Quit: leaving)
+2011-10-27 20:35:40	tybalt89	no o ?
+2011-10-27 20:36:21	f00li5h	lazy cats
+2011-10-27 20:36:47	-->	c9s (~c9s@114-37-100-104.dynamic.hinet.net) has joined #perl
+2011-10-27 20:36:54	 *	GumbyPAN CPAN Upload: Marpa-XS-0.019_004 by JKEGL http://metacpan.org/release/JKEGL/Marpa-XS-0.019_004
+2011-10-27 20:37:16	<--	daniel_ (~daniel_@67.218.105.63) has quit (Quit: get off the bus boy!)
+2011-10-27 20:37:42	f00li5h	tybalt89: what's good?
+2011-10-27 20:38:04	<--	jjacobs-fm (~jjacobs@dsl-67-204-56-56.acanac.net) has quit (Quit: jjacobs-fm)
+2011-10-27 20:38:14	-->	DarthJerome (~jsuarez@121.96.250.46) has joined #perl
+2011-10-27 20:38:49	<--	Solow_ (~Solow@unaffiliated/solow) has quit (Read error: Connection reset by peer)
+2011-10-27 20:38:53	-->	Solow (~Solow@unaffiliated/solow) has joined #perl
+2011-10-27 20:39:18	tybalt89	for ?
+2011-10-27 20:39:34	uri	f00li5h: know of maru cat videos?
+2011-10-27 20:41:28	<--	tugboat (~tugboat@gateway/tor-sasl/tugboat) has quit (Ping timeout: 248 seconds)
+2011-10-27 20:42:51	-->	vol7ron (~vol7ron@c-69-143-179-237.hsd1.va.comcast.net) has joined #perl
+2011-10-27 20:42:55	f00li5h	seems likely
+2011-10-27 20:43:11	<--	asarch (~asarch@189.188.144.212) has quit (Ping timeout: 255 seconds)
+2011-10-27 20:43:19	f00li5h	tybalt89: aparently the answer is 'its all good, baby'... but you might need yyo be black...
+2011-10-27 20:44:36	-->	tugboat (~tugboat@gateway/tor-sasl/tugboat) has joined #perl
+2011-10-27 20:44:45	<--	nanderoo (~nanders@c-69-138-228-54.hsd1.md.comcast.net) has quit (Quit: Leaving.)
+2011-10-27 20:47:27	-->	hpt (~hpt@210.72.212.242) has joined #perl
+2011-10-27 20:50:36	-->	gavinharper (~gavinharp@dyn3-82-128-184-2.psoas.suomi.net) has joined #perl
+2011-10-27 20:53:38	Indian	why is my used?
+2011-10-27 20:53:54	Indian	any reason for the keyword my
+2011-10-27 20:54:16	tm604	to declare variables. perldoc -f my
+2011-10-27 20:54:17	tybalt89	block scoping vars
+2011-10-27 20:54:54	-->	looogsgd (~jasmine@99-127-225-12.lightspeed.sntcca.sbcglobal.net) has joined #perl
+2011-10-27 20:55:06	Indian	sure but the idea behind to use something like "my"
+2011-10-27 20:55:17	tm604	is to declare variables. read perldoc -f my
+2011-10-27 20:55:18	Indian	rather say local
+2011-10-27 20:55:39	tybalt89	'local' is for dynamic scoping
+2011-10-27 20:55:53	tm604	local only works on variables that exist already.
+2011-10-27 20:56:00	uri	Indian: do you know the difference between lexical and global vars?
+2011-10-27 20:56:09	uri	tm604: not exactly.
+2011-10-27 20:56:31	uri	local only works on globals but also values in hashes and arrays
+2011-10-27 20:56:36	Indian	ok I will read the doc thanks
+2011-10-27 20:57:15	uri	point is always use my unless you know when to use local
+2011-10-27 20:57:30	tm604	local $var->{something} may autovivify first, but it's still only operating on an existing variable rather than declaring a new one.
+2011-10-27 20:57:47	tm604	actually, maybe there's a better word than 'variable' there?
+2011-10-27 20:57:55	tm604	pad perhaps?
+2011-10-27 20:58:25	uri	tm604: local $foo works even if $foo isn't around before
+2011-10-27 20:58:54	tm604	eval: use strict; use warnings; local $x;
+2011-10-27 20:58:56	perlbot	tm604: ERROR: Global symbol "$x" requires explicit package name at (eval 461) line 1.
+2011-10-27 20:59:20	<--	TheZimm (~TheZimm@c-24-15-224-211.hsd1.il.comcast.net) has quit (Quit: Textual IRC Client: http://www.textualapp.com/)
+2011-10-27 20:59:28	tm604	^ local $::x, sure. but that's more along the lines of autovivification than declaring a var, I think?
+2011-10-27 21:00:53	uri	 perl -le '{local $x{foo} ; print keys %x, "\n"; } print keys %x,"\n"'
+2011-10-27 21:00:53	uri	foo
+2011-10-27 21:01:26	uri	foo is only inside the block, not after it. so no true autoviv happens. only the localized value is created
+2011-10-27 21:01:27	tm604	again, autovivifying that hash slot, rather than declaring a new variable.
+2011-10-27 21:02:12	tm604	so yes, it's scoped, but it's not declaring anything, at least as far as I understand it?
+2011-10-27 21:02:25	uri	but the key is gone after the block.
+2011-10-27 21:02:35	uri	local doesn't ever declare
+2011-10-27 21:02:44	uri	it pushes a new value onto slots
+2011-10-27 21:02:45	<--	Solow (~Solow@unaffiliated/solow) has quit (Read error: Connection reset by peer)
+2011-10-27 21:02:54	uri	for the dynamic life of that slot
+2011-10-27 21:03:00	-->	Solow (~Solow@unaffiliated/solow) has joined #perl
+2011-10-27 21:03:07	tm604	yeah, that's more an artifact of the way scoping works. All I'm saying is that local doesn't declare things, perhaps my original comment wasn't a very good way of putting it.
+2011-10-27 21:03:18	-->	irq_ (~chatzilla@aayw46.neoplus.adsl.tpnet.pl) has joined #perl
+2011-10-27 21:03:44	uri	which is why i commented on it
+2011-10-27 21:04:52	-->	ProperNoun (holyShizn@wikipedia/ProperNoun) has joined #perl
+2011-10-27 21:05:16	tm604	in that case, correction accepted =)  And I fully agree with the point about using my unless you know when + how to use local.
+2011-10-27 21:05:42	-->	envi_ (kvirc@14.33.86.39) has joined #perl
+2011-10-27 21:05:51	ag4ve	err, when i copy a scalar of a hash (a hashref) to another scalar, it seems to retain the data - ie i tried to limit the scope of the copy so i could push more data tempoararily and i can't loose it...?
+2011-10-27 21:05:53	<--	kasler (~kasler@178-223-11-85.dynamic.isp.telekom.rs) has quit (Remote host closed the connection)
+2011-10-27 21:05:57	-->	tulkastaldo (~tulkas@97-83-35-97.dhcp.trcy.mi.charter.com) has joined #perl
+2011-10-27 21:06:00	uri	mjd has a good article on 7 reasons to use local. wonder if it is still accurate
+2011-10-27 21:06:09	tm604	ag4ve: that's because both refs point to the same hash.
+2011-10-27 21:06:10	uri	ag4ve: huh??
+2011-10-27 21:06:16	uri	refs are not private
+2011-10-27 21:06:29	tm604	my $shallow_copy = { %hash }; my $deep_copy = { Storable::dclone(%hash) } or something along those lines.
+2011-10-27 21:06:31	ag4ve	errr, how do i 'fix' this?
+2011-10-27 21:06:40	uri	do a deeper copy
+2011-10-27 21:06:54	tm604	actually, dclone probably takes a ref? perldoc Storable should tell you more.
+2011-10-27 21:06:55	uri	classic bug in ref code
+2011-10-27 21:07:24	ag4ve	ah, it's a ref with more refs, i don't know that will loose them (as it were)
+2011-10-27 21:07:30	ag4ve	any module?
+2011-10-27 21:07:37	 *	tm604 taps microphone
+2011-10-27 21:07:48	<--	envi_ (kvirc@14.33.86.39) has quit (Read error: Connection reset by peer)
+2011-10-27 21:07:53	mst	ag4ve: wtf
+2011-10-27 21:08:00	uri	ag4ve: you need to read more docs on refs.
+2011-10-27 21:08:04	mst	ag4ve: what do you mean "any module?" tm604 already told you what to try
+2011-10-27 21:08:13	mst	ag4ve: also, http://p3rl.org/REF - read the perldocs linked again
+2011-10-27 21:08:26	<--	din (~din__@gateway/tor-sasl/din) has quit (Remote host closed the connection)
+2011-10-27 21:08:26	<--	semeion (~semeion@gateway/tor-sasl/semeion) has quit (Remote host closed the connection)
+2011-10-27 21:08:34	ag4ve	oh, Storable... missed that
+2011-10-27 21:08:59	ag4ve	mst: thanks for whacking me over the head :)
+2011-10-27 21:09:20	<--	nanana-bj-cn (~SportsCar@124.205.167.66) has quit (Quit: Leaving...)
+2011-10-27 21:09:49	uri	can i whack you too? mst has all the fun!
+2011-10-27 21:10:12	-->	kasler (~kasler@178-223-11-85.dynamic.isp.telekom.rs) has joined #perl
+2011-10-27 21:10:13	-->	envi_ (kvirc@14.33.86.39) has joined #perl
+2011-10-27 21:10:40	<--	hpt (~hpt@210.72.212.242) has quit (Ping timeout: 240 seconds)
+2011-10-27 21:10:42	-->	MrBougo (~MrBougo@109.128.168.88) has joined #perl
+2011-10-27 21:11:04	ag4ve	uri: all of the responses i can think of that are just too fucked up....
+2011-10-27 21:11:23	 *	theorem pops in
+2011-10-27 21:11:32	uri	that's the whole idea! :)
+2011-10-27 21:11:50	theorem	.... uri
+2011-10-27 21:12:02	theorem	oh my.
+2011-10-27 21:12:13	-->	nanana-bj-cn (~SportsCar@124.205.167.66) has joined #perl
+2011-10-27 21:12:16	<--	nanana-bj-cn (~SportsCar@124.205.167.66) has quit (Client Quit)
+2011-10-27 21:12:25	ag4ve	tm604: heh, i would have never thought of storable as being used for this. cool
+2011-10-27 21:13:33	tm604	yeah, I don't use it often enough to remember the API properly, but I think dclone's pretty much the standard approach for arbitrarily-deep ref copies.
+2011-10-27 21:13:40	-->	nanana-bj-cn (~SportsCar@124.205.167.66) has joined #perl
+2011-10-27 21:13:40	<--	nanana-bj-cn (~SportsCar@124.205.167.66) has quit (Remote host closed the connection)
+2011-10-27 21:14:12	<--	bobweaver (~quassel@74-44-79-48.dsl1-field.roch.ny.frontiernet.net) has quit (Remote host closed the connection)
+2011-10-27 21:14:21	mst	yeah. there's also Clone and Clone::XS and ...
+2011-10-27 21:14:22	-->	nanana-bj-cn (~SportsCar@124.205.167.66) has joined #perl
+2011-10-27 21:14:28	mst	but honestly Storable::dclone() is usually fine
+2011-10-27 21:14:37	mst	that or just doing the { %$hashref } thing
+2011-10-27 21:14:42	mst	when all you need is a single level copy
+2011-10-27 21:14:47	woldrich	someone just killed perltoot
+2011-10-27 21:15:23	mst	no, it was removed some time previously, after a long discussion
+2011-10-27 21:15:49	woldrich	I just got to see some random stubs
+2011-10-27 21:16:03	woldrich	perhaps the discussion was placed elsewhere
+2011-10-27 21:16:23	<--	nanana-bj-cn (~SportsCar@124.205.167.66) has quit (Client Quit)
+2011-10-27 21:16:25	mst	hm?
+2011-10-27 21:17:08	uri	even a 2 level copy is easy with maps. deeper than that a sub or module is needed
+2011-10-27 21:20:33	-->	nanana-bj-cn (~SportsCar@124.205.167.66) has joined #perl
+2011-10-27 21:20:45	<--	peterrooney (~peter@S01060013461620b7.gv.shawcable.net) has quit (Quit: new kernel compiled - reboot)
+2011-10-27 21:21:41	mst	woldrich: it got discussed on p5p extensively before
+2011-10-27 21:23:59		irc: disconnected from server
+2011-11-12 13:20:27	-->	TheSeparateFirst (~nullptr@ip72-207-124-2.sd.sd.cox.net) has joined #perl
+2011-11-12 13:20:27	--	Topic for #perl is "perl-5.14.2 is out! http://goo.gl/Si13c Perls 5.8, 5.10 EOLd | No pasting into channel, use http://scsys.co.uk:8002/perl to show code | Modern Perl book at http://xrl.us/bjc4vf | http://presentingperl.org/ | FAQ at http://faq.perl.org | < mauke> in conclusion: what"
+2011-11-12 13:20:27	--	Topic set by mst (~matthewt@freenode/staff/shadowcat.chainsaw-wielder.perl-gc) on Tue, 25 Oct 2011 06:33:49
+2011-11-12 13:20:28	--	Nicks #perl: [[E]sc __class__ __main__ __sri _baton_ _bugz_ _miki_ abbe abc03 abra abyxcos achromic adante Aerdan AFK ag4ve agorman aindilis` alaska alfplayer aliceinwire alnewkirk Altreus amiri amkrankruleuen andybe Aniar anno antgel antgel_ Antisoche antonh Apachez apeiron archon- arnoldB asakura Atlas auraka avar avenj AzaToth azatoth_work azzid b2 bandroidx barika bayashi_ Bazerka bbkr bburhans bdhuser beasty_ Bejjan Belgarion0 bennymack bigpresh BigRedS billn BinGOs bithash blast_hardcheese blaxwork bline bloodycelt bluregard Bonilla boshhead Botje bps brahman brice Bry8Star_ Bry8Star{GB BSDBlack Bucciarati build3r bytbox Caelum camarllon caveat- ccushing cfedde ch4os` Champi chasmo chaz chitragupt ChmEarl cl0ud Clex cmillard coldboot colR conray converter cooper crazed CrazyEddy CrazyGir creyon_ Cru curfont cyberspace- cyborg-one cyygni daemon dalinaum_office Damianz Damn3d danaj danieldg darkx DarthGandalf DarthJerome Dave2 DaZ dcat Deathvalley122 Debolaz Deck` decoder defaultnick Delph delskorch depesz dhoss DHowett dilfridge dive djanatyn djharsk dju dkr dmbaturin dngor dondelelcaro DorkimusPrime dracflamloc Drakevr Dreadnaught DrForr dropdrive dwebb eAndi_ Echtor2oo3 ecrane_ edenc EdwardIII ejnahc el_seano elb0w eliasp elmex else epure EspadaV8_away EvilPenguin Exodist EyesIsServer ezra fahadsadah FastJack felher felipe ferret fisted fizzie fizztpok fjd Fleck flight17 flocke Flort folivora foolove foristh frankie fsaad fuzzix gabimuc galaxywatcher Gatto geck genehack genio geshp_ ghenry GinoMan githogori gniourf_gniourf gnusosa Gorkyman Grauwolf gregorg grishnav grouzen gryzor grzor gtim Guest31213 GumbyPAN GvzEvxre haarg hackeron HannesPannes hanstech HarryS hcchien HellKat HighBit hittt hobbs homie honschu huang-jin huddy huf ICEBreakPoint icekold idn idoru Ignatius Ikarus im2ee imarcusthis imcsk8 imMute imMute_old Indian infi infrared_ ingonyama ingy initself integral Internet13 Invis ironcamel itnomad j3nnn1 Jackneill jaggz jamesn Jayce^ jayne jayzz Jckf jdv79 jenic jerQ jesk jetscreamer jettero jevin jimmy1980 jink jlaire jlindsay jMCg joe josef__ jql jsz`_ jtrucks justlooks jvv jwang k-man K3rmit k3rmitzz Kage kaitlyn kakashi_ kamyl kandinski Kare_Krigsforbry kasler Kays keith4 kent\n keras kers kerx kfo_ Kharec Khisanth Kiryakov kixx kjeldahl kloeri kornshell ks_Marian kst kury Kuukunen kyconquers lberk LeoNerd Liam LiamM Limbic_Region Linuturk literal lkj lkundrak loader localhost lois lokomis LoRez Lorn lucs LukeL lusory m4rcu5 mac- Maddingue magnus__1 magoo_ malifae_ mangala mantovani marienz mateu matti mattp_ mauke MChizhov McMAGIC--Copy Medlir MedlirWork megaTherion melic_ melmothX melter metasyntax|work mfontani mino MissionCritical mitchty mito__ mmercer modexi Mogget Mohan Mokona momo- MooingLemur mordy MouldyOldBones MrBougo mrmist Mrono mschiff mst musca myp NChief netsan Nickeeh nicoulaj nimred ninedotnine nleaman noganex nronksr nsh NucWin nurfed nyuszika7h oldwzd oliwer ology opx^away orafu oriba oskie Paks Paladin Patterner peder penma perlbot perlite11 PerlJam Perun_ peterrooney peterS PeterThoeny petn-randall pettsson ph8 philsf physcological pif Pilate pj pkkm pkrumins plaxx pmurias pochi polemon poutine praedo pragma_ Praise praveenkumar preaction preflex proller Provito przemoc puc pwrcycle q66 qubit ramusara randbit raSter^ rbuels rclark RedFyre relaxed renown revcane revdiablo rewt rexbinary rgrinberg rhizmoe ribasushi rizlah rjt rmah-ipad Roa robinsmidsrod robokit robrigo Rockj Ross roue rozie rrb3942 rsimoes rsimoes1 RubyPanther RushPL rw|Antharist ryan-c ryanc ryoshu saaki sacx salparadise Sarten-X sauvin schrodinger sdgvf seek^126 seekwill semeion semy sha0lin shabble shachaf shadowpaste shardz Shells shoerain shorten simcop2387 simple sirhc sivoais sizz SJS skangas slaytanic sled-dog slon smeea smokex|away snarkyboojum sndcrb snL20 Somni Sophira SoulSeller spacebat spade sparkman spb SpeedyGhost spheniscus SpiceMan SpitfireWP squentin stepnem stockholm StoneWork stunix stuuf Su-Shee sunnavy sunny256 Supaplex sven^ sw0rdfish synthetiq sysdef szr Tabmow Taggnostr Taranis tcunha tdubellz tekzilla Thalamus tharkun The_White_Rabbit Thermoriax TheSeparateFirst TheZimm thrig Tianon TinoDidriksen tjmc tkr tlvb tm604 tmtowtdi_home tmtowtdi_mob toddf tomaw Touns tove Trashlord tsetumel tsnow tty234 tubgoat tybalt89 tyldis ugexe unpaidbill uri usch UukGoblin VaNNi vebb vert2 vincent Visual` Visualiza Vorpal VVelox w0m waltman Walzmy_ whynot woggle woldrich woleium wooden Woodi wreis xachen xaxes XayOn xenoterracide xeon-enouf xilo xinming xorspark xp_prg xpot xpot-mobile Yaakov yahooooo yak yath yigal yofel yousef yroeht yves Zaba ZadYree zaltekk zellio Zephyrus zib zibri Zoop zostay_ zymurgy_]
+2011-11-12 13:20:28	--	Channel #perl: 598 nicks (0 ops, 0 halfops, 0 voices, 598 normals)
+2011-11-12 13:20:30	--	Channel created on Sat, 25 Nov 2006 22:42:39
+2011-11-12 13:21:13	<--	pmurias (~pawel@static-78-8-208-43.ssp.dialog.net.pl) has quit (Ping timeout: 260 seconds)
+2011-11-12 13:22:50	-->	pmurias (~pawel@static-78-8-208-43.ssp.dialog.net.pl) has joined #perl
+2011-11-12 13:23:34	<--	XayOn (~XayOn@212.97.191.93.dyn.user.ono.com) has quit (Remote host closed the connection)
+2011-11-12 13:24:54	<--	pkkm (~pawel@abr71.neoplus.adsl.tpnet.pl) has quit (Ping timeout: 258 seconds)
+2011-11-12 13:26:58	<--	pmurias (~pawel@static-78-8-208-43.ssp.dialog.net.pl) has quit (Ping timeout: 240 seconds)
+2011-11-12 13:29:03	-->	pmurias (~pawel@static-78-8-208-43.ssp.dialog.net.pl) has joined #perl
+2011-11-12 13:32:06	Khisanth	wrong channel
+2011-11-12 13:32:21	Khisanth	thrig: for PHP? :)
+2011-11-12 13:32:23	-->	migmir (~migmir@233.84.197.77.rev.sfr.net) has joined #perl
+2011-11-12 13:33:32	-->	axehind (~axehind@pool-151-203-221-40.bos.east.verizon.net) has joined #perl
+2011-11-12 13:34:36	-->	cyygni_ (~cyygni@cm145-159.resnet.csumb.edu) has joined #perl
+2011-11-12 13:34:52	<--	_miki_ (~miki@76.10.146.106) has quit (Read error: Operation timed out)
+2011-11-12 13:36:58	<--	cyygni (~cyygni@cm145-159.resnet.csumb.edu) has quit (Ping timeout: 260 seconds)
+2011-11-12 13:38:42	-->	_miki_ (~miki@66.212.171.234.tor.pathcom.com) has joined #perl
+2011-11-12 13:39:18	-->	rc233 (~23159@163.Red-83-53-29.dynamicIP.rima-tde.net) has joined #perl
+2011-11-12 13:40:35	<--	rc233 (~23159@163.Red-83-53-29.dynamicIP.rima-tde.net) has left #perl
+2011-11-12 13:43:14	<--	jimmy1980 (~jimmy@112.224.3.86) has quit (Ping timeout: 252 seconds)
+2011-11-12 13:43:22	-->	sty (~quassel@bas2-toronto61-2925081123.dsl.bell.ca) has joined #perl
+2011-11-12 13:43:40	<--	pmurias (~pawel@static-78-8-208-43.ssp.dialog.net.pl) has quit (Ping timeout: 245 seconds)
+2011-11-12 13:43:43	-->	looogsgd (~jasmine@99-127-225-12.lightspeed.sntcca.sbcglobal.net) has joined #perl
+2011-11-12 13:44:53	<--	jayzz (~jayzz@212.204.48.211) has quit (Quit: Verlassend)
+2011-11-12 13:45:26	-->	pmurias (~pawel@static-78-8-208-43.ssp.dialog.net.pl) has joined #perl
+2011-11-12 13:45:57	foolove	$ENV{'TZ'}='America/Chicago'
+2011-11-12 13:46:17	foolove	How would i specify the above in my could for setting an environment variable in perl
+2011-11-12 13:46:19	Jckf	eval: my $string = 'foo'; vec($string,0,8) = 'g'; $string;
+2011-11-12 13:46:21	perlbot	Jckf: \0oo
+2011-11-12 13:46:22	 *	GumbyPAN CPAN Upload: Net-SNMP-Mixin-IpCidrRouteTable-0.02 by GAISSMAI http://metacpan.org/release/GAISSMAI/Net-SNMP-Mixin-IpCidrRouteTable-0.02
+2011-11-12 13:46:48	foolove	$ENV{'TZ'}='America/Chicago';   this does not set the environment variable
+2011-11-12 13:48:16	Jckf	eval: my $string = 'foo'; vec($string,0,8) = ord('g'); $string;
+2011-11-12 13:48:17	perlbot	Jckf: goo
+2011-11-12 13:49:38	thrig	foolove: yes it does.
+2011-11-12 13:50:29	-->	jimmy1980 (~jimmy@112.224.2.126) has joined #perl
+2011-11-12 13:51:22	<--	rrb3942 (~rbullock@pool-108-38-99-122.lsanca.fios.verizon.net) has quit (Remote host closed the connection)
+2011-11-12 13:51:39	-->	EriksLV (~erikslv@88.135.148.122) has joined #perl
+2011-11-12 13:51:56	foolove	thrig i think i have to call it from another script
+2011-11-12 13:52:13	thrig	call what? why?
+2011-11-12 13:52:18	foolove	like make a sepearte script timezone.pl   then eval `timezone.pl`
+2011-11-12 13:52:20	foolove	just reading
+2011-11-12 13:52:24	foolove	how would i call that in my script
+2011-11-12 13:52:26	Jckf	How do I change only the first or only last 4 bits of a byte with vec()?
+2011-11-12 13:53:40	Jckf	Is the offset argument for vec() in the number of bits specified maybe?
+2011-11-12 13:54:26	Jckf	Meaning vec($string,2,4) actually jumps 8 bits?
+2011-11-12 13:56:13	<--	conray (~taipan@dslb-094-222-086-254.pools.arcor-ip.net) has quit (Quit: mal eben die welt retten)
+2011-11-12 13:56:13	<--	jimmy1980 (~jimmy@112.224.2.126) has quit (Ping timeout: 260 seconds)
+2011-11-12 13:56:23	-->	dur-randir (~irc@178.162.60.102) has joined #perl
+2011-11-12 13:56:23	 *	GumbyPAN CPAN Upload: File-chmod-Recursive-0.03 by MITHUN http://metacpan.org/release/MITHUN/File-chmod-Recursive-0.03
+2011-11-12 13:56:33	Jckf	my $foo = 0x0000; vec($foo,2,4) = 0xF; $foo
+2011-11-12 13:56:39	Jckf	eval: my $foo = 0x0000; vec($foo,2,4) = 0xF; $foo
+2011-11-12 13:56:41	perlbot	Jckf: 0
+2011-11-12 13:56:56	<--	pmurias (~pawel@static-78-8-208-43.ssp.dialog.net.pl) has quit (Ping timeout: 260 seconds)
+2011-11-12 13:58:47	<--	peterrooney (~peter@S01060013461620b7.gv.shawcable.net) has quit (Ping timeout: 256 seconds)
+2011-11-12 13:58:47	-->	pmurias (~pawel@static-78-8-208-43.ssp.dialog.net.pl) has joined #perl
+2011-11-12 13:58:51	-->	jose-luis (~joseluis@186.102.46.139) has joined #perl
+2011-11-12 13:59:22	Caelum	foolove: what do you need the env var to affect, some other part of the perl program?
+2011-11-12 13:59:45	-->	jimmy1980 (~jimmy@112.224.2.126) has joined #perl
+2011-11-12 13:59:46	<--	whynot (whynot@247-119-202-46.pool.ukrtel.net) has quit (Quit: leaving)
+2011-11-12 13:59:50	<--	looogsgd (~jasmine@99-127-225-12.lightspeed.sntcca.sbcglobal.net) has quit (Quit: Quit)
+2011-11-12 13:59:56	-->	Chillance (~Chillance@83.233.182.216) has joined #perl
+2011-11-12 14:00:06	-->	gertidon (~gerti@vol75-11-82-247-160-208.fbx.proxad.net) has joined #perl
+2011-11-12 14:01:46	Khisanth	Jckf: off by 1
+2011-11-12 14:03:16	-->	looogsgd (~jasmine@99-127-225-12.lightspeed.sntcca.sbcglobal.net) has joined #perl
+2011-11-12 14:03:23	Khisanth	oh actually, eaten by the wire
+2011-11-12 14:03:35	<--	pmurias (~pawel@static-78-8-208-43.ssp.dialog.net.pl) has quit (Ping timeout: 252 seconds)
+2011-11-12 14:03:59	Khisanth	eval: my $foo = ""; vec($foo,0,4) = 0xF; unpack "H*", $foo
+2011-11-12 14:04:00	perlbot	Khisanth: 0f
+2011-11-12 14:05:00	-->	pmurias (~pawel@static-78-8-208-43.ssp.dialog.net.pl) has joined #perl
+2011-11-12 14:05:42	foolove	Caelum I want to set the time zone is all in my script
+2011-11-12 14:06:03	<--	Liam (~quassel@ool-182f5411.dyn.optonline.net) has quit (Ping timeout: 240 seconds)
+2011-11-12 14:06:33	thrig	so set it in the script
+2011-11-12 14:07:20	foolove	$ENV{'TZ'}='America/Chicago';   <----- I do this but it does not work?
+2011-11-12 14:07:48	thrig	that sets the TZ environment in the process (and any child processes subsequently spawned)
+2011-11-12 14:08:08	<--	TheZimm (~TheZimm@c-24-15-224-211.hsd1.il.comcast.net) has quit (Quit: Computer has gone to sleep.)
+2011-11-12 14:08:12	-->	Liam (~quassel@ool-182f5411.dyn.optonline.net) has joined #perl
+2011-11-12 14:09:10	-->	claes_ (~claes@78-86-160-167.zone2.bethere.co.uk) has joined #perl
+2011-11-12 14:09:32	--	Liam is now known as Liam`
+2011-11-12 14:09:37	<--	pmurias (~pawel@static-78-8-208-43.ssp.dialog.net.pl) has quit (Ping timeout: 255 seconds)
+2011-11-12 14:10:51	<--	migmir (~migmir@233.84.197.77.rev.sfr.net) has quit (Ping timeout: 240 seconds)
+2011-11-12 14:11:12	-->	pmurias (~pawel@static-78-8-208-43.ssp.dialog.net.pl) has joined #perl
+2011-11-12 14:11:58	<--	Ross (~Ross@unaffiliated/ross/x-0828154) has quit (Ping timeout: 260 seconds)
+2011-11-12 14:13:08	Caelum	foolove: how does it not work
+2011-11-12 14:14:36	<--	im2ee (~im2ee@apn-95-41-105-71.dynamic.gprs.plus.pl) has quit (Quit: Wychodzi)
+2011-11-12 14:15:25	foolove	it is not setting the time zone
+2011-11-12 14:15:35	<--	kamyl (~user_name@static.181.81.4.46.clients.your-server.de) has quit (Ping timeout: 258 seconds)
+2011-11-12 14:15:38	Caelum	foolove: how do you know it's not setting the time zone
+2011-11-12 14:16:27	<--	pmurias (~pawel@static-78-8-208-43.ssp.dialog.net.pl) has quit (Ping timeout: 240 seconds)
+2011-11-12 14:16:28	-->	kamyl (~user_name@static.181.81.4.46.clients.your-server.de) has joined #perl
+2011-11-12 14:16:33	foolove	I type date at the command prompt
+2011-11-12 14:16:43	foolove	and the time is still PST and not CST
+2011-11-12 14:16:57	Caelum	foolove: it can't set the time zone outside of itself
+2011-11-12 14:16:57	thrig	of course, you didn't change TZ in the shell process
+2011-11-12 14:17:22	foolove	oh so if i exit and reopen the shell
+2011-11-12 14:17:27	foolove	it will say a different time
+2011-11-12 14:17:28	Caelum	no
+2011-11-12 14:18:09	Caelum	you have to set the TZ in your ~/.bashrc
+2011-11-12 14:18:16	Caelum	you can't do it from a script
+2011-11-12 14:18:27	-->	pmurias (~pawel@static-78-8-208-43.ssp.dialog.net.pl) has joined #perl
+2011-11-12 14:18:32	-->	brian_g (~chatzilla@cpc11-newc14-2-0-cust66.gate.cable.virginmedia.com) has joined #perl
+2011-11-12 14:18:44	foolove	oh i see
+2011-11-12 14:18:59	foolove	couldnt i use a script to call another script
+2011-11-12 14:19:13	foolove	and then it will be set in that other script
+2011-11-12 14:19:26	foolove	set using the other script
+2011-11-12 14:19:28	Khisanth	better done in a module
+2011-11-12 14:19:45	Khisanth	also no, without some wrong assumptions
+2011-11-12 14:19:59	Khisanth	a process can't change its parent's environment
+2011-11-12 14:20:31	foolove	right im finding that out the hard way
+2011-11-12 14:21:02	anno	it was stated long ago
+2011-11-12 14:21:12	Khisanth	use Foo; Foo::setup_environment();
+2011-11-12 14:21:28	<--	looogsgd (~jasmine@99-127-225-12.lightspeed.sntcca.sbcglobal.net) has quit (Quit: Quit)
+2011-11-12 14:21:48	<--	rw|Antharist (~Devel@p5B3E7FC8.dip.t-dialin.net) has left #perl
+2011-11-12 14:21:57	 *	GumbyPAN CPAN Upload: Net-SNMP-Mixin-IpRouteTable-0.03 by GAISSMAI http://metacpan.org/release/GAISSMAI/Net-SNMP-Mixin-IpRouteTable-0.03
+2011-11-12 14:21:57	 *	GumbyPAN CPAN Upload: Net-SNMP-Mixin-IpCidrRouteTable-0.03 by GAISSMAI http://metacpan.org/release/GAISSMAI/Net-SNMP-Mixin-IpCidrRouteTable-0.03
+2011-11-12 14:22:42	foolove	is foo for hostname
+2011-11-12 14:22:58	Khisanth	<Khisanth> better done in a module
+2011-11-12 14:23:04	avenj	er
+2011-11-12 14:23:17	avenj	sounds more like whatever he's trying to do is better done from 'not perl'
+2011-11-12 14:23:18	anno	it's a sketch of how to do it with a module
+2011-11-12 14:23:26	foolove	right so the module is indeed named Foo
+2011-11-12 14:23:38	Khisanth	a module is not a hostname
+2011-11-12 14:23:45	foolove	right i know
+2011-11-12 14:23:55	foolove	i have a module and sample code
+2011-11-12 14:23:56	avenj	the real problem is that your timezone is "magically" changing, right? so fix your system
+2011-11-12 14:24:10	foolove	it will set the timezone in the script but you guys are right for the environment it will not change it
+2011-11-12 14:24:26	foolove	avenj this is learning
+2011-11-12 14:24:29	Khisanth	that may require some assassinations or blackmailing of politicians
+2011-11-12 14:24:33	-->	woleium_ (~woleium@S0106002369a9537f.ok.shawcable.net) has joined #perl
+2011-11-12 14:24:35	avenj	if you say so
+2011-11-12 14:24:36	foolove	like i want to accomplish this thne yeah ill fix it
+2011-11-12 14:25:15	<--	axehind (~axehind@pool-151-203-221-40.bos.east.verizon.net) has quit (Ping timeout: 240 seconds)
+2011-11-12 14:25:49	<--	woleium (~woleium@S0106002369a9537f.ok.shawcable.net) has quit (Ping timeout: 248 seconds)
+2011-11-12 14:25:49	--	woleium_ is now known as woleium
+2011-11-12 14:26:15	avenj	you want to accomplish what, precisely? whatever the "fix your system" step is.. is also the step your "whatever your my-date-sucks-detected-so-fix-it script" needs to take to fix it when it's broken, right?
+2011-11-12 14:26:44	avenj	anyway, carry on
+2011-11-12 14:26:57	 *	GumbyPAN CPAN Upload: Sys-Cmd-0.07_1 by MLAWREN http://metacpan.org/release/MLAWREN/Sys-Cmd-0.07_1
+2011-11-12 14:26:58	avenj	...though you still can't export shell vars back up to the parent shell :)
+2011-11-12 14:27:13	-->	troller (~proller@188.123.230.122) has joined #perl
+2011-11-12 14:27:15	avenj	env vars rather
+2011-11-12 14:27:16	<--	pmurias (~pawel@static-78-8-208-43.ssp.dialog.net.pl) has quit (Ping timeout: 260 seconds)
+2011-11-12 14:27:26	foolove	right oh well
+2011-11-12 14:27:33	foolove	easy come easy go
+2011-11-12 14:27:34	foolove	:)
+2011-11-12 14:27:36	thrig	avenj: four ways, as noted earlier (but they're all scary or just bad design)
+2011-11-12 14:27:41	avenj	righto
+2011-11-12 14:27:46	avenj	s/can't/really shouldn't please
+2011-11-12 14:27:48	avenj	:p
+2011-11-12 14:27:57	avenj	your real problem is probably busted /etc/localtime, maybe as a result of some kind of silly managed configuration thingo
+2011-11-12 14:28:28	thrig	or TZ set who knows in what file for who knows what reason
+2011-11-12 14:28:40	foolove	Exactly
+2011-11-12 14:28:46	foolove	well thanks for the learning lesson
+2011-11-12 14:28:46	-->	pmurias (~pawel@static-78-8-208-43.ssp.dialog.net.pl) has joined #perl
+2011-11-12 14:28:50	<--	j3nnn1 (~j3nnn1@gateway/tor-sasl/j3nnn1) has quit (Remote host closed the connection)
+2011-11-12 14:28:57	foolove	I have a working script that sets the timezone for the script awesome!
+2011-11-12 14:28:58	foolove	lol
+2011-11-12 14:29:10	avenj	now, just run your entire system under your script!
+2011-11-12 14:29:11	avenj	:)
+2011-11-12 14:30:27	<--	zellio (~zellio@pool-71-190-23-79.nycmny.east.verizon.net) has quit (Ping timeout: 258 seconds)
+2011-11-12 14:30:50	<--	proller (~proller@188.123.230.122) has quit (Ping timeout: 258 seconds)
+2011-11-12 14:31:11	-->	homie` (~levgue@xdsl-78-35-183-143.netcologne.de) has joined #perl
+2011-11-12 14:31:11	-->	migmir (~migmir@233.84.197.77.rev.sfr.net) has joined #perl
+2011-11-12 14:31:58	 *	GumbyPAN CPAN Upload: Sys-Cmd-0.07_2 by MLAWREN http://metacpan.org/release/MLAWREN/Sys-Cmd-0.07_2
+2011-11-12 14:32:11	-->	Bry8Star (~Bry8Star@gateway/tor-sasl/bry8star) has joined #perl
+2011-11-12 14:32:14	<--	camarllon (~camarllon@unaffiliated/camarllon) has quit (Quit: Leaving)
+2011-11-12 14:33:29	<--	EvilPenguin (~EvilPengu@174-28-112-75.albq.qwest.net) has quit (Quit: EvilPenguin)
+2011-11-12 14:33:49	<--	Bry8Star_ (~Bry8Star@gateway/tor-sasl/bry8star) has quit (Ping timeout: 248 seconds)
+2011-11-12 14:33:55	<--	homie (~levgue@xdsl-78-35-147-139.netcologne.de) has quit (Ping timeout: 256 seconds)
+2011-11-12 14:34:29	-->	looogsgd (~jasmine@99-127-225-12.lightspeed.sntcca.sbcglobal.net) has joined #perl
+2011-11-12 14:38:58	petn-randall	lol, foolove seems like a funny chap
+2011-11-12 14:43:18	<--	SoulSeller (ss@unaffiliated/soulseller) has quit (*.net *.split)
+2011-11-12 14:43:18	<--	Yaakov (yaakov@freenode/staff/p3m.yaakov) has quit (*.net *.split)
+2011-11-12 14:43:18	<--	infrared_ (infrared@64.69.77.108) has quit (*.net *.split)
+2011-11-12 14:43:22	<--	pmurias (~pawel@static-78-8-208-43.ssp.dialog.net.pl) has quit (Ping timeout: 255 seconds)
+2011-11-12 14:43:38	<--	jose-luis (~joseluis@186.102.46.139) has left #perl
+2011-11-12 14:43:39	-->	SoulSeller (ss@unaffiliated/soulseller) has joined #perl
+2011-11-12 14:43:39	-->	Yaakov (yaakov@freenode/staff/p3m.yaakov) has joined #perl
+2011-11-12 14:43:39	-->	infrared_ (infrared@64.69.77.108) has joined #perl
+2011-11-12 14:44:31	<--	looogsgd (~jasmine@99-127-225-12.lightspeed.sntcca.sbcglobal.net) has quit (Quit: Quit)
+2011-11-12 14:45:09	-->	lompa (~23159@163.Red-83-53-29.dynamicIP.rima-tde.net) has joined #perl
+2011-11-12 14:45:11	-->	pmurias (~pawel@static-78-8-208-43.ssp.dialog.net.pl) has joined #perl
+2011-11-12 14:47:19	-->	douglast (Aliks@chabo-125-180.ResHall.Berkeley.EDU) has joined #perl
+2011-11-12 14:47:20	douglast	yo
+2011-11-12 14:47:27	-->	smpb (~smpb@bl12-39-6.dsl.telepac.pt) has joined #perl
+2011-11-12 14:47:53	douglast	I am getting a weird result when I use Dumper on a hash... I am doing a loop that should be inserting 'ABC' => 12 pairs (some letters, some number)
+2011-11-12 14:48:10	douglast	and instead of that, sometimes I get HASH()... undef
+2011-11-12 14:48:51	<--	migmir (~migmir@233.84.197.77.rev.sfr.net) has quit (Ping timeout: 240 seconds)
+2011-11-12 14:49:04	thrig	and?
+2011-11-12 14:49:20	anno	are you inserting them as {'ABC' => 12} ?
+2011-11-12 14:49:29	<--	homie` (~levgue@xdsl-78-35-183-143.netcologne.de) has quit (Read error: Connection reset by peer)
+2011-11-12 14:49:41	douglast	I'm inserting them in a loop like this push(@{$scores->[$i]}, $value);
+2011-11-12 14:50:09	<--	dracflamloc (~Miranda@adsl-74-179-191-250.sav.bellsouth.net) has quit (Read error: Connection reset by peer)
+2011-11-12 14:50:11	<--	dwebb (~dwebb@fedora/dwebb) has quit (Ping timeout: 260 seconds)
+2011-11-12 14:50:12	-->	homie` (~levgue@xdsl-78-35-183-143.netcologne.de) has joined #perl
+2011-11-12 14:50:32	-->	DiazepaN (user@unaffiliated/diazepan) has joined #perl
+2011-11-12 14:51:25	anno	show the code, with sample data, resulting output and expected output
+2011-11-12 14:51:30	-->	ozux (~ozux@c83-254-45-253.bredband.comhem.se) has joined #perl
+2011-11-12 14:51:50	<--	homie` (~levgue@xdsl-78-35-183-143.netcologne.de) has quit (Remote host closed the connection)
+2011-11-12 14:51:59	douglast	nod
+2011-11-12 14:53:28	shadowpaste	Someone at 169.229.125.180 pasted "#! /usr/bin/perl -w use Data::" (85 lines) at http://scsys.co.uk:8002/159477
+2011-11-12 14:53:44	douglast	thats it
+2011-11-12 14:54:08	-->	dwebb (~dwebb@fedora/dwebb) has joined #perl
+2011-11-12 14:54:43	-->	homie (~levgue@xdsl-78-35-183-143.netcologne.de) has joined #perl
+2011-11-12 14:54:45	douglast	also note the location of the HASH output jumps around
+2011-11-12 14:54:51	douglast	if I run it again it will show up someplace else in the output
+2011-11-12 14:54:52	thrig	where is 'use strict' ?
+2011-11-12 14:55:01	uri	douglast: where are strict and warnings?
+2011-11-12 14:55:13	<--	galaxywatcher (~galaxywat@pdpc/supporter/active/galaxywatcher) has quit (Quit: galaxywatcher)
+2011-11-12 14:55:19	uri	always ask perl for all the help it can give you
+2011-11-12 14:55:25	douglast	I have -w
+2011-11-12 14:55:28	douglast	wasnt using strict
+2011-11-12 14:55:30	thrig	ooh, bareword filehandles and two arg opens. Uh oh.
+2011-11-12 14:55:42	LukeL	how would i match either a marker or EOF? @array = ( $data =~ /<header>(.*?)!!marker!!|$/sg );
+2011-11-12 14:56:07	uri	douglast: use perl foreach loops vs c style loops. simpler, faster and less likely to have off by one error
+2011-11-12 14:56:10	uri	s
+2011-11-12 14:56:15	LukeL	nvm ill just insert it at the bottom
+2011-11-12 14:56:34	<--	pmurias (~pawel@static-78-8-208-43.ssp.dialog.net.pl) has quit (Ping timeout: 240 seconds)
+2011-11-12 14:56:59	tybalt89	that HASH is a key, not a value
+2011-11-12 14:57:02	 *	GumbyPAN CPAN Upload: Git-CPAN-Patch-0.7.0 by YANICK http://metacpan.org/release/YANICK/Git-CPAN-Patch-0.7.0
+2011-11-12 14:57:11	douglast	ya and actually off by 1 may be the problem but what I dont understand is, why does it jump around... the HASH key I mean
+2011-11-12 14:57:26	-->	Romnous (~romnous@romnous.student.ipv6.utwente.nl) has joined #perl
+2011-11-12 14:57:26	<--	Romnous (~romnous@romnous.student.ipv6.utwente.nl) has quit (Changing host)
+2011-11-12 14:57:27	-->	Romnous (~romnous@unaffiliated/romnous) has joined #perl
+2011-11-12 14:57:42	uri	douglast: also using <CONFIG> as input to anything but assignment is not common. could lead to an error if you do that in a list context
+2011-11-12 14:57:43	douglast	seems like it should show up in the same place
+2011-11-12 14:57:57	uri	best assign it to a scalar and use that. clearer and safer
+2011-11-12 14:58:03	<--	kjeldahl (~user@217.84-49-241.nextgentel.com) has quit (Ping timeout: 260 seconds)
+2011-11-12 14:58:16	uri	oh ignore all i say to keep coding in a weak style. :/
+2011-11-12 14:58:33	-->	pmurias (~pawel@static-78-8-208-43.ssp.dialog.net.pl) has joined #perl
+2011-11-12 14:58:39	douglast	changed that uri, same error
+2011-11-12 14:58:43	douglast	assigning to scalar first
+2011-11-12 14:58:47	douglast	no change
+2011-11-12 14:58:51	<--	melmothX (~melmoth@78-2-63-180.adsl.net.t-com.hr) has quit (Quit: ######)
+2011-11-12 14:58:54	anno	douglast: also, dump a hashref, not a hash. your dumper output is less than clear
+2011-11-12 14:59:09	uri	i didn't fix the errors. i improved your code.
+2011-11-12 14:59:15	-->	the-fonz (~yo@96-39-249-211.dhcp.mtpk.ca.charter.com) has joined #perl
+2011-11-12 14:59:16	uri	you are using dumper wrong too.
+2011-11-12 14:59:22	douglast	I am?
+2011-11-12 14:59:24	uri	what anno said
+2011-11-12 14:59:58	-->	teh-fonz (~yo@96-39-249-211.dhcp.mtpk.ca.charter.com) has joined #perl
+2011-11-12 15:00:00	uri	dump a hash ref. then you will see a proper hash. you have a list of keys/values there with VARn noise
+2011-11-12 15:00:14	uri	can't see what the pairs are without editing with eyeballs
+2011-11-12 15:00:16	<--	lompa (~23159@163.Red-83-53-29.dynamicIP.rima-tde.net) has left #perl ("Saliendo")
+2011-11-12 15:00:19	<--	teh-fonz (~yo@96-39-249-211.dhcp.mtpk.ca.charter.com) has quit (Read error: Connection reset by peer)
+2011-11-12 15:00:30	<--	nronksr (~nronksr@mail.whimsicalgiftsetc.com) has quit (Quit: Leaving)
+2011-11-12 15:00:33	douglast	how do I dump a hash ref
+2011-11-12 15:00:38	-->	teh-fonz (~yo@96-39-249-211.dhcp.mtpk.ca.charter.com) has joined #perl
+2011-11-12 15:00:49	uri	my %scores = {};
+2011-11-12 15:00:49	anno	\ %scores
+2011-11-12 15:00:57	uri	where did you learn to init a hash like that?
+2011-11-12 15:01:03	uri	it is very wrong
+2011-11-12 15:01:04	anno	ah, that's where it's from
+2011-11-12 15:01:04	douglast	nowhere
+2011-11-12 15:01:19	douglast	new to Perl
+2011-11-12 15:01:30	uri	anno: you got to look all over that code to find stuff. :)
+2011-11-12 15:01:36	uri	douglast: read a good book then.
+2011-11-12 15:01:41	uri	perlbot: bp?
+2011-11-12 15:01:41	perlbot	uri: http://www.perl.org/books/beginning-perl/
+2011-11-12 15:01:47	uri	read that free book
+2011-11-12 15:01:53	douglast	yeah somehow I just get 'HASH(0x8424d0c)' => undef, that in there
+2011-11-12 15:01:54	uri	and perlreftut for learning refs
+2011-11-12 15:01:58	douglast	and as before it jumps around
+2011-11-12 15:02:04	douglast	not in the same place twice
+2011-11-12 15:02:07	uri	douglast: cause you assigned a hash ref to the hash.
+2011-11-12 15:02:16	uri	not a good idea. it is junk
+2011-11-12 15:02:20	douglast	uri, but I dont see where I am doing there
+2011-11-12 15:02:22	douglast	er doing that
+2011-11-12 15:02:24	anno	it warns, too
+2011-11-12 15:02:38	uri	yep. if you had warnings on, you would hear about it
+2011-11-12 15:03:01	douglast	ah ok fixed
+2011-11-12 15:03:09	uri	douglast: {} is an anon hash ref. is it a scalar value. hash assignment should always be a list of key/values
+2011-11-12 15:03:10	douglast	didnt notice it
+2011-11-12 15:03:15	douglast	I thought { } was just regular hash
+2011-11-12 15:03:20	uri	nope
+2011-11-12 15:03:26	uri	there is no 'regular' hash
+2011-11-12 15:03:33	uri	don't guess. read the docs and books
+2011-11-12 15:03:40	<--	the-fonz (~yo@96-39-249-211.dhcp.mtpk.ca.charter.com) has quit (Ping timeout: 260 seconds)
+2011-11-12 15:03:47	uri	youmust have gotten that idea from somewhere.
+2011-11-12 15:03:47	douglast	is a hash basically an array, so I could do = () ?
+2011-11-12 15:04:01	douglast	array with keys,values
+2011-11-12 15:04:03	uri	douglast: no it isn't. and it doesn't need to be initialized
+2011-11-12 15:04:08	douglast	ok
+2011-11-12 15:04:20	uri	perldoc perldata for hashes, perlreftut for refs
+2011-11-12 15:04:24	uri	read. now.
+2011-11-12 15:04:32	douglast	lol ok
+2011-11-12 15:05:05	<--	teh-fonz (~yo@96-39-249-211.dhcp.mtpk.ca.charter.com) has quit (Ping timeout: 256 seconds)
+2011-11-12 15:05:52	<--	praveenkumar (~daredevil@fedora/praveenkumar) has quit (Read error: Connection reset by peer)
+2011-11-12 15:05:56	-->	praveenkumar_ (~daredevil@49.200.111.92) has joined #perl
+2011-11-12 15:08:28	-->	the-fonz (~yo@96-39-249-211.dhcp.mtpk.ca.charter.com) has joined #perl
+2011-11-12 15:08:30	<--	ozux (~ozux@c83-254-45-253.bredband.comhem.se) has quit (Quit: Computer has gone to sleep)
+2011-11-12 15:09:05	<--	pmurias (~pawel@static-78-8-208-43.ssp.dialog.net.pl) has quit (Ping timeout: 245 seconds)
+2011-11-12 15:09:53	<--	nicoulaj (~nicoulaj@pas38-5-82-244-59-208.fbx.proxad.net) has quit (Quit: nicoulaj)
+2011-11-12 15:10:57	-->	pmurias (~pawel@static-78-8-208-43.ssp.dialog.net.pl) has joined #perl
+2011-11-12 15:12:04	 *	GumbyPAN CPAN Upload: Array-Columnize-v0.3.9 by ROCKY http://metacpan.org/release/ROCKY/Array-Columnize-v0.3.9
+2011-11-12 15:16:32	<--	pmurias (~pawel@static-78-8-208-43.ssp.dialog.net.pl) has quit (Ping timeout: 258 seconds)
+2011-11-12 15:16:41	oriba	I tried to insert utf8 strings into mysql via DBI module. When checking if my INSERTion string is utf8, I know it is utf8; doing a select in mysql-client shows the umlauts also correct, but using mysqldump it does not display the umlauts correctly, even when using utf8 explicitly any idea what's going on here?
+2011-11-12 15:17:05	 *	GumbyPAN CPAN Upload: Runops-Recorder-0.08 by CLAESJAC http://metacpan.org/release/CLAESJAC/Runops-Recorder-0.08
+2011-11-12 15:18:12	-->	pmurias (~pawel@static-78-8-208-43.ssp.dialog.net.pl) has joined #perl
+2011-11-12 15:22:39	<--	pmurias (~pawel@static-78-8-208-43.ssp.dialog.net.pl) has quit (Ping timeout: 256 seconds)
+2011-11-12 15:23:37	<--	sndcrb (~sndcrb@dsl-hkibrasgw2-fef8de00-126.dhcp.inet.fi) has quit (Quit: Leaving)
+2011-11-12 15:24:27	-->	pmurias (~pawel@static-78-8-208-43.ssp.dialog.net.pl) has joined #perl
+2011-11-12 15:25:23	-->	migmir (~migmir@233.84.197.77.rev.sfr.net) has joined #perl
+2011-11-12 15:25:30	<--	claes_ (~claes@78-86-160-167.zone2.bethere.co.uk) has quit (Quit: claes_)
+2011-11-12 15:29:15	<--	pmurias (~pawel@static-78-8-208-43.ssp.dialog.net.pl) has quit (Ping timeout: 276 seconds)
+2011-11-12 15:29:46	-->	pmurias (~pawel@static-78-8-208-43.ssp.dialog.net.pl) has joined #perl
+2011-11-12 15:35:22	<--	cooper (~mitchell@unaffiliated/furryfishy) has quit (Ping timeout: 240 seconds)
+2011-11-12 15:35:23	<--	pmurias (~pawel@static-78-8-208-43.ssp.dialog.net.pl) has quit (Ping timeout: 260 seconds)
+2011-11-12 15:37:01	-->	pmurias (~pawel@static-78-8-208-43.ssp.dialog.net.pl) has joined #perl
+2011-11-12 15:37:07	<--	pmurias (~pawel@static-78-8-208-43.ssp.dialog.net.pl) has quit (Client Quit)
+2011-11-12 15:39:55	<--	gnusosa (~gnusosa@unaffiliated/gnusosa) has quit (Ping timeout: 245 seconds)
+2011-11-12 15:40:07	<--	jetscreamer (~jetscream@unaffiliated/jetscreamer) has quit (Quit: Open Source MMORPG. win/mac/lin(native) Free To Play accounts limited to maximum level of 125. http://www.ryzom.com/en/main_dl.html?ref=143593A1545537)
+2011-11-12 15:42:09	 *	GumbyPAN CPAN Upload: File-chmod-Recursive-0.04 by MITHUN http://metacpan.org/release/MITHUN/File-chmod-Recursive-0.04
+2011-11-12 15:42:20	<--	rizlah (~NA@unaffiliated/rizlah) has quit (Quit: Leaving)
+2011-11-12 15:42:54	<--	saaki (~saki@bc98191.bendcable.com) has quit (Remote host closed the connection)
+2011-11-12 15:45:29	-->	pigdude (~tallen@c-69-143-181-131.hsd1.va.comcast.net) has joined #perl
+2011-11-12 15:45:42	pigdude	wow, every time i start cpan i have to go through first run config
+2011-11-12 15:45:45	pigdude	really annoying
+2011-11-12 15:46:41	integral	not using cpan ftw
+2011-11-12 15:47:07	pigdude	integral, ?
+2011-11-12 15:47:09	 *	GumbyPAN CPAN Upload: Digest-CRC-0.18 by OLIMAUL http://metacpan.org/release/OLIMAUL/Digest-CRC-0.18
+2011-11-12 15:47:14	pigdude	integral, i _am_ using it
+2011-11-12 15:47:29	integral	cpan plus, cpan minus, vendor packages, manual installation, etc
+2011-11-12 15:48:58	<--	Liam` (~quassel@ool-182f5411.dyn.optonline.net) has quit (Quit: lol bai gaise)
+2011-11-12 15:49:08	-->	Liam (~quassel@ool-182f5411.dyn.optonline.net) has joined #perl
+2011-11-12 15:49:39	<--	Kharec (~Kharec@165.99.138.88.rev.sfr.net) has quit (Ping timeout: 240 seconds)
+2011-11-12 15:52:03	<--	DiazepaN (user@unaffiliated/diazepan) has quit (Quit: DiazepaN)
+2011-11-12 15:52:32	<--	ch4os` (~suca@193-7.60-188.cust.bluewin.ch) has quit (Quit: Se InSiStI e ReSiStI, RaGgIuNgI e CoNqUiStI wWw.Di-Gi.cJb.nEt)
+2011-11-12 15:54:52	-->	cooper (~mitchell@unaffiliated/furryfishy) has joined #perl
+2011-11-12 15:55:18	-->	cyfi (cyfi@2001:5c0:1105:f900::1) has joined #perl
+2011-11-12 15:55:35	-->	peterrooney (~peter@S01060013461620b7.gv.shawcable.net) has joined #perl
+2011-11-12 15:56:01	<--	xp_prg (~nyb@32.hnl1.superb.net) has quit (Disconnected by services)
+2011-11-12 15:56:09	<--	Liam (~quassel@ool-182f5411.dyn.optonline.net) has quit (Remote host closed the connection)
+2011-11-12 15:56:21	-->	xp_prg2 (~nyb@32.hnl1.superb.net) has joined #perl
+2011-11-12 15:57:11	 *	GumbyPAN CPAN Upload: Hadoop-Streaming-0.113160 by SPAZM http://metacpan.org/release/SPAZM/Hadoop-Streaming-0.113160
+2011-11-12 15:59:01	-->	Liam (~quassel@ool-182f5411.dyn.optonline.net) has joined #perl
+2011-11-12 16:00:20	-->	Lexie (~Lexie@cpe-173-174-59-250.austin.res.rr.com) has joined #perl
+2011-11-12 16:00:55	--	Lexie is now known as DysLexie
+2011-11-12 16:01:26	<--	Limbic_Region (~Limbic_Re@p3m/member/Limbic-Region) has quit (Quit:  HydraIRC -> http://www.hydrairc.com <- *I* use it, so it must be good!)
+2011-11-12 16:03:37	<--	pragma_ (~cause@unaffiliated/pragma/x-109842) has quit (Read error: Operation timed out)
+2011-11-12 16:13:17	<--	foolove (~foolove@h-66-166-185-2.dllatx37.static.covad.net) has quit (Read error: Connection reset by peer)
+2011-11-12 16:13:43	-->	am0c (~am0c@222.235.56.158) has joined #perl
+2011-11-12 16:13:48	-->	vitaminmoo (~vitaminmo@twink.obsoleet.org) has joined #perl
+2011-11-12 16:15:10	-->	morissette (~matthewha@74.202.255.243) has joined #perl
+2011-11-12 16:16:21	-->	saaki (~saki@bc98191.bendcable.com) has joined #perl
+2011-11-12 16:21:39	<--	pettsson (~Daniel@90-230-218-39-no135.tbcn.telia.com) has quit (Quit: Lämnar)
+2011-11-12 16:21:55	<--	puc (~uux@pool-71-251-171-34.bflony.east.verizon.net) has quit (Ping timeout: 255 seconds)
+2011-11-12 16:22:52	<--	MrBougo (~MrBougo@109.128.21.98) has quit (Quit: MrBougo)
+2011-11-12 16:23:44	-->	puc (~uux@pool-71-251-171-34.bflony.east.verizon.net) has joined #perl
+2011-11-12 16:24:18	<--	Kiryakov (gamehost@development.speedy-net.bg) has quit (Quit: terminal: whereis Kiryakov -> /sbin/shutdown -h now "System halted." Demek bye.)
+2011-11-12 16:26:02	-->	looogsgd (~jasmine@99-127-225-12.lightspeed.sntcca.sbcglobal.net) has joined #perl
+2011-11-12 16:26:18	-->	axehind (~axehind@pool-151-203-221-40.bos.east.verizon.net) has joined #perl
+2011-11-12 16:28:27	<--	migmir (~migmir@233.84.197.77.rev.sfr.net) has quit (Ping timeout: 240 seconds)
+2011-11-12 16:31:09	<--	Bry8Star (~Bry8Star@gateway/tor-sasl/bry8star) has quit (Ping timeout: 248 seconds)
+2011-11-12 16:32:26	<--	puc (~uux@pool-71-251-171-34.bflony.east.verizon.net) has quit (Quit: leaving)
+2011-11-12 16:32:35	-->	Bry8Star (~Bry8Star@gateway/tor-sasl/bry8star) has joined #perl
+2011-11-12 16:32:58	-->	Okazaki-san (~Ota-kun@adsl-76-200-148-123.dsl.pltn13.sbcglobal.net) has joined #perl
+2011-11-12 16:35:17	-->	pragma_ (~cause@71-93-67-145.dhcp.reno.nv.charter.com) has joined #perl
+2011-11-12 16:35:42	--	pragma_ is now known as Guest32727
+2011-11-12 16:36:18	<--	Guest32727 (~cause@71-93-67-145.dhcp.reno.nv.charter.com) has quit (Changing host)
+2011-11-12 16:36:18	-->	Guest32727 (~cause@unaffiliated/pragma/x-109842) has joined #perl
+2011-11-12 16:36:27	-->	molaf (~molaf@a89-182-10-158.net-htp.de) has joined #perl
+2011-11-12 16:36:30	--	Guest32727 is now known as pragma_
+2011-11-12 16:37:04	<--	dur-randir (~irc@178.162.60.102) has quit (Ping timeout: 252 seconds)
+2011-11-12 16:38:30	<--	pigdude (~tallen@c-69-143-181-131.hsd1.va.comcast.net) has quit (Quit: Lost terminal)
+2011-11-12 16:38:40	-->	ozux (~ozux@ip-61-32-179-93.dialup.ice.net) has joined #perl
+2011-11-12 16:39:02	<--	the-fonz (~yo@96-39-249-211.dhcp.mtpk.ca.charter.com) has quit (Read error: Connection reset by peer)
+2011-11-12 16:39:30	-->	the-fonz (~yo@96-39-249-211.dhcp.mtpk.ca.charter.com) has joined #perl
+2011-11-12 16:40:34	<--	the-fonz (~yo@96-39-249-211.dhcp.mtpk.ca.charter.com) has quit (Read error: Connection reset by peer)
+2011-11-12 16:40:52	-->	the-fonz (~yo@96-39-249-211.dhcp.mtpk.ca.charter.com) has joined #perl
+2011-11-12 16:40:52	<--	the-fonz (~yo@96-39-249-211.dhcp.mtpk.ca.charter.com) has quit (Client Quit)
+2011-11-12 16:41:08	<--	fisted (~fisted@unaffiliated/fisted) has quit (Remote host closed the connection)
+2011-11-12 16:43:20	<--	vincent (~vince@AMontsouris-553-1-93-6.w82-123.abo.wanadoo.fr) has quit (Quit: and there was much rejoicing)
+2011-11-12 16:43:26	--	Liam is now known as Liam`
+2011-11-12 16:43:32	<--	Liam` (~quassel@ool-182f5411.dyn.optonline.net) has quit (Remote host closed the connection)
+2011-11-12 16:44:05	<--	ozux (~ozux@ip-61-32-179-93.dialup.ice.net) has quit (Ping timeout: 245 seconds)
+2011-11-12 16:45:23	-->	`moebius` (~moebius@2-225-253-39.ip178.fastwebnet.it) has joined #perl
+2011-11-12 16:48:07	-->	puc (~uux@pool-71-126-5-9.bflony.east.verizon.net) has joined #perl
+2011-11-12 16:48:16	<--	localhost (~chris@cpe-76-188-161-222.neo.res.rr.com) has quit (Remote host closed the connection)
+2011-11-12 16:50:00	-->	localhost (~chris@cpe-76-188-161-222.neo.res.rr.com) has joined #perl
+2011-11-12 16:50:49	-->	Buduk (~Bud@host-89-241-203-26.as13285.net) has joined #perl
+2011-11-12 16:51:57	<--	axehind (~axehind@pool-151-203-221-40.bos.east.verizon.net) has quit (Ping timeout: 248 seconds)
+2011-11-12 16:55:31	<--	xpot-mobile (~james@166-70-100-198.ip.xmission.com) has quit (Quit: I'm Out, Later.)
+2011-11-12 16:55:47	-->	bardi (~me@219.70.221.138) has joined #perl
+2011-11-12 16:57:15	<--	looogsgd (~jasmine@99-127-225-12.lightspeed.sntcca.sbcglobal.net) has quit (Ping timeout: 240 seconds)
+2011-11-12 17:00:40	-->	zophy (~zophy@host-5-150-220-24.midco.net) has joined #perl
+2011-11-12 17:00:47	-->	protospork (~bleh@174.32.254.146) has joined #perl
+2011-11-12 17:00:50	<--	protospork (~bleh@174.32.254.146) has quit (Excess Flood)
+2011-11-12 17:01:39	<--	tmtowtdi_mob (~tmtowtdi@unaffiliated/tmtowtdi) has quit (Ping timeout: 240 seconds)
+2011-11-12 17:04:01	-->	tmtowtdi_mob (~tmtowtdi@unaffiliated/tmtowtdi) has joined #perl
+2011-11-12 17:04:25	-->	migmir (~migmir@233.84.197.77.rev.sfr.net) has joined #perl
+2011-11-12 17:05:31	<--	`moebius` (~moebius@2-225-253-39.ip178.fastwebnet.it) has quit (Remote host closed the connection)
+2011-11-12 17:05:45	-->	fellayaboy (~BlackasOn@unaffiliated/fellayaboy) has joined #perl
+2011-11-12 17:05:54	-->	`moebius` (~moebius@2-225-253-39.ip178.fastwebnet.it) has joined #perl
+2011-11-12 17:06:03	<--	Jackneill (~Jackneill@unaffiliated/jackneill) has quit (Ping timeout: 240 seconds)
+2011-11-12 17:06:49	-->	looogsgd (~jasmine@99-127-225-12.lightspeed.sntcca.sbcglobal.net) has joined #perl
+2011-11-12 17:08:03	<--	tmtowtdi_mob (~tmtowtdi@unaffiliated/tmtowtdi) has quit (Ping timeout: 240 seconds)
+2011-11-12 17:10:12	-->	user_572 (75c00816@gateway/web/freenode/ip.117.192.8.22) has joined #perl
+2011-11-12 17:10:49	user_572	can anybody tell me how to learn perl
+2011-11-12 17:11:01	user_572	any free good tutorials on perl
+2011-11-12 17:11:31	tybalt89	perlbot: tutorial
+2011-11-12 17:11:32	perlbot	tybalt89: http://www.onyxneon.com/books/modern_perl/ | http://interglacial.com/~sburke/pub/perl.html | http://perlmonks.org/index.pl?node=Tutorials | http://www.perl.com/pub/2000/10/begperl1.html | http://learn.perl.org/ | http://books.perl.org/onlinebooks | http://perl-begin.org/tutorials/ | http://learn.perl.org/library/beginning_perl/ | http://www.shlomifish.org/lecture/Perl/Newbies/
+2011-11-12 17:12:13	<--	MouldyOldBones (~mob@gateway/tor-sasl/mouldyoldbones) has quit (Ping timeout: 248 seconds)
+2011-11-12 17:18:31	<--	cyfi (cyfi@2001:5c0:1105:f900::1) has quit (Ping timeout: 260 seconds)
+2011-11-12 17:20:51		irc: disconnected from server

@@ -1,0 +1,2 @@
+machine imap.gmail.com login a.separate.first@gmail.com password Zn23xX42 port 993
+machine smtp.gmail.com login a.separate.first@gmail.com password Zn23xX42 port 587

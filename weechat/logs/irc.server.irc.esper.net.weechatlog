@@ -1,0 +1,94 @@
+2011-11-14 22:38:50		irc: connecting to server irc.esper.net/6667...
+2011-11-14 22:38:51		irc: connected to irc.esper.net (178.79.132.147)
+2011-11-14 22:38:51	--	aperture.esper.net (aperture.esper.net): *** Looking up your hostname...
+2011-11-14 22:38:51	--	aperture.esper.net (aperture.esper.net): *** Checking Ident
+2011-11-14 22:38:51	--	aperture.esper.net (aperture.esper.net): *** Found your hostname
+2011-11-14 22:38:56	--	aperture.esper.net (aperture.esper.net): *** No Ident response
+2011-11-14 22:38:57	--	Welcome to the EsperNet Internet Relay Chat Network nullptr
+2011-11-14 22:38:57	--	Your host is aperture.esper.net[178.79.132.147/6667], running version charybdis-3.3.0
+2011-11-14 22:38:57	--	This server was created Sat Jan 15 2011 at 05:54:57 UTC
+2011-11-14 22:38:57	--	aperture.esper.net charybdis-3.3.0 DQRSZagiloswz CFILPQbcefgijklmnopqrstvz bkloveqjfI
+2011-11-14 22:38:57	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFPcgimnpstz CHANLIMIT=#:30 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=EsperNet KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2011-11-14 22:38:57	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=30 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2011-11-14 22:38:57	--	EXTBAN=$,acjorsxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2011-11-14 22:38:57	--	There are 19 users and 4869 invisible on 8 servers
+2011-11-14 22:38:57	--	26 :IRC Operators online
+2011-11-14 22:38:57	--	2649 :channels formed
+2011-11-14 22:38:57	--	I have 1198 clients and 2 servers
+2011-11-14 22:38:57	--	1198 1830 :Current local users 1198, max 1830
+2011-11-14 22:38:57	--	4888 5898 :Current global users 4888, max 5898
+2011-11-14 22:38:57	--	Highest connection count: 1833 (1830 clients) (830658 connections received)
+2011-11-14 22:38:57	--	- aperture.esper.net Message of the Day -
+2011-11-14 22:38:57	--	- ------------------------------------------------------------------
+2011-11-14 22:38:57	--	-               .,-:;//;:=,
+2011-11-14 22:38:57	--	-           . :H@@@MM@M#H/.,+%;,
+2011-11-14 22:38:57	--	-        ,/X+ +M@@M@MM%=,-%HMMM@X/,
+2011-11-14 22:38:57	--	-      -+@MM; $M@@MH+-,;XMMMM@MMMM@+-
+2011-11-14 22:38:57	--	-     ;@M@@M- XM@X;. -+XXXXXHHH@M@M#@/.
+2011-11-14 22:38:57	--	-   ,%MM@@MH ,@%=             .---=-=:=,.
+2011-11-14 22:38:57	--	-   =@#@@@MX.,                -%HX$$%%%:;
+2011-11-14 22:38:57	--	-  =-./@M@M$                   .;@MMMM@MM:
+2011-11-14 22:38:57	--	-  X@/ -$MM/                    . +MM@@@M$
+2011-11-14 22:38:57	--	- ,@M@H: :@:                    . =X#@@@@-
+2011-11-14 22:38:57	--	- ,@@@MMX, .                    /H- ;@M@M=
+2011-11-14 22:38:57	--	- .H@@@@M@+,                    %MM+..%#$.
+2011-11-14 22:38:57	--	-  /MMMM@MMH/.                  XM@MH; =;
+2011-11-14 22:38:57	--	-   /%+%$XHH@$=              , .H@@@@MX,
+2011-11-14 22:38:57	--	-    .=--------.           -%H.,@@@@@MX,
+2011-11-14 22:38:57	--	-    .%MM@@@HHHXX$$$%+- .:$MMX =M@@MM%.
+2011-11-14 22:38:57	--	-      =XMMM@MM@MM#H;,-+HMM@M+ /MMMX=
+2011-11-14 22:38:57	--	-        =%@M@M#@$-.=$@MM@@@M; %M%=
+2011-11-14 22:38:57	--	-          ,:+$+-,/H#MMMMMMM@= =,    888
+2011-11-14 22:38:57	--	-                =++%%%%+/:-.        888
+2011-11-14 22:38:57	--	-                                    888
+2011-11-14 22:38:57	--	-  8888b.  88888b.   .d88b.  888d888 888888 888  888 888d888 .d88b.
+2011-11-14 22:38:57	--	-     "88b 888 "88b d8P  Y8b 888P"   888    888  888 888P"  d8P  Y8b
+2011-11-14 22:38:57	--	- .d888888 888  888 88888888 888     888    888  888 888    88888888
+2011-11-14 22:38:57	--	- 888  888 888 d88P Y8b.     888     Y88b.  Y88b 888 888    Y8b.
+2011-11-14 22:38:57	--	- "Y888888 88888P"   "Y8888  888      "Y888  "Y88888 888     "Y8888
+2011-11-14 22:38:57	--	-          888
+2011-11-14 22:38:57	--	-          888
+2011-11-14 22:38:57	--	-          888  .  E S P E R  .  N E T      (London, United Kingdom)
+2011-11-14 22:38:57	--	- ------------------------------------------------------------------
+2011-11-14 22:38:57	--	-          Ports:           5555, 6665-6669, 6697 (SSL) and 7000
+2011-11-14 22:38:57	--	-          Administrators:  TestDummy and Kramer
+2011-11-14 22:38:57	--	-          Operators:       Kurtis
+2011-11-14 22:38:57	--	- ------------------------------------------------------------------
+2011-11-14 22:38:57	--	-          Useful Channels:
+2011-11-14 22:38:57	--	-          #dragonweyr    For assistance requiring network staff.
+2011-11-14 22:38:57	--	-          #help          For assistance with IRC in general.
+2011-11-14 22:38:57	--	-          #lobby         A newbie-friendly IRC hangout.
+2011-11-14 22:38:57	--	-
+2011-11-14 22:38:57	--	-          Join these and other channels with the '/join' command.
+2011-11-14 22:38:57	--	- ------------------------------------------------------------------
+2011-11-14 22:38:57	--	- Users are required to abide by the guidelines set forth in the
+2011-11-14 22:38:57	--	- EsperNet Acceptable Use Policy (http://esper.net/charter.php)
+2011-11-14 22:38:57	--	- as well as applicable British and/or international laws.
+2011-11-14 22:38:57	--	-
+2011-11-14 22:38:57	--	- Bots are permitted, but are required to follow the same rules as
+2011-11-14 22:38:57	--	- users and the EsperNet Bot Policy (http://esper.net/bots.php)
+2011-11-14 22:38:57	--	-
+2011-11-14 22:38:57	--	- Flooding, harassment, spam or other abuse from either users or
+2011-11-14 22:38:57	--	- bots alike is grounds for immediate removal from the network.
+2011-11-14 22:38:57	--	-
+2011-11-14 22:38:57	--	- FSERVES ARE STRICTLY PROHIBITED!
+2011-11-14 22:38:57	--	-
+2011-11-14 22:38:57	--	- Your use of this network implies consent to a port scan to prevent
+2011-11-14 22:38:57	--	- abuse by open proxies and otherwise compromised systems.
+2011-11-14 22:38:57	--	-
+2011-11-14 22:38:57	--	- We reserve the right to remove anyone at any time for any reason.
+2011-11-14 22:38:57	--	-
+2011-11-14 22:38:57	--	- Esper serves many communities, so be aware that not every channel
+2011-11-14 22:38:57	--	- is dedicated to the particular community you've come to see.
+2011-11-14 22:38:57	--	-
+2011-11-14 22:38:57	--	- New to IRC? Start here: http://www.esper.net/getting_started.php
+2011-11-14 22:38:57	--	- ------------------------------------------------------------------
+2011-11-14 22:38:57	--	-                Welcome to the EsperNet IRC Network
+2011-11-14 22:38:57	--	-                          Enjoy your stay
+2011-11-14 22:38:57	--	- ------------------------------------------------------------------
+2011-11-14 22:38:57	--	End of /MOTD command.
+2011-11-14 22:38:57	--	User mode [+i] by nullptr
+2011-11-14 22:41:16	--	-nickserv- register
+2011-11-14 22:41:16	--	NickServ (NickServ@services.esper.net): Insufficient parameters for REGISTER.
+2011-11-14 22:41:16	--	NickServ (NickServ@services.esper.net): Syntax: REGISTER <password> <email>
+2011-11-14 22:47:16		irc: disconnected from server

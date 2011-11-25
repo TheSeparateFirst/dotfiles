@@ -1,0 +1,44 @@
+2011-10-27 15:40:49	-->	TheSeparateFirst (~jeffrey@ip72-207-124-2.sd.sd.cox.net) has joined #ocaml
+2011-10-27 15:40:49	--	Topic for #ocaml is "Discussions about the OCaml programming language | http://caml.inria.fr/ | OCaml 3.12.1 http://bit.ly/nNVIVH"
+2011-10-27 15:40:49	--	Topic set by gildor (~gildor@ks368928.kimsufi.com) on Tue, 12 Jul 2011 12:47:11
+2011-10-27 15:40:49	--	Nicks #ocaml: [@gildor @mattam _habnabit adrien alpounet alxbl Amorphous Asmadeus asmanur Associat0r bacam bitbckt bnwr bobry Boscop brendan caligula_ ccasin chambart clog corecode dcolish deavid Derander diml emias EmmanuelOga emmanuelux explodus f[x] flux foocraft fraggle_ g0dmoney- haelix hcarty hnrgrgr hto hyperboreean iris1 jimmyrcom jlouis joewilliams_away jonafan krktz lamawithonel lopex lusory mal`` malouin maufred mbac mcclurmc mehdid mejalx metasyntax|work mfp milosn mmu_man Modius mundkur NaCl nimred noj Obfuscate olasd orbitz othiym23 ousado patronus Pepe_ pheredhel` Qrntzz rby Reaganomicon redsteg rgrinberg rixed rntz rossberg rwmjones schme sebz sgnb shachaf ski smango snarkyboojum srcerer struktured svenl Sysop_fb taupin TaXules testcocoon The_third_man thelema TheSeparateFirst Tianon tlockney ttblrs ulfdoz ViciousPlant wagle willb wishi wormphle1m wtetzner zmoazeni zorun zzz_]
+2011-10-27 15:40:49	--	Channel #ocaml: 111 nicks (2 ops, 0 halfops, 0 voices, 109 normals)
+2011-10-27 15:40:51	--	Channel created on Sat, 25 Nov 2006 22:42:40
+2011-10-27 15:41:14	<--	bobry (~bobry@nat075-250-205-109.tvoe.tv) has quit (Ping timeout: 255 seconds)
+2011-10-27 15:41:48	-->	everyonemines (~everyonem@174-23-246-123.slkc.qwest.net) has joined #ocaml
+2011-10-27 15:45:48	<--	hyperboreean (~none@unaffiliated/hyperboreean) has quit (Ping timeout: 252 seconds)
+2011-10-27 15:45:58	-->	hyperboreean (~none@unaffiliated/hyperboreean) has joined #ocaml
+2011-10-27 15:53:54	<--	mmu_man (~revol@vaf26-2-82-244-111-82.fbx.proxad.net) has quit (Ping timeout: 258 seconds)
+2011-10-27 15:57:24	<--	wtetzner (~wtetzner@c-24-218-217-69.hsd1.ma.comcast.net) has quit (Remote host closed the connection)
+2011-10-27 15:57:26	<--	Amorphous (jan@unaffiliated/amorphous) has quit (Ping timeout: 255 seconds)
+2011-10-27 15:57:48	-->	bobry (~bobry@nat075-250-205-109.tvoe.tv) has joined #ocaml
+2011-10-27 16:12:48	-->	Amorphous (jan@unaffiliated/amorphous) has joined #ocaml
+2011-10-27 16:22:17	<--	_habnabit (~habnabit@python/site-packages/habnabit) has quit (Quit: ZNC - http://znc.sourceforge.net)
+2011-10-27 16:30:30	<--	emmanuelux (~emmanuel@2a01:e35:2e4d:9010:21d:60ff:fe0e:b818) has quit (Ping timeout: 240 seconds)
+2011-10-27 16:41:35	-->	wtetzner (~wtetzner@c-24-218-217-69.hsd1.ma.comcast.net) has joined #ocaml
+2011-10-27 16:41:50	-->	avsm (~Adium@cpc14-cmbg14-2-0-cust232.5-4.cable.virginmedia.com) has joined #ocaml
+2011-10-27 16:45:04	<--	sebz (~sebz@173-228-28-176.dsl.dynamic.sonic.net) has quit (Quit: Computer has gone to sleep.)
+2011-10-27 16:47:46	-->	dnolen (~davidnole@cpe-98-14-92-234.nyc.res.rr.com) has joined #ocaml
+2011-10-27 16:53:14	<--	everyonemines (~everyonem@174-23-246-123.slkc.qwest.net) has quit (Quit: Leaving.)
+2011-10-27 17:19:22	<--	avsm (~Adium@cpc14-cmbg14-2-0-cust232.5-4.cable.virginmedia.com) has quit (Quit: Leaving.)
+2011-10-27 17:28:46	--	joewilliams_away is now known as joewilliams
+2011-10-27 17:45:26	-->	sebz (~sebz@173-228-28-176.dsl.dynamic.sonic.net) has joined #ocaml
+2011-10-27 17:48:18	-->	destrius (~xinyu@bb116-15-88-202.singnet.com.sg) has joined #ocaml
+2011-10-27 17:55:10	-->	_habnabit (~habnabit@python/site-packages/habnabit) has joined #ocaml
+2011-10-27 18:08:17	<--	dnolen (~davidnole@cpe-98-14-92-234.nyc.res.rr.com) has quit (Quit: dnolen)
+2011-10-27 18:11:04	-->	dnolen (~davidnole@cpe-98-14-92-234.nyc.res.rr.com) has joined #ocaml
+2011-10-27 18:14:42	<--	dnolen (~davidnole@cpe-98-14-92-234.nyc.res.rr.com) has quit (Client Quit)
+2011-10-27 18:22:55	<--	sebz (~sebz@173-228-28-176.dsl.dynamic.sonic.net) has quit
+2011-10-27 18:45:06	-->	arubin (~arubin@99-114-192-172.lightspeed.cicril.sbcglobal.net) has joined #ocaml
+2011-10-27 18:45:24	-->	dnolen (~davidnole@cpe-98-14-92-234.nyc.res.rr.com) has joined #ocaml
+2011-10-27 18:50:27	<--	wagle (~wagle@static-50-43-56-158.bvtn.or.frontiernet.net) has quit (Ping timeout: 260 seconds)
+2011-10-27 18:54:45	-->	wagle (~wagle@static-50-43-56-158.bvtn.or.frontiernet.net) has joined #ocaml
+2011-10-27 19:00:39	--	joewilliams is now known as joewilliams_away
+2011-10-27 19:15:24	<--	joewilliams_away (~joewillia@mail.catalpasolutions.com) has quit (Quit: ZNC - http://znc.sourceforge.net)
+2011-10-27 19:24:26	-->	joewilliams_away (~joewillia@mail.catalpasolutions.com) has joined #ocaml
+2011-10-27 19:24:29	--	joewilliams_away is now known as joewilliams
+2011-10-27 19:29:26	<--	Boscop (x@unaffiliated/boscop) has quit (Ping timeout: 245 seconds)
+2011-10-27 19:34:42	<--	fraggle_ (~fraggle@bea13-2-82-239-143-199.fbx.proxad.net) has quit (Ping timeout: 258 seconds)
+2011-10-27 19:48:11	--	joewilliams is now known as joewilliams_away
+2011-10-27 20:26:03	-->	fraggle_ (~fraggle@bea13-2-82-239-143-199.fbx.proxad.net) has joined #ocaml
+2011-10-27 21:23:59		irc: disconnected from server

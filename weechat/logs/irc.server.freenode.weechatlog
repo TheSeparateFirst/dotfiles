@@ -1,0 +1,555 @@
+2011-10-26 14:13:41		irc: connecting to server chat.freenode.net/6667...
+2011-10-26 14:13:41		irc: connected to chat.freenode.net/6667 (140.211.167.99)
+2011-10-26 14:13:41	--	zelazny.freenode.net (zelazny.freenode.net): *** Looking up your hostname...
+2011-10-26 14:13:41	--	zelazny.freenode.net (zelazny.freenode.net): *** Checking Ident
+2011-10-26 14:13:42	--	zelazny.freenode.net (zelazny.freenode.net): *** Found your hostname
+2011-10-26 14:13:55	--	zelazny.freenode.net (zelazny.freenode.net): *** No Ident response
+2011-10-26 14:13:55	--	Welcome to the freenode Internet Relay Chat Network TheSeparateFirst
+2011-10-26 14:13:55	--	Your host is zelazny.freenode.net[140.211.167.99/6667], running version ircd-seven-1.0.3
+2011-10-26 14:13:55	--	This server was created Tue Feb 23 2010 at 23:01:55 UTC
+2011-10-26 14:13:55	--	zelazny.freenode.net ircd-seven-1.0.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+2011-10-26 14:13:55	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2011-10-26 14:13:55	--	SAFELIST ELIST=U CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 :are supported by this server
+2011-10-26 14:13:55	--	FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,arx WHOX CLIENTVER=3.0 :are supported by this server
+2011-10-26 14:13:55	--	There are 271 users and 71861 invisible on 27 servers
+2011-10-26 14:13:55	--	35 :IRC Operators online
+2011-10-26 14:13:55	--	3 :unknown connection(s)
+2011-10-26 14:13:55	--	46732 :channels formed
+2011-10-26 14:13:55	--	I have 5443 clients and 1 servers
+2011-10-26 14:13:55	--	5443 8849 :Current local users 5443, max 8849
+2011-10-26 14:13:55	--	72132 75047 :Current global users 72132, max 75047
+2011-10-26 14:13:55	--	Highest connection count: 8850 (8849 clients) (2496565 connections received)
+2011-10-26 14:13:55	--	- zelazny.freenode.net Message of the Day -
+2011-10-26 14:13:55	--	- Welcome to zelazny.freenode.net in Corvallis, Oregon, US.
+2011-10-26 14:13:55	--	- Our thanks to Oregon State University for sponsoring this
+2011-10-26 14:13:55	--	- server!
+2011-10-26 14:13:55	--	-
+2011-10-26 14:13:55	--	- ZELAZNY, ROGER JOSEPH [1937-1995].  Roger Zelazny was a
+2011-10-26 14:13:55	--	- leading light in the New Wave of science fiction.  He began
+2011-10-26 14:13:55	--	- writing in 1962.  Known for such works as This Immortal,
+2011-10-26 14:13:55	--	- Lord of Light, The Dream Master and the Amber books,
+2011-10-26 14:13:55	--	- Zelazny is best known for his idiomatic American
+2011-10-26 14:13:55	--	- protagonists, embodying the mythological figures of the
+2011-10-26 14:13:55	--	- Trickster and the Hero of a Thousand Faces.
+2011-10-26 14:13:55	--	-
+2011-10-26 14:13:55	--	- You're using freenode, a service of Peer-Directed Projects
+2011-10-26 14:13:55	--	- Center Ltd (http://freenode.net/pdpc.shtml).
+2011-10-26 14:13:55	--	-
+2011-10-26 14:13:55	--	- PDPC's 2011 fundraiser launched on 14th February 2011. We would
+2011-10-26 14:13:55	--	- like to invite all users of freenode to get involved in the fun
+2011-10-26 14:13:55	--	- of our Valentine-themed fundraiser launch - see
+2011-10-26 14:13:55	--	- http://freenode.net/pdpc_valentine.shtml for more!
+2011-10-26 14:13:55	--	-
+2011-10-26 14:13:55	--	- On the subject of fundraisers, we'd like to thank our donors,
+2011-10-26 14:13:55	--	- hardware and bandwith sponsors and especially  The Gallery
+2011-10-26 14:13:55	--	- Project (http://gallery.menalto.com/) and our corporate sponsor
+2011-10-26 14:13:55	--	- Canonical Ltd (http://www.canonical.com) for the generous
+2011-10-26 14:13:55	--	- support.
+2011-10-26 14:13:55	--	-
+2011-10-26 14:13:55	--	- By connecting to freenode you indicate that you have read
+2011-10-26 14:13:55	--	- and agree to adhere to our policies and procedures as per
+2011-10-26 14:13:55	--	- the website (http://freenode.net). We would like to remind
+2011-10-26 14:13:55	--	- you that unauthorized public logging of channels on the
+2011-10-26 14:13:55	--	- network is prohibited. Public channel logging should only
+2011-10-26 14:13:55	--	- take place where the channel owner(s) has requested this
+2011-10-26 14:13:55	--	- and users of the channel are all made aware (if you are
+2011-10-26 14:13:55	--	- publically logging your channel, you may wish to keep a
+2011-10-26 14:13:55	--	- notice in topic and perhaps as a on-join message).
+2011-10-26 14:13:55	--	-
+2011-10-26 14:13:55	--	- By registering your nickname with Nickserv you agree that you
+2011-10-26 14:13:55	--	- are 13 years of age, or older. For more information about the
+2011-10-26 14:13:55	--	- Children's Online Privacy Protection Act please see their
+2011-10-26 14:13:55	--	- website at (http://www.coppa.org).
+2011-10-26 14:13:55	--	-
+2011-10-26 14:13:55	--	- freenode runs an open proxy scanner. Your use of the network
+2011-10-26 14:13:55	--	- indicates your acceptance of this policy. For details on
+2011-10-26 14:13:55	--	- freenode network policy, please take a look at our policy
+2011-10-26 14:13:55	--	- page (http://freenode.net/policy.shtml). Thank you for using
+2011-10-26 14:13:55	--	- the network!
+2011-10-26 14:13:55	--	-
+2011-10-26 14:13:55	--	- Don't forget to check out these other Peer-Directed Projects:
+2011-10-26 14:13:55	--	- FOSSCON [http://www.fosscon.org] and fossevents
+2011-10-26 14:13:55	--	- [http://www.fossevents.org], and soon we'll repeat last years
+2011-10-26 14:13:55	--	- success with Picnics for Geeks across the globe, more info at
+2011-10-26 14:13:55	--	- [http://geeknic.org]
+2011-10-26 14:13:55	--	-
+2011-10-26 14:13:55	--	- freenode is a service of Peer-Directed Projects Center Ltd,
+2011-10-26 14:13:55	--	- a not for profit organisation registered in England and Wales.
+2011-10-26 14:13:55	--	-
+2011-10-26 14:13:55	--	- If you support the work we do and wish to donate to the PDPC,
+2011-10-26 14:13:55	--	- you may do so over at http://freenode.net/pdpc_donations.shtml
+2011-10-26 14:13:55	--	-
+2011-10-26 14:13:55	--	- Thank you for using freenode!
+2011-10-26 14:13:55	--	-
+2011-10-26 14:13:55	--	- ***************************************************************
+2011-10-26 14:13:55	--	- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+2011-10-26 14:13:55	--	- ***************************************************************
+2011-10-26 14:13:55	--	End of /MOTD command.
+2011-10-26 14:13:55	--	User mode [+i] by TheSeparateFirst
+2011-10-26 14:13:55	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2011-10-26 14:14:05	--	-NickServ- identify **********
+2011-10-26 14:14:06	--	NickServ (NickServ@services.): You are now identified for TheSeparateFirst.
+2011-10-26 14:15:09	--	ChanServ (ChanServ@services.): [#ruby] Welcome to #ruby. || http://www.ruby-lang.org || http://www.modruby.net
+2011-10-26 14:15:13	--	#pytho: ##unavailable :Forwarding to another channel
+2011-10-26 14:15:13	--	ChanServ (ChanServ@services.): [##unavailable] You've tried to join an unavailable channel. Perhaps the group was never here or has moved off-network ( http://freenode.net/policy.shtml#termination ). Check their website for more information. Your client may be flapping in and out of channel; in this case, check with channel staff. The channel may be clone-infested; please consult freenode network staff.
+2011-10-26 14:15:27	--	ChanServ (ChanServ@services.): [#python] Welcome to #python, puny fleshlings. Please see our website, http://pound-python.org/ , for information about the channel and Python.
+2011-10-26 14:16:36	--	ChanServ (ChanServ@services.): [#squeak] Welcome to #Squeak where we talk about the Squeak implementation of Smalltalk.  Useful links at http://wiki.squeak.org/squeak/IRCPortal . Limit channel pastes, use the Lisp Pastebot at http://paste.squeak.org/. Logs at http://tunes.org/~nef/logs/squeak/ . Questions welcome, please try to stay on-topic.
+2011-10-26 17:37:41		irc: disconnected from server
+2011-10-27 15:40:17		irc: connecting to server chat.freenode.net/6667...
+2011-10-27 15:40:17		irc: connected to chat.freenode.net/6667 (213.232.93.3)
+2011-10-27 15:40:17	--	holmes.freenode.net (holmes.freenode.net): *** Looking up your hostname...
+2011-10-27 15:40:17	--	holmes.freenode.net (holmes.freenode.net): *** Checking Ident
+2011-10-27 15:40:17	--	holmes.freenode.net (holmes.freenode.net): *** Found your hostname
+2011-10-27 15:40:22	--	holmes.freenode.net (holmes.freenode.net): *** No Ident response
+2011-10-27 15:40:22		irc: nickname "jeffrey" is already in use, trying nickname #2 ("jeffrey1")
+2011-10-27 15:40:23	--	Welcome to the freenode Internet Relay Chat Network jeffrey1
+2011-10-27 15:40:23	--	Your host is holmes.freenode.net[213.232.93.3/6667], running version ircd-seven-1.1.0
+2011-10-27 15:40:23	--	This server was created Thu Sep 8 2011 at 14:11:54 BST
+2011-10-27 15:40:23	--	holmes.freenode.net ircd-seven-1.1.0 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+2011-10-27 15:40:23	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnpstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2011-10-27 15:40:23	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2011-10-27 15:40:23	--	EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2011-10-27 15:40:23	--	There are 259 users and 67517 invisible on 27 servers
+2011-10-27 15:40:23	--	34 :IRC Operators online
+2011-10-27 15:40:23	--	3 :unknown connection(s)
+2011-10-27 15:40:23	--	46484 :channels formed
+2011-10-27 15:40:23	--	I have 3121 clients and 1 servers
+2011-10-27 15:40:23	--	3121 8633 :Current local users 3121, max 8633
+2011-10-27 15:40:23	--	67776 74669 :Current global users 67776, max 74669
+2011-10-27 15:40:23	--	Highest connection count: 8634 (8633 clients) (895475 connections received)
+2011-10-27 15:40:23	--	- holmes.freenode.net Message of the Day -
+2011-10-27 15:40:23	--	- Welcome to holmes.freenode.net in London, UK! Massive thanks to
+2011-10-27 15:40:23	--	- UK2 (http://www.uk2.net) for sponsoring this server.
+2011-10-27 15:40:23	--	-
+2011-10-27 15:40:23	--	- HOLMES, ROBERT (1928-1986). An English television scriptwriter,
+2011-10-27 15:40:23	--	- most notably remembered for his work on the sci-fi series;
+2011-10-27 15:40:23	--	- Doctor Who.
+2011-10-27 15:40:23	--	- You're using freenode, a service of Peer-Directed Projects
+2011-10-27 15:40:23	--	- Center Ltd (http://freenode.net/pdpc.shtml).
+2011-10-27 15:40:23	--	-
+2011-10-27 15:40:23	--	- PDPC's 2011 fundraiser launched on 14th February 2011. We would
+2011-10-27 15:40:23	--	- like to invite all users of freenode to get involved in the fun
+2011-10-27 15:40:23	--	- of our Valentine-themed fundraiser launch - see
+2011-10-27 15:40:23	--	- http://freenode.net/pdpc_valentine.shtml for more!
+2011-10-27 15:40:23	--	-
+2011-10-27 15:40:23	--	- On the subject of fundraisers, we'd like to thank our donors,
+2011-10-27 15:40:23	--	- hardware and bandwith sponsors and especially  The Gallery
+2011-10-27 15:40:23	--	- Project (http://gallery.menalto.com/) and our corporate sponsor
+2011-10-27 15:40:23	--	- Canonical Ltd (http://www.canonical.com) for the generous
+2011-10-27 15:40:23	--	- support.
+2011-10-27 15:40:23	--	-
+2011-10-27 15:40:23	--	- By connecting to freenode you indicate that you have read
+2011-10-27 15:40:23	--	- and agree to adhere to our policies and procedures as per
+2011-10-27 15:40:23	--	- the website (http://freenode.net). We would like to remind
+2011-10-27 15:40:23	--	- you that unauthorized public logging of channels on the
+2011-10-27 15:40:23	--	- network is prohibited. Public channel logging should only
+2011-10-27 15:40:23	--	- take place where the channel owner(s) has requested this
+2011-10-27 15:40:23	--	- and users of the channel are all made aware (if you are
+2011-10-27 15:40:23	--	- publically logging your channel, you may wish to keep a
+2011-10-27 15:40:23	--	- notice in topic and perhaps as a on-join message).
+2011-10-27 15:40:23	--	-
+2011-10-27 15:40:23	--	- By registering your nickname with Nickserv you agree that you
+2011-10-27 15:40:23	--	- are 13 years of age, or older. For more information about the
+2011-10-27 15:40:23	--	- Children's Online Privacy Protection Act please see their
+2011-10-27 15:40:23	--	- website at (http://www.coppa.org).
+2011-10-27 15:40:23	--	-
+2011-10-27 15:40:23	--	- freenode runs an open proxy scanner. Your use of the network
+2011-10-27 15:40:23	--	- indicates your acceptance of this policy. For details on
+2011-10-27 15:40:23	--	- freenode network policy, please take a look at our policy
+2011-10-27 15:40:23	--	- page (http://freenode.net/policy.shtml). Thank you for using
+2011-10-27 15:40:23	--	- the network!
+2011-10-27 15:40:23	--	-
+2011-10-27 15:40:23	--	- Don't forget to check out these other Peer-Directed Projects:
+2011-10-27 15:40:23	--	- FOSSCON [http://www.fosscon.org] and fossevents
+2011-10-27 15:40:23	--	- [http://www.fossevents.org], and soon we'll repeat last years
+2011-10-27 15:40:23	--	- success with Picnics for Geeks across the globe, more info at
+2011-10-27 15:40:23	--	- [http://geeknic.org]
+2011-10-27 15:40:23	--	-
+2011-10-27 15:40:23	--	- freenode is a service of Peer-Directed Projects Center Ltd,
+2011-10-27 15:40:23	--	- a not for profit organisation registered in England and Wales.
+2011-10-27 15:40:23	--	-
+2011-10-27 15:40:23	--	- If you support the work we do and wish to donate to the PDPC,
+2011-10-27 15:40:23	--	- you may do so over at http://freenode.net/pdpc_donations.shtml
+2011-10-27 15:40:23	--	-
+2011-10-27 15:40:23	--	- Thank you for using freenode!
+2011-10-27 15:40:23	--	-
+2011-10-27 15:40:23	--	- ***************************************************************
+2011-10-27 15:40:23	--	- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+2011-10-27 15:40:23	--	- ***************************************************************
+2011-10-27 15:40:23	--	End of /MOTD command.
+2011-10-27 15:40:23	--	User mode [+i] by jeffrey1
+2011-10-27 15:40:36	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2011-10-27 15:40:45	--	-NickServ- identify **********
+2011-10-27 15:40:45	--	NickServ (NickServ@services.): You are now identified for TheSeparateFirst.
+2011-10-27 15:42:13	--	ChanServ (ChanServ@services.): [#ruby] Welcome to #ruby. || http://www.ruby-lang.org || http://www.modruby.net
+2011-10-27 21:23:59		irc: disconnected from server
+2011-10-27 21:45:06		irc: connecting to server chat.freenode.net/6667...
+2011-10-27 21:45:07		irc: connected to chat.freenode.net/6667 (130.239.18.172)
+2011-10-27 21:45:07	--	leguin.freenode.net (leguin.freenode.net): *** Looking up your hostname...
+2011-10-27 21:45:07	--	leguin.freenode.net (leguin.freenode.net): *** Checking Ident
+2011-10-27 21:45:07	--	leguin.freenode.net (leguin.freenode.net): *** Found your hostname
+2011-10-27 21:45:15	--	leguin.freenode.net (leguin.freenode.net): *** No Ident response
+2011-10-27 21:45:15		irc: nickname "jeffrey" is already in use, trying nickname #2 ("jeffrey1")
+2011-10-27 21:45:15	--	Welcome to the freenode Internet Relay Chat Network jeffrey1
+2011-10-27 21:45:15	--	Your host is leguin.freenode.net[130.239.18.172/6667], running version ircd-seven-1.1.1
+2011-10-27 21:45:15	--	This server was created Wed Sep 14 2011 at 22:14:14 CEST
+2011-10-27 21:45:15	--	leguin.freenode.net ircd-seven-1.1.1 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+2011-10-27 21:45:15	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnpstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2011-10-27 21:45:15	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2011-10-27 21:45:15	--	EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2011-10-27 21:45:15	--	There are 245 users and 61962 invisible on 27 servers
+2011-10-27 21:45:15	--	33 :IRC Operators online
+2011-10-27 21:45:15	--	7 :unknown connection(s)
+2011-10-27 21:45:15	--	46074 :channels formed
+2011-10-27 21:45:15	--	I have 5606 clients and 1 servers
+2011-10-27 21:45:15	--	5606 6449 :Current local users 5606, max 6449
+2011-10-27 21:45:16	--	62207 74669 :Current global users 62207, max 74669
+2011-10-27 21:45:16	--	Highest connection count: 6450 (6449 clients) (658302 connections received)
+2011-10-27 21:45:16	--	- leguin.freenode.net Message of the Day -
+2011-10-27 21:45:16	--	- Welcome to leguin.freenode.net in Umeå, Sweden, EU! Thanks to
+2011-10-27 21:45:16	--	- the Academic Computer Club at Umeå University for sponsoring
+2011-10-27 21:45:16	--	- this server!
+2011-10-27 21:45:16	--	-
+2011-10-27 21:45:16	--	- URSULA K. LEGUIN (1929-)  The author of the Earthsea
+2011-10-27 21:45:16	--	- trilogy, City of Illusions and The Dispossessed.
+2011-10-27 21:45:16	--	-
+2011-10-27 21:45:16	--	- You're using freenode, a service of Peer-Directed Projects
+2011-10-27 21:45:16	--	- Center Ltd (http://freenode.net/pdpc.shtml).
+2011-10-27 21:45:16	--	-
+2011-10-27 21:45:16	--	- PDPC's 2011 fundraiser launched on 14th February 2011. We would
+2011-10-27 21:45:16	--	- like to invite all users of freenode to get involved in the fun
+2011-10-27 21:45:16	--	- of our Valentine-themed fundraiser launch - see
+2011-10-27 21:45:16	--	- http://freenode.net/pdpc_valentine.shtml for more!
+2011-10-27 21:45:16	--	-
+2011-10-27 21:45:16	--	- On the subject of fundraisers, we'd like to thank our donors,
+2011-10-27 21:45:16	--	- hardware and bandwith sponsors and especially  The Gallery
+2011-10-27 21:45:16	--	- Project (http://gallery.menalto.com/) and our corporate sponsor
+2011-10-27 21:45:16	--	- Canonical Ltd (http://www.canonical.com) for the generous
+2011-10-27 21:45:16	--	- support.
+2011-10-27 21:45:16	--	-
+2011-10-27 21:45:16	--	- By connecting to freenode you indicate that you have read
+2011-10-27 21:45:16	--	- and agree to adhere to our policies and procedures as per
+2011-10-27 21:45:16	--	- the website (http://freenode.net). We would like to remind
+2011-10-27 21:45:16	--	- you that unauthorized public logging of channels on the
+2011-10-27 21:45:16	--	- network is prohibited. Public channel logging should only
+2011-10-27 21:45:16	--	- take place where the channel owner(s) has requested this
+2011-10-27 21:45:16	--	- and users of the channel are all made aware (if you are
+2011-10-27 21:45:16	--	- publically logging your channel, you may wish to keep a
+2011-10-27 21:45:16	--	- notice in topic and perhaps as a on-join message).
+2011-10-27 21:45:16	--	-
+2011-10-27 21:45:16	--	- By registering your nickname with Nickserv you agree that you
+2011-10-27 21:45:16	--	- are 13 years of age, or older. For more information about the
+2011-10-27 21:45:16	--	- Children's Online Privacy Protection Act please see their
+2011-10-27 21:45:16	--	- website at (http://www.coppa.org).
+2011-10-27 21:45:16	--	-
+2011-10-27 21:45:16	--	- freenode runs an open proxy scanner. Your use of the network
+2011-10-27 21:45:16	--	- indicates your acceptance of this policy. For details on
+2011-10-27 21:45:16	--	- freenode network policy, please take a look at our policy
+2011-10-27 21:45:16	--	- page (http://freenode.net/policy.shtml). Thank you for using
+2011-10-27 21:45:16	--	- the network!
+2011-10-27 21:45:16	--	-
+2011-10-27 21:45:16	--	- Don't forget to check out these other Peer-Directed Projects:
+2011-10-27 21:45:16	--	- FOSSCON [http://www.fosscon.org] and fossevents
+2011-10-27 21:45:16	--	- [http://www.fossevents.org], and soon we'll repeat last years
+2011-10-27 21:45:16	--	- success with Picnics for Geeks across the globe, more info at
+2011-10-27 21:45:16	--	- [http://geeknic.org]
+2011-10-27 21:45:16	--	-
+2011-10-27 21:45:16	--	- freenode is a service of Peer-Directed Projects Center Ltd,
+2011-10-27 21:45:16	--	- a not for profit organisation registered in England and Wales.
+2011-10-27 21:45:16	--	-
+2011-10-27 21:45:16	--	- If you support the work we do and wish to donate to the PDPC,
+2011-10-27 21:45:16	--	- you may do so over at http://freenode.net/pdpc_donations.shtml
+2011-10-27 21:45:16	--	-
+2011-10-27 21:45:16	--	- Thank you for using freenode!
+2011-10-27 21:45:16	--	-
+2011-10-27 21:45:16	--	- ***************************************************************
+2011-10-27 21:45:16	--	- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+2011-10-27 21:45:16	--	- ***************************************************************
+2011-10-27 21:45:16	--	End of /MOTD command.
+2011-10-27 21:45:16	--	User mode [+i] by jeffrey1
+2011-10-27 21:45:53	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2011-10-27 21:46:01	--	-nickserv- identify **********
+2011-10-27 21:46:02	--	NickServ (NickServ@services.): You are now identified for TheSeparateFirst.
+2011-10-27 22:54:42	--	#c: ##c :Forwarding to another channel
+2011-10-27 22:57:19		irc: disconnected from server
+2011-11-10 15:25:52		irc: connecting to server chat.freenode.net/6667...
+2011-11-10 15:25:52		irc: connected to chat.freenode.net (86.65.39.15)
+2011-11-10 15:25:52	--	pratchett.freenode.net (pratchett.freenode.net): *** Looking up your hostname...
+2011-11-10 15:25:52	--	pratchett.freenode.net (pratchett.freenode.net): *** Checking Ident
+2011-11-10 15:25:52	--	pratchett.freenode.net (pratchett.freenode.net): *** Found your hostname
+2011-11-10 15:26:00	--	pratchett.freenode.net (pratchett.freenode.net): *** No Ident response
+2011-11-10 15:26:00	--	Welcome to the freenode Internet Relay Chat Network nullptr
+2011-11-10 15:26:00	--	Your host is pratchett.freenode.net[192.168.25.107/6667], running version ircd-seven-1.1.1
+2011-11-10 15:26:00	--	This server was created Wed Sep 14 2011 at 13:13:51 PDT
+2011-11-10 15:26:00	--	pratchett.freenode.net ircd-seven-1.1.1 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+2011-11-10 15:26:00	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnpstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2011-11-10 15:26:00	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2011-11-10 15:26:00	--	EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2011-11-10 15:26:00	--	There are 260 users and 67887 invisible on 28 servers
+2011-11-10 15:26:00	--	33 :IRC Operators online
+2011-11-10 15:26:00	--	5 :unknown connection(s)
+2011-11-10 15:26:00	--	46916 :channels formed
+2011-11-10 15:26:00	--	I have 4166 clients and 1 servers
+2011-11-10 15:26:00	--	4166 5583 :Current local users 4166, max 5583
+2011-11-10 15:26:00	--	68147 74736 :Current global users 68147, max 74736
+2011-11-10 15:26:00	--	Highest connection count: 5584 (5583 clients) (692707 connections received)
+2011-11-10 15:26:00	--	- pratchett.freenode.net Message of the Day -
+2011-11-10 15:26:00	--	- Welcome to pratchett.freenode.net in Rennes, FR, EU.
+2011-11-10 15:26:00	--	- Thanks to: FSF-France (http://www.fsffrance.org) for sponsoring this server!
+2011-11-10 15:26:00	--	-
+2011-11-10 15:26:00	--	- PRATCHETT, TERRY (1948-).  Born in Buckinghamshire, England,
+2011-11-10 15:26:00	--	- Pratchett is the famous author of the Discworld series of
+2011-11-10 15:26:00	--	- novels and, more recently, an active Alzheimer's Disease awareness
+2011-11-10 15:26:00	--	- campaigner.
+2011-11-10 15:26:00	--	- You're using freenode, a service of Peer-Directed Projects
+2011-11-10 15:26:00	--	- Center Ltd (http://freenode.net/pdpc.shtml).
+2011-11-10 15:26:00	--	-
+2011-11-10 15:26:00	--	- PDPC's 2011 fundraiser launched on 14th February 2011. We would
+2011-11-10 15:26:00	--	- like to invite all users of freenode to get involved in the fun
+2011-11-10 15:26:01	--	- of our Valentine-themed fundraiser launch - see
+2011-11-10 15:26:01	--	- http://freenode.net/pdpc_valentine.shtml for more!
+2011-11-10 15:26:01	--	-
+2011-11-10 15:26:01	--	- On the subject of fundraisers, we'd like to thank our donors,
+2011-11-10 15:26:01	--	- hardware and bandwith sponsors and especially  The Gallery
+2011-11-10 15:26:01	--	- Project (http://gallery.menalto.com/) and our corporate sponsor
+2011-11-10 15:26:01	--	- Canonical Ltd (http://www.canonical.com) for the generous
+2011-11-10 15:26:01	--	- support.
+2011-11-10 15:26:01	--	-
+2011-11-10 15:26:01	--	- By connecting to freenode you indicate that you have read
+2011-11-10 15:26:01	--	- and agree to adhere to our policies and procedures as per
+2011-11-10 15:26:01	--	- the website (http://freenode.net). We would like to remind
+2011-11-10 15:26:01	--	- you that unauthorized public logging of channels on the
+2011-11-10 15:26:01	--	- network is prohibited. Public channel logging should only
+2011-11-10 15:26:01	--	- take place where the channel owner(s) has requested this
+2011-11-10 15:26:01	--	- and users of the channel are all made aware (if you are
+2011-11-10 15:26:01	--	- publically logging your channel, you may wish to keep a
+2011-11-10 15:26:01	--	- notice in topic and perhaps as a on-join message).
+2011-11-10 15:26:01	--	-
+2011-11-10 15:26:01	--	- By registering your nickname with Nickserv you agree that you
+2011-11-10 15:26:01	--	- are 13 years of age, or older. For more information about the
+2011-11-10 15:26:01	--	- Children's Online Privacy Protection Act please see their
+2011-11-10 15:26:01	--	- website at (http://www.coppa.org).
+2011-11-10 15:26:01	--	-
+2011-11-10 15:26:01	--	- freenode runs an open proxy scanner. Your use of the network
+2011-11-10 15:26:01	--	- indicates your acceptance of this policy. For details on
+2011-11-10 15:26:01	--	- freenode network policy, please take a look at our policy
+2011-11-10 15:26:01	--	- page (http://freenode.net/policy.shtml). Thank you for using
+2011-11-10 15:26:01	--	- the network!
+2011-11-10 15:26:01	--	-
+2011-11-10 15:26:01	--	- Don't forget to check out these other Peer-Directed Projects:
+2011-11-10 15:26:01	--	- FOSSCON [http://www.fosscon.org] and fossevents
+2011-11-10 15:26:01	--	- [http://www.fossevents.org], and soon we'll repeat last years
+2011-11-10 15:26:01	--	- success with Picnics for Geeks across the globe, more info at
+2011-11-10 15:26:01	--	- [http://geeknic.org]
+2011-11-10 15:26:01	--	-
+2011-11-10 15:26:01	--	- freenode is a service of Peer-Directed Projects Center Ltd,
+2011-11-10 15:26:01	--	- a not for profit organisation registered in England and Wales.
+2011-11-10 15:26:01	--	-
+2011-11-10 15:26:01	--	- If you support the work we do and wish to donate to the PDPC,
+2011-11-10 15:26:01	--	- you may do so over at http://freenode.net/pdpc_donations.shtml
+2011-11-10 15:26:01	--	-
+2011-11-10 15:26:01	--	- Thank you for using freenode!
+2011-11-10 15:26:01	--	-
+2011-11-10 15:26:01	--	- ***************************************************************
+2011-11-10 15:26:01	--	- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+2011-11-10 15:26:01	--	- ***************************************************************
+2011-11-10 15:26:01	--	End of /MOTD command.
+2011-11-10 15:26:01	--	User mode [+i] by nullptr
+2011-11-10 15:26:01	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2011-11-10 15:26:07	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2011-11-10 15:26:13	--	-nickserv- identify **********
+2011-11-10 15:26:14	--	NickServ (NickServ@services.): You are now identified for TheSeparateFirst.
+2011-11-10 15:26:24	--	ChanServ (ChanServ@services.): [#vim] vim discussion .. www.vim.org, vim.sf.net, :help
+2011-11-10 15:55:24	=!=	irc: too few arguments for "query" command
+2011-11-10 15:55:28		irc: disconnected from server
+2011-11-12 13:19:11		irc: connecting to server chat.freenode.net/6667...
+2011-11-12 13:19:11		irc: connected to chat.freenode.net (213.179.58.83)
+2011-11-12 13:19:11	--	gibson.freenode.net (gibson.freenode.net): *** Looking up your hostname...
+2011-11-12 13:19:12	--	gibson.freenode.net (gibson.freenode.net): *** Checking Ident
+2011-11-12 13:19:12	--	gibson.freenode.net (gibson.freenode.net): *** Found your hostname
+2011-11-12 13:19:22	--	gibson.freenode.net (gibson.freenode.net): *** No Ident response
+2011-11-12 13:19:22	--	Welcome to the freenode Internet Relay Chat Network nullptr
+2011-11-12 13:19:22	--	Your host is gibson.freenode.net[213.179.58.83/6667], running version ircd-seven-1.1.1
+2011-11-12 13:19:22	--	This server was created Wed Sep 14 2011 at 22:13:56 CEST
+2011-11-12 13:19:22	--	gibson.freenode.net ircd-seven-1.1.1 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+2011-11-12 13:19:22	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnpstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2011-11-12 13:19:22	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2011-11-12 13:19:22	--	EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2011-11-12 13:19:22	--	There are 269 users and 65507 invisible on 28 servers
+2011-11-12 13:19:22	--	32 :IRC Operators online
+2011-11-12 13:19:22	--	3 :unknown connection(s)
+2011-11-12 13:19:22	--	46967 :channels formed
+2011-11-12 13:19:22	--	I have 4034 clients and 1 servers
+2011-11-12 13:19:22	--	4034 6345 :Current local users 4034, max 6345
+2011-11-12 13:19:22	--	65776 74736 :Current global users 65776, max 74736
+2011-11-12 13:19:22	--	Highest connection count: 6346 (6345 clients) (714334 connections received)
+2011-11-12 13:19:22	--	- gibson.freenode.net Message of the Day -
+2011-11-12 13:19:22	--	- Welcome to gibson.freenode.net in Norway, EU!  Thanks to
+2011-11-12 13:19:22	--	- SSC Networks (www.ssc.no) for sponsoring this server!
+2011-11-12 13:19:22	--	-
+2011-11-12 13:19:22	--	- GIBSON, WILLIAM (1948-) He is married with two children. In
+2011-11-12 13:19:22	--	- the early 1980s he wrote Neuromancer, and with this novel he
+2011-11-12 13:19:22	--	- helped establish a new kind of science fiction literature
+2011-11-12 13:19:22	--	- called cyberpunk. William Gibson defined the word cyberspace,
+2011-11-12 13:19:22	--	- and described virtual reality long before we saw the
+2011-11-12 13:19:22	--	- similarities with todays Internet. He has won the Hugo Award,
+2011-11-12 13:19:22	--	- Nebula Award and the Philipp K. Dick Award.
+2011-11-12 13:19:22	--	-
+2011-11-12 13:19:22	--	- You're using freenode, a service of Peer-Directed Projects
+2011-11-12 13:19:22	--	- Center Ltd (http://freenode.net/pdpc.shtml).
+2011-11-12 13:19:22	--	-
+2011-11-12 13:19:22	--	- PDPC's 2011 fundraiser launched on 14th February 2011. We would
+2011-11-12 13:19:22	--	- like to invite all users of freenode to get involved in the fun
+2011-11-12 13:19:22	--	- of our Valentine-themed fundraiser launch - see
+2011-11-12 13:19:22	--	- http://freenode.net/pdpc_valentine.shtml for more!
+2011-11-12 13:19:22	--	-
+2011-11-12 13:19:22	--	- On the subject of fundraisers, we'd like to thank our donors,
+2011-11-12 13:19:22	--	- hardware and bandwith sponsors and especially  The Gallery
+2011-11-12 13:19:22	--	- Project (http://gallery.menalto.com/) and our corporate sponsor
+2011-11-12 13:19:22	--	- Canonical Ltd (http://www.canonical.com) for the generous
+2011-11-12 13:19:22	--	- support.
+2011-11-12 13:19:22	--	-
+2011-11-12 13:19:22	--	- By connecting to freenode you indicate that you have read
+2011-11-12 13:19:22	--	- and agree to adhere to our policies and procedures as per
+2011-11-12 13:19:22	--	- the website (http://freenode.net). We would like to remind
+2011-11-12 13:19:22	--	- you that unauthorized public logging of channels on the
+2011-11-12 13:19:22	--	- network is prohibited. Public channel logging should only
+2011-11-12 13:19:22	--	- take place where the channel owner(s) has requested this
+2011-11-12 13:19:22	--	- and users of the channel are all made aware (if you are
+2011-11-12 13:19:22	--	- publically logging your channel, you may wish to keep a
+2011-11-12 13:19:22	--	- notice in topic and perhaps as a on-join message).
+2011-11-12 13:19:22	--	-
+2011-11-12 13:19:22	--	- By registering your nickname with Nickserv you agree that you
+2011-11-12 13:19:22	--	- are 13 years of age, or older. For more information about the
+2011-11-12 13:19:22	--	- Children's Online Privacy Protection Act please see their
+2011-11-12 13:19:22	--	- website at (http://www.coppa.org).
+2011-11-12 13:19:22	--	-
+2011-11-12 13:19:22	--	- freenode runs an open proxy scanner. Your use of the network
+2011-11-12 13:19:22	--	- indicates your acceptance of this policy. For details on
+2011-11-12 13:19:22	--	- freenode network policy, please take a look at our policy
+2011-11-12 13:19:22	--	- page (http://freenode.net/policy.shtml). Thank you for using
+2011-11-12 13:19:22	--	- the network!
+2011-11-12 13:19:22	--	-
+2011-11-12 13:19:22	--	- Don't forget to check out these other Peer-Directed Projects:
+2011-11-12 13:19:22	--	- FOSSCON [http://www.fosscon.org] and fossevents
+2011-11-12 13:19:22	--	- [http://www.fossevents.org], and soon we'll repeat last years
+2011-11-12 13:19:22	--	- success with Picnics for Geeks across the globe, more info at
+2011-11-12 13:19:22	--	- [http://geeknic.org]
+2011-11-12 13:19:22	--	-
+2011-11-12 13:19:22	--	- freenode is a service of Peer-Directed Projects Center Ltd,
+2011-11-12 13:19:22	--	- a not for profit organisation registered in England and Wales.
+2011-11-12 13:19:22	--	-
+2011-11-12 13:19:22	--	- If you support the work we do and wish to donate to the PDPC,
+2011-11-12 13:19:22	--	- you may do so over at http://freenode.net/pdpc_donations.shtml
+2011-11-12 13:19:22	--	-
+2011-11-12 13:19:22	--	- Thank you for using freenode!
+2011-11-12 13:19:22	--	-
+2011-11-12 13:19:22	--	- ***************************************************************
+2011-11-12 13:19:22	--	- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+2011-11-12 13:19:22	--	- ***************************************************************
+2011-11-12 13:19:22	--	End of /MOTD command.
+2011-11-12 13:19:22	--	User mode [+i] by nullptr
+2011-11-12 13:19:22	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2011-11-12 13:19:46	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2011-11-12 13:19:58	--	-nickserv- identify **********
+2011-11-12 13:19:58	--	NickServ (NickServ@services.): You are now identified for TheSeparateFirst.
+2011-11-12 13:20:41	--	#opensuse: #suse :Forwarding to another channel
+2011-11-12 13:25:58	--	ChanServ (ChanServ@services.): [#ruby] Welcome to #ruby. || http://www.ruby-lang.org || http://www.modruby.net
+2011-11-12 17:20:51		irc: disconnected from server
+2011-11-14 22:37:22		irc: connecting to server chat.freenode.net/6667...
+2011-11-14 22:37:23		irc: connected to chat.freenode.net (140.211.167.99)
+2011-11-14 22:37:23	--	zelazny.freenode.net (zelazny.freenode.net): *** Looking up your hostname...
+2011-11-14 22:37:23	--	zelazny.freenode.net (zelazny.freenode.net): *** Checking Ident
+2011-11-14 22:37:23	--	zelazny.freenode.net (zelazny.freenode.net): *** Found your hostname
+2011-11-14 22:37:28	--	zelazny.freenode.net (zelazny.freenode.net): *** No Ident response
+2011-11-14 22:37:28	--	Welcome to the freenode Internet Relay Chat Network nullptr
+2011-11-14 22:37:28	--	Your host is zelazny.freenode.net[140.211.167.99/6667], running version ircd-seven-1.1.3
+2011-11-14 22:37:28	--	This server was created Sun Nov 13 2011 at 13:42:34 UTC
+2011-11-14 22:37:28	--	zelazny.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+2011-11-14 22:37:28	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2011-11-14 22:37:28	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2011-11-14 22:37:28	--	EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2011-11-14 22:37:28	--	There are 249 users and 61939 invisible on 28 servers
+2011-11-14 22:37:28	--	31 :IRC Operators online
+2011-11-14 22:37:28	--	10 :unknown connection(s)
+2011-11-14 22:37:28	--	46672 :channels formed
+2011-11-14 22:37:28	--	I have 2200 clients and 1 servers
+2011-11-14 22:37:28	--	2200 3135 :Current local users 2200, max 3135
+2011-11-14 22:37:28	--	62188 74347 :Current global users 62188, max 74347
+2011-11-14 22:37:28	--	Highest connection count: 3136 (3135 clients) (32616 connections received)
+2011-11-14 22:37:28	--	- zelazny.freenode.net Message of the Day -
+2011-11-14 22:37:28	--	- Welcome to zelazny.freenode.net in Corvallis, Oregon, US.
+2011-11-14 22:37:28	--	- Our thanks to Oregon State University for sponsoring this
+2011-11-14 22:37:28	--	- server!
+2011-11-14 22:37:28	--	-
+2011-11-14 22:37:28	--	- ZELAZNY, ROGER JOSEPH [1937-1995].  Roger Zelazny was a
+2011-11-14 22:37:28	--	- leading light in the New Wave of science fiction.  He began
+2011-11-14 22:37:28	--	- writing in 1962.  Known for such works as This Immortal,
+2011-11-14 22:37:28	--	- Lord of Light, The Dream Master and the Amber books,
+2011-11-14 22:37:28	--	- Zelazny is best known for his idiomatic American
+2011-11-14 22:37:28	--	- protagonists, embodying the mythological figures of the
+2011-11-14 22:37:28	--	- Trickster and the Hero of a Thousand Faces.
+2011-11-14 22:37:28	--	-
+2011-11-14 22:37:28	--	- You're using freenode, a service of Peer-Directed Projects
+2011-11-14 22:37:28	--	- Center Ltd (http://freenode.net/pdpc.shtml).
+2011-11-14 22:37:28	--	-
+2011-11-14 22:37:28	--	- PDPC's 2011 fundraiser launched on 14th February 2011. We would
+2011-11-14 22:37:28	--	- like to invite all users of freenode to get involved in the fun
+2011-11-14 22:37:28	--	- of our Valentine-themed fundraiser launch - see
+2011-11-14 22:37:28	--	- http://freenode.net/pdpc_valentine.shtml for more!
+2011-11-14 22:37:28	--	-
+2011-11-14 22:37:28	--	- On the subject of fundraisers, we'd like to thank our donors,
+2011-11-14 22:37:28	--	- hardware and bandwith sponsors and especially  The Gallery
+2011-11-14 22:37:28	--	- Project (http://gallery.menalto.com/) and our corporate sponsor
+2011-11-14 22:37:28	--	- Canonical Ltd (http://www.canonical.com) for the generous
+2011-11-14 22:37:28	--	- support.
+2011-11-14 22:37:28	--	-
+2011-11-14 22:37:28	--	- By connecting to freenode you indicate that you have read
+2011-11-14 22:37:28	--	- and agree to adhere to our policies and procedures as per
+2011-11-14 22:37:28	--	- the website (http://freenode.net). We would like to remind
+2011-11-14 22:37:28	--	- you that unauthorized public logging of channels on the
+2011-11-14 22:37:28	--	- network is prohibited. Public channel logging should only
+2011-11-14 22:37:28	--	- take place where the channel owner(s) has requested this
+2011-11-14 22:37:28	--	- and users of the channel are all made aware (if you are
+2011-11-14 22:37:28	--	- publically logging your channel, you may wish to keep a
+2011-11-14 22:37:28	--	- notice in topic and perhaps as a on-join message).
+2011-11-14 22:37:28	--	-
+2011-11-14 22:37:28	--	- By registering your nickname with Nickserv you agree that you
+2011-11-14 22:37:28	--	- are 13 years of age, or older. For more information about the
+2011-11-14 22:37:28	--	- Children's Online Privacy Protection Act please see their
+2011-11-14 22:37:28	--	- website at (http://www.coppa.org).
+2011-11-14 22:37:28	--	-
+2011-11-14 22:37:28	--	- freenode runs an open proxy scanner. Your use of the network
+2011-11-14 22:37:28	--	- indicates your acceptance of this policy. For details on
+2011-11-14 22:37:28	--	- freenode network policy, please take a look at our policy
+2011-11-14 22:37:28	--	- page (http://freenode.net/policy.shtml). Thank you for using
+2011-11-14 22:37:28	--	- the network!
+2011-11-14 22:37:28	--	-
+2011-11-14 22:37:28	--	- Don't forget to check out these other Peer-Directed Projects:
+2011-11-14 22:37:28	--	- FOSSCON [http://www.fosscon.org] and fossevents
+2011-11-14 22:37:28	--	- [http://www.fossevents.org], and soon we'll repeat last years
+2011-11-14 22:37:28	--	- success with Picnics for Geeks across the globe, more info at
+2011-11-14 22:37:28	--	- [http://geeknic.org]
+2011-11-14 22:37:28	--	-
+2011-11-14 22:37:28	--	- freenode is a service of Peer-Directed Projects Center Ltd,
+2011-11-14 22:37:28	--	- a not for profit organisation registered in England and Wales.
+2011-11-14 22:37:28	--	-
+2011-11-14 22:37:28	--	- If you support the work we do and wish to donate to the PDPC,
+2011-11-14 22:37:28	--	- you may do so over at http://freenode.net/pdpc_donations.shtml
+2011-11-14 22:37:28	--	-
+2011-11-14 22:37:28	--	- Thank you for using freenode!
+2011-11-14 22:37:28	--	-
+2011-11-14 22:37:28	--	- ***************************************************************
+2011-11-14 22:37:28	--	- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+2011-11-14 22:37:28	--	- ***************************************************************
+2011-11-14 22:37:28	--	End of /MOTD command.
+2011-11-14 22:37:28	--	User mode [+i] by nullptr
+2011-11-14 22:37:28	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2011-11-14 22:37:36	--	-Nickserv- identify **********
+2011-11-14 22:37:36	--	NickServ (NickServ@services.): Invalid password for nullptr.
+2011-11-14 22:37:42	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2011-11-14 22:37:43	--	-Nickserv- identify **********
+2011-11-14 22:37:44	--	NickServ (NickServ@services.): You are now identified for TheSeparateFirst.
+2011-11-14 22:37:50	--	#trees: #r.trees :Forwarding to another channel
+2011-11-14 22:37:57	--	ChanServ (ChanServ@services.): [#ruby] Welcome to #ruby. || http://www.ruby-lang.org || http://www.modruby.net
+2011-11-14 22:47:16		irc: disconnected from server

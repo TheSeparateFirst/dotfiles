@@ -1,0 +1,2 @@
+rvm_make_flags="-j 3"
+export rvm_path="$HOME/.rvm"

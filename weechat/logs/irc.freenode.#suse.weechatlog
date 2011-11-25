@@ -1,0 +1,377 @@
+2011-11-12 13:20:41	-->	TheSeparateFirst (~nullptr@ip72-207-124-2.sd.sd.cox.net) has joined #suse
+2011-11-12 13:20:41	--	Topic for #suse is "Welcome to #opensuse | Rules: http://w.opensu.se/IRC_rules | Stable release: 11.4 - http://bit.ly/openSUSE114 | Search: http://search.opensuse.org"
+2011-11-12 13:20:41	--	Topic set by tacit on Sat, 08 Oct 2011 07:53:54
+2011-11-12 13:20:41	--	Nicks #suse: [^Stinger^ Abhish accid aeroevan ahmed-tux alamar AlbertoP alexqwesa Ammler ananke apokryphos Arnas_ aschro Ash-Fox Auriga Aurus BadMagic badshah400 Baylink benJIman bgerber binameusl BinLi blooglet BManojlovic bombshellz boser bugisland capri caveat- ced117 cenuij cgoncalves ChmEarl Chotaire CitizenKane claymore CrazyDoode Ctwx cyberiad Damn3d danielsh DarkCalf darkmatter DasMoehU Dave123 Deathspawn derchris disjunctor doc_tomoe Dominian donvito eadthem eijk elgato enuke EvlBunBun Fabrice felipe felix__ feth fishsponge FL1SK FlameBait Floppe FormentarWork freespacer gallochri gandhijee gcc Geronimo Ghostbuster_ gnac GraveDigger greeneg Gunni gvamos hando harald_ harald` HeliosReds hemathor Hendikins henrik_iv hnsz2002 hpj hron84 hype Ilmehtar itari jamestyj jasmcdon_ jdsn jerQ jervine jimmy1980 joako johest johnyb johwir Jonathan_R jospoortvliet_ joy_lobo jql jtrucks julian_lunch Junaos kari_ kdepepo khonkhortisan kokeroulis KrisKo ksx4system ktabic kukks l3ann04_ Lanak_Laidemelet lbt lumnis Maks|home malcolmlewis mantus Marchal markings_ maxlin Mekkis Mekkis|screen Membit mesamoo microchip_ miniuser Mir MissionCritical Mjolnir mkubecek mmeeks mollach Mony MrCoffee mrdocs msb musca mutk mxt NaCl netdaemon netmax nettezzaumana neverendingo_ newbie999 nokia3510 notslad odin_ oldkid Olipro olorin_ olqs ome Operius orafu Owner paka pawky phalanx phish3 phish3_w pikudoz Praise Psi-Jack ptr_uzl pvdm qurk raden rawtaz RedNivek2 rliukko robertf roox rosseaux RSchulz rtyler rubick RushPL ryan_46 s0d0 saigkill saLOUt sandroandrade saurabhsood91 sbecht_ scarleo sero Siju simon123 simpsonetti_ simpsonetti_W sjones skelet skorpion slipp3d smica snowglu_ Sparxz squad|away steleman sui SUSEhelp sven423 sysdoc szal T1loc tabris|away tachik0ma tacit Tante| Taoki_2 tekth terabit terietor The_User TheSeparateFirst timahvo1 tithrion tomaw tomcat_berlin tonymec tonymec|away trhodes tserong tsieden twois10 urandom__ viezerd vikash voxio warlordfff watching_matej watermind winva011 xaphir XGaryG Xu_R xy yaloki yoshi314 zaitor zcrayfish Zeiva zizzfizzix zxiiro |moe|]
+2011-11-12 13:20:41	--	Channel #suse: 251 nicks (0 ops, 0 halfops, 0 voices, 251 normals)
+2011-11-12 13:20:41	--	URL for #SuSE: http://en.opensuse.org/Communicate/IRC
+2011-11-12 13:20:43	--	Channel created on Sat, 14 Feb 2004 21:08:29
+2011-11-12 13:22:58	-->	Delahunt (~robert@fd125-179.infoaomori.ne.jp) has joined #suse
+2011-11-12 13:23:02	-->	nbnds (~nbnds@port-92-195-33-239.dynamic.qsc.de) has joined #suse
+2011-11-12 13:23:14	<--	tomcat_berlin (~thomas@f053011022.adsl.alicedsl.de) has quit (Remote host closed the connection)
+2011-11-12 13:23:49	Delahunt	so i can say rc2 works rather well
+2011-11-12 13:23:56	Delahunt	kmail/kontact is entirely broken but oh well
+2011-11-12 13:24:22	Delahunt	it's fast and works well, and doesn't blow your LUKS settings off when you install :)
+2011-11-12 13:24:44	miniuser	whats a "LUKS" settings?
+2011-11-12 13:24:45	-->	druonysuse (~drew@adsl-75-4-251-109.dsl.irvnca.sbcglobal.net) has joined #suse
+2011-11-12 13:26:00	Delahunt	when you encrypt something using LUKS you can specify encryption algorithm, hash, cipher, bit strength
+2011-11-12 13:26:25	Delahunt	i prefer aes-cbc-essiv:sha256 at bit strength 128, which is a lot easier for a minimal computer like say a netbook to handle
+2011-11-12 13:26:36	miniuser	oh? cool ...
+2011-11-12 13:26:45	miniuser	people who hide stuff are interessting : )
+2011-11-12 13:26:48	<--	simon123 (~Rajko@opensuse/member/rajko-m) has quit (Remote host closed the connection)
+2011-11-12 13:26:53	miniuser	like the easter bunny
+2011-11-12 13:26:57	<--	Operius (~quassel@5ED3C021.cm-7-4d.dynamic.ziggo.nl) has quit (Remote host closed the connection)
+2011-11-12 13:27:16	Delahunt	with 11.4 i install it on my laptop, with sda2 already formatted, it disregards my already-formatted LUKS partition's algorithm and bit strength and plows over it with aes-cbc-essiv 256bit
+2011-11-12 13:27:17	-->	vas (~vas@31.185.215.226) has joined #suse
+2011-11-12 13:27:28	Delahunt	that's like putting a battleship anchor on a rowboat
+2011-11-12 13:27:37	Delahunt	makes the computer insanely slow
+2011-11-12 13:27:49	<--	skorpion (~Open_Suse@93.56.37.22) has quit (Quit: Sto andando via)
+2011-11-12 13:27:54	Delahunt	12.1 rc2 didn't do that: it honored what i already had
+2011-11-12 13:28:14	miniuser	good luck pulling that anchor inside the rowboat
+2011-11-12 13:28:44	Delahunt	for a computer to do aes-cbc-essiv 128 bit isn't hard, it doesn't slow you down much but is still enough security that unless they're the FBI or MacGyver, they're not getting your info
+2011-11-12 13:28:51	miniuser	my stuff is all from the internetz anyways ...
+2011-11-12 13:29:32	miniuser	they dont need my computer ... thery can find it on the internetz
+2011-11-12 13:29:40	Delahunt	your stuff might be, but is your mom's?
+2011-11-12 13:29:49	Delahunt	i'm sure she'd prefer her naked pictures not get all over the internet :P
+2011-11-12 13:30:11	miniuser	oh .. well .. theres is some home made pr0n
+2011-11-12 13:30:26	Delahunt	exactly, so encrypt that sh1t! :) :P
+2011-11-12 13:30:29	miniuser	but then again there's 6 billion people and they all did the jigga-jig to get here
+2011-11-12 13:30:30	-->	simon123 (~Rajko@opensuse/member/rajko-m) has joined #suse
+2011-11-12 13:30:42	miniuser	nothing to be ashamed off > :D
+2011-11-12 13:30:55	Delahunt	until you get inspected in airport security :P
+2011-11-12 13:31:31	miniuser	i think that's what ssh is for .. so you can login back to your home country-slash home server : P
+2011-11-12 13:31:41	Delahunt	:P
+2011-11-12 13:31:53	<--	Zeiva (~quassel@h235n11-lid-a11.ias.bredband.telia.com) has quit (Remote host closed the connection)
+2011-11-12 13:31:54	miniuser	see .. everythings on the internetz
+2011-11-12 13:32:06	-->	Zeiva (~quassel@h235n11-lid-a11.ias.bredband.telia.com) has joined #suse
+2011-11-12 13:32:18	miniuser	even military drones : P
+2011-11-12 13:32:39	miniuser	those just fly past customes
+2011-11-12 13:33:18	<--	saurabhsood91 (~saurabh@1.186.6.207) has quit (Read error: Connection reset by peer)
+2011-11-12 13:34:24	<--	claymore (~claymore_@host217-42-200-110.range217-42.btcentralplus.com) has quit (Quit: Leaving)
+2011-11-12 13:35:19	cenuij	yaloki: is there a public facing build status for packman's OBS instance? want to keep an eye on it so I know when mediatomb is built for 12.1 :D
+2011-11-12 13:39:04	miniuser	Delahunt: fortunatly my moms not into computers so much ... tho if your mom might work at ibm since the punch card times, i'd encrypt my sh1t too
+2011-11-12 13:39:18	<--	joy_lobo (~lobo@unaffiliated/juan--d--b/x-561435) has quit (Ping timeout: 260 seconds)
+2011-11-12 13:43:14	<--	jimmy1980 (~jimmy@112.224.3.86) has quit (Ping timeout: 252 seconds)
+2011-11-12 13:43:46	<--	XGaryG (~gary@184-8-53-185.dr02.bryn.mi.frontiernet.net) has quit (Ping timeout: 258 seconds)
+2011-11-12 13:45:54	miniuser	bought myself a kingston SSD. installed win7 then ubuntu then suse then abused it as a squid cache ... then tried to install suse again .. didn't work(error). let it sit on the desktop to collect dust. saw the 2 year warrenty. brought it back to show "to complain". guy sticks it on a live running win7 box, right-clicks it .. formats it .. voila good as new : P
+2011-11-12 13:46:24	miniuser	*sigh
+2011-11-12 13:47:04	-->	Erikw (~Erikw@geekend.dsek.lth.se) has joined #suse
+2011-11-12 13:50:06	miniuser	cenuij: maybe they hae  news-letter?
+2011-11-12 13:50:09	<--	ced117 (~ced117@opensuse/member/ced117) has quit (Read error: Connection reset by peer)
+2011-11-12 13:50:13	<--	blooglet (~pdedecker@ip-62-235-130-66.dsl.scarlet.be) has quit (Quit: Konversation terminated!)
+2011-11-12 13:50:29	-->	jimmy1980 (~jimmy@112.224.2.126) has joined #suse
+2011-11-12 13:53:24	miniuser	if you vote me for president i will make a new law that says that computer powerusage is inversely proportional to your screen size. that means, if your computer draws alot of power, you only get a small screen, if it draws a little you can have a big screen.
+2011-11-12 13:54:01	<--	Auriga (~Malcom@host-2-102-161-91.as13285.net) has quit (Quit: Bye bye...)
+2011-11-12 13:56:13	<--	jimmy1980 (~jimmy@112.224.2.126) has quit (Ping timeout: 260 seconds)
+2011-11-12 13:57:44	miniuser	4-core word processor? you get 640x480 screen
+2011-11-12 13:58:12	tacit	And what should that accomplish?
+2011-11-12 13:59:28	miniuser	artificial scarecity is good (tm)
+2011-11-12 13:59:45	-->	jimmy1980 (~jimmy@112.224.2.126) has joined #suse
+2011-11-12 14:00:02	<--	AlbertoP (~alberto@pdpc/supporter/active/AlbertoP) has quit (Remote host closed the connection)
+2011-11-12 14:00:10	-->	XGaryG (~gary@184-8-53-185.dr02.bryn.mi.frontiernet.net) has joined #suse
+2011-11-12 14:00:10	miniuser	oh no ..
+2011-11-12 14:02:45	miniuser	tacit: well i assume people will start to squeeze the cpu with good programming again .. instead of just throwing more cpu-cycles at the problem
+2011-11-12 14:02:59	miniuser	because everybody wants a big screen?
+2011-11-12 14:03:13	-->	Arnas__ (~Arnas@78-57-148-192.static.zebra.lt) has joined #suse
+2011-11-12 14:04:02	<--	ktabic (~ktabic@81.187.163.185) has quit (Read error: Operation timed out)
+2011-11-12 14:04:46	miniuser	i mean "if..then .. else" clauses are good and all .. but maybe there's a limited amounts of "if..then..else" in the universe that make sense? why not just make it a library you can link it?
+2011-11-12 14:05:13	<--	s0d0 (~sod@host81-141-52-208.wlms-broadband.com) has quit (Quit: Leaving)
+2011-11-12 14:05:19	tacit	miniuser: Okay that's funny and all, but can you take offtopic stuff to #opensuse-chat which is dedicates for that?
+2011-11-12 14:06:21	miniuser	i have a big sticker on my bedroom door that says: "#opensuse-chat: where things get physical"
+2011-11-12 14:06:29	miniuser	so yes ...
+2011-11-12 14:06:32	<--	miniuser (dfcc5331@gateway/web/freenode/ip.223.204.83.49) has quit
+2011-11-12 14:06:43	<--	XGaryG (~gary@184-8-53-185.dr02.bryn.mi.frontiernet.net) has quit (Ping timeout: 260 seconds)
+2011-11-12 14:07:21	<--	Arnas_ (~Arnas@78-57-148-192.static.zebra.lt) has quit (Ping timeout: 276 seconds)
+2011-11-12 14:08:51	<--	Arnas__ (~Arnas@78-57-148-192.static.zebra.lt) has quit (Ping timeout: 240 seconds)
+2011-11-12 14:10:31	<--	bgerber (~gerberb@suse103.zenez.com) has quit (Ping timeout: 255 seconds)
+2011-11-12 14:13:45	<--	timahvo1 (~rogue@41.90.91.181) has quit (Remote host closed the connection)
+2011-11-12 14:13:59	-->	timahvo1 (~rogue@41.90.91.181) has joined #suse
+2011-11-12 14:14:39	<--	Delahunt (~robert@fd125-179.infoaomori.ne.jp) has quit (Ping timeout: 256 seconds)
+2011-11-12 14:17:42	-->	ktabic (~ktabic@81.187.163.185) has joined #suse
+2011-11-12 14:20:46	-->	Timmerman (~timm@189.6.137.28) has joined #suse
+2011-11-12 14:21:29	<--	nbnds (~nbnds@port-92-195-33-239.dynamic.qsc.de) has left #suse
+2011-11-12 14:22:12	-->	bgerber (~gerberb@suse103.zenez.com) has joined #suse
+2011-11-12 14:22:53	<--	saigkill (~saigkill@opensuse/member/saigkill) has quit (Quit: KVIrc 4.0.4 Insomnia http://www.kvirc.net/)
+2011-11-12 14:23:01	yaloki	cenuij: yes sure, https://pmbs.links2linux.org/
+2011-11-12 14:24:42	<--	mollach (~davidr@host-92-4-39-121.as43234.net) has quit (Quit: Konversation terminated!)
+2011-11-12 14:26:49	-->	visor (~visor@201.171.80.224) has joined #suse
+2011-11-12 14:27:49	visor	Hi there, is it normal that I can't get any package updates/install if I'm running 12.1 RC2?
+2011-11-12 14:27:51	-->	clint- (~clint@pdpc/supporter/active/clint-) has joined #suse
+2011-11-12 14:28:13	visor	zypper says that media source does not contain the desired medium
+2011-11-12 14:28:13	Ilmehtar	visor: well given 12.1 isn't out yet, what updates are you expecting?
+2011-11-12 14:28:17	tacit	yaloki: Hmm was there any discussion about including cacert's root ca in openSUSE? Last thing I read was that they didn't include the root CA process for Mozilla.
+2011-11-12 14:28:41	yaloki	tacit: quite possibly. hmm.. darix is pretty well informed on those things, afaik
+2011-11-12 14:28:53	visor	Ilmehtar, I'm trying to build something from source, so I need to install some extra packages, but I can't
+2011-11-12 14:29:08	visor	Ilmehtar, like intltool, gcc, those things
+2011-11-12 14:29:18	tacit	I actually don't know if I could support that, but it can't be worse than any other CA.
+2011-11-12 14:29:23	<--	pvdm (~pvdm@pvdm.xs4all.nl) has quit (Ping timeout: 256 seconds)
+2011-11-12 14:29:47	tacit	visor: Please give your repository list.
+2011-11-12 14:30:18	Ctwx	visor: Are you currently on the machine that doesn't load? I had this problem too, but the problem was, that the network wasn't activated.
+2011-11-12 14:30:53	<--	Hendikins (~wolfox@pdpc/supporter/student/Hendikins) has quit (Quit: Any technology, no matter how primitive, is magic to those who don't understand it)
+2011-11-12 14:31:49	visor	tacit I've got openSUSE-12.1-Non-Oss, openSUSE-12.1-Oss, openSUSE-12.1-Update and some thing called "PK_TMP_DIR"
+2011-11-12 14:32:08	tacit	visor: Remove PK_TMP_DIR and try again.
+2011-11-12 14:32:20	visor	Ctwx, yes I'm on that machine, I tought was a network issue too, even disconnected from wireless and plugged in the wired network
+2011-11-12 14:32:37	<--	bugisland (~not@host-188-174-133-81.customer.m-online.net) has quit (Quit: Leaving)
+2011-11-12 14:33:06	-->	Hendikins (~wolfox@CPE-121-217-120-8.lnse2.cht.bigpond.net.au) has joined #suse
+2011-11-12 14:33:07	<--	Hendikins (~wolfox@CPE-121-217-120-8.lnse2.cht.bigpond.net.au) has quit (Changing host)
+2011-11-12 14:33:07	-->	Hendikins (~wolfox@pdpc/supporter/student/Hendikins) has joined #suse
+2011-11-12 14:33:31	visor	ok let me try that
+2011-11-12 14:35:30	-->	bugisland (~not@host-188-174-133-81.customer.m-online.net) has joined #suse
+2011-11-12 14:36:35	<--	smica (~smica@78-131-70-27.pool.hdsnet.hu) has quit (Quit: Távozom)
+2011-11-12 14:36:43	<--	Fabrice (~Fabrice@2a01:e35:2f47:a560:219:66ff:fea0:a6a4) has left #suse
+2011-11-12 14:36:53	visor	wierd
+2011-11-12 14:37:03	visor	"Connection Failed Error message: Resolving host timed out: download.opensuse.org"
+2011-11-12 14:37:12	visor	could it be under heavy load?
+2011-11-12 14:37:35	Ilmehtar	visor: not really..
+2011-11-12 14:37:58	Ilmehtar	visor: http://www.downforeveryoneorjustme.com/http://download.opensuse.org/
+2011-11-12 14:38:12	<--	bgerber (~gerberb@suse103.zenez.com) has quit (Remote host closed the connection)
+2011-11-12 14:39:07	visor	mmm then the firewall maybe?
+2011-11-12 14:39:15	visor	i mean the one in suse
+2011-11-12 14:39:35	visor	because i can actually go to the website and see the folder altough it takes like 3-5 seconds to load
+2011-11-12 14:40:10	-->	bgerber (~gerberb@suse103.zenez.com) has joined #suse
+2011-11-12 14:40:37	-->	sjoos (~sjoos@g2086.upc-g.chello.nl) has joined #suse
+2011-11-12 14:41:57	Ctwx	Try to ping download.opensuse.org
+2011-11-12 14:42:29	cenuij	yaloki: cheers
+2011-11-12 14:46:28	visor	4 packets transmitted, 4 received, 0% packet loss, time 17298ms
+2011-11-12 14:46:34	visor	I guess thats a lot of time
+2011-11-12 14:46:36	visor	:S
+2011-11-12 14:48:43	-->	liquidsky42 (~jan@ip-62-143-4-113.unitymediagroup.de) has joined #suse
+2011-11-12 14:49:17	Ilmehtar	visor: I'm getting responses..so its not them
+2011-11-12 14:49:58	<--	Geronimo (~abcde@190.194.205.231) has quit (Ping timeout: 260 seconds)
+2011-11-12 14:52:04	visor	I think I know wheres the problem
+2011-11-12 14:52:08	visor	/etc/resolv.conf....
+2011-11-12 14:52:54	<--	tserong (~tserong@opensuse/member/tserong) has quit (Quit: Leaving)
+2011-11-12 14:52:59	visor	maybe network manager... the first line says "search site"
+2011-11-12 14:53:05	visor	so it takes forever to resolve dns
+2011-11-12 14:53:09	-->	BSD (55fb6190@gateway/web/freenode/ip.85.251.97.144) has joined #suse
+2011-11-12 14:54:58	-->	Guizmo (~Guizmo@unaffiliated/guizmo) has joined #suse
+2011-11-12 14:55:01	olorin_	visor: search domain etc is also a culprit.
+2011-11-12 14:55:15	<--	tithrion (~steffen@HSI-KBW-095-208-054-043.hsi5.kabel-badenwuerttemberg.de) has quit (Remote host closed the connection)
+2011-11-12 14:55:57	visor	and I know because in my house I dont have this problem, only here at the office where the router is from another brand
+2011-11-12 14:56:39	Guizmo	hello, I couldn't start/stop fail2ban, but was getting the response "done" everytime. It was because I had a "/var/run/fail2ban" but no fail2ban.pid. After removing it I could effectively start fail2ban. Is it a bug ?
+2011-11-12 14:57:03	Guizmo	(I had /var/run/fail2ban.sock)*
+2011-11-12 14:59:04	olorin_	visor: Ok.
+2011-11-12 14:59:38	olorin_	Guizmo: Well, if it's set up to create a pid file and it doesn't, indeed.
+2011-11-12 15:00:29	<--	Ctwx (~christian@77-22-170-199-dynip.superkabel.de) has quit (Remote host closed the connection)
+2011-11-12 15:01:45	Guizmo	olorin_: it does, but I don't the fail2ban.pid disppeared at a time, after a crash or something, and after that fail2ban couldn't start (but a service fail2ban start was writting a: done).
+2011-11-12 15:01:51	<--	lumnis (~denny@31-19-229-13-dynip.superkabel.de) has quit (Quit: Konversation terminated!)
+2011-11-12 15:02:16	<--	boser (~boser@p4FD12E92.dip.t-dialin.net) has quit (Quit: fly to the sky)
+2011-11-12 15:02:32	Guizmo	sorry... there is a "I don't the" to remove above
+2011-11-12 15:04:06	olorin_	Guizmo: And if you create the PID file manually?
+2011-11-12 15:04:28	Guizmo	if I delete the fail2ban.pid, and start the service it is ok
+2011-11-12 15:04:45	Guizmo	fail2ban.sock...
+2011-11-12 15:05:18	--	darkmatter is now known as Hairy_Pothead
+2011-11-12 15:06:25	--	Hairy_Pothead is now known as darkmatter
+2011-11-12 15:08:45	<--	liquidsky42 (~jan@ip-62-143-4-113.unitymediagroup.de) has quit (Remote host closed the connection)
+2011-11-12 15:09:09	Guizmo	olorin_: if I stop fail2ban, and create a /var/run/fail2ban.sock manually, fail2ban cannot start but shows a done
+2011-11-12 15:09:39	Guizmo	with service fail2ban start
+2011-11-12 15:11:50	Guizmo	if I kill fail2ban while it is running, both file are removed (sock and pid)
+2011-11-12 15:15:58	<--	tacit (~andi@opensuse/member/AndreasStieger) has quit (Quit: leaving)
+2011-11-12 15:16:37	<--	mantus (~mantus@189.245.106.150) has quit (Read error: Connection reset by peer)
+2011-11-12 15:17:50	--	Taoki_2 is now known as Taoki
+2011-11-12 15:19:10	<--	tonymec (~tonymec@unaffiliated/tonymec) has quit (Remote host closed the connection)
+2011-11-12 15:19:47	Guizmo	kill -9 fail2ban (just for a test), leaves a fail2ban.sock, and prevents fail2ban to start even after a reboot, unitl this file is removed
+2011-11-12 15:20:07	-->	tonymec (~tonymec@109.128.181.63) has joined #suse
+2011-11-12 15:20:07	<--	tonymec (~tonymec@109.128.181.63) has quit (Changing host)
+2011-11-12 15:20:07	-->	tonymec (~tonymec@unaffiliated/tonymec) has joined #suse
+2011-11-12 15:21:46	-->	Geronimo (~abcde@190.194.205.231) has joined #suse
+2011-11-12 15:22:21	<--	ome (~ome@pool-71-163-38-16.washdc.fios.verizon.net) has quit (Remote host closed the connection)
+2011-11-12 15:23:31	-->	ome (~ome@pool-71-163-38-16.washdc.fios.verizon.net) has joined #suse
+2011-11-12 15:23:58	<--	hype (~hype@82.199.174.16) has quit (Remote host closed the connection)
+2011-11-12 15:26:36	<--	Erikw (~Erikw@geekend.dsek.lth.se) has quit (Quit: Bye!)
+2011-11-12 15:27:12	<--	slipp3d (~Slip@64.89.223.43) has quit (Quit: Leaving on a jet plane)
+2011-11-12 15:29:35	-->	tacit (~andi@opensuse/member/AndreasStieger) has joined #suse
+2011-11-12 15:30:23	Ilmehtar	visor: quick question about your problem - I assume you're not talking to us from the machine that has the issue?
+2011-11-12 15:34:27	-->	flan_suse (~opera@unaffiliated/flansuse) has joined #suse
+2011-11-12 15:35:15	-->	TJNII (~TJNII@207.189.199.62) has joined #suse
+2011-11-12 15:35:22	<--	|moe| (~moe@ip-178-203-129-66.unitymediagroup.de) has quit (Ping timeout: 240 seconds)
+2011-11-12 15:35:41	<--	Geronimo (~abcde@190.194.205.231) has quit (Ping timeout: 248 seconds)
+2011-11-12 15:35:41	<--	ahmed-tux (~rhapsody@41.248.104.78) has quit (Ping timeout: 248 seconds)
+2011-11-12 15:36:24	-->	Geronimo (~abcde@190.194.205.231) has joined #suse
+2011-11-12 15:37:38	<--	scarleo (~scarleo@c83-249-200-192.bredband.comhem.se) has quit (Quit: Leaving)
+2011-11-12 15:38:57	<--	BSD (55fb6190@gateway/web/freenode/ip.85.251.97.144) has quit (Ping timeout: 265 seconds)
+2011-11-12 15:38:58	-->	ahmed-tux (~rhapsody@41.140.42.129) has joined #suse
+2011-11-12 15:39:21	visor	Ilmehtar, I do
+2011-11-12 15:39:35	Ilmehtar	visor: oh okay..so its not a general network problem..weird
+2011-11-12 15:39:50	visor	Ilmehtar, but like I said already, I deleted from /etc/resolv.conf the "search site" line
+2011-11-12 15:40:11	visor	and now the only line has "nameserver xxx.xxx.xxx.xxx" where the xx are my dns
+2011-11-12 15:40:22	visor	I did have that same problem with ubuntu once
+2011-11-12 15:40:39	Ilmehtar	visor: the search site line isn't going to be relevant..that's just saying that, if you do a dns search for hostname it will also search for hostname.site
+2011-11-12 15:40:57	visor	it just did not come to my mind at the moment, but then I realized it was the same thing, this is a known issue with NetworkManager IIRC
+2011-11-12 15:42:58	<--	sjoos (~sjoos@g2086.upc-g.chello.nl) has quit (Read error: Connection reset by peer)
+2011-11-12 15:43:04	<--	bgerber (~gerberb@suse103.zenez.com) has quit (Remote host closed the connection)
+2011-11-12 15:43:22	-->	mantus (~mantus@189.245.106.150) has joined #suse
+2011-11-12 15:44:56	-->	bgerber (~gerberb@suse103.zenez.com) has joined #suse
+2011-11-12 15:45:34	Ilmehtar	visor: network manager doesn't start up on the *first* boot of a RC2 machine..but a reboot is all you need to clear that up..but that's not going to be the problem if the same machine can IRC fine
+2011-11-12 15:45:37	-->	sjoos (~sjoos@g2086.upc-g.chello.nl) has joined #suse
+2011-11-12 15:48:46	visor	Ilmehtar, mmm, gonna try something and reboot and see how it goes, brb
+2011-11-12 15:48:48	<--	visor (~visor@201.171.80.224) has quit (Quit: Leaving)
+2011-11-12 15:50:33	<--	microchip_ (~neutrino@opensuse/member/microchip8) has quit (Remote host closed the connection)
+2011-11-12 15:51:10	-->	abeNd-org (~KKlenke@tx-71-51-44-135.dhcp.embarqhsd.net) has joined #suse
+2011-11-12 15:52:51	<--	tonymec|away (~tonymec@unaffiliated/tonymec) has quit (Ping timeout: 240 seconds)
+2011-11-12 15:53:11	<--	tonymec (~tonymec@unaffiliated/tonymec) has quit (Ping timeout: 260 seconds)
+2011-11-12 15:56:33	<--	mantus (~mantus@189.245.106.150) has quit (Ping timeout: 276 seconds)
+2011-11-12 15:56:42	<--	Abhish (~roger@adsl-69-234-203-214.dsl.irvnca.pacbell.net) has quit (Remote host closed the connection)
+2011-11-12 15:56:51	-->	tonymec__ (~tonymec@109.128.151.240) has joined #suse
+2011-11-12 15:56:51	<--	tonymec__ (~tonymec@109.128.151.240) has quit (Changing host)
+2011-11-12 15:56:52	-->	tonymec__ (~tonymec@unaffiliated/tonymec) has joined #suse
+2011-11-12 15:56:57	--	tonymec__ is now known as tonymec|away
+2011-11-12 15:57:49	-->	Hjax (~rooms@c-76-118-0-83.hsd1.ct.comcast.net) has joined #suse
+2011-11-12 15:59:05	Hjax	When I try to encrypt my home directory I get the error "there's not enough disk space left to copy existing data", any ideas!
+2011-11-12 15:59:07	Hjax	?
+2011-11-12 16:00:20	<--	abeNd-org (~KKlenke@tx-71-51-44-135.dhcp.embarqhsd.net) has quit (Quit: Leaving.)
+2011-11-12 16:00:28	<--	squad|away (~squadexod@46.182.125.168) has quit (Remote host closed the connection)
+2011-11-12 16:01:39	tacit	Hjax: There is not enough disk spece left to copy the exising data.
+2011-11-12 16:02:16	Hjax	tacit: on my terabyte hard drive? Hardly
+2011-11-12 16:02:51	tacit	Hjax: What is the output of "df -hl"?
+2011-11-12 16:03:27	<--	itari (~itari@195.238.100.22) has quit (Ping timeout: 256 seconds)
+2011-11-12 16:03:36	Hjax	One moment
+2011-11-12 16:04:38	Hjax	Brb
+2011-11-12 16:05:12	<--	Hjax (~rooms@c-76-118-0-83.hsd1.ct.comcast.net) has quit (Quit: Rooms • iPhone IRC Client • http://www.roomsapp.mobi)
+2011-11-12 16:05:45	-->	hjax (4c760053@gateway/web/freenode/ip.76.118.0.83) has joined #suse
+2011-11-12 16:06:32	hjax	ok heres the output: http://pastebin.com/BdQWnwGQ
+2011-11-12 16:07:10	Guizmo	someone on opensuse 11.4 and fail2ban, can stop fail2ban, do a: touch /var/run/fail2ban/fail2ban.sock and see if fail2ban really starts ? I tried on an other distribution, with the exact same version, and it starts, but not on 11.4
+2011-11-12 16:08:22	tacit	hjax: I would indeed expect this to work. I would have to check the code that does this.
+2011-11-12 16:10:15	<--	sjoos (~sjoos@g2086.upc-g.chello.nl) has quit (Ping timeout: 256 seconds)
+2011-11-12 16:12:00	hjax	hmmm, also whats the command to repair my hard disk? fsck? its compaining about having tons of bad sectors, probably due to me just installing the OS...
+2011-11-12 16:12:35	Ilmehtar	hjax: bad sectors are normally a sign of physical damage to the disk and nothing to do with which OS you've installed on tehre
+2011-11-12 16:13:24	-->	tonymec (~tonymec@unaffiliated/tonymec) has joined #suse
+2011-11-12 16:13:46	hjax	whats the equivilent of chkdsk? and i just installed opensuse to replace windows, which i managed to corrupt the filesystem of
+2011-11-12 16:13:47	tacit	hjax: badblocks.
+2011-11-12 16:14:42	<--	eijk (~eijk@e178200040.adsl.alicedsl.de) has quit (Remote host closed the connection)
+2011-11-12 16:16:21	hjax	so anything i can do to resolve the problem short of getting a new hdd?
+2011-11-12 16:17:11	<--	^Stinger^ (~VLR@unaffiliated/stinger/x-7213785) has quit (Read error: Operation timed out)
+2011-11-12 16:17:31	Guizmo	actually, would it come from checkproc only loocking for a pid file and not a sock file ?
+2011-11-12 16:17:58	<--	Taoki (kvirc@93.113.162.42) has quit (Quit: KVIrc Insomnia 4.0.4, revision: 5646, sources date: 20110308, built on: 2011-03-19 23:10:52 UTC http://www.kvirc.net/)
+2011-11-12 16:18:45	tacit	hjax: Do you think that your disk is physically defect?
+2011-11-12 16:19:05	hjax	tacit: nope, i think i messed something up
+2011-11-12 16:20:28	-->	itari (~itari@195.238.100.22) has joined #suse
+2011-11-12 16:21:24	tacit	hjax: So there is no need to repair and or check the disk. Did you mean you want to check the file system?
+2011-11-12 16:21:45	-->	joy_lobo (~lobo@190.7.131.98) has joined #suse
+2011-11-12 16:21:45	<--	joy_lobo (~lobo@190.7.131.98) has quit (Changing host)
+2011-11-12 16:21:46	-->	joy_lobo (~lobo@unaffiliated/juan--d--b/x-561435) has joined #suse
+2011-11-12 16:21:52	tacit	hjax: That's "fsck.*", e.g. "fsck.ext4" for ext4 file systems.
+2011-11-12 16:21:57	hjax	i just want this little icon in the corner to shut up about the bad sectors
+2011-11-12 16:22:39	tacit	hjax: Well that should be your S.M.A.R.T. monitor complaining about bad sectors. So it is your disk.
+2011-11-12 16:23:10	<--	bugisland (~not@host-188-174-133-81.customer.m-online.net) has quit (Remote host closed the connection)
+2011-11-12 16:24:24	hjax	and does this definatly mean hard drive failure? can't it just repair the bad secors or something?....
+2011-11-12 16:25:22	tacit	hjax: Modern drives have spare sectors and will map them as replacements for those detected bad. That is transparent to the operating system except that S.M.A.R.T. might report it.
+2011-11-12 16:25:45	tacit	hjax: As for bad sectors that the operating system can see, it can elect to use them or not. badblocks is a tool that can look for them.
+2011-11-12 16:25:58	hjax	tacit: ok, can badblocks fix them?
+2011-11-12 16:26:01	tacit	hjax: Not using a sector is a function of the file system.
+2011-11-12 16:26:55	tacit	hjax: There is now way to fix it. They either work or they don't, and it may even depend on the temperature and access patterns: e.g. works fine with linear access but fails with random real-world access.
+2011-11-12 16:27:07	hjax	hmmm its saying 11312 bad sectors... thats bad >.>
+2011-11-12 16:27:22	tacit	hjax: Again, not using a sector is a function of the file system. "Fixing" means trying it to see if it works, and then deciding to use it again.
+2011-11-12 16:27:48	hjax	fine, anyway to tell the smart moniter that its ok?
+2011-11-12 16:28:28	<--	TJNII (~TJNII@207.189.199.62) has quit (Ping timeout: 260 seconds)
+2011-11-12 16:29:01	tacit	hjax: Not on the top of my head, but it's "smartmon" who generates the message. Look for smartmon/smartctl.
+2011-11-12 16:29:41	hjax	ah ha, i found a checkbox, "dont warn if disk is failing"
+2011-11-12 16:31:05	hjax	as long as this disk can survive until xmas when i buy a new one im happy
+2011-11-12 16:31:38	hjax	bad sectors is the only problem smart is saying, and it has a huge list of things that are alright
+2011-11-12 16:31:57	terabit	hjax: if smart says one thing bad then replace the disk
+2011-11-12 16:32:11	<--	hron84 (~hron@catv-80-99-178-192.catv.broadband.hu) has quit (Quit: Leaving.)
+2011-11-12 16:32:39	terabit	best thing you can do is backup your data before the whole thing dies
+2011-11-12 16:32:42	hjax	terabit: 11312 bad sectors, getting a new (faster) disk anyhow for xmas, think it will last that long?
+2011-11-12 16:32:45	-->	visor (~visor@201.171.80.224) has joined #suse
+2011-11-12 16:33:01	terabit	wow,that's a lot of sectors
+2011-11-12 16:33:16	<--	MrCoffee (~glen@unaffiliated/ridout) has quit (Quit: Lost terminal)
+2011-11-12 16:33:16	hjax	i remember i played with fedora a few months ago and it said the same thing, but i disregarded it
+2011-11-12 16:33:20	terabit	depends on what you mean by last
+2011-11-12 16:33:26	terabit	it's dead already imo
+2011-11-12 16:33:41	hjax	last = still boot
+2011-11-12 16:33:50	terabit	sure
+2011-11-12 16:34:06	terabit	just make sure you don't place anything valuable on it
+2011-11-12 16:34:07	hjax	how much of my disk would you say is dead?
+2011-11-12 16:34:17	terabit	or blame the os or software for any failures
+2011-11-12 16:34:28	Guizmo	Should I create an account on novell.con bugzilla, and tell that using checkproc for fail2ban daemon is breaking it ?
+2011-11-12 16:34:44	tacit	hjax: 11312 * 512 bytes.
+2011-11-12 16:35:01	-->	nightTrain (~glen@unaffiliated/ridout) has joined #suse
+2011-11-12 16:35:30	hjax	looks like 5gb worth then? or did i do my math wrong?
+2011-11-12 16:35:45	tacit	hjax: Excuse me?
+2011-11-12 16:36:02	visor	do you know if the bundled gstreamer-ugly/bad plugin package in 12.1 works with AAC audio files?
+2011-11-12 16:36:06	hjax	i did it in my head, and probably messed it up
+2011-11-12 16:36:08	visor	read: apple encoded
+2011-11-12 16:36:16	tacit	hjax: By a factor of 1000.
+2011-11-12 16:36:29	hjax	real number? lol
+2011-11-12 16:36:34	<--	doc_tomoe (~thrasher@p4FEA48F9.dip.t-dialin.net) has quit (Quit: Verlassend)
+2011-11-12 16:36:49	tacit	hjax: 5.5 MiB
+2011-11-12 16:36:55	hjax	whoops lmao
+2011-11-12 16:37:01	terabit	hjax:  1 sector is very bad if an important binary is stored on it
+2011-11-12 16:37:15	terabit	one byte that's corrupt could mean system chaos
+2011-11-12 16:37:24	hjax	like if its in the middle of the kernel?
+2011-11-12 16:37:34	terabit	if let's say the kernel was stored on that sector
+2011-11-12 16:37:45	terabit	yup, or some other binary
+2011-11-12 16:38:26	terabit	disks are dirt cheap these days, find a decent 7200rpm  (my advice)
+2011-11-12 16:38:36	hjax	well my hdd is pretty big, lets hope new ones dont appear on the os
+2011-11-12 16:38:52	hjax	terabit: im going to get a 7200rpm one for xmas
+2011-11-12 16:39:48	-->	jay (~jay@c-69-250-116-250.hsd1.md.comcast.net) has joined #suse
+2011-11-12 16:39:49	terabit	hjax: the bigger the worse since it could be the whole disk is dying and you are about to loose all that data
+2011-11-12 16:39:50	-->	XGaryG (~gary@184-8-53-185.dr02.bryn.mi.frontiernet.net) has joined #suse
+2011-11-12 16:40:14	--	jay is now known as Guest20328
+2011-11-12 16:40:26	hjax	terabit: my disk has 4gb of stuff on it atm..... counting the os
+2011-11-12 16:40:30	terabit	whatever killed those sectors might go on and kill the whole disk(speaking from experience)
+2011-11-12 16:40:43	hjax	i keep everything important on a flash drive
+2011-11-12 16:40:46	terabit	oh,thent that's no biggie
+2011-11-12 16:40:53	terabit	thought it was like 2TB
+2011-11-12 16:41:11	hjax	its 750gb, but not even close to full lol
+2011-11-12 16:41:41	<--	Guest20328 (~jay@c-69-250-116-250.hsd1.md.comcast.net) has quit (Remote host closed the connection)
+2011-11-12 16:41:49	terabit	get a 7200rpm 1TB and a decent 64gb ssd for your os and your system would be lightning fast ;)
+2011-11-12 16:42:14	-->	TJNII (~TJNII@207.189.199.62) has joined #suse
+2011-11-12 16:42:18	hjax	my laptop has 2 hdd bays, i could do that :)
+2011-11-12 16:42:48	terabit	hjax: what laptop is that ?
+2011-11-12 16:42:49	Guizmo	why a disk so big ? 500 GB is far enough and less a headach when you need to backup it when it is full
+2011-11-12 16:43:17	terabit	Guizmo: my 1TB got full too fast :(
+2011-11-12 16:43:18	-->	Taoki_2 (kvirc@93.113.162.42) has joined #suse
+2011-11-12 16:43:18	<--	Taoki_2 (kvirc@93.113.162.42) has quit (Client Quit)
+2011-11-12 16:43:27	-->	Taoki_2 (kvirc@93.113.162.42) has joined #suse
+2011-11-12 16:43:55	Guizmo	ah :/ I have 2x 300 GB, in mirror :)
+2011-11-12 16:43:55	hjax	because scammed me, them: Free upgrade to 750gb, me: ok, them in fine print "p.s. this drive is slow and junky"
+2011-11-12 16:44:03	hjax	because hp scammed me*
+2011-11-12 16:44:31	Guizmo	but I don't stock a lot of thing on it
+2011-11-12 16:46:06	<--	TJNII (~TJNII@207.189.199.62) has quit (Max SendQ exceeded)
+2011-11-12 16:46:09	Guizmo	(and have no photos or videos)
+2011-11-12 16:46:43	-->	TJNII (~TJNII@207.189.199.62) has joined #suse
+2011-11-12 16:47:46	<--	hjax (4c760053@gateway/web/freenode/ip.76.118.0.83) has quit (Quit: Page closed)
+2011-11-12 16:49:27	<--	XGaryG (~gary@184-8-53-185.dr02.bryn.mi.frontiernet.net) has quit (Remote host closed the connection)
+2011-11-12 16:51:56	<--	simon123 (~Rajko@opensuse/member/rajko-m) has quit (Remote host closed the connection)
+2011-11-12 16:53:18	<--	flan_suse (~opera@unaffiliated/flansuse) has left #suse
+2011-11-12 16:55:45	-->	tackat (~trahn@p5B089E0D.dip.t-dialin.net) has joined #suse
+2011-11-12 16:56:28	<--	bgerber (~gerberb@suse103.zenez.com) has quit (Ping timeout: 260 seconds)
+2011-11-12 17:01:14	-->	john_rambo (~tux@unaffiliated/john-rambo/x-5460353) has joined #suse
+2011-11-12 17:01:24	--	sero is now known as fire|bird
+2011-11-12 17:02:18	john_rambo	I just installed gparted & the only FS I see is hfs ......How do I add ntfs support ?
+2011-11-12 17:02:45	-->	zoumpis (~zoumpis@49.Red-80-25-236.staticIP.rima-tde.net) has joined #suse
+2011-11-12 17:03:06	<--	BManojlovic (~steki@opensuse/member/bmanojlovic) has quit (Remote host closed the connection)
+2011-11-12 17:03:32	<--	HeliosReds (~helios@opensuse/member/HeliosReds) has quit (Remote host closed the connection)
+2011-11-12 17:04:35	-->	g30 (~g.opensus@unaffiliated/nexgengeorge) has joined #suse
+2011-11-12 17:07:10	--	Taoki_2 is now known as Taoki_2|away
+2011-11-12 17:07:30	-->	bgerber (~gerberb@suse103.zenez.com) has joined #suse
+2011-11-12 17:07:30	<--	druonysuse (~drew@adsl-75-4-251-109.dsl.irvnca.sbcglobal.net) has quit (Remote host closed the connection)
+2011-11-12 17:09:51	-->	Cervajz (~Cervajz@opensuse/member/Cervajz) has joined #suse
+2011-11-12 17:11:39	tacit	john_rambo: Create a partition of type 0x07 and create an NTFS using "mkfs.ntfs". Creating that in Windows is preferred, however.
+2011-11-12 17:12:49	-->	sjraarke (~ger@98.156.105.64) has joined #suse
+2011-11-12 17:13:09	Guizmo	the normal version of 11.4 is factory or final ?
+2011-11-12 17:14:03	-->	matthias_ (~oldkid@dslb-188-100-087-223.pools.arcor-ip.net) has joined #suse
+2011-11-12 17:14:05	sjraarke	Guizmo: You mean the dvd?
+2011-11-12 17:14:16	Guizmo	yes
+2011-11-12 17:14:20	john_rambo	tacit, You are asking to create the partition via YAST? I once made a mess trying to do that ....Not posssible via Gparted ?
+2011-11-12 17:14:32	tacit	Guizmo: openSUSE 11.4 has been released 8 months ago. Factory, which is how we call the current development version, has since moved on and has now become 12.1 which is due to be released next week. Factory in fact, is already moving on. So 11.4 is final and released. 12.1 has already gone gold, and factory is always moving.
+2011-11-12 17:14:38	sjraarke	Guizmo: That's the release version
+2011-11-12 17:14:53	Guizmo	ok then factory it is , thanks
+2011-11-12 17:15:06	Guizmo	err final..
+2011-11-12 17:15:08	<--	oldkid (~oldkid@dslb-178-006-046-236.pools.arcor-ip.net) has quit (Ping timeout: 260 seconds)
+2011-11-12 17:15:21	tacit	john_rambo: I believe that you can create all kinds of partition types with gparted. You may not be able to create file systems at the same time as gparted likes to do.
+2011-11-12 17:15:25	sjraarke	Guizmo: Factory is not advised for a production system tho
+2011-11-12 17:15:51	Guizmo	yes I read too fast, I corrected to final
+2011-11-12 17:17:21	-->	Solaris444 (~chatzilla@mail.picodata.net) has joined #suse
+2011-11-12 17:17:35	-->	HeliosReds (~helios@opensuse/member/HeliosReds) has joined #suse
+2011-11-12 17:18:01	Solaris444	guys, is there a download for 12.1 available yet?
+2011-11-12 17:18:23	tacit	Solaris444: Not yet released.
+2011-11-12 17:18:33	Solaris444	It's gone gold tacit.
+2011-11-12 17:18:42	tacit	Solaris444: Yes it has.
+2011-11-12 17:19:05	Solaris444	ok, because I'm seeing some of my bug reports being updated against 12.1 final
+2011-11-12 17:19:10	Solaris444	so clearly some people have it.
+2011-11-12 17:20:02	tacit	Solaris444: Some mirrors are configured incorrectly and are serving staged content. The whole thing won't flip until, err Friday?
+2011-11-12 17:20:20	Solaris444	ahhhh ok
+2011-11-12 17:20:22	Solaris444	cheers
+2011-11-12 17:20:38	john_rambo	tacit, http://db.tt/WVmJ7Mt2
+2011-11-12 17:20:51		irc: disconnected from server

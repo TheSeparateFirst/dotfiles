@@ -1,0 +1,2 @@
+#!/bin/bash
+exec emacsclient --no-wait --alternate-editor="" -c "$@"

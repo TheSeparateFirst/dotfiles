@@ -1,0 +1,69 @@
+#
+# ~/.mutt/muttrc -- Mutt config
+#
+
+# Name Info
+set realname = "Jeffrey Murray"
+set from = "a.separate.first@gmail.com"
+
+# IMAP Settings
+set imap_user=a.separate.first@gmail.com
+set imap_pass=Zn23xX42
+set folder=imaps://imap.gmail.com
+set imap_check_subscribed
+
+#SMTP Settings
+set smtp_url=smtps://$imap_user@smtp.gmail.com
+set smtp_pass=Zn23xX42
+
+
+
+#
+#   Cool stuff
+#
+
+#Folders
+mailboxes       = "+INBOX"
+set spoolfile   = "+INBOX"
+set postponed   = "+[Gmail]/Drafts"
+
+#Archive Messages (A)
+macro index,pager A "unset trash\n " "Gmail archive message"
+
+# Thread Sort
+set sort=threads
+
+# store headers locally (speed)
+set header_cache = ~/.mutt/hcache
+
+# Allow mutt to open imap connection automagically
+unset imap_passive
+
+set imap_keepalive = 300
+
+set mail_check = 120
+
+set mailcap_path    = ~/.mutt/mailcap
+auto_view text/html
+# -*-muttrc-*-
+
+# Palette for use with the Linux console.  Black background.
+
+color hdrdefault blue black
+color quoted blue black
+color signature blue black
+color attachment red black
+color message brightred black
+color error brightred black
+color indicator black red
+color status brightgreen blue
+color tree white black
+color normal white black
+color markers red black
+color search white black
+color tilde brightmagenta black
+color index blue black ~F
+color index red black "~N|~O"
+
+# color body brightwhite black '\*+[^*]+\*+'
+# color body brightwhite black '_+[^_]+_+'
